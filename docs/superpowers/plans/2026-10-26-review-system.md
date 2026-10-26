@@ -166,15 +166,15 @@ Film 导入现有 core.ts。所有已填写区间验证为整数且 `0<=start<en
 
 **Interfaces:** Consumes全部新CLI、initProject与现有vendor安装链路；不新增生产接口。
 
-- [ ] **Step 1 — 增加端到端测试。** `review survives project move and isolated install` 将生成工程移动、只用vendor安装，运行review-pack检查相对证据可读取且无源码仓库路径依赖；`review repair loop` 在测试fixture中生成带已知边界缺陷的包、写有blocking问题的合成报告，修复源文件→新包--previous→确认旧评分不继承／删id不通过／新证据复测能完成范围门槛。断言全流程没有整片MP4文件；另一个existing-MP4测试只用测试临时编码文件，篡改它后check必须incomplete。
-- [ ] **Step 2 — 运行目标测试。** `npm run build && npx tsx --test --test-concurrency=1 runtime/test/review-cli.test.ts runtime/test/portability.test.ts`；若暴露打包缺文件、绝对路径或版本混用则先记录FAIL。纯验证任务不为制造RED故意破坏实现。
+- [x] **Step 1 — 增加端到端测试。** `review survives project move and isolated install` 将生成工程移动、只用vendor安装，运行review-pack检查相对证据可读取且无源码仓库路径依赖；`review repair loop` 在测试fixture中生成带已知边界缺陷的包、写有blocking问题的合成报告，修复源文件→新包--previous→确认旧评分不继承／删id不通过／新证据复测能完成范围门槛。断言全流程没有整片MP4文件；另一个existing-MP4测试只用测试临时编码文件，篡改它后check必须incomplete。
+- [x] **Step 2 — 运行目标测试。** `npm run build && npx tsx --test --test-concurrency=1 runtime/test/review-cli.test.ts runtime/test/portability.test.ts`；若暴露打包缺文件、绝对路径或版本混用则先记录FAIL。纯验证任务不为制造RED故意破坏实现。
 
   移动后的工程生成包：`assert.deepEqual(await verifyEvidence(bundle.directory, manifest.files), [])`；修复后draft：`assert.equal(report.scores['动效工艺'].score,null); assert.equal(report.observations.length,0)`。
-- [ ] **Step 3 — 修复实际失败。** 只修改失败所属模块；对应回归测试必须能复现问题，不借此重构Player、音频或模板。
-- [ ] **Step 4 — 完整验证。** `npm run build && npm test` 全部必跑用例PASS；原有显式opt-in长片测试可保持skip。若修改renderer／audio／同步逻辑，额外执行`npm run test:long`，否则不宣称重跑。检查git diff确认无模板、style或其他agent文件被暂存。
-- [ ] **Step 5 — 独立审查工作流演练。** 用干净上下文reviewer按新prompt检查技术fixture，提供真实可用能力；无法连续看动态则保留incomplete，证明工具诚实呈现限制。自动测试中的合成评分不能当作这次审阅结果。用户选择的执行方式若包含最终独立代码审查，也在这里完成并修复实质问题。
-- [ ] **Step 6 — 更新验收记录。** docs/validation.md记录实际命令、测试数量、视听能力限制、门槛测试与真实审阅的区别；本次完成不改写旧三片商业状态。精选BGM/SFX另列后续工作，产品实战等待模板ready。
-- [ ] **Step 7 — Commit。** 暂存本任务测试、实际修复及验收文档；`git commit -m "test(review): validate portable evidence and repair workflow"`。不自动push。
+- [x] **Step 3 — 修复实际失败。** 只修改失败所属模块；对应回归测试必须能复现问题，不借此重构Player、音频或模板。
+- [x] **Step 4 — 完整验证。** `npm run build && npm test` 全部必跑用例PASS；原有显式opt-in长片测试可保持skip。若修改renderer／audio／同步逻辑，额外执行`npm run test:long`，否则不宣称重跑。检查git diff确认无模板、style或其他agent文件被暂存。
+- [x] **Step 5 — 独立审查工作流演练。** 用干净上下文reviewer按新prompt检查技术fixture，提供真实可用能力；无法连续看动态则保留incomplete，证明工具诚实呈现限制。自动测试中的合成评分不能当作这次审阅结果。用户选择的执行方式若包含最终独立代码审查，也在这里完成并修复实质问题。
+- [x] **Step 6 — 更新验收记录。** docs/validation.md记录实际命令、测试数量、视听能力限制、门槛测试与真实审阅的区别；本次完成不改写旧三片商业状态。精选BGM/SFX另列后续工作，产品实战等待模板ready。
+- [x] **Step 7 — Commit。** 暂存本任务测试、实际修复及验收文档；`git commit -m "test(review): validate portable evidence and repair workflow"`。不自动push。
 
 ## 自检结果与执行交接
 
