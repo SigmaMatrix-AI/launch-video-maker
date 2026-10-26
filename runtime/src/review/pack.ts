@@ -1,7 +1,7 @@
 import {mkdir,mkdtemp,writeFile,readFile,rm,rename,stat} from 'node:fs/promises';
 import {join,resolve,relative,sep,extname} from 'node:path';import {randomUUID} from 'node:crypto';import {spawn} from 'node:child_process';
 import type {FilmServer} from '../server.js';import {openCapture,inspect} from '../renderer.js';import {doctor} from '../project.js';import {run} from '../process.js';
-import {sha256File,runtimeFingerprint,resolveEvidencePath,canonicalDestination} from './files.js';import {createDraft,isFrameRange} from './schema.js';import {planSamples} from './sampling.js';
+import {sha256File,runtimeFingerprint,resolveEvidencePath,canonicalDestination} from './files.js';import {createDraft,isFrameRange} from './schema.js';import {planSamples} from './sampling.js';import {recordPlayback} from './playback.js';
 import type {ReviewContext,ReviewManifest,PackOptions,PackResult,Evidence} from './types.js';
 export async function readReviewContext(project:string):Promise<{context:ReviewContext;missing:string[]}>{
  let config:ReviewContext={documents:[],actionRanges:[]};try{config=JSON.parse(await readFile(join(project,'records/review-context.json'),'utf8'));}catch(e){if((e as NodeJS.ErrnoException).code!=='ENOENT')throw e;}
@@ -43,6 +43,7 @@ export async function buildReviewPack(server:FilmServer,parent:string,options:Pa
    if(probe.audio){const mix=await run('ffmpeg',['-v','error','-i',file,'-map','0:a:0','-f','wav','-acodec','pcm_f32le','-ar','48000','-ac','2','pipe:1'],{signal:options.signal,maxBytes:limits.maxBytes-bytes});await add('mix','evidence/mix.wav','mix',mix);}
    if(await sha256File(file)!==hash)throw Error('MP4 changed during review capture');
   }else{const capture=await openCapture(server);try{for(const frame of sampling.frames){options.signal?.throwIfAborted();await save(frame,await capture.frame(frame));}}finally{await capture.close();}await snapshot('mix','evidence/mix.wav','mix',join(server.prepared.cache,'mix.wav'));}
+  if(!options.mp4)await add('playback','evidence/playback.json','playback',JSON.stringify(await recordPlayback(server,options.signal),null,2));
   await server.assertVersion();if(await runtimeFingerprint()!==runtimeHash)throw Error('Runtime changed during capture');
   await writeFile(join(temp,'manifest.json'),JSON.stringify(manifest,null,2));const report=createDraft(manifest,await sha256File(join(temp,'manifest.json')),options.scope??'visual');await writeFile(join(temp,'review.json'),JSON.stringify(report,null,2));
   await writeFile(join(temp,'handoff.md'),'# Independent review\n\nRead manifest.json and context/, then inspect evidence/. Fill review.json truthfully. Playback state is not continuous visual observation. Scores are unset.\n');
