@@ -1,7 +1,7 @@
 import {mkdir,mkdtemp,writeFile,readFile,rm,rename,stat} from 'node:fs/promises';
-import {join,resolve,relative,sep,extname} from 'node:path';import {randomUUID} from 'node:crypto';import {spawn} from 'node:child_process';
+import {join,resolve,relative,sep,extname,dirname} from 'node:path';import {randomUUID} from 'node:crypto';import {spawn} from 'node:child_process';
 import type {FilmServer} from '../server.js';import {openCapture,inspect} from '../renderer.js';import {doctor} from '../project.js';import {run} from '../process.js';
-import {sha256File,runtimeFingerprint,resolveEvidencePath,canonicalDestination} from './files.js';import {createDraft,isFrameRange} from './schema.js';import {planSamples} from './sampling.js';import {recordPlayback} from './playback.js';
+import {sha256File,runtimeFingerprint,resolveEvidencePath,canonicalDestination} from './files.js';import {createDraft,isFrameRange,parseReport,parseManifest} from './schema.js';import {planSamples} from './sampling.js';import {recordPlayback} from './playback.js';
 import type {ReviewContext,ReviewManifest,PackOptions,PackResult,Evidence} from './types.js';
 export async function readReviewContext(project:string):Promise<{context:ReviewContext;missing:string[]}>{
  let config:ReviewContext={documents:[],actionRanges:[]};try{config=JSON.parse(await readFile(join(project,'records/review-context.json'),'utf8'));}catch(e){if((e as NodeJS.ErrnoException).code!=='ENOENT')throw e;}
@@ -45,7 +45,15 @@ export async function buildReviewPack(server:FilmServer,parent:string,options:Pa
   }else{const capture=await openCapture(server);try{for(const frame of sampling.frames){options.signal?.throwIfAborted();await save(frame,await capture.frame(frame));}}finally{await capture.close();}await snapshot('mix','evidence/mix.wav','mix',join(server.prepared.cache,'mix.wav'));}
   if(!options.mp4)await add('playback','evidence/playback.json','playback',JSON.stringify(await recordPlayback(server,options.signal),null,2));
   await server.assertVersion();if(await runtimeFingerprint()!==runtimeHash)throw Error('Runtime changed during capture');
-  await writeFile(join(temp,'manifest.json'),JSON.stringify(manifest,null,2));const report=createDraft(manifest,await sha256File(join(temp,'manifest.json')),options.scope??'visual');await writeFile(join(temp,'review.json'),JSON.stringify(report,null,2));
+  let previousReport:ReturnType<typeof createDraft>|undefined;
+  if(options.previous){
+   const previousFile=resolve(options.previous),previousManifest=join(dirname(previousFile),'manifest.json');
+   const p=parseReport(JSON.parse(await readFile(previousFile,'utf8'))),pm=parseManifest(JSON.parse(await readFile(previousManifest,'utf8')));
+   if(!p.ok||!pm.ok||p.value.manifestSha256!==await sha256File(previousManifest)||JSON.stringify(p.value.target)!==JSON.stringify(pm.value.target)||p.value.target.kind!==manifest.target.kind)throw Error('Invalid previous report/manifest or target kind');
+   await snapshot('history:report','evidence/previous-report.json','history',previousFile);await snapshot('history:manifest','evidence/previous-manifest.json','history',previousManifest);
+   manifest.previous={reportEvidenceId:'history:report',manifestEvidenceId:'history:manifest'};previousReport=p.value;
+  }
+  await writeFile(join(temp,'manifest.json'),JSON.stringify(manifest,null,2));const report=createDraft(manifest,await sha256File(join(temp,'manifest.json')),options.scope??'visual');if(previousReport)report.findings=previousReport.findings.map(f=>({...f,range:f.range&&f.range.end<=film.durationInFrames?f.range:null,sceneId:f.sceneId&&film.scenes.some(s=>s.id===f.sceneId)?f.sceneId:null,state:'open',evidenceIds:[],resolution:null}));await writeFile(join(temp,'review.json'),JSON.stringify(report,null,2));
   await writeFile(join(temp,'handoff.md'),'# Independent review\n\nRead manifest.json and context/, then inspect evidence/. Fill review.json truthfully. Playback state is not continuous visual observation. Scores are unset.\n');
   options.signal?.throwIfAborted();const directory=join(dest,`${server.prepared.version}-${randomUUID()}`);await rename(temp,directory);return {directory,manifestPath:join(directory,'manifest.json'),reportPath:join(directory,'review.json')};
  }catch(e){await rm(temp,{recursive:true,force:true});throw e;}
