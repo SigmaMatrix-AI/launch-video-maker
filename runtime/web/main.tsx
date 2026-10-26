@@ -10,8 +10,13 @@ const manifest=await (await fetch('/__lvm/manifest')).json();
 const stage=document.querySelector('#stage');
 stage.style.width=film.width+'px';stage.style.height=film.height+'px';
 const captureMode=new URLSearchParams(location.search).has('capture');
-if(captureMode){document.querySelector('#controls').remove();document.querySelector('#error').style.display='none';}
-else{const scale=Math.min(1,innerWidth/film.width,(innerHeight-100)/film.height);stage.style.zoom=String(scale);}
+if(captureMode){document.body.classList.add('capture');document.querySelector('#controls').remove();document.querySelector('#error').style.display='none';}
+else{
+ const viewport=document.querySelector('#viewport'),shell=document.querySelector('#canvas-shell');
+ const fit=()=>{const scale=Math.max(.01,Math.min(1,(viewport.clientWidth-48)/film.width,(viewport.clientHeight-48)/film.height));shell.style.width=film.width*scale+'px';shell.style.height=film.height*scale+'px';stage.style.transform=`scale(${scale})`;};
+ new ResizeObserver(fit).observe(viewport);fit();
+ document.querySelector('#spec').textContent=`${film.width} × ${film.height} · ${(film.fps.num/film.fps.den).toFixed(film.fps.den===1?0:2)} fps`;
+}
 class Boundary extends React.Component{
  state={error:null};
  static getDerivedStateFromError(error){return {error};}
@@ -32,7 +37,9 @@ async function setFrame(target,version=manifest.version,requestId=++serial){
  assertFrame(film,target);if(version!==manifest.version)throw Error('Content version mismatch');
  controller?.abort();controller=new AbortController();const signal=controller.signal,ticket=++serial,tasks=[];
  // Keep the previous committed view visible while this frame prepares offscreen.
- const layer=document.createElement('div');Object.assign(layer.style,{position:'absolute',inset:'0',visibility:'hidden'});stage.append(layer);
+ // opacity applies to the whole composited subtree. visibility:hidden can be
+ // overridden by a scene's visibility:visible and leaks unfinished frames.
+ const layer=document.createElement('div');Object.assign(layer.style,{position:'absolute',inset:'0',opacity:'0',visibility:'hidden',pointerEvents:'none'});layer.inert=true;layer.setAttribute('aria-hidden','true');stage.append(layer);
  const root=createRoot(layer);let renderError,committed=false;
  try{
   flushSync(()=>root.render(<Boundary onError={e=>{renderError=e;}}><FrameContext.Provider value={{frame:target,signal,assets:manifest.assets,videos:manifest.videos,tasks}}><Frame frame={target} scenes={scenesAt(film,target)} config={film}/></FrameContext.Provider></Boundary>));
@@ -45,7 +52,7 @@ async function setFrame(target,version=manifest.version,requestId=++serial){
   if(ticket!==serial||signal.aborted)throw Error('Superseded frame request');
   if(layer.querySelector('video'))throw Error('Use VideoFrame for deterministic video');
   if(layer.getAnimations({subtree:true}).some(a=>a.playState==='running'))throw Error('Autonomous animation; derive visuals from frame');
-  currentView?.root.unmount();currentView?.layer.remove();layer.style.visibility='visible';currentView={root,layer};committed=true;
+  currentView?.root.unmount();currentView?.layer.remove();layer.style.opacity='1';layer.style.visibility='visible';layer.inert=false;layer.removeAttribute('aria-hidden');currentView={root,layer};committed=true;
   frame=target;if(seek)seek.value=String(target);if(label)label.textContent=`${target} / ${film.durationInFrames-1} · ${secondsAt(film,target).toFixed(3)}s`;
   return {frame:target,version:manifest.version,requestId};
  }finally{if(!committed){root.unmount();layer.remove();}}

@@ -102,3 +102,33 @@ test('video playback prefetches only the next two decoded frames',async()=>{
  const frames=await capture.page.evaluate(()=>performance.getEntriesByType('resource').filter(e=>e.name.includes('/video/v/')).map(e=>new URL(e.name).pathname));assert.deepEqual([...new Set(frames)].sort(),['/__lvm/video/v/0','/__lvm/video/v/1','/__lvm/video/v/2']);
  }finally{await capture?.close();await server?.close();await rm(dir,{recursive:true,force:true});}
 });
+test('Finder metadata and unchanged file touches do not invalidate a running preview',async()=>{
+ const {utimes}=await import('node:fs/promises');const dir=await project();let server:any;try{
+ const file=join(dir,'film.tsx');await writeFile(file,`export const film={width:32,height:32,fps:{num:30,den:1},durationInFrames:2,seed:1,scenes:[],assets:[],audio:[],markers:{}};export default function Frame(){return null;}`);
+ server=await startServer(dir);await writeFile(join(dir,'.DS_Store'),'Finder layout');await utimes(file,new Date(),new Date());
+ await new Promise(r=>setTimeout(r,150));assert.equal((await fetch(server.url+'/__lvm/version').then(r=>r.json())).version,server.prepared.version);await server.assertVersion();
+ await writeFile(file,(await readFile(file,'utf8'))+'\n// source changed');await assert.rejects(server.assertVersion(),/changed/);
+ }finally{await server?.close();await rm(dir,{recursive:true,force:true});}
+});
+test('explicitly visible scene descendants cannot leak from a pending frame',async()=>{
+ const dir=await project();let server:any,capture:any;try{
+ await writeFile(join(dir,'film.tsx'),`import React from 'react';import {useFrameTask} from '@launch-video-maker/runtime/react';export const film={width:96,height:96,fps:{num:30,den:1},durationInFrames:3,seed:1,scenes:[],assets:[],audio:[],markers:{}};export default function Frame({frame}){useFrameTask(async()=>{if(frame>0)await new Promise(r=>setTimeout(r,900));});return <div style={{visibility:'visible',width:'100%',height:'100%',background:frame===0?'red':'blue'}}/>}`);
+ server=await startServer(dir);capture=await openCapture(server);const old=await capture.page.locator('#stage').screenshot();
+ await capture.page.evaluate(()=>{window.__pending=window.__LVM__.setFrame(1);});
+ const pending=await capture.page.locator('#stage').screenshot();await capture.page.evaluate(()=>window.__pending);assert.deepEqual(pending,old,'A pending visible descendant painted over the ready frame');
+ assert.notDeepEqual(await capture.page.locator('#stage').screenshot(),old);
+ }finally{await capture?.close();await server?.close();await rm(dir,{recursive:true,force:true});}
+});
+test('preview keeps the film centered and controls visible after window resize',async()=>{
+ const dir=await project();let server:any,browser:any;try{
+ await writeFile(join(dir,'film.tsx'),`export const film={width:1920,height:1080,fps:{num:30,den:1},durationInFrames:2,seed:1,scenes:[],assets:[],audio:[],markers:{}};export default function Frame(){return null;}`);
+ server=await startServer(dir);const {chromium}=await import('playwright');browser=await chromium.launch();const page=await browser.newPage({viewport:{width:1400,height:800}});await page.goto(server.url);await page.waitForFunction(()=>window.__LVM__?.ready);
+ for(const size of [{width:1400,height:800},{width:760,height:600}]){await page.setViewportSize(size);await page.waitForTimeout(60);const b=await page.locator('#stage').boundingBox(),c=await page.locator('#controls').boundingBox();assert.ok(Math.abs(b!.x+b!.width/2-size.width/2)<2,'Film must be horizontally centered');assert.ok(b!.y>=0&&b!.y+b!.height<=c!.y+1,'Film must fit above controls');assert.ok(c!.y+c!.height<=size.height,'Controls must remain on screen');}
+ }finally{await browser?.close();await server?.close();await rm(dir,{recursive:true,force:true});}
+});
+test('scene semantic elements render identically in preview and capture',async()=>{
+ const dir=await project();let server:any,browser:any,capture:any;try{
+ await writeFile(join(dir,'film.tsx'),`import React from 'react';export const film={width:320,height:180,fps:{num:30,den:1},durationInFrames:2,seed:1,scenes:[],assets:[],audio:[],markers:{}};export default function Frame(){return <div style={{background:'white',color:'black',width:'100%',height:'100%'}}><header style={{background:'red',height:80}}>Scene title</header><button style={{background:'blue',color:'white'}}>Scene action</button></div>}`);
+ server=await startServer(dir);const {chromium}=await import('playwright');browser=await chromium.launch({args:['--force-color-profile=srgb']});const page=await browser.newPage({viewport:{width:800,height:600}});await page.goto(server.url);await page.waitForFunction(()=>window.__LVM__?.ready);const preview=await page.locator('#stage').screenshot();capture=await openCapture(server);assert.deepEqual(await capture.frame(0),preview,'Player chrome CSS must not hide scene content during capture');assert.equal(await page.locator('#stage header').evaluate(e=>getComputedStyle(e).paddingLeft),'0px');
+ }finally{await capture?.close();await browser?.close();await server?.close();await rm(dir,{recursive:true,force:true});}
+});

@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {contentVersion,prepare,type Prepared} from './prepare.js';
 import {packageRoot} from './project.js';
 export async function startServer(project:string){
- project=resolve(project);let prepared:Prepared|undefined;let changed=false;
+ project=resolve(project);let prepared:Prepared|undefined;
  const server=await createServer({configFile:false,root:join(packageRoot,'runtime/web'),publicDir:false,logLevel:'error',cacheDir:join(project,'.lvm/vite'),
   resolve:{alias:{'@launch-video-maker/runtime/react':join(packageRoot,'runtime/dist/react.js'),'@launch-video-maker/runtime':join(packageRoot,'runtime/dist/core.js'),'@film':join(project,'film.tsx'),'@lvm-core':join(packageRoot,'runtime/dist/core.js'),'@lvm-react':join(packageRoot,'runtime/dist/react.js')},dedupe:['react','react-dom']},
   server:{host:'127.0.0.1',port:0,hmr:false,fs:{allow:[project,packageRoot]},watch:{ignored:['**/.lvm/**','**/node_modules/**']}},
@@ -13,7 +13,7 @@ export async function startServer(project:string){
    const url=new URL(req.url??'/', 'http://localhost');if(!url.pathname.startsWith('/__lvm/'))return next();
    try{
     if(!prepared)throw Error('Project preparing');
-    if(url.pathname==='/__lvm/version'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({version:changed?'changed':await contentVersion(project)}));return;}
+    if(url.pathname==='/__lvm/version'){res.setHeader('Content-Type','application/json');res.setHeader('Cache-Control','no-store');res.end(JSON.stringify({version:await contentVersion(project)}));return;}
     if(url.pathname==='/__lvm/manifest'){
      const manifest={...prepared,cache:undefined,assets:Object.fromEntries(Object.keys(prepared.assets).map(id=>[id,`/__lvm/asset/${id}`])),videos:Object.fromEntries(Object.entries(prepared.videos).map(([id,v])=>[id,{...v,files:v.files.map((_,i)=>`/__lvm/video/${id}/${i}?v=${prepared!.version}`)}]))};
      res.setHeader('Content-Type','application/json');res.end(JSON.stringify(manifest));return;
@@ -29,8 +29,9 @@ export async function startServer(project:string){
  try{
   const module=await server.ssrLoadModule(join(project,'film.tsx'));prepared=await prepare(project,module.film);
   await server.listen();const address=server.httpServer!.address() as {port:number};
-  server.watcher.add(project);server.watcher.on('change',p=>{if(!p.includes('/.lvm/')&&!p.includes('/records/')&&!/\.(mp4|png|wav)$/.test(p))changed=true;});
-  return {url:`http://127.0.0.1:${address.port}`,prepared,project,assertVersion:async()=>{if(changed||await contentVersion(project)!==prepared!.version)throw Error('Content version changed; prepare again');},close:()=>server.close()};
+  // Content hashes are authoritative: filesystem touches and unrelated Vite watches
+  // must not permanently poison an otherwise unchanged preview.
+  return {url:`http://127.0.0.1:${address.port}`,prepared,project,assertVersion:async()=>{if(await contentVersion(project)!==prepared!.version)throw Error('Content version changed; prepare again');},close:()=>server.close()};
  }catch(e){await server.close();throw e;}
 }
 export type FilmServer=Awaited<ReturnType<typeof startServer>>;

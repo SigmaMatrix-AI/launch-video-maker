@@ -8,7 +8,7 @@ import {decodeVideo} from './decode.js';
 export async function contentVersion(project:string){
  const hash=createHash('sha256');
  async function visit(dir:string){for(const entry of (await readdir(dir,{withFileTypes:true})).sort((a,b)=>a.name.localeCompare(b.name))){
-  if(['node_modules','.git','.lvm','exports','vendor'].includes(entry.name)||entry.name.startsWith('.lvm-test-')||entry.name.startsWith('.lvm-render-')||/\.(mp4|png|wav)\.tmp$/.test(entry.name))continue;
+  if(['node_modules','.git','.lvm','exports','vendor','.DS_Store','Thumbs.db'].includes(entry.name)||entry.name.startsWith('._')||entry.name.startsWith('.lvm-test-')||entry.name.startsWith('.lvm-render-')||/\.(mp4|png|wav)\.tmp$/.test(entry.name))continue;
   const file=join(dir,entry.name);if(entry.isSymbolicLink())throw Error(`Project symlink unsupported: ${file}`);
   if(entry.isDirectory())await visit(file);else if(entry.isFile()){hash.update(file.slice(project.length));hash.update(await readFile(file));}
  }}await visit(project);return hash.digest('hex');
