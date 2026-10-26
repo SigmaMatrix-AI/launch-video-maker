@@ -51,7 +51,7 @@ Agent 从 [SKILL.md](SKILL.md) 开始执行。[运行指南](references/runtime-
 | `analyze-audio /path/music.wav` | 波形窗口、峰值、能量与瞬态候选，输出 JSON |
 | `review-pack .lvm/review` | 新建唯一证据包：动作／转场帧、混音、播放记录、上下文和未评分报告 |
 | `review-check /absolute/bundle/review.json` | 核验版本、文件证据、范围门槛及逐项复测 |
-| `clean` | 删除本工程可重建的 `.lvm/` 缓存；先停止预览 |
+| `clean` | 清理已知解码／Vite缓存；保留评测记录，先停止预览 |
 
 默认交付经过审查的可预览工程。只有用户要求时展示预览；用户满意并要求导出后才运行 `render`。技术测试可以生成测试 fixture MP4，不能据此自动导出用户影片。
 

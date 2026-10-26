@@ -26,7 +26,7 @@ import {
   parseReport,
   parseManifest,
 } from "./schema.js";
-import { planSamples } from "./sampling.js";
+import { planSamples, ratesEquivalent } from "./sampling.js";
 import { recordPlayback } from "./playback.js";
 import type {
   ReviewContext,
@@ -278,12 +278,11 @@ export async function buildReviewPack(
       const file = await canonicalDestination(options.mp4),
         hash = await sha256File(file),
         probe = await inspect(file);
-      const expected = `${film.fps.num}/${film.fps.den}`;
       if (
         probe.width !== film.width ||
         probe.height !== film.height ||
         probe.frames !== film.durationInFrames ||
-        probe.fps !== expected
+        !ratesEquivalent(probe.fps, film.fps)
       )
         throw Error("MP4 specification differs from film");
       const pts = JSON.parse(

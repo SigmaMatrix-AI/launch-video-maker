@@ -2,7 +2,7 @@
 import {resolve,join} from 'node:path';
 import {mkdir,writeFile,readFile,rm,readdir} from 'node:fs/promises';
 import {pathToFileURL} from 'node:url';
-import {doctor,initProject,setup} from './project.js';
+import {doctor,initProject,setup,cleanProjectCache} from './project.js';
 import {startServer} from './server.js';
 import {openCapture,render,inspect} from './renderer.js';
 import {capturePage,analyzeAudio} from './tools.js';
@@ -30,7 +30,7 @@ async function main(){
   if(!args[0]||args[0].startsWith('--'))throw Error('review-pack requires destination');const seen=new Set<string>();
   for(let i=1;i<args.length;i+=2){const key=args[i],value=args[i+1];if(!['--scope','--mp4','--previous'].includes(key)||seen.has(key)||!value||value.startsWith('--'))throw Error('Invalid review-pack option: '+key);seen.add(key);if(key==='--scope'){if(value!=='visual'&&value!=='audiovisual')throw Error('Invalid review scope');reviewOptions.scope=value;}else if(key==='--mp4')reviewOptions.mp4=resolve(value);else reviewOptions.previous=resolve(value);}
  }
- if(command==='clean'){await rm(join(project,'.lvm'),{recursive:true,force:true});return;}
+ if(command==='clean'){await cleanProjectCache(project);return;}
  if(!['prepare','preview','still','render','review-pack'].includes(command))throw Error(`Unknown command: ${command}`);
  const server=await startServer(project);let stay=false;
  try{

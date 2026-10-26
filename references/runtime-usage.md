@@ -59,6 +59,6 @@ Player 暴露 `window.__LVM__` 给内部采集工具：`film/version/ready/error
 
 独立评测者按 [审阅指引](reviewer-prompt.md) 填写本轮证据id、观察、分数及问题，再执行review-check。采样与播放日志不自动等于实际动态观看；缺能力保持未完成。
 
-`.lvm/<contentVersion>/` 保存解码帧、预混与准备记录；`.lvm/vite/` 是构建缓存。`clean` 删除缓存前先停止使用它的服务。渲染临时文件完成/失败均清理；中断使用 SIGINT/SIGTERM。输出放工程 `exports/` 或工程外，避免把成片当作新的输入素材。
+`.lvm/<contentVersion>/` 保存解码帧、预混与准备记录；`.lvm/vite/` 是构建缓存。`clean` 只清理已知解码版本目录、Vite和工具探测缓存；评测报告是持久记录，默认review目录、自定义目录以及内含review.json的缓存目录都会保留。清理前先停止使用缓存的服务。渲染临时文件完成/失败均清理；中断使用 SIGINT/SIGTERM。输出放工程 `exports/` 或工程外，避免把成片当作新的输入素材。
 
 `doctor` 记录 Node、平台、runtime、Playwright、FFmpeg/ffprobe；生成工程锁定 npm 包和 Chromium 版本。FFmpeg 由系统提供，精确工具版本记录到导出报告，跨机器仍需做像素/音频回归。

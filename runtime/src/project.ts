@@ -1,4 +1,4 @@
-import {access,mkdir,readFile,writeFile,rename,rm} from 'node:fs/promises';
+import {access,mkdir,readFile,writeFile,rename,rm,readdir} from 'node:fs/promises';
 import {dirname,join,resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {run} from './process.js';
@@ -37,3 +37,11 @@ export async function setup(project:string){
 }
 
 export function browserInstaller(){const require=createRequire(import.meta.url);return join(dirname(require.resolve('playwright/package.json')),'cli.js');}
+
+/** Remove known rebuildable caches, retaining authored review records. */
+export async function cleanProjectCache(project:string){
+ const root=join(project,'.lvm');let entries;
+ try{entries=await readdir(root,{withFileTypes:true});}catch(e){if((e as NodeJS.ErrnoException).code==='ENOENT')return;throw e;}
+ async function hasReview(directory:string):Promise<boolean>{for(const entry of await readdir(directory,{withFileTypes:true})){if(entry.name==='review.json')return true;if(entry.isDirectory()&&await hasReview(join(directory,entry.name)))return true;}return false;}
+ for(const entry of entries){const file=join(root,entry.name);if(entry.isFile()&&entry.name==='tools.json')await rm(file);else if(entry.isDirectory()&&(entry.name==='vite'||/^[a-f0-9]{64}$/.test(entry.name))&&!await hasReview(file))await rm(file,{recursive:true});}
+}

@@ -9,7 +9,7 @@ import {
 } from "./types.js";
 import { parseReport, parseManifest } from "./schema.js";
 import { sha256File, resolveEvidencePath, verifyEvidence } from "./files.js";
-import { planSamples } from "./sampling.js";
+import { planSamples, ratesEquivalent } from "./sampling.js";
 export async function checkReview(
   reportPath: string,
   current: { version: string; runtimeHash: string },
@@ -266,7 +266,7 @@ export async function checkReview(
           p.frames !== n ||
           p.width !== m.film.width ||
           p.height !== m.film.height ||
-          p.fps !== `${m.film.fps.num}/${m.film.fps.den}`
+          !ratesEquivalent(p.fps, m.film.fps)
         )
           issue("wrong-spec", "files", "Actual MP4 specification mismatch");
       }

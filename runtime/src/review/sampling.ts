@@ -62,3 +62,17 @@ export function planSamples(
     overviewFrames: [...overview].sort((a, b) => a - b),
   };
 }
+
+/** Compare exact rates without assuming ffprobe preserves the input fraction. */
+export function ratesEquivalent(
+  actual: string,
+  expected: { num: number; den: number },
+): boolean {
+  if (typeof actual !== "string" || !/^\d+\/\d+$/.test(actual)) return false;
+  const [num, den] = actual.split("/").map(BigInt);
+  return (
+    num > 0n &&
+    den > 0n &&
+    num * BigInt(expected.den) === den * BigInt(expected.num)
+  );
+}

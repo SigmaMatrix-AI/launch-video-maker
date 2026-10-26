@@ -216,3 +216,40 @@ test("actual MP4 tampering invalidates target binding", () =>
       JSON.parse(checked.stdout).reasons.some((e) => e.code === "mp4-changed"),
     );
   }));
+
+test("clean preserves default custom and nested review judgments", () =>
+  withFilm(async (server, dir) => {
+    const packed = await invoke(dir, ["review-pack", ".lvm/review"]);
+    assert.equal(packed.code, 0, packed.stderr);
+    const bundle = JSON.parse(packed.stdout);
+    const report = JSON.parse(await readFile(bundle.reportPath, "utf8"));
+    report.reviewer.id = "handwritten-judgment";
+    await writeFile(bundle.reportPath, JSON.stringify(report));
+    const custom = join(dir, ".lvm/custom-qa/round-1");
+    await mkdir(custom, { recursive: true });
+    await writeFile(
+      join(custom, "review.json"),
+      "irreplaceable custom judgment",
+    );
+    const nested = join(server.prepared.cache, "nested-review");
+    await mkdir(nested);
+    await writeFile(join(nested, "review.json"), "nested judgment");
+    await mkdir(join(dir, ".lvm/vite"), { recursive: true });
+    await writeFile(join(dir, ".lvm/vite/cache.txt"), "rebuildable");
+    await server.close();
+    const result = await invoke(dir, ["clean"]);
+    assert.equal(result.code, 0, result.stderr);
+    assert.equal(
+      JSON.parse(await readFile(bundle.reportPath, "utf8")).reviewer.id,
+      "handwritten-judgment",
+    );
+    assert.equal(
+      await readFile(join(custom, "review.json"), "utf8"),
+      "irreplaceable custom judgment",
+    );
+    assert.equal(
+      await readFile(join(nested, "review.json"), "utf8"),
+      "nested judgment",
+    );
+    await assert.rejects(access(join(dir, ".lvm/vite")));
+  }));

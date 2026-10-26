@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { planSamples } from "../src/review/sampling.js";
+import { planSamples, ratesEquivalent } from "../src/review/sampling.js";
 import { makeManifest } from "./review-fixtures.js";
 test("single frame and end boundary", () => {
   const s = planSamples({
@@ -49,3 +49,10 @@ test("budget never silently thins", () =>
       ]),
     /1200/,
   ));
+
+test("frame rates compare exact rational values", () => {
+  assert.equal(ratesEquivalent("30/1", { num: 60, den: 2 }), true);
+  assert.equal(ratesEquivalent("30000/1001", { num: 60000, den: 2002 }), true);
+  assert.equal(ratesEquivalent("30/1", { num: 30000, den: 1001 }), false);
+  assert.equal(ratesEquivalent("0/0", { num: 30, den: 1 }), false);
+});

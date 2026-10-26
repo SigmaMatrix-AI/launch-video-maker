@@ -118,3 +118,48 @@ test("captures actual existing MP4 without rendering a new video", () =>
     assert.ok(m.files.some((f) => f.kind === "mix"));
     assert.deepEqual(await verifyEvidence(bundle.directory, m.files), []);
   }));
+
+test("equivalent FPS fractions work in MP4 pack and check", () =>
+  withFilm(async (server, dir) => {
+    await server.close();
+    await writeFile(
+      join(dir, "film.tsx"),
+      (await readFile(join(dir, "film.tsx"), "utf8")).replace(
+        "num:30,den:1",
+        "num:60,den:2",
+      ),
+    );
+    const { startServer } = await import("../src/server.js");
+    const next = await startServer(dir);
+    try {
+      const file = join(dir, ".lvm/equivalent.mp4");
+      await run("ffmpeg", [
+        "-v",
+        "error",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=c=blue:s=64x36:r=30:d=0.2",
+        "-c:v",
+        "libx264",
+        "-pix_fmt",
+        "yuv420p",
+        file,
+      ]);
+      const p = await buildReviewPack(next, join(dir, ".lvm/review"), {
+        mp4: file,
+      });
+      const { checkReview } = await import("../src/review/check.js");
+      const { runtimeFingerprint } = await import("../src/review/files.js");
+      const result = await checkReview(p.reportPath, {
+        version: next.prepared.version,
+        runtimeHash: await runtimeFingerprint(),
+      });
+      assert.ok(
+        !result.reasons.some((e) => e.code === "wrong-spec"),
+        JSON.stringify(result),
+      );
+    } finally {
+      await next.close();
+    }
+  }));
