@@ -7,7 +7,12 @@ import {openCapture} from './renderer.js';
 export async function capturePage(url:string,dest:string,selectors:string[]=[],interact?:(page:Page)=>Promise<void>){
  await mkdir(dest,{recursive:true});const browser=await chromium.launch();try{
  const page=await browser.newPage({viewport:{width:1440,height:900},deviceScaleFactor:2});await page.goto(url,{waitUntil:'load'});if(interact)await interact(page);
- await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode()));});
+ await page.evaluate(async()=>{
+  // Eagerly request lazy images before a full-page capture; do not wait on offscreen lazy loading.
+  for(const image of document.images)image.loading='eager';
+  let timer:ReturnType<typeof setTimeout>;
+  await Promise.race([Promise.all([document.fonts.ready,...[...document.images].filter(i=>i.currentSrc||i.getAttribute('src')).map(i=>i.decode().catch(()=>{throw Error('Image failed: '+i.src);}))]),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Page resources not ready within 15 seconds')),15000);})]).finally(()=>clearTimeout(timer));
+ });
  await page.screenshot({path:join(dest,'page.png'),fullPage:true});const elements=[];
  for(const [i,selector] of selectors.entries()){const loc=page.locator(selector);await loc.waitFor({state:'visible'});const bounds=await loc.boundingBox();await loc.screenshot({path:join(dest,`element-${i}.png`)});elements.push({selector,bounds,file:`element-${i}.png`});}
  const result={source:url,finalURL:page.url(),capturedAt:new Date().toISOString(),scale:2,viewport:{width:1440,height:900},elements};await writeFile(join(dest,'capture.json'),JSON.stringify(result,null,2));return result;

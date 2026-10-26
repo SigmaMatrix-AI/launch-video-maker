@@ -22,3 +22,10 @@ test('review never passes missing evidence, stale version, low dimension or bloc
  assert.notEqual(validateReview({...report,scores:{...report.scores,'声音与同步':{score:7.4,evidence:'quiet'}}},'v1').status,'passed');
  assert.notEqual(validateReview({...report,blockers:['false claim']},'v1').status,'passed');
 });
+test('full page capture loads offscreen lazy images instead of waiting forever',{timeout:10000},async()=>{
+ const dir=await mkdtemp(join(tmpdir(),'lvm-lazy-'));try{
+ const image='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="10" height="10"%3E%3Crect width="10" height="10" fill="red"/%3E%3C/svg%3E';
+ const html=`<div style="height:8000px">top</div><img loading="lazy" src='${image}'>`;
+ const result=await capturePage('data:text/html,'+encodeURIComponent(html),dir);assert.ok(result.source.startsWith('data:'));
+ }finally{await rm(dir,{recursive:true,force:true});}
+});

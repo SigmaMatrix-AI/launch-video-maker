@@ -2,11 +2,14 @@ import {access,mkdir,readFile,writeFile,rename,rm} from 'node:fs/promises';
 import {dirname,join,resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {run} from './process.js';
+import {createRequire} from 'node:module';
+import {chromium} from 'playwright';
 export const packageRoot=resolve(dirname(fileURLToPath(import.meta.url)),'../..');
 export async function doctor(){
  const result:Record<string,string>={node:process.version,platform:`${process.platform}/${process.arch}`};
  for(const command of ['ffmpeg','ffprobe']){try{result[command]=(await run(command,['-version'])).toString().split('\n')[0];}catch(e){result[command]=`MISSING: ${String(e)}`;}}
  const pkg=JSON.parse(await readFile(join(packageRoot,'package.json'),'utf8'));result.runtime=pkg.version;result.playwright=pkg.dependencies.playwright;
+ const require=createRequire(import.meta.url);const browserMetadata=JSON.parse(await readFile(join(dirname(require.resolve('playwright-core/package.json')),'browsers.json'),'utf8')).browsers.find((b:{name:string})=>b.name==='chromium');result.chromiumRevision=browserMetadata.revision;result.chromiumVersion=browserMetadata.browserVersion;result.chromiumExecutable=chromium.executablePath();try{await access(result.chromiumExecutable);result.browserInstalled='yes';}catch{result.browserInstalled='no';}
  return result;
 }
 export async function initProject(target:string){
@@ -27,11 +30,10 @@ export async function initProject(target:string){
  }catch(e){await rm(staging,{recursive:true,force:true});throw e;}
 }
 export async function setup(project:string){
- const tools=await doctor();if(['ffmpeg','ffprobe'].some(k=>tools[k].startsWith('MISSING')))throw Error('Install FFmpeg + ffprobe before setup');
+ let tools=await doctor();if(['ffmpeg','ffprobe'].some(k=>tools[k].startsWith('MISSING')))throw Error('Install FFmpeg + ffprobe before setup');
  await run('npm',['ci','--no-audit','--no-fund'],{cwd:project});
- const cli=join(packageRoot,'node_modules/playwright/cli.js');
- // Package may be nested in a generated project; resolve via normal Node module lookup.
- const {createRequire}=await import('node:module');const require=createRequire(import.meta.url);
- await run(process.execPath,[require.resolve('playwright/cli'),'install','chromium'],{cwd:project});
- await mkdir(join(project,'.lvm'),{recursive:true});await writeFile(join(project,'.lvm','tools.json'),JSON.stringify(tools,null,2));return tools;
+ await run(process.execPath,[browserInstaller(),'install','chromium'],{cwd:project});
+ tools=await doctor();await mkdir(join(project,'.lvm'),{recursive:true});await writeFile(join(project,'.lvm','tools.json'),JSON.stringify(tools,null,2));return tools;
 }
+
+export function browserInstaller(){const require=createRequire(import.meta.url);return join(dirname(require.resolve('playwright/package.json')),'cli.js');}

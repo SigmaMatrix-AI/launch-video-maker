@@ -41,3 +41,27 @@ test('FFmpeg VFR decode preserves ground truth frames and nonzero PTS',async()=>
  const pixel=await run('ffmpeg',['-v','error','-i',v.files[1],'-f','rawvideo','-pix_fmt','rgb24','pipe:1']);assert.deepEqual([...pixel.subarray(0,3)],[0,255,0]);
  }finally{await rm(dir,{recursive:true,force:true});}
 });
+test('brand-kit video mutations invalidate content version',async()=>{
+ const {mkdtemp,mkdir,writeFile,rm}=await import('node:fs/promises');const {join}=await import('node:path');const {tmpdir}=await import('node:os');const {contentVersion}=await import('../src/prepare.js');const dir=await mkdtemp(join(tmpdir(),'lvm-hash-'));
+ try{await mkdir(join(dir,'brand-kit'));await writeFile(join(dir,'brand-kit','clip.mp4'),'v1');const first=await contentVersion(dir);await writeFile(join(dir,'brand-kit','clip.mp4'),'v2');assert.notEqual(await contentVersion(dir),first);}finally{await rm(dir,{recursive:true,force:true});}
+});
+test('animated GIF cannot masquerade as deterministic still image',async()=>{
+ const {mkdtemp,rm}=await import('node:fs/promises');const {join}=await import('node:path');const {tmpdir}=await import('node:os');const {run}=await import('../src/process.js');const {prepare}=await import('../src/prepare.js');const dir=await mkdtemp(join(tmpdir(),'lvm-gif-'));
+ try{await run('ffmpeg',['-v','error','-f','lavfi','-i','color=red:s=16x16:r=2:d=1','-frames:v','2',join(dir,'animated.gif')]);await assert.rejects(prepare(dir,{...film,assets:[{id:'a',kind:'image',src:'animated.gif'}]}),/animated/i);}finally{await rm(dir,{recursive:true,force:true});}
+});
+test('video byte budget aborts during decode and removes partial cache',async()=>{
+ const {mkdtemp,rm,readdir}=await import('node:fs/promises');const {join}=await import('node:path');const {tmpdir}=await import('node:os');const {run}=await import('../src/process.js');const {prepare}=await import('../src/prepare.js');const dir=await mkdtemp(join(tmpdir(),'lvm-budget-'));
+ try{await run('ffmpeg',['-v','error','-f','lavfi','-i','testsrc=size=64x64:rate=30:duration=1','-c:v','ffv1',join(dir,'source.mkv')]);await assert.rejects(prepare(dir,{...film,assets:[{id:'v',kind:'video',src:'source.mkv'}]},{maxDecodedBytes:100}),/budget|limit/i);const names=await readdir(join(dir,'.lvm'),{recursive:true});assert.ok(!names.some(n=>String(n).endsWith('.png')));}finally{await rm(dir,{recursive:true,force:true});}
+});
+test('product brief revisions invalidate independent review version',async()=>{
+ const {mkdtemp,mkdir,writeFile,rm}=await import('node:fs/promises');const {join}=await import('node:path');const {tmpdir}=await import('node:os');const {contentVersion}=await import('../src/prepare.js');const dir=await mkdtemp(join(tmpdir(),'lvm-brief-'));
+ try{await mkdir(join(dir,'records'));await writeFile(join(dir,'records','brief.md'),'claim one');const version=await contentVersion(dir);await writeFile(join(dir,'records','brief.md'),'claim two');assert.notEqual(await contentVersion(dir),version);}finally{await rm(dir,{recursive:true,force:true});}
+});
+test('mixed source sample rates normalize to stereo 48k and speed follows pitch',async()=>{
+ const {mkdtemp,readFile,rm}=await import('node:fs/promises');const {join}=await import('node:path');const {tmpdir}=await import('node:os');const {run}=await import('../src/process.js');const {prepare}=await import('../src/prepare.js');const dir=await mkdtemp(join(tmpdir(),'lvm-rates-'));
+ try{
+ await run('ffmpeg',['-v','error','-f','lavfi','-i','sine=frequency=220:sample_rate=22050:duration=1',join(dir,'a.wav')]);await run('ffmpeg',['-v','error','-f','lavfi','-i','sine=frequency=440:sample_rate=44100:duration=1','-ac','2',join(dir,'b.wav')]);
+ const p=await prepare(dir,{...film,assets:[{id:'a',kind:'audio',src:'a.wav'},{id:'b',kind:'audio',src:'b.wav'}],audio:[{id:'a',asset:'a',start:0,end:12},{id:'b',asset:'b',start:12,end:24,speed:2}]});const wav=await readFile(join(p.cache,'mix.wav'));assert.equal(wav.readUInt32LE(24),48000);assert.equal(wav.readUInt16LE(22),2);assert.equal(wav.length,44+96000*4);
+ const crossings=(a:number,b:number)=>{let n=0;for(let i=a+1;i<b;i++)if(wav.readFloatLE(44+(i-1)*8)<0&&wav.readFloatLE(44+i*8)>=0)n++;return n;};assert.ok(Math.abs(crossings(0,24000)-110)<=1);assert.ok(Math.abs(crossings(24000,48000)-440)<=1);
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
