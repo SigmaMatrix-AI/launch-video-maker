@@ -25,7 +25,7 @@ description: Use when the user asks for an autonomous product launch video or pr
 4. 按分镜采集并整理素材，复用已有可用素材，补齐来源和品牌记录。
 5. 用 React + TypeScript 实现场景，以统一帧控制驱动画面，逐场景检查关键帧与动态表现。
 6. 细化 BGM/SFX 的裁切、增益、淡入淡出与同步；画面时序变更同步更新声音时间线。
-7. 自检后交给未参与制作的独立 subagent 评测；按问题修复并复测。七项评分**每项 ≥ 7.5/10**且满足高端商用定制标准才可通过。
+7. 自检后交给未参与制作的独立 subagent 评测；按问题修复并复测。可先做独立视觉审查，听感未评估时保留该缺口，不能称完整商用通过。七项评分**每项 ≥ 7.5/10**且满足高端商用定制标准才可通过。
 8. 默认交付通过检查的可预览工程。用户要求预览时打开实时预览；用户满意并要求导出后生成 MP4，再检查实际成片。
 
 执行运行检查、预览或导出前，按 [运行契约](references/runtime-contract.md) 核实工具与依赖是否可用。缺少必要能力时，继续可独立完成的工作并如实说明阻塞；不将设计约定当作现成工具，也不擅自把制片任务扩展为运行工具开发。
@@ -41,7 +41,7 @@ description: Use when the user asks for an autonomous product launch video or pr
 | 视觉、采集、动效与声音工艺 | [制作工艺](references/production-craft.md)：产品证据、styleframe、高清素材与节奏 |
 | 安装、准备、预览、截图、导出 | [运行指南](references/runtime-usage.md)：命令、接口与缓存 |
 | 编排时间线、实现或开发运行工具 | [运行契约](references/runtime-contract.md)：帧、资源就绪、音频、预览与导出 |
-| 场景检查、独立评测、导出验收 | [审查规范](references/review.md)：两类验收与七维评分 |
+| 场景检查、独立评测、导出验收 | [审查规范](references/review.md)：范围、两类验收与七维评分；[独立审阅指引](references/reviewer-prompt.md)：交接与证据填写 |
 
 ## 交付行为
 

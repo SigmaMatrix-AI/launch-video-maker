@@ -49,11 +49,13 @@ Agent 从 [SKILL.md](SKILL.md) 开始执行。[运行指南](references/runtime-
 | `inspect /path/film.mp4` | 检查实际编码规格和帧数 |
 | `capture URL /path/assets [selectors...]` | 2× 页面截图、元素截图、位置和来源 |
 | `analyze-audio /path/music.wav` | 波形窗口、峰值、能量与瞬态候选，输出 JSON |
-| `review-pack .lvm/review` | 分镜关键帧、混音、产品记录及待填写的独立审查报告 |
-| `review-check .lvm/review/review.json` | 检查报告版本、证据声明、阻断项和七维分数 |
+| `review-pack .lvm/review` | 新建唯一证据包：动作／转场帧、混音、播放记录、上下文和未评分报告 |
+| `review-check /absolute/bundle/review.json` | 核验版本、文件证据、范围门槛及逐项复测 |
 | `clean` | 删除本工程可重建的 `.lvm/` 缓存；先停止预览 |
 
 默认交付经过审查的可预览工程。只有用户要求时展示预览；用户满意并要求导出后才运行 `render`。技术测试可以生成测试 fixture MP4，不能据此自动导出用户影片。
+
+评测默认visual范围。完整CLI参数与报告填写见 [运行指南](references/runtime-usage.md) 和 [独立审阅指引](references/reviewer-prompt.md)。`review-check`退出0仅代表当前范围通过；visual范围的完整商用结论始终为未完成。工具不会自动评分或声称已观看／试听。
 
 ## 设计原则
 

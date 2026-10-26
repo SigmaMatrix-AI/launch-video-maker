@@ -45,7 +45,19 @@ Player 暴露 `window.__LVM__` 给内部采集工具：`film/version/ready/error
 
 `capture` CLI 接收 CSS selectors；更复杂的页面状态通过 Node API `capturePage(url,dest,selectors,async page=>{…})` 准备，使用明确元素状态等待，登录凭据由用户正常授权，不写入截图记录。
 
-`analyze-audio` 输出 10 ms 窗口峰值/能量和瞬态候选，不把它们自动认作乐拍。`review-pack .lvm/review` 不生成 MP4；独立评测者填写证据、分数、阻断项，`review-check` 仅做机械校验。
+`analyze-audio` 输出 10 ms 窗口峰值/能量和瞬态候选，不把它们自动认作乐拍。`review-pack .lvm/review` 返回唯一新包的 directory、manifestPath、reportPath，默认 scope=visual，不生成视频文件。支持 `--scope audiovisual`、`--mp4 /absolute/existing.mp4` 和 `--previous /absolute/old/review.json`，不覆盖历史报告。工程内目的地使用 .lvm/ 子目录，也可以使用工程外路径；不能写入工程源码目录。
+
+`review-check /absolute/bundle/review.json` 不启动浏览器或准备媒体，返回 scope、scopeStatus、commercialStatus、reasons。退出0/1/2对应本轮passed/failed/incomplete；visual即使退出0，commercialStatus也仍incomplete。旧版报告返回legacy-report，需重新出包。
+
+需要自定义记录或补采动作时，在工程内建立：
+
+```json
+{"documents":[{"role":"reference","path":"records/reference.png"}],"actionRanges":[{"start":30,"end":45}]}
+```
+
+保存为 records/review-context.json。role支持brief/direction/storyboard/brand/reference；配置的同role文档优先于默认位置。显式文件必须存在工程内，动作区间为合法半开整数帧，不裁剪越界。包内证据绑定SHA-256，修改文件或manifest后需重新生成，不能手工修摘要掩盖改变。每包最多1200采样帧、2 GiB证据。
+
+独立评测者按 [审阅指引](reviewer-prompt.md) 填写本轮证据id、观察、分数及问题，再执行review-check。采样与播放日志不自动等于实际动态观看；缺能力保持未完成。
 
 `.lvm/<contentVersion>/` 保存解码帧、预混与准备记录；`.lvm/vite/` 是构建缓存。`clean` 删除缓存前先停止使用它的服务。渲染临时文件完成/失败均清理；中断使用 SIGINT/SIGTERM。输出放工程 `exports/` 或工程外，避免把成片当作新的输入素材。
 
