@@ -1,16 +1,153 @@
-import {test} from 'node:test';import assert from 'node:assert/strict';import {mkdtemp,readFile,writeFile,rm} from 'node:fs/promises';import {join,dirname} from 'node:path';
-import {checkReview} from '../src/review/check.js';import {writeReviewFixture,testFinding,withFilm} from './review-fixtures.js';import {sha256File} from '../src/review/files.js';import {buildReviewPack} from '../src/review/pack.js';
-const current={version:'v1',runtimeHash:'a'.repeat(64)};
-async function fixture(fn:(path:string,r:any,m:any)=>Promise<void>){const dir=await mkdtemp(join(process.cwd(),'.lvm-test-check-'));try{const {reportPath}=await writeReviewFixture(dir);await fn(reportPath,JSON.parse(await readFile(reportPath,'utf8')),JSON.parse(await readFile(join(dir,'manifest.json'),'utf8')));}finally{await rm(dir,{recursive:true,force:true});}}
-const save=(p:string,r:any)=>writeFile(p,JSON.stringify(r));
-test('visual pass is never commercial pass',()=>fixture(async(p)=>{const r=await checkReview(p,current);assert.equal(r.scopeStatus,'passed',JSON.stringify(r));assert.equal(r.commercialStatus,'incomplete');}));
-test('7.49 does not round to pass and blockers fail',()=>fixture(async(p,r)=>{r.scores['设计与排版'].score=7.49;await save(p,r);assert.equal((await checkReview(p,current)).scopeStatus,'failed');r.scores['设计与排版'].score=8;r.findings=[testFinding()];await save(p,r);assert.equal((await checkReview(p,current)).scopeStatus,'failed');}));
-test('missing observation stays incomplete despite successful trace',()=>fixture(async(p,r)=>{r.observations=r.observations.filter(o=>o.mode!=='continuous-playback');await save(p,r);assert.equal((await checkReview(p,current)).scopeStatus,'incomplete');}));
-test('legacy malformed and stale inputs never crash',()=>fixture(async(p,r)=>{for(const value of ['null','{','{"version":"old"}']){await writeFile(p,value);assert.equal((await checkReview(p,current)).scopeStatus,'incomplete');}await save(p,r);assert.equal((await checkReview(p,{...current,version:'other'})).scopeStatus,'incomplete');assert.equal((await checkReview(p,{...current,runtimeHash:'b'.repeat(64)})).scopeStatus,'incomplete');}));
-test('manifest and evidence identity checked',()=>fixture(async(p,r,m)=>{await writeFile(join(dirname(p),m.files[0].path),'changed');assert.equal((await checkReview(p,current)).scopeStatus,'incomplete');}));
-test('audiovisual requires actual listening and all seven scores',()=>fixture(async(p,r)=>{r.scope='audiovisual';await save(p,r);assert.equal((await checkReview(p,current)).commercialStatus,'incomplete');}));
-async function history(p:string,r:any,m:any){const old={...r,findings:[testFinding()]};await save(join(dirname(p),'old-report.json'),old);await save(join(dirname(p),'old-manifest.json'),m);for(const [id,path] of [['old-report','old-report.json'],['old-manifest','old-manifest.json']])m.files.push({id,path,kind:'history',sha256:await sha256File(join(dirname(p),path)),bytes:(await readFile(join(dirname(p),path))).length});m.previous={reportEvidenceId:'old-report',manifestEvidenceId:'old-manifest'};await save(join(dirname(p),'manifest.json'),m);r.manifestSha256=await sha256File(join(dirname(p),'manifest.json'));r.findings=[{...testFinding(),state:'resolved',resolution:'Verified new layout',evidenceIds:['frame:0']}];await save(p,r);}
-test('deleted blocker and severity downgrade fail retest',()=>fixture(async(p,r,m)=>{await history(p,r,m);r.findings=[];await save(p,r);assert.equal((await checkReview(p,current)).scopeStatus,'incomplete');r.findings=[{...testFinding(),severity:'advisory'}];await save(p,r);assert.equal((await checkReview(p,current)).scopeStatus,'incomplete');}));
-test('current evidence closes issue and history alone cannot',()=>fixture(async(p,r,m)=>{await history(p,r,m);assert.equal((await checkReview(p,current)).scopeStatus,'passed');r.findings[0].evidenceIds=['old-report'];await save(p,r);assert.equal((await checkReview(p,current)).scopeStatus,'incomplete');}));
-test('initial report cannot resolve an issue',()=>fixture(async(p,r)=>{r.findings=[{...testFinding(),state:'resolved',resolution:'fixed'}];await save(p,r);assert.equal((await checkReview(p,current)).scopeStatus,'incomplete');}));
-test('new round clears ratings and reopens previous findings',()=>withFilm(async(server,dir)=>{const old=await buildReviewPack(server,join(dir,'.lvm/review'));const r=JSON.parse(await readFile(old.reportPath,'utf8'));r.findings=[testFinding()];await save(old.reportPath,r);const next=await buildReviewPack(server,join(dir,'.lvm/review'),{previous:old.reportPath});const draft=JSON.parse(await readFile(next.reportPath,'utf8'));assert.equal(draft.scores['设计与排版'].score,null);assert.deepEqual(draft.observations,[]);assert.equal(draft.findings[0].id,'layout-1');assert.equal(draft.findings[0].state,'open');assert.deepEqual(draft.findings[0].evidenceIds,[]);}));
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { mkdtemp, readFile, writeFile, rm } from "node:fs/promises";
+import { join, dirname } from "node:path";
+import { checkReview } from "../src/review/check.js";
+import {
+  writeReviewFixture,
+  testFinding,
+  withFilm,
+} from "./review-fixtures.js";
+import { sha256File } from "../src/review/files.js";
+import { buildReviewPack } from "../src/review/pack.js";
+const current = { version: "v1", runtimeHash: "a".repeat(64) };
+async function fixture(fn: (path: string, r: any, m: any) => Promise<void>) {
+  const dir = await mkdtemp(join(process.cwd(), ".lvm-test-check-"));
+  try {
+    const { reportPath } = await writeReviewFixture(dir);
+    await fn(
+      reportPath,
+      JSON.parse(await readFile(reportPath, "utf8")),
+      JSON.parse(await readFile(join(dir, "manifest.json"), "utf8")),
+    );
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+}
+const save = (p: string, r: any) => writeFile(p, JSON.stringify(r));
+test("visual pass is never commercial pass", () =>
+  fixture(async (p) => {
+    const r = await checkReview(p, current);
+    assert.equal(r.scopeStatus, "passed", JSON.stringify(r));
+    assert.equal(r.commercialStatus, "incomplete");
+  }));
+test("7.49 does not round to pass and blockers fail", () =>
+  fixture(async (p, r) => {
+    r.scores["设计与排版"].score = 7.49;
+    await save(p, r);
+    assert.equal((await checkReview(p, current)).scopeStatus, "failed");
+    r.scores["设计与排版"].score = 8;
+    r.findings = [testFinding()];
+    await save(p, r);
+    assert.equal((await checkReview(p, current)).scopeStatus, "failed");
+  }));
+test("missing observation stays incomplete despite successful trace", () =>
+  fixture(async (p, r) => {
+    r.observations = r.observations.filter(
+      (o) => o.mode !== "continuous-playback",
+    );
+    await save(p, r);
+    assert.equal((await checkReview(p, current)).scopeStatus, "incomplete");
+  }));
+test("legacy malformed and stale inputs never crash", () =>
+  fixture(async (p, r) => {
+    for (const value of ["null", "{", '{"version":"old"}']) {
+      await writeFile(p, value);
+      assert.equal((await checkReview(p, current)).scopeStatus, "incomplete");
+    }
+    await save(p, r);
+    assert.equal(
+      (await checkReview(p, { ...current, version: "other" })).scopeStatus,
+      "incomplete",
+    );
+    assert.equal(
+      (await checkReview(p, { ...current, runtimeHash: "b".repeat(64) }))
+        .scopeStatus,
+      "incomplete",
+    );
+  }));
+test("manifest and evidence identity checked", () =>
+  fixture(async (p, r, m) => {
+    await writeFile(join(dirname(p), m.files[0].path), "changed");
+    assert.equal((await checkReview(p, current)).scopeStatus, "incomplete");
+  }));
+test("audiovisual requires actual listening and all seven scores", () =>
+  fixture(async (p, r) => {
+    r.scope = "audiovisual";
+    await save(p, r);
+    assert.equal(
+      (await checkReview(p, current)).commercialStatus,
+      "incomplete",
+    );
+  }));
+async function history(p: string, r: any, m: any) {
+  const old = { ...r, findings: [testFinding()] };
+  await save(join(dirname(p), "old-report.json"), old);
+  await save(join(dirname(p), "old-manifest.json"), m);
+  for (const [id, path] of [
+    ["old-report", "old-report.json"],
+    ["old-manifest", "old-manifest.json"],
+  ])
+    m.files.push({
+      id,
+      path,
+      kind: "history",
+      sha256: await sha256File(join(dirname(p), path)),
+      bytes: (await readFile(join(dirname(p), path))).length,
+    });
+  m.previous = {
+    reportEvidenceId: "old-report",
+    manifestEvidenceId: "old-manifest",
+  };
+  await save(join(dirname(p), "manifest.json"), m);
+  r.manifestSha256 = await sha256File(join(dirname(p), "manifest.json"));
+  r.findings = [
+    {
+      ...testFinding(),
+      state: "resolved",
+      resolution: "Verified new layout",
+      evidenceIds: ["frame:0"],
+    },
+  ];
+  await save(p, r);
+}
+test("deleted blocker and severity downgrade fail retest", () =>
+  fixture(async (p, r, m) => {
+    await history(p, r, m);
+    r.findings = [];
+    await save(p, r);
+    assert.equal((await checkReview(p, current)).scopeStatus, "incomplete");
+    r.findings = [{ ...testFinding(), severity: "advisory" }];
+    await save(p, r);
+    assert.equal((await checkReview(p, current)).scopeStatus, "incomplete");
+  }));
+test("current evidence closes issue and history alone cannot", () =>
+  fixture(async (p, r, m) => {
+    await history(p, r, m);
+    assert.equal((await checkReview(p, current)).scopeStatus, "passed");
+    r.findings[0].evidenceIds = ["old-report"];
+    await save(p, r);
+    assert.equal((await checkReview(p, current)).scopeStatus, "incomplete");
+  }));
+test("initial report cannot resolve an issue", () =>
+  fixture(async (p, r) => {
+    r.findings = [{ ...testFinding(), state: "resolved", resolution: "fixed" }];
+    await save(p, r);
+    assert.equal((await checkReview(p, current)).scopeStatus, "incomplete");
+  }));
+test("new round clears ratings and reopens previous findings", () =>
+  withFilm(async (server, dir) => {
+    const old = await buildReviewPack(server, join(dir, ".lvm/review"));
+    const r = JSON.parse(await readFile(old.reportPath, "utf8"));
+    r.findings = [testFinding()];
+    await save(old.reportPath, r);
+    const next = await buildReviewPack(server, join(dir, ".lvm/review"), {
+      previous: old.reportPath,
+    });
+    const draft = JSON.parse(await readFile(next.reportPath, "utf8"));
+    assert.equal(draft.scores["设计与排版"].score, null);
+    assert.deepEqual(draft.observations, []);
+    assert.equal(draft.findings[0].id, "layout-1");
+    assert.equal(draft.findings[0].state, "open");
+    assert.deepEqual(draft.findings[0].evidenceIds, []);
+  }));
