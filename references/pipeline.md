@@ -141,3 +141,7 @@
 **产物：** 按需打开的预览；仅导出分支产生 MP4 和对应成片审查报告。
 
 **衔接：** 预览通过不代表编码成片通过。用户修改内容后，应更新版本并重查受影响项目；时序修改还需复查全片音画同步。
+
+## 工具落点
+
+开始时用 doctor/setup 核实环境，init 建立工程与 brand kit。方向确定后按 [制作工艺](production-craft.md) 完成 styleframe 和短动态。采集阶段用 capture；卡点前用 analyze-audio 并试听校准。实现阶段用 prepare/still 和后台 Player；声音变更重新准备混音。独立审查用 review-pack/review-check。用户要求预览才 preview --open，要求导出才 render，随后 inspect 和实际视听复查。见 [运行指南](runtime-usage.md)。

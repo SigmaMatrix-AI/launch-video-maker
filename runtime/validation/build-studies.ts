@@ -1,0 +1,15 @@
+import {mkdir,readFile,writeFile,copyFile} from 'node:fs/promises';import {join,resolve} from 'node:path';import {createHash} from 'node:crypto';import {initProject} from '../src/project.js';import {run} from '../src/process.js';import {wavPCM} from '../src/audio.js';import {startServer} from '../src/server.js';import {reviewPack} from '../src/tools.js';
+const root=process.cwd(),dest=resolve(process.argv[2]??'.lvm/studies');
+for(const name of ['dark-keynote','living-screencast']){
+ const project=join(dest,name);await initProject(project);await copyFile(join(root,'runtime/validation',name+'.tsx'),join(project,'film.tsx'));
+ const supplied=join(root,'tests/fixtures/styles',name),text=await readFile(join(supplied,'STYLE.md'),'utf8');
+ for(const font of ['Inter.ttf','JetBrainsMono-var.ttf','OFL-inter.txt','OFL-jetbrainsmono.txt'])await copyFile(join(supplied,'demo/fonts',font),join(project,'brand-kit',font));
+ await writeFile(join(project,'brand-kit/sources.json'),JSON.stringify({fonts:{source:`User-provided ${name}/demo/fonts`,licenses:['OFL-inter.txt','OFL-jetbrainsmono.txt']},explicitRules:['Follow initial style description'],inferences:['New runtime study, not a commercial product release']},null,2));
+ const pcm=new Float32Array(12*48000*2);const notes=name==='dark-keynote'?[220,330,440,550]:[330,440,660,550];
+ for(let beat=0;beat<24;beat++){if(beat===7||beat===15)continue;const time=beat*.5,hz=notes[beat%notes.length];for(let n=0;n<18000;n++){const t=n/48000;let wave=Math.sin(2*Math.PI*hz*t)*Math.exp(-t*11)*.72;if(name==='living-screencast')wave+=Math.sign(Math.sin(2*Math.PI*hz*2*t))*Math.exp(-t*25)*.1;const i=(Math.round(time*48000)+n)*2;if(i+1<pcm.length){pcm[i]+=wave;pcm[i+1]+=wave;}}}
+ await writeFile(join(project,'assets/score.wav'),wavPCM(pcm));
+ await writeFile(join(project,'records/brief.md'),'# Runtime style study\n12-second engineering/design study of frame addressing; not a third-party product advertisement.\n');
+ await writeFile(join(project,'records/direction.md'),`# ${name}\nSource STYLE.md SHA256: ${createHash('sha256').update(text).digest('hex')}\nNew narrative and implementation, no demo migration. ${name==='dark-keynote'?'Adopted: 24 fps, near-black grid, single accent, ordered UI, light sweep, tuned dry percussion.':'Adopted: 30 fps, faithfully redrawn runtime controls, DOM-measured anchors, original pixel actor, cursor, follow camera, hi-fi/chip layers.'}\nNot covered: voice production/word alignment; no voice input supplied. Short study does not exercise every style feature.\n`);
+ await writeFile(join(project,'records/storyboard.md'),name==='dark-keynote'?'0–4s: address 00; 4–8s: seek42; 8–12s: return00. Sound every half second, pauses before state changes.':'0–4s: cursor approaches real +1 control; 4–8s: actor lands and frame increments; 8–12s: hold/read.');
+ await run('npm',['ci','--no-audit','--no-fund'],{cwd:project});const server=await startServer(project);try{await reviewPack(server,join(project,'.lvm/review'));console.log(`${name}: ${server.prepared.version}`);}finally{await server.close();}
+}

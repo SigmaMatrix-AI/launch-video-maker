@@ -38,6 +38,8 @@ description: Use when the user asks for an autonomous product launch video or pr
 | 选择或新增参考模板 | [模板约定](references/template-conventions.md)：源码组织、自由改造、运行边界 |
 | 选择或新增 style | [Style 约定](references/style-conventions.md)：发现、读取、附属资源、组合方式 |
 | 收集、使用或复核品牌素材 | [Brand kit](references/brand-kit.md)：工程内保存、来源、引用与审查 |
+| 视觉、采集、动效与声音工艺 | [制作工艺](references/production-craft.md)：产品证据、styleframe、高清素材与节奏 |
+| 安装、准备、预览、截图、导出 | [运行指南](references/runtime-usage.md)：命令、接口与缓存 |
 | 编排时间线、实现或开发运行工具 | [运行契约](references/runtime-contract.md)：帧、资源就绪、音频、预览与导出 |
 | 场景检查、独立评测、导出验收 | [审查规范](references/review.md)：两类验收与七维评分 |
 
