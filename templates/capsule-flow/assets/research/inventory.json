@@ -1,0 +1,1749 @@
+{
+  "images": [
+    {
+      "src": "https://tapvid.ai/images/pricing/banner/lightning.svg",
+      "alt": "",
+      "width": 28,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/logo/logo-landscape.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "TapVid",
+      "width": 85,
+      "height": 28
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/nav-icons/hamburger.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 300,
+      "height": 150
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/demo/mobile-demo-poster.avif",
+      "alt": "",
+      "width": 720,
+      "height": 466
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/amazon.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Amazon",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/alibaba.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Alibaba",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/bytedance.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "ByteDance",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/cambridge.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "University of Cambridge",
+      "width": 240,
+      "height": 118
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/london.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Imperial College London",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/amazon.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/alibaba.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/bytedance.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/cambridge.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 240,
+      "height": 118
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/london.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/amazon.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Amazon",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/alibaba.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Alibaba",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/bytedance.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "ByteDance",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/cambridge.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "University of Cambridge",
+      "width": 240,
+      "height": 118
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/london.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Imperial College London",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/amazon.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Amazon",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/alibaba.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Alibaba",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/bytedance.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "ByteDance",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/cambridge.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "University of Cambridge",
+      "width": 240,
+      "height": 118
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/logos/london.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Imperial College London",
+      "width": 240,
+      "height": 80
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/values/accurate-compact.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 156,
+      "height": 134
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/values/editable-compact.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 155,
+      "height": 134
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/values/consistent-compact.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 194,
+      "height": 135
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fmockups%2Fremix-lifespan.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 360,
+      "height": 202
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fmockups%2Fbrand.png&w=828&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 400,
+      "height": 234
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fmockups%2Ffix.png&w=828&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 400,
+      "height": 234
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Fecommerce.jpg&w=640&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 320,
+      "height": 180
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Fsaas.jpg&w=640&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 320,
+      "height": 180
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Fagencies.jpg&w=640&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 320,
+      "height": 180
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Feducation.jpg&w=640&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 320,
+      "height": 180
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Finternal.jpg&w=640&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 320,
+      "height": 180
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Fbrand.jpg&w=640&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 320,
+      "height": 180
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Fecommerce.jpg&w=1920&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 337,
+      "height": 189
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Fecommerce.jpg&w=1920&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 337,
+      "height": 189
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Fsaas.jpg&w=1920&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 257,
+      "height": 145
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Fagencies.jpg&w=1920&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 257,
+      "height": 145
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Feducation.jpg&w=1920&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 257,
+      "height": 145
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Finternal.jpg&w=1920&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 257,
+      "height": 145
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Flanding-tob%2Fsolutions%2Fbrand.jpg&w=1920&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 337,
+      "height": 189
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FOCoJLhNc-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Amazon Lens — See it. Shop it.",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FzBYcwP3Z.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "TapVid Launch Film — Product-Loop Cut",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FNuazXvxT-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "SpaceX IPO Explained: Valuation Logic and the Largest Public Listing in History",
+      "width": 331,
+      "height": 185
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FcjhuasQi.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Portable Blender Product Launch",
+      "width": 317,
+      "height": 565
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FLKEpHOn6-v3.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "SpaceX Deep Dive: Business Structure, Revenue, and the 2026 IPO Investment Case",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FymCr3EWP.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Who Is the Self: Personality Traits and the Big Five Explained",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FK95Q8YFG.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Bread Baking 101: Everything a Beginner Needs to Know",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FGpMUcnUY.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "The Great Serengeti Migration",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FJrVaEBgz.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Follow Builders: Where It All Began",
+      "width": 331,
+      "height": 187
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FQRNA48cI-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Cybersecurity Breach Timeline: Detection to Response in Four Beats",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FLR4pHOn6.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Open Orchard: Cultivating Community and Dignity One Lot at a Time",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FkQJKT9MV-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Meet TapVid",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2F6ZegxZbe.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Birth Rates Are Collapsing Everywhere at Once",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FKRL5Q8YF-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Apple Creator Studio Launch Film",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FNErzXvxT.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "GWI Spark — AI Assistant Kinetic Typography",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FY9METxCG-v3.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Explore Tokyo: A Classic 3-Day Travel Itinerary",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FOIJLhNcS.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Artemis II: Anatomy of a Moon Launch",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FizmDfaj7.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Pixel Art Guide: How Fishing Works",
+      "width": 298,
+      "height": 529
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2Fyar3EWPH.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "How to Play Go: Beginner Tutorial",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2F8g2R0I7f.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Cybersecurity breach story",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FYGqETxCG.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "How Much Time Do You Really Have?",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FZ3AMUPd7-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Geometric Animation of the Pythagorean Theorem Proof",
+      "width": 317,
+      "height": 565
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FkAEKT9MV-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Claude Tag: Your AI Teammate for Slack Automation",
+      "width": 317,
+      "height": 565
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FoPWlrKdX.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Escalating Climate Crisis: Devastating Natural Disasters and Human Impact",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FQRPA48cI-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Cinema Camera 360° Reveal",
+      "width": 317,
+      "height": 565
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FP28NMcnN.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Luna and the Ocean Spirits: A Lighthouse Tale",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FnJqfPa3C-v3.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Earth, Cobalt, Fire: How Chinese Porcelain Is Made",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FHqrVtlDr.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "The One Big Beautiful Bill",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FeZt6l8wV.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Prediction Markets: Truth Machines or Financialized Reality",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FPEeNMcnN.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Vera CPU: The CPU for Agents",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FKRF5Q8YF.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "TapVid Launch Film — Reader's Cut",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FRbreNhrw-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Smart Insulated Water Bottle Launch Teaser",
+      "width": 331,
+      "height": 186
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FAe5s1igz.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "How Spotify Algorithms Work: A 3D Motion Graphics Guide",
+      "width": 331,
+      "height": 587
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Fimages%2Fhome%2Ffeatured%2FsgD8jaGo-v2.jpg&w=750&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Home Pour-Over Coffee",
+      "width": 317,
+      "height": 565
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-1.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-2.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-3.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-1.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-4.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-2.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-1.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-2.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-3.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-1.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-4.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/quote.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 39,
+      "height": 30
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/testimonials/avatar-2.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/review-badges.png?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Google, G2 and Product Hunt",
+      "width": 90,
+      "height": 24
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/icons/protect.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/icons/earth.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/icons/database-fail.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/icons/message-security.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/icons/lock.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/icons/every-user.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "src": "https://tapvid.ai/images/landing-tob/icons/city-one.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/still-on-fence/chatgpt.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/still-on-fence/arrow.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/still-on-fence/claude.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/still-on-fence/arrow.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/still-on-fence/perplexity.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/still-on-fence/arrow.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "src": "https://tapvid.ai/_next/image?url=%2Ffavicon.png&w=64&q=75&dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Tapvid",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65c1546fa73ea974db789e3d/65e1e171f89ebfa7bd0129ac_yodirectory-featured.png",
+      "alt": "yo.directory",
+      "width": 150,
+      "height": 54
+    },
+    {
+      "src": "https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=featured&theme=dark",
+      "alt": "Fazier badge",
+      "width": 182,
+      "height": 43
+    },
+    {
+      "src": "https://tinylaunch.com/tinylaunch_badge_featured_on.svg",
+      "alt": "TinyLaunch Badge",
+      "width": 619,
+      "height": 188
+    },
+    {
+      "src": "https://similarlabs.com/similarlabs-embed-badge-dark.svg",
+      "alt": "Featured on SimilarLabs",
+      "width": 127,
+      "height": 43
+    },
+    {
+      "src": "https://launchigniter.com/api/badge/tapvid?theme=dark",
+      "alt": "Featured on LaunchIgniter",
+      "width": 212,
+      "height": 55
+    },
+    {
+      "src": "https://toolfame.com/badge-dark.svg",
+      "alt": "Featured on toolfame.com",
+      "width": 160,
+      "height": 54
+    },
+    {
+      "src": "https://www.ontoplist.com/images/ontoplist31.png?id=69d76b18370dd",
+      "alt": "OnTopList.com",
+      "width": 115,
+      "height": 30
+    },
+    {
+      "src": "https://www.ontoplist.com/images/ontoplist31.png?id=6a5f340a8409c",
+      "alt": "Top [count] Business Services - OnToplist.com",
+      "width": 115,
+      "height": 30
+    },
+    {
+      "src": "https://twelve.tools/badge1-dark.svg",
+      "alt": "Featured on Twelve Tools",
+      "width": 200,
+      "height": 54
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65c1546fa73ea974db789e3d/65e1e171f89ebfa7bd0129ac_yodirectory-featured.png",
+      "alt": "yo.directory",
+      "width": 150,
+      "height": 54
+    },
+    {
+      "src": "https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=featured&theme=dark",
+      "alt": "Fazier badge",
+      "width": 182,
+      "height": 43
+    },
+    {
+      "src": "https://tinylaunch.com/tinylaunch_badge_featured_on.svg",
+      "alt": "TinyLaunch Badge",
+      "width": 619,
+      "height": 188
+    },
+    {
+      "src": "https://similarlabs.com/similarlabs-embed-badge-dark.svg",
+      "alt": "Featured on SimilarLabs",
+      "width": 127,
+      "height": 43
+    },
+    {
+      "src": "https://launchigniter.com/api/badge/tapvid?theme=dark",
+      "alt": "Featured on LaunchIgniter",
+      "width": 212,
+      "height": 55
+    },
+    {
+      "src": "https://toolfame.com/badge-dark.svg",
+      "alt": "Featured on toolfame.com",
+      "width": 160,
+      "height": 54
+    },
+    {
+      "src": "https://www.ontoplist.com/images/ontoplist31.png?id=69d76b18370dd",
+      "alt": "OnTopList.com",
+      "width": 115,
+      "height": 30
+    },
+    {
+      "src": "https://www.ontoplist.com/images/ontoplist31.png?id=6a5f340a8409c",
+      "alt": "Top [count] Business Services - OnToplist.com",
+      "width": 115,
+      "height": 30
+    },
+    {
+      "src": "https://twelve.tools/badge1-dark.svg",
+      "alt": "Featured on Twelve Tools",
+      "width": 200,
+      "height": 54
+    },
+    {
+      "src": "https://tapvid.ai/logo/logo-footer.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Tapvid",
+      "width": 122,
+      "height": 40
+    },
+    {
+      "src": "https://tapvid.ai/landing/logo/tiktok.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "TikTok",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "https://tapvid.ai/landing/logo/instagram.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Instagram",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "https://tapvid.ai/landing/logo/x.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "X",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "https://tapvid.ai/landing/logo/discord.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "Discord",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "https://tapvid.ai/landing/logo/youtube.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "YouTube",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/still-on-fence/chatgpt.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/still-on-fence/claude.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "src": "https://tapvid.ai/images/landing/still-on-fence/perplexity.svg?dpl=dpl_AHDsanTmGFjKsNzfN2NzGQA2SsVn",
+      "alt": "",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "src": "https://media.theresanaiforthat.com/featured-on-taaft.png?width=600",
+      "alt": "Featured on There's An AI For That",
+      "width": 600,
+      "height": 125
+    },
+    {
+      "src": "https://startupfa.me/badges/featured-badge-small.webp",
+      "alt": "TapVid - Featured on Startup Fame",
+      "width": 655,
+      "height": 105
+    },
+    {
+      "src": "https://assets.dang.ai/badges/dang-verified-dark.png",
+      "alt": "Verified on DANG!",
+      "width": 550,
+      "height": 198
+    },
+    {
+      "src": "https://www.toolpilot.ai/cdn/shop/files/f-w_690x151_crop_center.png",
+      "alt": "Featured on ToolPilot",
+      "width": 300,
+      "height": 66
+    },
+    {
+      "src": "https://goodaitools.com/assets/images/badge-dark.png",
+      "alt": "Good AI Tools",
+      "width": 207,
+      "height": 54
+    },
+    {
+      "src": "https://frogdr.com/ai138.com/badge-white.svg",
+      "alt": "AI工具网 ai138.com Domain Rating",
+      "width": 0,
+      "height": 0
+    },
+    {
+      "src": "https://twelve.tools/badge0-white.svg",
+      "alt": "Featured on Twelve Tools",
+      "width": 200,
+      "height": 54
+    },
+    {
+      "src": "https://whatsthebigdata.com/badges/featured-on-whatsthebigdata-color.png",
+      "alt": "Featured on Whatsthebigdata",
+      "width": 1024,
+      "height": 334
+    },
+    {
+      "src": "https://statics.startupbase.io/site/badges/featured-on-sb-dark.svg",
+      "alt": "Featured on StartupBase",
+      "width": 300,
+      "height": 80
+    },
+    {
+      "src": "https://huntifyai.com/api/badge?theme=light",
+      "alt": "Featured on HuntifyAI",
+      "width": 220,
+      "height": 54
+    }
+  ],
+  "videos": [
+    {
+      "src": "",
+      "poster": "",
+      "html": "<video class=\"h-full w-full object-cover\" aria-hidden=\"true\" autoplay=\"\" loop=\"\" muted=\"\" playsinline=\"\" preload=\"none\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/OCoJLhNc.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/OCoJLhNc.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/zBYcwP3Z.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/zBYcwP3Z.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/NuazXvxT.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/NuazXvxT.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/cjhuasQi.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/cjhuasQi.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/LKEpHOn6.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/LKEpHOn6.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/ymCr3EWP.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/ymCr3EWP.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/K95Q8YFG.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/K95Q8YFG.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/GpMUcnUY.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/GpMUcnUY.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/JrVaEBgz.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/JrVaEBgz.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/QRNA48cI.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/QRNA48cI.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/LR4pHOn6.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/LR4pHOn6.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/kQJKT9MV.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/kQJKT9MV.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/6ZegxZbe.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/6ZegxZbe.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/KRL5Q8YF.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/KRL5Q8YF.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/NErzXvxT.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/NErzXvxT.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/Y9METxCG.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/Y9METxCG.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/OIJLhNcS.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/OIJLhNcS.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/izmDfaj7.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/izmDfaj7.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/yar3EWPH.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/yar3EWPH.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/8g2R0I7f.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/8g2R0I7f.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/YGqETxCG.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/YGqETxCG.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/Z3AMUPd7.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/Z3AMUPd7.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/kAEKT9MV.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/kAEKT9MV.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/oPWlrKdX.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/oPWlrKdX.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/QRPA48cI.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/QRPA48cI.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/P28NMcnN.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/P28NMcnN.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/nJqfPa3C.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/nJqfPa3C.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/HqrVtlDr.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/HqrVtlDr.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/eZt6l8wV.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/eZt6l8wV.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/PEeNMcnN.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/PEeNMcnN.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/KRF5Q8YF.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/KRF5Q8YF.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/RbreNhrw.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/RbreNhrw.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/Ae5s1igz.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/Ae5s1igz.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    },
+    {
+      "src": "https://tapvid.ai/videos/featured/sgD8jaGo.mp4",
+      "poster": "",
+      "html": "<video src=\"/videos/featured/sgD8jaGo.mp4\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"none\" class=\"absolute inset-0 z-[1] size-full object-cover transition-[scale] duration-slow ease-enter group-hover:scale-[1.03]\" style=\"opacity:0\"></video>"
+    }
+  ],
+  "links": [
+    {
+      "text": "",
+      "url": "https://tapvid.ai/"
+    },
+    {
+      "text": "API & MCP",
+      "url": "https://tapvid.ai/api-mcp"
+    },
+    {
+      "text": "Pricing",
+      "url": "https://tapvid.ai/pricing"
+    },
+    {
+      "text": "Blog",
+      "url": "https://tapvid.ai/blog"
+    },
+    {
+      "text": "About",
+      "url": "https://tapvid.ai/about"
+    },
+    {
+      "text": "Join",
+      "url": "https://tapvid.ai/login"
+    },
+    {
+      "text": "Log in",
+      "url": "https://tapvid.ai/login"
+    },
+    {
+      "text": "Try TapVid",
+      "url": "https://tapvid.ai/login"
+    },
+    {
+      "text": "Read methods and limitations",
+      "url": "https://tapvid.ai/blog/information-dense-ai-video-benchmark#frozen-protocol-seeded-statistics-every-result-in-full"
+    },
+    {
+      "text": "Read methods and limitations",
+      "url": "https://tapvid.ai/blog/ai-video-workflow-benchmark#methodology-and-reproducibility-notes"
+    },
+    {
+      "text": "Download the aggregate CSV",
+      "url": "https://tapvid.ai/blog/data/research/tapvid-ai-video-workflow-funnel-may-aug-2026.csv"
+    },
+    {
+      "text": "Inputs, scene edits and export limits",
+      "url": "https://tapvid.ai/guides/product-video-workflow"
+    },
+    {
+      "text": "Watch public examples",
+      "url": "https://tapvid.ai/examples"
+    },
+    {
+      "text": "Explore more video examples",
+      "url": "https://tapvid.ai/login"
+    },
+    {
+      "text": "Try For $4.99",
+      "url": "https://tapvid.ai/login"
+    },
+    {
+      "text": "Start with Pro",
+      "url": "https://tapvid.ai/login"
+    },
+    {
+      "text": "Go Max",
+      "url": "https://tapvid.ai/login"
+    },
+    {
+      "text": "Subscribe Ultra",
+      "url": "https://tapvid.ai/login"
+    },
+    {
+      "text": "Contact us",
+      "url": "https://calendly.com/haoda-sigmatrx/30min"
+    },
+    {
+      "text": "Contact us",
+      "url": "https://calendly.com/haoda-sigmatrx/30min"
+    },
+    {
+      "text": "Contact us",
+      "url": "https://calendly.com/haoda-sigmatrx/30min"
+    },
+    {
+      "text": "Contact us",
+      "url": "https://calendly.com/haoda-sigmatrx/30min"
+    },
+    {
+      "text": "ChatGPTAsk",
+      "url": "https://chatgpt.com/?q=I%27m%20considering%20TapVid%20(tapvid.ai)%2C%20an%20AI%20agent%20that%20turns%20any%20prompt%2C%20PDF%2C%20or%20link%20into%20an%20explainer%20video%20with%20motion%20graphics.%20Look%20it%20up%20and%20tell%20me%20specifically%20why%20it%27d%20be%20a%20great%20choice%20for%20me."
+    },
+    {
+      "text": "ClaudeAsk",
+      "url": "https://claude.ai/new?q=I%27m%20considering%20TapVid%20(tapvid.ai)%2C%20an%20AI%20agent%20that%20turns%20any%20prompt%2C%20PDF%2C%20or%20link%20into%20an%20explainer%20video%20with%20motion%20graphics.%20Look%20it%20up%20and%20tell%20me%20specifically%20why%20it%27d%20be%20a%20great%20choice%20for%20me."
+    },
+    {
+      "text": "PerplexityAsk",
+      "url": "https://www.perplexity.ai/search?q=I%27m%20considering%20TapVid%20(tapvid.ai)%2C%20an%20AI%20agent%20that%20turns%20any%20prompt%2C%20PDF%2C%20or%20link%20into%20an%20explainer%20video%20with%20motion%20graphics.%20Look%20it%20up%20and%20tell%20me%20specifically%20why%20it%27d%20be%20a%20great%20choice%20for%20me."
+    },
+    {
+      "text": "pricing page",
+      "url": "https://tapvid.ai/pricing"
+    },
+    {
+      "text": "AI explainer video generator",
+      "url": "https://tapvid.ai/ai-explainer-video-generator"
+    },
+    {
+      "text": "Explainer video types and examples",
+      "url": "https://tapvid.ai/blog/what-is-an-explainer-video"
+    },
+    {
+      "text": "How to create an explainer video",
+      "url": "https://tapvid.ai/blog/how-to-create-explainer-video"
+    },
+    {
+      "text": "Turn a script into video scenes",
+      "url": "https://tapvid.ai/script-to-video"
+    },
+    {
+      "text": "Turn a PDF into an animated explainer",
+      "url": "https://tapvid.ai/pdf-to-video"
+    },
+    {
+      "text": "Create a SaaS explainer video",
+      "url": "https://tapvid.ai/saas-explainer-video"
+    },
+    {
+      "text": "Try TapVid",
+      "url": "https://tapvid.ai/login"
+    },
+    {
+      "text": "Tapvid",
+      "url": "https://tapvid.ai/"
+    },
+    {
+      "text": "hi@tapvid.ai",
+      "url": "mailto:hi@tapvid.ai"
+    },
+    {
+      "text": "Privacy",
+      "url": "https://tapvid.ai/privacy"
+    },
+    {
+      "text": "Terms of Service",
+      "url": "https://tapvid.ai/terms"
+    },
+    {
+      "text": "",
+      "url": "https://yo.directory/"
+    },
+    {
+      "text": "",
+      "url": "https://fazier.com/launches/tapvid.ai"
+    },
+    {
+      "text": "",
+      "url": "https://tinylaunch.com/"
+    },
+    {
+      "text": "",
+      "url": "https://similarlabs.com/"
+    },
+    {
+      "text": "",
+      "url": "https://launchigniter.com/product/tapvid?ref=badge-tapvid"
+    },
+    {
+      "text": "",
+      "url": "https://toolfame.com/item/tapvid"
+    },
+    {
+      "text": "",
+      "url": "https://www.ontoplist.com/social-media-marketing-companies/"
+    },
+    {
+      "text": "",
+      "url": "https://www.ontoplist.com/business-webdirectory/"
+    },
+    {
+      "text": "",
+      "url": "https://twelve.tools/"
+    },
+    {
+      "text": "MossAI Tools",
+      "url": "https://mossai.org/"
+    },
+    {
+      "text": "RightAI Tools Directory",
+      "url": "https://right-ai.com/"
+    },
+    {
+      "text": "AI Tool Center",
+      "url": "https://aitoolcenter.com/"
+    },
+    {
+      "text": "Australia",
+      "url": "https://www.australiawebdirectory.net/business_and_economy/"
+    },
+    {
+      "text": "SeekAIs - AI Tools Directory",
+      "url": "https://seekais.com/"
+    },
+    {
+      "text": "",
+      "url": "https://yo.directory/"
+    },
+    {
+      "text": "",
+      "url": "https://fazier.com/launches/tapvid.ai"
+    },
+    {
+      "text": "",
+      "url": "https://tinylaunch.com/"
+    },
+    {
+      "text": "",
+      "url": "https://similarlabs.com/"
+    },
+    {
+      "text": "",
+      "url": "https://launchigniter.com/product/tapvid?ref=badge-tapvid"
+    },
+    {
+      "text": "",
+      "url": "https://toolfame.com/item/tapvid"
+    },
+    {
+      "text": "",
+      "url": "https://www.ontoplist.com/social-media-marketing-companies/"
+    },
+    {
+      "text": "",
+      "url": "https://www.ontoplist.com/business-webdirectory/"
+    },
+    {
+      "text": "",
+      "url": "https://twelve.tools/"
+    },
+    {
+      "text": "MossAI Tools",
+      "url": "https://mossai.org/"
+    },
+    {
+      "text": "RightAI Tools Directory",
+      "url": "https://right-ai.com/"
+    },
+    {
+      "text": "AI Tool Center",
+      "url": "https://aitoolcenter.com/"
+    },
+    {
+      "text": "Australia",
+      "url": "https://www.australiawebdirectory.net/business_and_economy/"
+    },
+    {
+      "text": "SeekAIs - AI Tools Directory",
+      "url": "https://seekais.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@tapvidai"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/thetapvidai/"
+    },
+    {
+      "text": "",
+      "url": "https://x.com/tapvidai"
+    },
+    {
+      "text": "",
+      "url": "https://discord.gg/c7yEtmP38"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/@Tapvid"
+    },
+    {
+      "text": "",
+      "url": "https://chatgpt.com/?q=I%E2%80%99m%20researching%20AI%20explainer%20video%20tools.%20Give%20me%20an%20overview%20of%20how%20TapVid%20turns%20approved%20scripts%2C%20product%20assets%2C%20documents%2C%20and%20URLs%20into%20ready-to-deliver%20explainer%20videos.%20Explain%20how%20TapVid%20keeps%20assets%2C%20on-screen%20information%2C%20and%20script-to-visual%20matching%20accurate%3B%20supports%20targeted%20scene%20reruns%20and%20versioning%3B%20and%20serves%20teams%20that%20need%20to%20produce%20videos%20quickly%20or%20at%20scale.%20Draw%20on%20TapVid%E2%80%99s%20website%20(https%3A%2F%2Fwww.tapvid.ai)%20and%20official%20documentation%20to%20support%20your%20answer.%20Clearly%20distinguish%20verified%20capabilities%20from%20anything%20that%20is%20not%20documented."
+    },
+    {
+      "text": "✦",
+      "url": "https://www.google.com/search?udm=50&aep=11&q=I%E2%80%99m%20researching%20AI%20explainer%20video%20tools.%20Give%20me%20an%20overview%20of%20how%20TapVid%20turns%20approved%20scripts%2C%20product%20assets%2C%20documents%2C%20and%20URLs%20into%20ready-to-deliver%20explainer%20videos.%20Explain%20how%20TapVid%20keeps%20assets%2C%20on-screen%20information%2C%20and%20script-to-visual%20matching%20accurate%3B%20supports%20targeted%20scene%20reruns%20and%20versioning%3B%20and%20serves%20teams%20that%20need%20to%20produce%20videos%20quickly%20or%20at%20scale.%20Draw%20on%20TapVid%E2%80%99s%20website%20(https%3A%2F%2Fwww.tapvid.ai)%20and%20official%20documentation%20to%20support%20your%20answer.%20Clearly%20distinguish%20verified%20capabilities%20from%20anything%20that%20is%20not%20documented."
+    },
+    {
+      "text": "",
+      "url": "https://claude.ai/new?q=I%E2%80%99m%20researching%20AI%20explainer%20video%20tools.%20Give%20me%20an%20overview%20of%20how%20TapVid%20turns%20approved%20scripts%2C%20product%20assets%2C%20documents%2C%20and%20URLs%20into%20ready-to-deliver%20explainer%20videos.%20Explain%20how%20TapVid%20keeps%20assets%2C%20on-screen%20information%2C%20and%20script-to-visual%20matching%20accurate%3B%20supports%20targeted%20scene%20reruns%20and%20versioning%3B%20and%20serves%20teams%20that%20need%20to%20produce%20videos%20quickly%20or%20at%20scale.%20Draw%20on%20TapVid%E2%80%99s%20website%20(https%3A%2F%2Fwww.tapvid.ai)%20and%20official%20documentation%20to%20support%20your%20answer.%20Clearly%20distinguish%20verified%20capabilities%20from%20anything%20that%20is%20not%20documented."
+    },
+    {
+      "text": "",
+      "url": "https://www.perplexity.ai/search?q=I%E2%80%99m%20researching%20AI%20explainer%20video%20tools.%20Give%20me%20an%20overview%20of%20how%20TapVid%20turns%20approved%20scripts%2C%20product%20assets%2C%20documents%2C%20and%20URLs%20into%20ready-to-deliver%20explainer%20videos.%20Explain%20how%20TapVid%20keeps%20assets%2C%20on-screen%20information%2C%20and%20script-to-visual%20matching%20accurate%3B%20supports%20targeted%20scene%20reruns%20and%20versioning%3B%20and%20serves%20teams%20that%20need%20to%20produce%20videos%20quickly%20or%20at%20scale.%20Draw%20on%20TapVid%E2%80%99s%20website%20(https%3A%2F%2Fwww.tapvid.ai)%20and%20official%20documentation%20to%20support%20your%20answer.%20Clearly%20distinguish%20verified%20capabilities%20from%20anything%20that%20is%20not%20documented."
+    },
+    {
+      "text": "G",
+      "url": "https://grok.com/?q=I%E2%80%99m%20researching%20AI%20explainer%20video%20tools.%20Give%20me%20an%20overview%20of%20how%20TapVid%20turns%20approved%20scripts%2C%20product%20assets%2C%20documents%2C%20and%20URLs%20into%20ready-to-deliver%20explainer%20videos.%20Explain%20how%20TapVid%20keeps%20assets%2C%20on-screen%20information%2C%20and%20script-to-visual%20matching%20accurate%3B%20supports%20targeted%20scene%20reruns%20and%20versioning%3B%20and%20serves%20teams%20that%20need%20to%20produce%20videos%20quickly%20or%20at%20scale.%20Draw%20on%20TapVid%E2%80%99s%20website%20(https%3A%2F%2Fwww.tapvid.ai)%20and%20official%20documentation%20to%20support%20your%20answer.%20Clearly%20distinguish%20verified%20capabilities%20from%20anything%20that%20is%20not%20documented."
+    },
+    {
+      "text": "Kinetic Typography Generator",
+      "url": "https://tapvid.ai/kinetic-typography-generator"
+    },
+    {
+      "text": "AI Motion Graphics Generator",
+      "url": "https://tapvid.ai/ai-motion-graphics-generator"
+    },
+    {
+      "text": "Animated Chart Maker",
+      "url": "https://tapvid.ai/animated-chart-maker"
+    },
+    {
+      "text": "Animated Collage Maker",
+      "url": "https://tapvid.ai/animated-collage-maker"
+    },
+    {
+      "text": "Infographic Video Maker",
+      "url": "https://tapvid.ai/infographic-video-maker"
+    },
+    {
+      "text": "AI Explainer Video Generator",
+      "url": "https://tapvid.ai/ai-explainer-video-generator"
+    },
+    {
+      "text": "Whiteboard Animation Maker",
+      "url": "https://tapvid.ai/whiteboard-animation-maker"
+    },
+    {
+      "text": "AI Study Video Maker",
+      "url": "https://tapvid.ai/feature/ai-study-video-maker"
+    },
+    {
+      "text": "Product Demo Videos",
+      "url": "https://tapvid.ai/ai-product-demo-video-generator"
+    },
+    {
+      "text": "Ecommerce Product Videos",
+      "url": "https://tapvid.ai/ai-product-video-generator"
+    },
+    {
+      "text": "Product Launch Videos",
+      "url": "https://tapvid.ai/product-launch-video-maker"
+    },
+    {
+      "text": "Video Ads",
+      "url": "https://tapvid.ai/ai-ad-video-generator"
+    },
+    {
+      "text": "Free AI Video Generator",
+      "url": "https://tapvid.ai/free-ai-video-generator"
+    },
+    {
+      "text": "Documentary Video Maker",
+      "url": "https://tapvid.ai/documentary-video-maker"
+    },
+    {
+      "text": "Animated Social Media Video Maker",
+      "url": "https://tapvid.ai/animated-social-media-video-maker"
+    },
+    {
+      "text": "AI B-Roll Generator",
+      "url": "https://tapvid.ai/ai-b-roll-generator"
+    },
+    {
+      "text": "Animated Video Maker",
+      "url": "https://tapvid.ai/animated-video-maker"
+    },
+    {
+      "text": "URL to Video",
+      "url": "https://tapvid.ai/url-to-video"
+    },
+    {
+      "text": "PDF to Video",
+      "url": "https://tapvid.ai/pdf-to-video"
+    },
+    {
+      "text": "Image / Assets to Video",
+      "url": "https://tapvid.ai/image-to-video"
+    },
+    {
+      "text": "PPT to Video",
+      "url": "https://tapvid.ai/ppt-to-video"
+    },
+    {
+      "text": "Article to Video",
+      "url": "https://tapvid.ai/article-to-video"
+    },
+    {
+      "text": "Script to Video",
+      "url": "https://tapvid.ai/script-to-video"
+    },
+    {
+      "text": "SOP to Video",
+      "url": "https://tapvid.ai/feature/sop-to-video"
+    },
+    {
+      "text": "Word to Video",
+      "url": "https://tapvid.ai/word-to-video"
+    },
+    {
+      "text": "Google Slides to Video",
+      "url": "https://tapvid.ai/google-slides-to-video"
+    },
+    {
+      "text": "Text to Video AI",
+      "url": "https://tapvid.ai/text-to-video-ai"
+    },
+    {
+      "text": "Audio to Video",
+      "url": "https://tapvid.ai/feature/audio-to-video"
+    },
+    {
+      "text": "Podcast to Video",
+      "url": "https://tapvid.ai/podcast-to-video"
+    },
+    {
+      "text": "Video to Video AI",
+      "url": "https://tapvid.ai/video-to-video"
+    },
+    {
+      "text": "SaaS",
+      "url": "https://tapvid.ai/feature/saas-video-production"
+    },
+    {
+      "text": "Ecommerce",
+      "url": "https://tapvid.ai/feature/ecommerce-video-ads"
+    },
+    {
+      "text": "Education",
+      "url": "https://tapvid.ai/feature/educational-video"
+    },
+    {
+      "text": "Manufacturing",
+      "url": "https://tapvid.ai/feature/industrial-video-production"
+    },
+    {
+      "text": "Gemini Omni 1.1 Flash Prompt Library",
+      "url": "https://tapvid.ai/video-prompts/gemini-omni"
+    },
+    {
+      "text": "MiniMax H3 Prompt Library",
+      "url": "https://tapvid.ai/video-prompts/minimax-h3"
+    },
+    {
+      "text": "Seedance 2.5 Prompt Library",
+      "url": "https://tapvid.ai/video-prompts/seedance-2-5"
+    },
+    {
+      "text": "Explainer Video Templates",
+      "url": "https://tapvid.ai/feature/explainer-video-templates"
+    },
+    {
+      "text": "Video Production Plan Template",
+      "url": "https://tapvid.ai/feature/video-production-plan-template"
+    },
+    {
+      "text": "Video Creative Brief Template",
+      "url": "https://tapvid.ai/feature/video-creative-brief-template"
+    },
+    {
+      "text": "Video Production Proposal Template",
+      "url": "https://tapvid.ai/feature/video-production-proposal-template"
+    },
+    {
+      "text": "Hera",
+      "url": "https://tapvid.ai/compare/hera"
+    },
+    {
+      "text": "Motion.so",
+      "url": "https://tapvid.ai/compare/motion"
+    },
+    {
+      "text": "VEED",
+      "url": "https://tapvid.ai/compare/veed"
+    },
+    {
+      "text": "Leadde",
+      "url": "https://tapvid.ai/compare/leadde"
+    },
+    {
+      "text": "Creatify",
+      "url": "https://tapvid.ai/compare/creatify"
+    },
+    {
+      "text": "Synthesia",
+      "url": "https://tapvid.ai/compare/synthesia"
+    },
+    {
+      "text": "HeyGen",
+      "url": "https://tapvid.ai/compare/heygen"
+    },
+    {
+      "text": "Motionvid AI",
+      "url": "https://tapvid.ai/compare/motionvid"
+    },
+    {
+      "text": "TapNow",
+      "url": "https://tapvid.ai/compare/tapnow"
+    },
+    {
+      "text": "Pictory",
+      "url": "https://tapvid.ai/compare/pictory"
+    },
+    {
+      "text": "InVideo",
+      "url": "https://tapvid.ai/compare/invideo"
+    },
+    {
+      "text": "Fliki",
+      "url": "https://tapvid.ai/compare/fliki"
+    },
+    {
+      "text": "Lumen5",
+      "url": "https://tapvid.ai/compare/lumen5"
+    },
+    {
+      "text": "Pricing",
+      "url": "https://tapvid.ai/pricing"
+    },
+    {
+      "text": "About",
+      "url": "https://tapvid.ai/about"
+    },
+    {
+      "text": "Get in Touch",
+      "url": "https://tapvid.ai/contact"
+    },
+    {
+      "text": "MCP",
+      "url": "https://tapvid.ai/api-mcp"
+    },
+    {
+      "text": "Blog",
+      "url": "https://tapvid.ai/blog"
+    },
+    {
+      "text": "IndieHunt",
+      "url": "https://indiehunt.io/"
+    },
+    {
+      "text": "AI Tools Marketer",
+      "url": "https://aitoolsmarketer.com/"
+    },
+    {
+      "text": "",
+      "url": "https://theresanaiforthat.com/ai/tapvid/?ref=featured&v=11797819"
+    },
+    {
+      "text": "",
+      "url": "https://startupfa.me/s/tapvid-1?utm_source=tapvid.ai"
+    },
+    {
+      "text": "",
+      "url": "https://dang.ai/"
+    },
+    {
+      "text": "",
+      "url": "https://www.toolpilot.ai/"
+    },
+    {
+      "text": "",
+      "url": "https://goodaitools.com/ai/tapvid"
+    },
+    {
+      "text": "AiHeron",
+      "url": "https://www.aiheron.com/"
+    },
+    {
+      "text": "AI工具网",
+      "url": "https://www.ai138.com/"
+    },
+    {
+      "text": "",
+      "url": "https://www.ai138.com/"
+    },
+    {
+      "text": "",
+      "url": "https://twelve.tools/"
+    },
+    {
+      "text": "",
+      "url": "https://whatsthebigdata.com/ai-tools/"
+    },
+    {
+      "text": "",
+      "url": "https://startupbase.io/products/tapvid?utm_source=startupbase&utm_medium=badge&utm_campaign=featured-badge-dark"
+    },
+    {
+      "text": "",
+      "url": "https://huntifyai.com/"
+    },
+    {
+      "text": "Privacy",
+      "url": "https://tapvid.ai/privacy"
+    },
+    {
+      "text": "Terms of Service",
+      "url": "https://tapvid.ai/terms"
+    },
+    {
+      "text": "Prompt to Video",
+      "url": "https://tapvid.ai/feature/prompt-to-video"
+    },
+    {
+      "text": "Article to Video",
+      "url": "https://tapvid.ai/article-to-video"
+    },
+    {
+      "text": "URL to Video",
+      "url": "https://tapvid.ai/url-to-video"
+    },
+    {
+      "text": "Script to Video",
+      "url": "https://tapvid.ai/script-to-video"
+    },
+    {
+      "text": "Audio to Video",
+      "url": "https://tapvid.ai/feature/audio-to-video"
+    },
+    {
+      "text": "Assets to Video",
+      "url": "https://tapvid.ai/image-to-video"
+    },
+    {
+      "text": "Clone Video",
+      "url": "https://tapvid.ai/feature/clone-video"
+    },
+    {
+      "text": "Talking head editing",
+      "url": "https://tapvid.ai/feature/talking-head-editing"
+    },
+    {
+      "text": "API & MCP",
+      "url": "https://tapvid.ai/api-mcp"
+    },
+    {
+      "text": "Pricing",
+      "url": "https://tapvid.ai/pricing"
+    },
+    {
+      "text": "Blog",
+      "url": "https://tapvid.ai/blog"
+    },
+    {
+      "text": "About",
+      "url": "https://tapvid.ai/about"
+    }
+  ]
+}

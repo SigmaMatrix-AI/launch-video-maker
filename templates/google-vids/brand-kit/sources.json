@@ -1,5 +1,0 @@
-{
-  "assets": [{"file":"GoogleSans-Regular.ttf","family":"Google Sans","weight":400,"source":"https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&display=swap","binarySource":"https://fonts.gstatic.com/s/googlesans/v71/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKli.ttf","purpose":"reference reproduction typography"}],
-  "explicitRules": ["Preserve source copy and appearance for this comparison study"],
-  "inferences": ["Reference uses Google Sans; available current font may differ from source-era outlines","Colors sampled visually from source","No user product brand is substituted"]
-}

@@ -1,0 +1,104 @@
+{
+  "source": "assets/audio/reference-music-no-voice.wav",
+  "output": "assets/audio/capsule-flow-bgm-edit.wav",
+  "tempoRatio": 1.056950659,
+  "pitchPreserved": true,
+  "gainPoints": [
+    [
+      0,
+      1
+    ],
+    [
+      9.1,
+      1
+    ],
+    [
+      10.4,
+      0.91
+    ],
+    [
+      12.6,
+      0.91
+    ],
+    [
+      13.3,
+      1
+    ],
+    [
+      24.2,
+      1
+    ],
+    [
+      25,
+      0.93
+    ],
+    [
+      31.5,
+      0.93
+    ],
+    [
+      33,
+      1
+    ],
+    [
+      43,
+      1
+    ],
+    [
+      44,
+      0.94
+    ],
+    [
+      48.5,
+      0.94
+    ],
+    [
+      50,
+      1
+    ],
+    [
+      61.3,
+      1
+    ],
+    [
+      62.8,
+      1.04
+    ],
+    [
+      65,
+      1
+    ],
+    [
+      71,
+      1
+    ],
+    [
+      72.4,
+      1.03
+    ],
+    [
+      77.8,
+      1.03
+    ],
+    [
+      79.3,
+      0.94
+    ],
+    [
+      80.4,
+      0.94
+    ],
+    [
+      82.04863333333333,
+      0
+    ]
+  ],
+  "peakAfter": 0.9700000286102295,
+  "normalizationGain": 0.9417475989743834,
+  "duration": 82.048625,
+  "listeningVerified": false,
+  "notes": "Existing arrangement retained; no new melody, voice, or synthesized click/whoosh. Gentle EQ and gain rides. Original retained. License status unchanged.",
+  "ffmpegFilter": "atempo=1.056950659,highpass=f=28,equalizer=f=250:t=q:w=0.7:g=-0.7,equalizer=f=3500:t=q:w=0.6:g=0.4,apad,atrim=duration=82.048633333",
+  "gainInterpolation": "smoothstep q*q*(3-2*q), stereo-linked",
+  "outputEncoding": "48000 Hz stereo pcm_s24le"
+}

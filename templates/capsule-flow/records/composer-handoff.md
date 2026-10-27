@@ -1,0 +1,2 @@
+# Capsule to composer continuity
+User requested full-frame pullback before capsule morphs into Tapvid input. Source 9.4–10.2s continues the exact final Prompt frame281, camera scales from1 to0.25 and recenters the capsule; text fades only near the end. At10.2s the same1400×177.5 capsule expands continuously to1460×510, radius88.75→40, pale gradient→white. URL and controls enter after expansion begins. No duration/audio changes. Review is limited to sampled frames and source continuity; continuous playback/listening not claimed.

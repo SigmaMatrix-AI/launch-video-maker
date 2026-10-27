@@ -1,0 +1,230 @@
+{
+  "sourceProject": "tapvid-pipeline-test-01",
+  "revision": "finale-glass-button-with-bgm-edit",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "ad0b1de4b1d48bd0a31b4a0331c39bf4675ed94f7e42e742654138f016d977d9"
+    },
+    {
+      "path": "assets/audio/reference-music-no-voice.wav",
+      "sha256": "2fda75edd4022fa97a9fe2a2a8d487e3a929048155c33067292a95e87ddfa692"
+    },
+    {
+      "path": "assets/media/brand.png",
+      "sha256": "14acd50840add0f8a710fa2edbcb3b0de32a2976823ef3583049280e4a0069e3"
+    },
+    {
+      "path": "assets/media/case-0.jpg",
+      "sha256": "b910f1b85a51d82e4d238e9dcfbc8cb6ddb77a2cde2cac216071aa617f2553b0"
+    },
+    {
+      "path": "assets/media/case-1.jpg",
+      "sha256": "e816e67097f2c1ac2413a780c7cd403f0453c3352ee4f4e8b6f548d5cc636bd3"
+    },
+    {
+      "path": "assets/media/case-10.jpg",
+      "sha256": "1f015d6b3143600cde141e17cf6d674bf9e0468843052d5ebcdb8fa2090a42b7"
+    },
+    {
+      "path": "assets/media/case-11.jpg",
+      "sha256": "d16630f0d8e5df77f4541f62a6acb403414bc3e9919d4a24dd55c7a9848770d5"
+    },
+    {
+      "path": "assets/media/case-2.jpg",
+      "sha256": "10ce0a1389b17a5c544cfa5c0cef077802ef92b02784a2ef334ef6f659964e0d"
+    },
+    {
+      "path": "assets/media/case-3.jpg",
+      "sha256": "7c4a7867e346e457bcd8fe9d5989b249f410f51b60db8492c3c7ec471182e98e"
+    },
+    {
+      "path": "assets/media/case-4.jpg",
+      "sha256": "a5a276c685db71a694d7f1875210419190bb91d46e88fcf28bd24045a7425720"
+    },
+    {
+      "path": "assets/media/case-5.jpg",
+      "sha256": "06e0fe0cc81835ffe199da87cf31fbc1f4f68b63cc0094e7b6afcfcd35ee0e74"
+    },
+    {
+      "path": "assets/media/case-6.jpg",
+      "sha256": "7d507b4b732b0b45e2c699007df1cff5086fe9a506730bf96362c851b45e18ee"
+    },
+    {
+      "path": "assets/media/case-7.jpg",
+      "sha256": "b023b8fd414ac57a19742b0e50dea6e922613dab7905fd8466f481766d03e51c"
+    },
+    {
+      "path": "assets/media/case-8.jpg",
+      "sha256": "d1d4b3fcc4ec8b7add16ea76bbe4d4e34c856c2644e5e76d5011990ef1442c14"
+    },
+    {
+      "path": "assets/media/case-9.jpg",
+      "sha256": "db89f74c97f56d780827ad4ca62f1bd5e06564bdcaadee425bf43901a2ce760b"
+    },
+    {
+      "path": "assets/media/demo-edit.png",
+      "sha256": "56ae1c1a2c4c7489987a2ffce8f63e27a37258db2fc8b64946e4855ad6f9f7bd"
+    },
+    {
+      "path": "assets/media/demo-outline.png",
+      "sha256": "9662205c1684387c08b267f7c3504661692fdebbb55d5aa28c0a4c14c09bd76a"
+    },
+    {
+      "path": "assets/media/demo-script.png",
+      "sha256": "a0f938cc7a2444fa510105dbe1c6280eeb29e1f640baab4a5f2c64f4877965fa"
+    },
+    {
+      "path": "assets/media/fix.png",
+      "sha256": "36332f57b2b5c0bc5a208618c269133f103d209d837f140ae0570fd95b4f18a5"
+    },
+    {
+      "path": "assets/media/input-source.png",
+      "sha256": "5d76b914d754c67c6cf91266a5ca6e3dc8a0e21a2d69a330499825217146f426"
+    },
+    {
+      "path": "assets/media/showcase.mp4",
+      "sha256": "92c85fea6a1dfdb517af5f334cb78bc8713672499d10f9c02e9067aa0be8082f"
+    },
+    {
+      "path": "assets/research/demo-capture.json",
+      "sha256": "9e41c2ee697a196a668407bda9df3fae549711913cc4d14eecce13071341a851"
+    },
+    {
+      "path": "assets/research/downloads.json",
+      "sha256": "35f3f607a2fc6b8dec7164dd98796945163b99b0a2c0c4a5deb7830946ccda88"
+    },
+    {
+      "path": "assets/research/inventory.json",
+      "sha256": "9b9019f686413f1ea3acba6b2a78dceba805342431c5cd547cd625c104763a6e"
+    },
+    {
+      "path": "assets/sources.md",
+      "sha256": "8e3ace9d1c2c6d2df55d3424a23665c3b5181a6633c68c8ccbdc7cc0900b9483"
+    },
+    {
+      "path": "brand-kit/GoogleSans-Regular.ttf",
+      "sha256": "03db9870a5505f83d81c828768642b816bef24ac615501856de5b2ff1038c0f0"
+    },
+    {
+      "path": "brand-kit/finger.svg",
+      "sha256": "51cf4aa485b1fac647e3fdc3f5cbf60aa606605924502c479cf4796dcae8a097"
+    },
+    {
+      "path": "brand-kit/logo.svg",
+      "sha256": "54fd529cf45c2da64edf0671532cc64cf6f5984ce68b3725b4774f67f47b36f6"
+    },
+    {
+      "path": "brand-kit/sources.json",
+      "sha256": "bab3c49ee3dbe6958a51571cbe4cce5521e246b077e8fbaa04d7f64f480e087b"
+    },
+    {
+      "path": "brand-kit/sources.md",
+      "sha256": "70cceaab334feaf38103cba2bea22583d0341b04b533b493f45a86dc17a275fe"
+    },
+    {
+      "path": "film.tsx",
+      "sha256": "47b24a9e7616b72c631da91d6fea5e2dd84e0cc37db47b5009caeba12968a9e2"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "7ed7c08f397b19d8f942c83d6ef06343aebe2f854fa91aa4353ebbdf5991a19e"
+    },
+    {
+      "path": "package.json",
+      "sha256": "9cd05099991adf9a99493c37beba0a0776ab66669854fbc4edb34d73e7a66b4b"
+    },
+    {
+      "path": "records/audio-edit.json",
+      "sha256": "8856b196fb59d0aadf6d3f1511f97601ad8958fa67d542ab9ec96e055b994b57"
+    },
+    {
+      "path": "records/button-handoff-fix.md",
+      "sha256": "8dccea8d05ef4e7fe789f8197ee7e87af34e91c883abb6b763e9b22b6c557a05"
+    },
+    {
+      "path": "records/composer-handoff.md",
+      "sha256": "0040507662be2207da17ed5d7e213852c5bc784daf0b1be508e75a89ae522b9f"
+    },
+    {
+      "path": "records/finale-glass-button.md",
+      "sha256": "5a48d9b381da969d24c66cd2641893017c243da91cf61ab166655b82d855ac85"
+    },
+    {
+      "path": "records/next-scenes-revision.md",
+      "sha256": "00ea422ba20d98c5da80eb0150194a6239dedbfbedb39c981780610334b33623"
+    },
+    {
+      "path": "src/CreatePlane.tsx",
+      "sha256": "29455c2c55bcf0af3f1d9588b75f35ee768684235dc3d936c9b3c03205886e84"
+    },
+    {
+      "path": "src/Finale.tsx",
+      "sha256": "a859b36ca1640c62b05a59452f460eb55216af0273492b7b8f462de4de98359c"
+    },
+    {
+      "path": "src/Generate.tsx",
+      "sha256": "37aa2a80268a0901a0bf0bd5fe66ec7d47d59fede5e8190df9a7c24982dc8ca3"
+    },
+    {
+      "path": "src/Icons.tsx",
+      "sha256": "e05e4321236936be1db5e2aa68675185eeef93eca766401f14bc1f22c2ed6311"
+    },
+    {
+      "path": "src/Opening.tsx",
+      "sha256": "80dc5ede8e9430f1c2a8f785bc1458d720ad2d321828a7250b1872e8b10bef31"
+    },
+    {
+      "path": "src/Prompt.tsx",
+      "sha256": "a9e42630f727ca059bb18f70edc4ca15af5fcfc5ed4f7298849fe58b6645a33a"
+    },
+    {
+      "path": "src/ScriptVoice.tsx",
+      "sha256": "d15949eb758559bcc33d9e8b653f570af0953fc6851f3637c624087a9254d62f"
+    },
+    {
+      "path": "src/StyleScene.tsx",
+      "sha256": "977664fee5426db2b83ec92796bbfe941ef7e73bcc5c8324857644aa01ebe2be"
+    },
+    {
+      "path": "src/Workflow.tsx",
+      "sha256": "5d2c1e9d433a6b85e28f80838a8eab2e51d77fd90ec49d5c0603885ffcc8dcc7"
+    },
+    {
+      "path": "src/motion.ts",
+      "sha256": "00f79379683d5bf87b3f859d1a3a973a133cd5eaf33889d6c715166ee50f1e40"
+    },
+    {
+      "path": "src/palette.ts",
+      "sha256": "1b47c5cd9c27651b59ed02a3bd60a920ac1de85204720cbc1aeb4ffbb5422899"
+    },
+    {
+      "path": "src/timeline.ts",
+      "sha256": "75bf51ec2109bd8f4af5b7a3ff85a5253f30b873dcd183573e1c0b152dcf2ce0"
+    },
+    {
+      "path": "src/ui.tsx",
+      "sha256": "5b5e2002eb6b29f0d9eb146112e3c426bbf2726e230cf0b01a452009224fe3bf"
+    },
+    {
+      "path": "vendor/launch-video-maker-runtime-0.1.0.tgz",
+      "sha256": "6ccb674202cf8e76f0371fc7442c02f33cf1e5c890709b8b98a3c672753257e9"
+    },
+    {
+      "path": "assets/audio/capsule-flow-bgm-edit.wav",
+      "sha256": "59cc28592fd46b1ae2f5488c00573f7c7e834bc9d366ba932f805e03bada08a8"
+    },
+    {
+      "path": "records/bgm-analysis.json",
+      "sha256": "d07cc47226bd4292f8e8bd0791178e28873628ef6471814c0871f83e7fdb0adb"
+    },
+    {
+      "path": "records/bgm-rework.json",
+      "sha256": "bc8e51e07e268a72d63423889d496af61466d729b700dd91485921a662c83e1f"
+    },
+    {
+      "path": "records/bgm-rework.md",
+      "sha256": "3f3fbc4b3dba5c1ddbe10bf73b72e2c187c7bd142a6d74587e5250b66ab9ea80"
+    }
+  ]
+}

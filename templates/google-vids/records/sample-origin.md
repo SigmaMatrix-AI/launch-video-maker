@@ -1,1 +1,0 @@
-This full-film project continues the user-reviewed 9.4094-second opening reconstruction. Source opening project: google-vids-opening. The opening remains available separately. User requested the entire film on 2026-10-26.

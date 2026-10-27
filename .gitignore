@@ -10,5 +10,5 @@ runtime/dist/
 /films/
 .DS_Store
 
-# The reference template ships its pinned runtime snapshot
-!/templates/google-vids/vendor/launch-video-maker-runtime-0.1.0.tgz
+# Reference templates ship pinned runtime snapshots
+!/templates/*/vendor/launch-video-maker-runtime-0.1.0.tgz
