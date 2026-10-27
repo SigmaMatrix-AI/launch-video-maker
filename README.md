@@ -1,6 +1,6 @@
 # Launch Video Maker
 
-自主制作产品宣传视频的 Agent skill。根据产品证据建立 brand kit，选择独立的 style 和可改造的参考模板，编排分镜、实现 React 影片、处理声音，再进行独立审查。
+自主制作产品宣传视频的 Agent skill。先分析产品用途、受众、卖点与必须展示功能，同步采集真实页面和代表案例，再选择独立的 style 和可改造的参考模板，编排分镜、实现 React 影片、处理声音，再进行独立审查。
 
 运行层采用 **React + TypeScript、统一帧控制、Playwright 与 FFmpeg**，无需 Remotion。预览和导出共用场景源码、资源和预混音频；Player 只负责观看和检查。
 
@@ -8,7 +8,7 @@
 
 可运行的开发版 runtime 已提供工程初始化、资源准备、播放/暂停/逐帧/拖动、静帧采集、MP4 编码、页面采集、声音分析与审查证据包。运行时技术验证、风格验证和商业影片验收是不同层级；测试通过不代表影片已达到商用设计标准。
 
-正式 `templates/`、`styles/` 仍为空。用户提供的初始 style 输入保留在本机 `tests/fixtures/styles/`，不作为已发布资源。验证片在 `runtime/validation/`，只用于开发验证，不参与模板选择。
+内置 [Google Vids 参考模板](templates/google-vids/template.md) 提供完整 React 复刻工程。正式 style 从 `styles/` 发现；`runtime/validation/` 和旧 `tests/fixtures/styles/` 只用于开发验证，不参与正式模板选择。用户影片统一放在 `films/`，由 Git 忽略。
 
 ## 安装与快速开始
 
@@ -21,14 +21,14 @@ npm ci
 npm run build
 node runtime/dist/cli.js doctor
 npx playwright install chromium
-node runtime/dist/cli.js init /absolute/path/to/my-film
-cd /absolute/path/to/my-film
+node runtime/dist/cli.js init films/my-film
+cd films/my-film
 npm ci
 npm run setup
 npm run prepare
 ```
 
-`init` 生成项目源码、`brand-kit/`、制作记录，以及 `vendor/` 内的 runtime 包快照和依赖锁文件。工程移动后仍可独立安装和运行，无需原 skill 目录；安装依赖和 Chromium 需要网络。不要把生成工程放进正式 templates/styles 目录。
+`init` 生成项目源码、`brand-kit/`、制作记录，以及 `vendor/` 内的 runtime 包快照和依赖锁文件。工程移动后仍可独立安装和运行，无需原 skill 目录；安装依赖和 Chromium 需要网络。默认把生成工程放进 `films/`，不要放进正式 templates/styles 目录。
 
 生成工程的 `prepare` 同时是 npm 生命周期脚本，普通 `npm ci` / `npm install` 会自动准备媒体。只安装依赖时用 `npm ci --ignore-scripts`，随后显式执行 `npm run prepare`；有媒体的工程需先备好 FFmpeg。
 
@@ -60,7 +60,9 @@ Agent 从 [SKILL.md](SKILL.md) 开始执行。[运行指南](references/runtime-
 ## 设计原则
 
 - **自主决策。** 不设置阶段确认，只询问不可合理推断的必要信息。
-- **产品和品牌依据优先。** 用户要求与明确品牌规范优先；style 补充设计方向；模板提供实现参考。
+- **产品理解与采集前置。** 第一步明确用途、受众、卖点、必须展示功能与执行约束，同时保存真实截图、关键状态和官网案例；分镜之后只按需补采。
+- **品牌资源保持轻量。** 默认只收集 Logo 与主题色；Logo 作为资源，主题色融入 style 作点缀，真实素材保持原貌。
+- **产品和品牌依据优先。** 用户要求与明确品牌规范优先；参考影片/模板提供动作、镜头、空间调度、布局与节奏；style 提供颜色、字体及兼容的表面视觉表达。
 - **模板可自由改造。** React 源码可增删场景、重排结构或只借用局部实现。
 - **Style 以文档为核心。** 一般只需自由格式 `style.md`；复杂风格可附实现参考。Demo 是风格应用示例，不是模板，无须独立运行，不要求修复其原工程依赖。
 - **素材留在影片工程。** Logo、字体、页面素材、BGM 和来源记录不依赖作者机器上的外部绝对路径。
@@ -85,8 +87,9 @@ LVM_LONG_TEST=1 npx tsx --test runtime/test/long-sync.test.ts
 ```text
 SKILL.md                 Agent 长期执行规则
 references/              制作、品牌、风格、运行与审查约定
-templates/               后续参考模板（空）
-styles/                  后续正式 style 包（空）
+templates/google-vids/   可运行的 Google Vids 参考模板
+styles/                  独立的正式 style 包
+films/                   用户影片与本地实验（Git 忽略）
 runtime/src/             可打包运行核心、媒体、音频、服务、CLI
 runtime/web/             轻量 Player
 runtime/test/            技术测试
