@@ -1,0 +1,99 @@
+{
+  "name": "Showcase03",
+  "node": "showcase",
+  "schema": {
+    "fields": [
+      {
+        "key": "value",
+        "type": "string",
+        "required": true,
+        "maxChars": 40,
+        "desc": "Translation only: the short value bridge pointing to the important substance. Preserve the source meaning; translate naturally, at most 40 characters.",
+        "mode": "translate_only",
+        "source": "What matters",
+        "sourceLanguage": "en"
+      },
+      {
+        "key": "project1",
+        "type": "image",
+        "required": true,
+        "desc": "Portfolio project visual 1: a complete landscape image showing a distinct example of the new topic’s output or use case. Subject remains centered; no captions, border or baked card chrome. Supply original work or a real product capture where relevant. Required: supply this image; project1, project2 and project3 form the minimum three-image showcase.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "16:9",
+          "minWidthPx": 960
+        }
+      },
+      {
+        "key": "project2",
+        "type": "image",
+        "required": true,
+        "desc": "Portfolio project visual 2: a complete landscape image showing a distinct example of the new topic’s output or use case. Subject remains centered; no captions, border or baked card chrome. Supply original work or a real product capture where relevant. Required: supply this image; project1, project2 and project3 form the minimum three-image showcase.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "16:9",
+          "minWidthPx": 960
+        }
+      },
+      {
+        "key": "project3",
+        "type": "image",
+        "required": true,
+        "desc": "Portfolio project visual 3: a complete landscape image showing a distinct example of the new topic’s output or use case. Subject remains centered; no captions, border or baked card chrome. Supply original work or a real product capture where relevant. Required: supply this image; project1, project2 and project3 form the minimum three-image showcase.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "16:9",
+          "minWidthPx": 960
+        }
+      },
+      {
+        "key": "project4",
+        "type": "image",
+        "required": false,
+        "desc": "Portfolio project visual 4: a complete landscape image showing a distinct example of the new topic’s output or use case. Subject remains centered; no captions, border or baked card chrome. Supply original work or a real product capture where relevant. Optional fourth or fifth image; omit when unavailable. The final supplied image becomes the closing hero.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "16:9",
+          "minWidthPx": 960
+        }
+      },
+      {
+        "key": "project5",
+        "type": "image",
+        "required": false,
+        "desc": "Portfolio project visual 5: a complete landscape image showing a distinct example of the new topic’s output or use case. Subject remains centered; no captions, border or baked card chrome. Supply original work or a real product capture where relevant. Optional fourth or fifth image; omit when unavailable. The final supplied image becomes the closing hero.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "16:9",
+          "minWidthPx": 960
+        }
+      }
+    ]
+  },
+  "meta": {
+    "displays": "Point to the important value, then substantiate it with a continuous stack of project examples.",
+    "useWhen": [
+      "Point to the important value, then substantiate it with a continuous stack of project examples."
+    ],
+    "dontUseWhen": [
+      "Use Brand06 for the closing identity."
+    ],
+    "minDuration": 1,
+    "maxDuration": 15,
+    "durationModel": "scene"
+  },
+  "example_data": {
+    "value": "What matters"
+  },
+  "example_narration": "",
+  "example_duration_ms": 3633,
+  "preview_t": 0.89,
+  "example_audio": "boards/Showcase03.mp3",
+  "preview_html": "boards/Showcase03.html",
+  "preview_png": "boards/Showcase03.png"
+}

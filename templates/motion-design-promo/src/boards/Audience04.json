@@ -1,0 +1,120 @@
+{
+  "name": "Audience04",
+  "node": "reach",
+  "schema": {
+    "fields": [
+      {
+        "key": "benefit",
+        "type": "string",
+        "required": true,
+        "maxChars": 64,
+        "desc": "One three-to-five-word benefit sentence that the tool or service enables. Active voice, one line; e.g. Explain your product or Turn ideas into videos. Keep the central idea clear; at most 64 characters.",
+        "mode": "content"
+      },
+      {
+        "key": "promise",
+        "type": "string",
+        "required": true,
+        "maxChars": 64,
+        "desc": "Translation only: preserve the promise to engage an audience. Translate naturally without adding a different product claim; at most 64 characters.",
+        "mode": "translate_only",
+        "source": "Engage your audience",
+        "sourceLanguage": "en"
+      },
+      {
+        "key": "portrait1",
+        "type": "image",
+        "required": false,
+        "desc": "Optional audience illustration: a natural, smiling adult headshot with a simple neutral background. Different people may illustrate audience diversity; this is not an endorsement or customer claim. Keep the face centered with no text. Omit if unsuitable.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "portrait2",
+        "type": "image",
+        "required": false,
+        "desc": "Optional audience illustration: a natural, smiling adult headshot with a simple neutral background. Different people may illustrate audience diversity; this is not an endorsement or customer claim. Keep the face centered with no text. Omit if unsuitable.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "portrait3",
+        "type": "image",
+        "required": false,
+        "desc": "Optional audience illustration: a natural, smiling adult headshot with a simple neutral background. Different people may illustrate audience diversity; this is not an endorsement or customer claim. Keep the face centered with no text. Omit if unsuitable.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "portrait4",
+        "type": "image",
+        "required": false,
+        "desc": "Optional audience illustration: a natural, smiling adult headshot with a simple neutral background. Different people may illustrate audience diversity; this is not an endorsement or customer claim. Keep the face centered with no text. Omit if unsuitable.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "portrait5",
+        "type": "image",
+        "required": false,
+        "desc": "Optional audience illustration: a natural, smiling adult headshot with a simple neutral background. Different people may illustrate audience diversity; this is not an endorsement or customer claim. Keep the face centered with no text. Omit if unsuitable.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "portrait6",
+        "type": "image",
+        "required": false,
+        "desc": "Optional audience illustration: a natural, smiling adult headshot with a simple neutral background. Different people may illustrate audience diversity; this is not an endorsement or customer claim. Keep the face centered with no text. Omit if unsuitable.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      }
+    ]
+  },
+  "meta": {
+    "displays": "State one practical benefit, then connect it to an engaged audience using illustrative people.",
+    "useWhen": [
+      "State one practical benefit, then connect it to an engaged audience using illustrative people."
+    ],
+    "dontUseWhen": [
+      "Use Brand06 for the closing identity."
+    ],
+    "minDuration": 1,
+    "maxDuration": 15,
+    "durationModel": "scene"
+  },
+  "example_data": {
+    "benefit": "Explain your product",
+    "promise": "Engage your audience"
+  },
+  "example_narration": "",
+  "example_duration_ms": 4367,
+  "preview_t": 0.92,
+  "example_audio": "boards/Audience04.mp3",
+  "preview_html": "boards/Audience04.html",
+  "preview_png": "boards/Audience04.png"
+}

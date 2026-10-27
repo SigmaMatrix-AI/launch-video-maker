@@ -1,0 +1,156 @@
+{
+  "name": "Portfolio02",
+  "node": "proof",
+  "schema": {
+    "fields": [
+      {
+        "key": "promise",
+        "type": "string",
+        "required": true,
+        "maxChars": 60,
+        "desc": "One concise promise about the new topic’s power to communicate, set on one line; punchy and clear, e.g. Design that speaks fast or Stories made in minutes; at most 60 characters.",
+        "mode": "content"
+      },
+      {
+        "key": "reveal",
+        "type": "string",
+        "required": true,
+        "maxChars": 20,
+        "desc": "Translation only: a short verb introducing visual proof. Preserve its source meaning; at most 20 characters.",
+        "mode": "translate_only",
+        "source": "Show",
+        "sourceLanguage": "en"
+      },
+      {
+        "key": "art1",
+        "type": "image",
+        "required": true,
+        "desc": "Required portfolio visual: one complete, text-free artwork or product-related image. Keep the subject centered, with no logos or card border. Replace for the new topic when needed. Supply this image; art1 through art6 form the minimum six-image constellation.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "art2",
+        "type": "image",
+        "required": true,
+        "desc": "Required portfolio visual: one complete, text-free artwork or product-related image. Keep the subject centered, with no logos or card border. Replace for the new topic when needed. Supply this image; art1 through art6 form the minimum six-image constellation.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "art3",
+        "type": "image",
+        "required": true,
+        "desc": "Required portfolio visual: one complete, text-free artwork or product-related image. Keep the subject centered, with no logos or card border. Replace for the new topic when needed. Supply this image; art1 through art6 form the minimum six-image constellation.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "art4",
+        "type": "image",
+        "required": true,
+        "desc": "Required portfolio visual: one complete, text-free artwork or product-related image. Keep the subject centered, with no logos or card border. Replace for the new topic when needed. Supply this image; art1 through art6 form the minimum six-image constellation.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "art5",
+        "type": "image",
+        "required": true,
+        "desc": "Required portfolio visual: one complete, text-free artwork or product-related image. Keep the subject centered, with no logos or card border. Replace for the new topic when needed. Supply this image; art1 through art6 form the minimum six-image constellation.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "art6",
+        "type": "image",
+        "required": true,
+        "desc": "Required portfolio visual: one complete, text-free artwork or product-related image. Keep the subject centered, with no logos or card border. Replace for the new topic when needed. Supply this image; art1 through art6 form the minimum six-image constellation.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "art7",
+        "type": "image",
+        "required": false,
+        "desc": "Optional additional portfolio visual: one complete, text-free artwork or product-related image. Keep the subject centered, with no logos or card border. Replace for the new topic when needed. Leave empty when unavailable; each supplied slot renders once, with no duplication or filler.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "art8",
+        "type": "image",
+        "required": false,
+        "desc": "Optional additional portfolio visual: one complete, text-free artwork or product-related image. Keep the subject centered, with no logos or card border. Replace for the new topic when needed. Leave empty when unavailable; each supplied slot renders once, with no duplication or filler.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      },
+      {
+        "key": "art9",
+        "type": "image",
+        "required": false,
+        "desc": "Optional additional portfolio visual: one complete, text-free artwork or product-related image. Keep the subject centered, with no logos or card border. Replace for the new topic when needed. Leave empty when unavailable; each supplied slot renders once, with no duplication or filler.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "1:1",
+          "minWidthPx": 600
+        }
+      }
+    ]
+  },
+  "meta": {
+    "displays": "State the communication promise and show a constellation of relevant examples.",
+    "useWhen": [
+      "State the communication promise and show a constellation of relevant examples."
+    ],
+    "dontUseWhen": [
+      "Use Brand06 for the closing identity."
+    ],
+    "minDuration": 0.5,
+    "maxDuration": 6,
+    "durationModel": "scene"
+  },
+  "example_data": {
+    "promise": "Design that speaks fast",
+    "reveal": "Show"
+  },
+  "example_narration": "",
+  "example_duration_ms": 2000,
+  "preview_t": 0.85,
+  "example_audio": "boards/Portfolio02.mp3",
+  "preview_html": "boards/Portfolio02.html",
+  "preview_png": "boards/Portfolio02.png"
+}

@@ -1,0 +1,104 @@
+{
+  "scenes": [
+    {
+      "id": "Intro01",
+      "start": 0,
+      "end": 225,
+      "data": {
+        "title": "Ideas",
+        "phrase": "take form and become",
+        "result": "Good finds",
+        "connector": "Through"
+      },
+      "media": {}
+    },
+    {
+      "id": "Portfolio02",
+      "start": 225,
+      "end": 360,
+      "data": {
+        "promise": "Good design. Everyday.",
+        "reveal": "Show"
+      },
+      "media": {
+        "art1": "cup",
+        "art2": "headphones",
+        "art3": "lamp",
+        "art4": "speaker",
+        "art5": "sneakers",
+        "art6": "tote"
+      }
+    },
+    {
+      "id": "Showcase03",
+      "start": 360,
+      "end": 555,
+      "data": {
+        "value": "What matters"
+      },
+      "media": {
+        "project1": "scene-home",
+        "project2": "scene-collection",
+        "project3": "storefront",
+        "project4": "scene-home",
+        "project5": "storefront"
+      }
+    },
+    {
+      "id": "Audience04",
+      "start": 555,
+      "end": 795,
+      "data": {
+        "benefit": "Make life beautiful",
+        "promise": "Engage your audience"
+      },
+      "media": {
+        "portrait1": "person1",
+        "portrait2": "person2",
+        "portrait3": "person3",
+        "portrait4": "person4",
+        "portrait5": "person5",
+        "portrait6": "person6"
+      }
+    },
+    {
+      "id": "Conversion05",
+      "start": 795,
+      "end": 1080,
+      "data": {
+        "invitation": "Let\u2019s",
+        "action": "Create",
+        "query": "SHIQU design finds",
+        "cta": "Find your next favorite"
+      },
+      "media": {}
+    },
+    {
+      "id": "Brand06",
+      "start": 1080,
+      "end": 1200,
+      "data": {},
+      "media": {
+        "logo": "logo"
+      }
+    }
+  ],
+  "images": {
+    "cup": "assets/media/cup.png",
+    "headphones": "assets/media/headphones.png",
+    "lamp": "assets/media/lamp.png",
+    "speaker": "assets/media/speaker.png",
+    "sneakers": "assets/media/sneakers.png",
+    "tote": "assets/media/tote.png",
+    "scene-home": "assets/media/scene-home.png",
+    "scene-collection": "assets/media/scene-collection.png",
+    "storefront": "assets/media/storefront.png",
+    "person1": "assets/media/person1.png",
+    "person2": "assets/media/person2.png",
+    "person3": "assets/media/person3.png",
+    "person4": "assets/media/person4.png",
+    "person5": "assets/media/person5.png",
+    "person6": "assets/media/person6.png",
+    "logo": "assets/media/logo.png"
+  }
+}

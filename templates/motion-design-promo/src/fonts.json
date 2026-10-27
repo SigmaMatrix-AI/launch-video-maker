@@ -1,0 +1,50 @@
+[
+  {
+    "id": "font-0",
+    "kind": "font",
+    "family": "Inter 400",
+    "src": "assets/fonts/Inter-400.woff2"
+  },
+  {
+    "id": "font-1",
+    "kind": "font",
+    "family": "Inter 800",
+    "src": "assets/fonts/Inter-800.woff2"
+  },
+  {
+    "id": "font-2",
+    "kind": "font",
+    "family": "Noto Sans SC I18n A 400",
+    "src": "assets/fonts/NotoSansSC-I18nA-400.woff2"
+  },
+  {
+    "id": "font-3",
+    "kind": "font",
+    "family": "Noto Sans SC I18n B 400",
+    "src": "assets/fonts/NotoSansSC-I18nB-400.woff2"
+  },
+  {
+    "id": "font-4",
+    "kind": "font",
+    "family": "Noto Sans SC I18n C 400",
+    "src": "assets/fonts/NotoSansSC-I18nC-400.woff2"
+  },
+  {
+    "id": "font-5",
+    "kind": "font",
+    "family": "Noto Sans SC I18n A 800",
+    "src": "assets/fonts/NotoSansSC-I18nA-800.woff2"
+  },
+  {
+    "id": "font-6",
+    "kind": "font",
+    "family": "Noto Sans SC I18n B 800",
+    "src": "assets/fonts/NotoSansSC-I18nB-800.woff2"
+  },
+  {
+    "id": "font-7",
+    "kind": "font",
+    "family": "Noto Sans SC I18n C 800",
+    "src": "assets/fonts/NotoSansSC-I18nC-800.woff2"
+  }
+]

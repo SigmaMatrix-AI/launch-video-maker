@@ -1,0 +1,200 @@
+{
+  "origin": "user-provided motion-design-promo-01",
+  "sourceFiles": [
+    {
+      "source": "template/boards/Intro01.jsx",
+      "path": "src/boards/Intro01.jsx",
+      "sha256": "5fbe6825427564265556e3166b4738c2aaa6dfb978dfc6613692fa7adc24d346"
+    },
+    {
+      "source": "template/boards/Portfolio02.jsx",
+      "path": "src/boards/Portfolio02.jsx",
+      "sha256": "5055ccb3a48bf4c94d5787c36a343e2ecb36207cc6294e19ebd5442afa0b9cb7"
+    },
+    {
+      "source": "template/boards/Brand06.jsx",
+      "path": "src/boards/Brand06.jsx",
+      "sha256": "c6be026d14f2e51d829a2ce14bc669ba9da829bea62498339666c9a4ad578cac"
+    },
+    {
+      "source": "template/boards/Showcase03.jsx",
+      "path": "src/boards/Showcase03.jsx",
+      "sha256": "2a484267b90a8e0193596564fd744f63ea1d7f527d78fa28c6abe0f1e9558888"
+    },
+    {
+      "source": "template/boards/Audience04.jsx",
+      "path": "src/boards/Audience04.jsx",
+      "sha256": "ed62e08339165a73d9bfd93698fc199995db2692093dd7bb1a85fd7415417dce"
+    },
+    {
+      "source": "template/boards/Conversion05.jsx",
+      "path": "src/boards/Conversion05.jsx",
+      "sha256": "09d2eb260e2302f3a89e0d731e3f3d33116a886b0ace465ac999c1b3554d3ee9"
+    },
+    {
+      "source": "template/boards/Intro01.json",
+      "path": "src/boards/Intro01.json",
+      "sha256": "2384f6d33d65b9df408e161d529821527897cacf37e5f996b848bb6de0c19c0b"
+    },
+    {
+      "source": "template/boards/Showcase03.json",
+      "path": "src/boards/Showcase03.json",
+      "sha256": "3f4d8723257de8d20dac6793daddf2a867e5903b64f4077106c1fc91eb9efec1"
+    },
+    {
+      "source": "template/boards/Portfolio02.json",
+      "path": "src/boards/Portfolio02.json",
+      "sha256": "efa8c56b996211a0ea9e5a2adc8d7daa5ad23cb0b8b3f8647a81b1b1876de06b"
+    },
+    {
+      "source": "template/boards/Audience04.json",
+      "path": "src/boards/Audience04.json",
+      "sha256": "5e97caafc37055db174b93fa2887c11bb3cfd97334841d86872ed57510b1469a"
+    },
+    {
+      "source": "template/boards/Conversion05.json",
+      "path": "src/boards/Conversion05.json",
+      "sha256": "dc52b2ec7ed9304434f3bd09177b1d34306eb72e89eba61349fa6bcb64ae71ab"
+    },
+    {
+      "source": "template/boards/Brand06.json",
+      "path": "src/boards/Brand06.json",
+      "sha256": "439fe7967c751a11daaff94914fcd8b52310b312c5a6b5b43199bc62b54dc5e7"
+    },
+    {
+      "source": "template/design.js",
+      "path": "src/design.js",
+      "sha256": "d46346d913d2e20167398205d6d12ab8c2a3e7cd7848517091a235b57c68df30"
+    },
+    {
+      "source": "template/fonts/Inter-400.woff2",
+      "path": "assets/fonts/Inter-400.woff2",
+      "sha256": "48a0c2503a9c8ec4153302693fff56b3281aba5ce5afd7cf2bd51a03b098cd22"
+    },
+    {
+      "source": "template/fonts/Inter-800.woff2",
+      "path": "assets/fonts/Inter-800.woff2",
+      "sha256": "713403e7d227a0fc231322cbd70e46601ceda4a514f08d19896a3029c2eefed9"
+    },
+    {
+      "source": "template/fonts/NotoSansSC-I18nA-400.woff2",
+      "path": "assets/fonts/NotoSansSC-I18nA-400.woff2",
+      "sha256": "a056f6f7106b2370481ff333f0bcb5718fa5a5c60d0ba322b525a7687e518a0f"
+    },
+    {
+      "source": "template/fonts/NotoSansSC-I18nB-400.woff2",
+      "path": "assets/fonts/NotoSansSC-I18nB-400.woff2",
+      "sha256": "070aabecc58d214599fef2c5401cbdf533878a93372b73ca9c80bdc747ea7870"
+    },
+    {
+      "source": "template/fonts/NotoSansSC-I18nC-400.woff2",
+      "path": "assets/fonts/NotoSansSC-I18nC-400.woff2",
+      "sha256": "605775f04b3b737ee966509094d8ec997651f6253208856664e5eb0e3422440f"
+    },
+    {
+      "source": "template/fonts/NotoSansSC-I18nA-800.woff2",
+      "path": "assets/fonts/NotoSansSC-I18nA-800.woff2",
+      "sha256": "eb5d568e61e2c8987a94230606fbaa25a152e3d401fc14e6a45fe7234689312a"
+    },
+    {
+      "source": "template/fonts/NotoSansSC-I18nB-800.woff2",
+      "path": "assets/fonts/NotoSansSC-I18nB-800.woff2",
+      "sha256": "a4cba689f45355084fde348f548e6607d2709c9394e10e8b9c67730c910e5389"
+    },
+    {
+      "source": "template/fonts/NotoSansSC-I18nC-800.woff2",
+      "path": "assets/fonts/NotoSansSC-I18nC-800.woff2",
+      "sha256": "d2de3de67e3662e94ab718216a9e68a7bd8ec1b6ba31bd47a508db64c525b706"
+    },
+    {
+      "source": "props/shiqu-shopping/media/cup.png",
+      "path": "assets/media/cup.png",
+      "sha256": "a1bb9d9668ca02c4b7114e60c82239c7c60c48cfae7a76700d7760e27b116b0e"
+    },
+    {
+      "source": "props/shiqu-shopping/media/headphones.png",
+      "path": "assets/media/headphones.png",
+      "sha256": "005237748f5ed2b36d2a721da3a1e75046bfc297dbd46fe45fb9d9b52a2864ef"
+    },
+    {
+      "source": "props/shiqu-shopping/media/lamp.png",
+      "path": "assets/media/lamp.png",
+      "sha256": "8ad4ad9af8af9892db319de9f395b27c5d8c64f39a58da46cd765835018901b4"
+    },
+    {
+      "source": "props/shiqu-shopping/media/speaker.png",
+      "path": "assets/media/speaker.png",
+      "sha256": "b67ca0b00f73523ecc69ba62c6d71de4c8ded8a3027aae76528ff63d97066611"
+    },
+    {
+      "source": "props/shiqu-shopping/media/sneakers.png",
+      "path": "assets/media/sneakers.png",
+      "sha256": "a8906f84e70830ed6bb343f373874eba7f5091e0d2a04cc5aca0d1769c8d28d7"
+    },
+    {
+      "source": "props/shiqu-shopping/media/tote.png",
+      "path": "assets/media/tote.png",
+      "sha256": "a11cd3d76668ea5b37c21bf40d54d0b1c93e627755f5a6845f3d3ff969254d45"
+    },
+    {
+      "source": "props/shiqu-shopping/media/scene-home.png",
+      "path": "assets/media/scene-home.png",
+      "sha256": "fcdadf947c196bdba7c373f7cbfe41313f4cc346c5ab3c2561820ce4205de784"
+    },
+    {
+      "source": "props/shiqu-shopping/media/scene-collection.png",
+      "path": "assets/media/scene-collection.png",
+      "sha256": "51143391a97989da2ac02a558d7ff8a77c8f43d3276844e3f48a32030a6eb1fa"
+    },
+    {
+      "source": "props/shiqu-shopping/media/storefront.png",
+      "path": "assets/media/storefront.png",
+      "sha256": "c578ff94da814b246d71251ee7bc7f5d2b6bbc1667a32a9ed4a2a4cafce6e3b2"
+    },
+    {
+      "source": "props/shiqu-shopping/media/person1.png",
+      "path": "assets/media/person1.png",
+      "sha256": "1177f9e03fc0d2715f194b3dad6c32a3c7a0d10e0dcab20aec02261639c5adc7"
+    },
+    {
+      "source": "props/shiqu-shopping/media/person2.png",
+      "path": "assets/media/person2.png",
+      "sha256": "7d525355dd27e53c545a824f02085a1570f4bfb98135a5fc0570437fbeabcea1"
+    },
+    {
+      "source": "props/shiqu-shopping/media/person3.png",
+      "path": "assets/media/person3.png",
+      "sha256": "7e47bb1a9028d5fd52eae4a8eed5266e76c0e354e2d65a168bf951ca57409b95"
+    },
+    {
+      "source": "props/shiqu-shopping/media/person4.png",
+      "path": "assets/media/person4.png",
+      "sha256": "00b110722b5324ece69ca8452a99de0994084bcb2f4983e136a0e6e8c22c6b64"
+    },
+    {
+      "source": "props/shiqu-shopping/media/person5.png",
+      "path": "assets/media/person5.png",
+      "sha256": "b10040a42df5bd575c852def0154403df6aca95032ee171cd012c364baea27c5"
+    },
+    {
+      "source": "props/shiqu-shopping/media/person6.png",
+      "path": "assets/media/person6.png",
+      "sha256": "29f2b729522a2105b8e0b8a7d3407f2c04b0017a1a6f52787c5321f7e5020bd1"
+    },
+    {
+      "source": "props/shiqu-shopping/media/logo.png",
+      "path": "assets/media/logo.png",
+      "sha256": "bf1ae84ea27aa20918daa5f7d2850f3459c6e85d9cf8a4b7b4b8665f31702824"
+    },
+    {
+      "source": "props/shiqu-shopping/music-master.wav",
+      "path": "assets/audio/music-master.wav",
+      "sha256": "9abfbbfa5e2bd91d84f0a806c39fa487351208b331bdbe66078f5df047961d53"
+    }
+  ],
+  "referenceVideo": {
+    "path": "props/shiqu-shopping/shiqu-shopping-six-images.mp4",
+    "sha256": "3e80496da36d4def7022c038d4fcf2e89b0087ea0fc2d79b0fc468f169f6b853"
+  },
+  "boardPatch": "Only Type font family selects per-weight aliases; fontWeight 400 and fontSynthesis none select original physical font without synthetic bold. No motion parameters changed."
+}
