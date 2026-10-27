@@ -5,3 +5,10 @@ runtime/dist/
 .lvm/
 .lvm-test-*/
 *.tgz
+
+# Generated user films and local experiments
+/films/
+.DS_Store
+
+# The reference template ships its pinned runtime snapshot
+!/templates/google-vids/vendor/launch-video-maker-runtime-0.1.0.tgz
