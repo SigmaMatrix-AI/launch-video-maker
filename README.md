@@ -8,7 +8,7 @@
 
 可运行的开发版 runtime 已提供工程初始化、资源准备、播放/暂停/逐帧/拖动、静帧采集、MP4 编码、页面采集、声音分析与审查证据包。运行时技术验证、风格验证和商业影片验收是不同层级；测试通过不代表影片已达到商用设计标准。
 
-内置 [Google Vids 参考模板](templates/google-vids/template.md) 提供完整 React 复刻工程。正式 style 从 `styles/` 发现；`runtime/validation/` 和旧 `tests/fixtures/styles/` 只用于开发验证，不参与正式模板选择。用户影片统一放在 `films/`，由 Git 忽略。
+内置参考模板提供可复用的 React 工程；[Motion Design Promo](templates/motion-design-promo/template.md) 提供保留既有 20 秒节奏的动感文字与案例展示模板。[Capsule Flow](templates/capsule-flow/template.md) provides the revised 82-second capsule-to-composer promo with plane transitions and a frosted logo button. 正式 style 从 `styles/` 发现；`runtime/validation/` 和旧 `tests/fixtures/styles/` 只用于开发验证，不参与正式模板选择。用户影片统一放在 `films/`，由 Git 忽略。
 
 ## 安装与快速开始
 
@@ -87,7 +87,7 @@ LVM_LONG_TEST=1 npx tsx --test runtime/test/long-sync.test.ts
 ```text
 SKILL.md                 Agent 长期执行规则
 references/              制作、品牌、风格、运行与审查约定
-templates/google-vids/   可运行的 Google Vids 参考模板
+templates/               可运行参考模板及各自的适配指南
 styles/                  独立的正式 style 包
 films/                   用户影片与本地实验（Git 忽略）
 runtime/src/             可打包运行核心、媒体、音频、服务、CLI
@@ -112,3 +112,7 @@ Git 不追踪空目录；clone 后空目录可能不存在，Agent 将其视为�
 提交时说明实际行为变化、可复现验证和剩余限制。参考内容及素材需记录来源和许可；不提交生成缓存或把未经验证的审美结果写成“通过”。
 
 本仓库尚未指定许可证，未提供 `LICENSE`。第三方依赖及引用素材各自的许可仍须遵守；不要据此假设本项目采用 MIT 或 Apache 许可。
+
+- [SaaS Breathing Showcase](templates/saas-breathing-showcase/template.md)：31 秒页面透视、错位漂移、星形收拢与长停顿参考；支持本地页面和原生文案替换。
+
+- [Product Launch Lavender](templates/product-launch-lavender/template.md)：已定稿 v1.0.0；31 秒淡紫产品发布模板，连续页面、边缘环绕阵列、等轴页面墙与圆形交织花标。
