@@ -1,0 +1,228 @@
+{
+  "sourceSHA256": "8eaa4fa4fa34a35ed9fe5c750f632c120d3130431837ea10fb77243a01062422",
+  "sourceName": "preview_540p_crf22_higher_quality (1).mp4",
+  "sourceDuration": 31,
+  "sourceFPS": 30,
+  "historicalProject": "saas-promo-01",
+  "excludedRevision": "current 23.4-second v5 redesign",
+  "media": [
+    {
+      "asset": "00-heroScreen",
+      "origin": "analysis/media/heroScreen.mp4",
+      "sourceStartFrame": 25,
+      "sourceEndFrame": 88,
+      "sha256": "61335257aa8c6f87266d3f53821dfacdb4f70b44cea1fe76a43e6560427de40a"
+    },
+    {
+      "asset": "01-overviewScreen",
+      "origin": "analysis/media/overviewScreen.mp4",
+      "sourceStartFrame": 78,
+      "sourceEndFrame": 148,
+      "sha256": "87272191497eb892772337a66fe2e3a5efe533fe166d02250a24f25d781e6316"
+    },
+    {
+      "asset": "02-potentialScreen",
+      "origin": "analysis/media/potentialScreen.mp4",
+      "sourceStartFrame": 78,
+      "sourceEndFrame": 151,
+      "sha256": "edd5622295b3c39ee536b1a49185a5b29e228d807d802a2df9d570376cd6294c"
+    },
+    {
+      "asset": "03-integrationScreen",
+      "origin": "analysis/media/integrationScreen.mp4",
+      "sourceStartFrame": 78,
+      "sourceEndFrame": 163,
+      "sha256": "b6a6324d9ed575ee90fa0aaf02d5c5f6a09a4627b59739a919291edf4a9c933f"
+    },
+    {
+      "asset": "04-dashboardScreen",
+      "origin": "analysis/media/dashboardScreen.mp4",
+      "sourceStartFrame": 79,
+      "sourceEndFrame": 171,
+      "sha256": "4a5695b6bfb614dd06cb5c336577ed13d0ad78f026122230f2700cb9db602a24"
+    },
+    {
+      "asset": "05-assistantScreen",
+      "origin": "analysis/media/assistantScreen.mp4",
+      "sourceStartFrame": 135,
+      "sourceEndFrame": 175,
+      "sha256": "1b286ebcbb01752d777c34b7750e20f75973c315c8e2af2410f4fac226f1be28"
+    },
+    {
+      "asset": "06-capabilityScreen",
+      "origin": "analysis/media/capabilityScreen.mp4",
+      "sourceStartFrame": 166,
+      "sourceEndFrame": 238,
+      "sha256": "dc158d5af46c3ef1a40f17423143d99ecac2f1226f790ccf455ffcda8a63b99c"
+    },
+    {
+      "asset": "07-featureBack",
+      "origin": "user reference video, re-extracted with corrected per-card quadrilaterals",
+      "sourceStartFrame": 217,
+      "sourceEndFrame": 345,
+      "sha256": "72689b8a92ab9d68784dd5f527a2ba189ca51a97de4b13cd0c5c8b4931ac5f5d",
+      "resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "08-featureMiddle",
+      "origin": "user reference video, re-extracted with corrected per-card quadrilaterals",
+      "sourceStartFrame": 217,
+      "sourceEndFrame": 345,
+      "sha256": "964a6340dc8df11a6cc4e18a0fc51508047978a6c46a98ff750237de0731706c",
+      "resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "09-featureFront",
+      "origin": "user reference video, re-extracted with corrected per-card quadrilaterals",
+      "sourceStartFrame": 217,
+      "sourceEndFrame": 345,
+      "sha256": "fdadd5c59aca448d0b0c6221da2dfd133bd32e698fc1d099a5fba0aa488e6f45",
+      "resolution": [
+        960,
+        540
+      ]
+    },
+    {
+      "asset": "10-proofScreen",
+      "origin": "analysis/media/proofScreen.mp4",
+      "sourceStartFrame": 337,
+      "sourceEndFrame": 442,
+      "sha256": "8cf4fe2bc1af74518240b47b80a604cf8d5f43f377bac6f28db38793a12cf53b"
+    },
+    {
+      "asset": "11-pricingScreen",
+      "origin": "analysis/media/pricingScreen.mp4",
+      "sourceStartFrame": 423,
+      "sourceEndFrame": 519,
+      "sha256": "7e609178d04b81add8cf48bb553fd0ad49c5ac73e3157b22e9d4207e5204fb7c"
+    },
+    {
+      "asset": "12-integrationScreen",
+      "origin": "analysis/media/integrationScreen.mp4",
+      "sourceStartFrame": 514,
+      "sourceEndFrame": 580,
+      "sha256": "9227cf34d731331ae32421d39dcb59df412590dca84e6cf57c1d4d6b5483c336"
+    },
+    {
+      "asset": "13-featureMiddle",
+      "origin": "analysis/media/featureMiddle.mp4",
+      "sourceStartFrame": 514,
+      "sourceEndFrame": 580,
+      "sha256": "861e6318036ca32e520b110ed8af27af970d790fd3081c8c095e60c9f77eb235"
+    },
+    {
+      "asset": "14-dashboardScreen",
+      "origin": "analysis/media/dashboardScreen.mp4",
+      "sourceStartFrame": 514,
+      "sourceEndFrame": 580,
+      "sha256": "4dd50270b4f0191625eadd1d60e217997290d50d7d7879bfc801196111315567"
+    },
+    {
+      "asset": "15-detailScreen",
+      "origin": "analysis/media/detailScreen.mp4",
+      "sourceStartFrame": 514,
+      "sourceEndFrame": 580,
+      "sha256": "703a3cb7c1ef5de68876acead06caf361d1c167f3a6f2fc0eb837c610154378b"
+    },
+    {
+      "asset": "16-useCaseFive",
+      "origin": "analysis/media/useCaseFive.mp4",
+      "sourceStartFrame": 514,
+      "sourceEndFrame": 580,
+      "sha256": "97df0544ce1f615ca79e4c151a4348b153885ed8dfa94ff1e779acb0614b6188"
+    },
+    {
+      "asset": "17-galleryScreen",
+      "origin": "analysis/media/galleryScreen.mp4",
+      "sourceStartFrame": 577,
+      "sourceEndFrame": 631,
+      "sha256": "7fb3a74bcebe54370af57234f01ef4b46e0dc325a347ee0cf80a634ce3d8bb03"
+    },
+    {
+      "asset": "18-proofScreen",
+      "origin": "analysis/media/proofScreen.mp4",
+      "sourceStartFrame": 627,
+      "sourceEndFrame": 745,
+      "sha256": "d53abf3d0eb8c5866dfa35da2368b68a2bf21e4c6617aea1752378b7fef12679"
+    },
+    {
+      "asset": "19-galleryScreen",
+      "origin": "analysis/media/galleryScreen.mp4",
+      "sourceStartFrame": 627,
+      "sourceEndFrame": 745,
+      "sha256": "a01adaf472a31d7903d1dd42517e66d31dfcabf02e7a2403d8b4a7174a063fda"
+    },
+    {
+      "asset": "20-capabilityScreen",
+      "origin": "analysis/media/capabilityScreen.mp4",
+      "sourceStartFrame": 627,
+      "sourceEndFrame": 745,
+      "sha256": "9113e05b2520315a1827639eca6aecba9a178676aedd44c1ae7434d733385f6b"
+    },
+    {
+      "asset": "21-workflowSide",
+      "origin": "analysis/media/workflowSide.mp4",
+      "sourceStartFrame": 627,
+      "sourceEndFrame": 745,
+      "sha256": "c9f2db073588d83735765d6e7ca744d72f16e612ab970f37029ed02841dc58ea"
+    },
+    {
+      "asset": "22-featureBack",
+      "origin": "analysis/media/featureBack.mp4",
+      "sourceStartFrame": 627,
+      "sourceEndFrame": 745,
+      "sha256": "d8afb8f8f92d7af86a36a3691ab14b1d7a8065a78810f216feffad9baa31bb33"
+    },
+    {
+      "asset": "23-detailScreen",
+      "origin": "analysis/media/detailScreen.mp4",
+      "sourceStartFrame": 739,
+      "sourceEndFrame": 789,
+      "sha256": "cb8786a540673f0e593086294273124f90c3027787bcff67f348b48e017e9a20"
+    }
+  ],
+  "extractionLimit": "Reference-only surfaces were inverse-projected from the supplied 540p video. Occluded or offscreen pixels are not recovered; some reflected occlusion/blur remains. Replace with clean captures when applying to a product. Full-frame source video is not an asset.",
+  "derivedData": {
+    "tracks": "Original 31s analysis/tracks.json; measured quadrilaterals in seconds and 960x540 pixels",
+    "background": "Original analysis/background.json; interpolated 24x14 color field at 10Hz",
+    "star": "Source white silhouette sampled into 96 polar points per frame from 26.5s; used from 26.9s; final contour stabilized after 29s",
+    "headlines": "Native text with measured positions and local Plus Jakarta Sans weights 600/800",
+    "audio": "First 31 seconds decoded to stereo 48kHz float WAV; playback gain 0.75",
+    "layerCorrection": "07/08/09 card silhouettes remeasured against source, including exit shapes; matched inverse-projection and rendering quads. Middle bottom edge at9s corrected to385px."
+  },
+  "assetHashes": {
+    "assets/audio/reference.wav": "51be61832d75dda2508ce474117b05ce39a0797e3e87b7b2c2df549c11a58ae4",
+    "assets/fonts/PlusJakartaSans-600.woff2": "e76419f92a0901836849d2a04572af7cff6cd25c7bd54354a51a114a92c7a415",
+    "assets/fonts/PlusJakartaSans-800.woff2": "bfbc2121e1db00a856600ad088421fdf6e9c0e8b907c8c523ee8c1cfef75c76d",
+    "assets/screens/00-heroScreen.mp4": "61335257aa8c6f87266d3f53821dfacdb4f70b44cea1fe76a43e6560427de40a",
+    "assets/screens/01-overviewScreen.mp4": "87272191497eb892772337a66fe2e3a5efe533fe166d02250a24f25d781e6316",
+    "assets/screens/02-potentialScreen.mp4": "edd5622295b3c39ee536b1a49185a5b29e228d807d802a2df9d570376cd6294c",
+    "assets/screens/03-integrationScreen.mp4": "b6a6324d9ed575ee90fa0aaf02d5c5f6a09a4627b59739a919291edf4a9c933f",
+    "assets/screens/04-dashboardScreen.mp4": "4a5695b6bfb614dd06cb5c336577ed13d0ad78f026122230f2700cb9db602a24",
+    "assets/screens/05-assistantScreen.mp4": "1b286ebcbb01752d777c34b7750e20f75973c315c8e2af2410f4fac226f1be28",
+    "assets/screens/06-capabilityScreen.mp4": "dc158d5af46c3ef1a40f17423143d99ecac2f1226f790ccf455ffcda8a63b99c",
+    "assets/screens/07-featureBack.mp4": "72689b8a92ab9d68784dd5f527a2ba189ca51a97de4b13cd0c5c8b4931ac5f5d",
+    "assets/screens/08-featureMiddle.mp4": "964a6340dc8df11a6cc4e18a0fc51508047978a6c46a98ff750237de0731706c",
+    "assets/screens/09-featureFront.mp4": "fdadd5c59aca448d0b0c6221da2dfd133bd32e698fc1d099a5fba0aa488e6f45",
+    "assets/screens/10-proofScreen.mp4": "8cf4fe2bc1af74518240b47b80a604cf8d5f43f377bac6f28db38793a12cf53b",
+    "assets/screens/11-pricingScreen.mp4": "7e609178d04b81add8cf48bb553fd0ad49c5ac73e3157b22e9d4207e5204fb7c",
+    "assets/screens/12-integrationScreen.mp4": "9227cf34d731331ae32421d39dcb59df412590dca84e6cf57c1d4d6b5483c336",
+    "assets/screens/13-featureMiddle.mp4": "861e6318036ca32e520b110ed8af27af970d790fd3081c8c095e60c9f77eb235",
+    "assets/screens/14-dashboardScreen.mp4": "4dd50270b4f0191625eadd1d60e217997290d50d7d7879bfc801196111315567",
+    "assets/screens/15-detailScreen.mp4": "703a3cb7c1ef5de68876acead06caf361d1c167f3a6f2fc0eb837c610154378b",
+    "assets/screens/16-useCaseFive.mp4": "97df0544ce1f615ca79e4c151a4348b153885ed8dfa94ff1e779acb0614b6188",
+    "assets/screens/17-galleryScreen.mp4": "7fb3a74bcebe54370af57234f01ef4b46e0dc325a347ee0cf80a634ce3d8bb03",
+    "assets/screens/18-proofScreen.mp4": "d53abf3d0eb8c5866dfa35da2368b68a2bf21e4c6617aea1752378b7fef12679",
+    "assets/screens/19-galleryScreen.mp4": "a01adaf472a31d7903d1dd42517e66d31dfcabf02e7a2403d8b4a7174a063fda",
+    "assets/screens/20-capabilityScreen.mp4": "9113e05b2520315a1827639eca6aecba9a178676aedd44c1ae7434d733385f6b",
+    "assets/screens/21-workflowSide.mp4": "c9f2db073588d83735765d6e7ca744d72f16e612ab970f37029ed02841dc58ea",
+    "assets/screens/22-featureBack.mp4": "d8afb8f8f92d7af86a36a3691ab14b1d7a8065a78810f216feffad9baa31bb33",
+    "assets/screens/23-detailScreen.mp4": "cb8786a540673f0e593086294273124f90c3027787bcff67f348b48e017e9a20"
+  }
+}

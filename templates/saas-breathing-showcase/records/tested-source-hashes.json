@@ -1,0 +1,17 @@
+{
+  "film.tsx": "0d1423e1e2c41a943020c744890281b68308fbe92d7b59ed40c180e7ea7dab7c",
+  "src/Background.tsx": "4ab1bc707c9c4736ba9d03e78e6f3c556ad428ec37596be530425960e7b598bc",
+  "src/Brand.tsx": "fe15ed890202a5cd391010ba56686aaa5c4eacf7034c7ff448203b20a9c3ceb9",
+  "src/Headlines.tsx": "ecd4ea118979e6b30f1880ccb284c7c9a4b779bbda38292b506d37254f0cb2e8",
+  "src/background.json": "4c4d25ba1abe6c99dbbf87673eabf9939f39548e062afa60dd673277ba953df8",
+  "src/content.json": "54547ab5e796251d5d488edd1c76599b7713e1ddfb2bcde2fe2f23dece673a1b",
+  "src/motion.ts": "72ba87ad1cd4b056fdd02973cf31266c7442762f621d3bc215c31bde461af6a6",
+  "src/star-motion.json": "952d5679a795f4271a73e7a90b378bfd73d13974cc3ccd9e4e9e0cb0c611ffac",
+  "src/tracks.json": "d5c742c267c4fed6f4759eb22ffbfc39f9f4c8f9772ae7ff3cf31e445037dc86",
+  "package.json": "75e77f3aca81994bbfd761fcfd198e6bdbdcb99603510cae69fdf7c0b154cdfe",
+  "package-lock.json": "d673462b4faf1aecf27e637c530f3876c6fb19bd807e35667e700b09ab08905d",
+  "scripts/validate.mjs": "069352fcfad95a3046681a5d66741b6966007e95fdfd439e06fbfa6afc98b164",
+  "vendor/launch-video-maker-runtime-0.1.0.tgz": "abcf967bd63d4283ca604d0f9381b536e19606e385f6c15a4218daaaa20708ac",
+  "src/star-trajectory.ts": "1b420c3d78120d388340b0a4f6eca70f1bd3be75f8f6ff5d9b901e8dfd049a86",
+  "scripts/check-star.ts": "8e30e8b0b1d461bb417caac251ea08a96106118b383d5c0b71ce992dde57edbf"
+}

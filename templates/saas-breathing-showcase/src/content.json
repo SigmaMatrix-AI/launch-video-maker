@@ -1,0 +1,15 @@
+{
+ "copy": {
+  "promoTitle":"SaaS Product Promo",
+  "valueTitle":"The Smartest Way To Ship",
+  "valueSubtitle":"We helping grow businesses and scale with smart data-driven Ai\nagency, secure, expert team of Ai specialists.",
+  "breadthTitle":"Ai Evolution.",
+  "workflowTitle":"Power Up\nYour Workflow.",
+  "rightsLabel":"All Right Reserved",
+  "creatorCredit":"Make By Joikiv",
+  "brandName":"SaaS Product"
+ },
+ "palette":{"ink":"#211f52","paper":"#d4ecfc","pill":"#a7c7fa","white":"#f1f3f8","accent":"#25d3ed"},
+ "screens":{},
+ "brandMark":null
+}
