@@ -36,7 +36,8 @@ async function main(){
  try{
  if(command==='preview'){
   stay=true;const stop=()=>{server.close().finally(()=>process.exit());};process.once('SIGINT',stop);process.once('SIGTERM',stop);
-  if(args.includes('--open')){console.log(server.url);await run(process.platform==='darwin'?'open':'xdg-open',[server.url]);}
+  console.log(server.url);
+  if(args.includes('--open')){await run(process.platform==='darwin'?'open':'xdg-open',[server.url]);}
   else console.log('Preview running in background. No browser opened. Stop with Ctrl-C.');
  }else if(command==='prepare')console.log(JSON.stringify({version:server.prepared.version,film:server.prepared.film,peak:server.prepared.peak},null,2));
  else if(command==='still'){if(!args[0]||!args[1])throw Error('still requires frame and destination');const c=await openCapture(server);try{await writeFile(resolve(args[1]),await c.frame(Number(args[0])),{flag:'wx'});}finally{await c.close();}}
