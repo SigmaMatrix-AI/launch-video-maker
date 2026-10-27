@@ -1,0 +1,410 @@
+{
+  "source": "/Users/mac/Downloads/YTDown.com_YouTube_Media_4SCjXcBeW1E_Introducing-Google-Vids_001_2160p.mp4",
+  "assets": [
+    {
+      "id": "style-0",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        337,
+        254,
+        635,
+        423
+      ]
+    },
+    {
+      "id": "style-1",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        655,
+        254,
+        953,
+        423
+      ]
+    },
+    {
+      "id": "style-2",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        973,
+        254,
+        1271,
+        423
+      ]
+    },
+    {
+      "id": "style-3",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        1291,
+        254,
+        1589,
+        423
+      ]
+    },
+    {
+      "id": "style-4",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        337,
+        484,
+        635,
+        653
+      ]
+    },
+    {
+      "id": "style-5",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        655,
+        484,
+        953,
+        653
+      ]
+    },
+    {
+      "id": "style-6",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        973,
+        484,
+        1271,
+        653
+      ]
+    },
+    {
+      "id": "style-7",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        1291,
+        484,
+        1589,
+        653
+      ]
+    },
+    {
+      "id": "style-8",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        337,
+        714,
+        635,
+        883
+      ]
+    },
+    {
+      "id": "style-9",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        655,
+        714,
+        953,
+        883
+      ]
+    },
+    {
+      "id": "style-10",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        973,
+        714,
+        1271,
+        883
+      ]
+    },
+    {
+      "id": "style-11",
+      "sourceSecond": 23.5,
+      "crop1920": [
+        1291,
+        714,
+        1589,
+        883
+      ]
+    },
+    {
+      "id": "stock-0",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        92,
+        70,
+        535,
+        370
+      ]
+    },
+    {
+      "id": "stock-1",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        592,
+        70,
+        1111,
+        370
+      ]
+    },
+    {
+      "id": "stock-2",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        1170,
+        70,
+        1575,
+        370
+      ]
+    },
+    {
+      "id": "stock-3",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        1630,
+        70,
+        1920,
+        370
+      ]
+    },
+    {
+      "id": "stock-4",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        0,
+        412,
+        446,
+        670
+      ]
+    },
+    {
+      "id": "stock-5",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        533,
+        412,
+        992,
+        670
+      ]
+    },
+    {
+      "id": "stock-6",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        1085,
+        412,
+        1545,
+        670
+      ]
+    },
+    {
+      "id": "stock-7",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        1635,
+        412,
+        1920,
+        670
+      ]
+    },
+    {
+      "id": "stock-8",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        163,
+        708,
+        557,
+        1008
+      ]
+    },
+    {
+      "id": "stock-9",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        631,
+        708,
+        819,
+        1008
+      ]
+    },
+    {
+      "id": "stock-10",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        899,
+        708,
+        1412,
+        1008
+      ]
+    },
+    {
+      "id": "stock-11",
+      "sourceSecond": 57.7,
+      "crop1920": [
+        1517,
+        708,
+        1704,
+        1008
+      ]
+    },
+    {
+      "id": "arch",
+      "sourceSecond": 59,
+      "crop1920": [
+        636,
+        353,
+        1281,
+        624
+      ]
+    },
+    {
+      "id": "sunrise",
+      "sourceSecond": 72,
+      "crop1920": [
+        0,
+        713,
+        1137,
+        1080
+      ]
+    },
+    {
+      "id": "solar-poster",
+      "sourceSecond": 48.8,
+      "crop1920": [
+        285,
+        350,
+        1920,
+        1080
+      ]
+    },
+    {
+      "id": "sloane",
+      "sourceSecond": 46.9,
+      "crop1920": [
+        384,
+        294,
+        637,
+        547
+      ]
+    },
+    {
+      "id": "evelyn",
+      "sourceSecond": 50.5,
+      "crop1920": [
+        465,
+        430,
+        577,
+        542
+      ]
+    },
+    {
+      "id": "everett",
+      "sourceSecond": 51.2,
+      "crop1920": [
+        416,
+        450,
+        536,
+        572
+      ]
+    },
+    {
+      "id": "kai",
+      "sourceSecond": 52,
+      "crop1920": [
+        411,
+        430,
+        532,
+        552
+      ]
+    },
+    {
+      "id": "fionna",
+      "sourceSecond": 52.6,
+      "crop1920": [
+        412,
+        420,
+        534,
+        543
+      ]
+    },
+    {
+      "id": "regina",
+      "sourceSecond": 53.1,
+      "crop1920": [
+        414,
+        433,
+        536,
+        553
+      ]
+    },
+    {
+      "id": "presenter",
+      "sourceSecond": 69.8,
+      "crop1920": [
+        265,
+        55,
+        1658,
+        840
+      ]
+    },
+    {
+      "id": "presenter-wide",
+      "sourceIn": 69.4,
+      "sourceOut": 71.77,
+      "crop3840": [
+        520,
+        100,
+        2800,
+        1580
+      ],
+      "muted": true,
+      "outOfRange": "hold"
+    },
+    {
+      "id": "presenter-slide",
+      "sourceIn": 71.85,
+      "sourceOut": 73.6,
+      "crop3840": [
+        2390,
+        55,
+        1320,
+        1250
+      ],
+      "muted": true,
+      "outOfRange": "hold"
+    },
+    {
+      "id": "presenter-editor",
+      "sourceIn": 73.8,
+      "sourceOut": 74.88,
+      "crop3840": [
+        2132,
+        440,
+        674,
+        620
+      ],
+      "outOfRange": "hold",
+      "muted": true
+    },
+    {
+      "id": "stock-initial-0",
+      "sourceSecond": 55.4,
+      "crop1920": [
+        365,
+        805,
+        875,
+        1080
+      ]
+    },
+    {
+      "id": "stock-initial-1",
+      "sourceSecond": 55.4,
+      "crop1920": [
+        915,
+        805,
+        1555,
+        1080
+      ]
+    }
+  ],
+  "notes": [
+    "Template thumbnails are reference raster artwork; large style previews are rebuilt in React.",
+    "Solar poster retains its embedded play button and two collaborator pointers from the supplied source; outer text, selection bounds and moving collaborators are React.",
+    "Arch photograph is cropped above the reference pointer to keep the independent media asset clean.",
+    "The small presenter thumbnail holds after 74.88s during the final camera push; footage crops are reconstructed separately from UI."
+  ]
+}
