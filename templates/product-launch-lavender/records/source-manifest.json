@@ -1,0 +1,27 @@
+{
+  "generator": "OpenAI built-in imagegen",
+  "purpose": "User-authorized fictional webpage mocks for lavender product launch template",
+  "pages": [
+    "hero",
+    "dashboard",
+    "analytics",
+    "workflow"
+  ],
+  "style": "Front-on full-bleed 16:9 Forma software UI, warm ivory, lavender and deep plum. No browser chrome or perspective baked into textures.",
+  "assets": {
+    "assets/mock/analytics.png": "352a5063bca5f104ba28a516de175c7de6dba35ccad9b870d66b1763387746f7",
+    "assets/mock/dashboard.png": "0facdd59c26279b13385eb629a5773e9ba74b31f9b609b1f184b45c516907f7f",
+    "assets/mock/hero.png": "59973824a866e7d04e31b31d00001fb35d54713b2f954937fb79a8e28fe773e9",
+    "assets/mock/workflow.png": "4bf273b418b01ee3e5a2f742d014a78e07d3aee9a4efc0e8ef92e4b70e8e951f"
+  },
+  "referenceTemplate": "saas-breathing-showcase",
+  "intentionalDepartures": [
+    "Product Launch Video opening title",
+    "Lavender procedural background",
+    "All 16 page slots use generated mock textures",
+    "20.9-24.7s continuous tilted isometric webpage wall",
+    "Round interwoven flower instead of four-point star"
+  ],
+  "durationSeconds": 31,
+  "audio": "Original user reference WAV retained at gain0.75"
+}
