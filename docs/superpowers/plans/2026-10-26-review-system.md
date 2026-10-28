@@ -8,7 +8,7 @@
 
 **Tech Stack:** Node >=24、TypeScript、node:test + tsx、Playwright、FFmpeg/ffprobe；不新增运行依赖。
 
-**Spec:** [评测设计与范围](../specs/2026-10-26-review-system-design.md)；现有基线 [审查规范](../../../references/review.md)、[运行契约](../../../references/runtime-contract.md)。冲突以本次获批设计的范围区分为准，七维商用标准不降低。
+**Spec:** [评测设计与范围](../specs/2026-10-26-review-system-design.md)；现有基线 [质量保证](../../../references/tech.md#质量保证)、[技术约定](../../../references/tech.md)。冲突以本次获批设计的范围区分为准，七维商用标准不降低。
 
 ## Global Constraints
 

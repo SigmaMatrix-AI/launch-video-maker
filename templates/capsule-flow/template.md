@@ -158,7 +158,7 @@ film.tsx接收输出帧，通过toSourceFrame映射后传入组件。当前删�
 
 ### 7. 逐镜检查后再交付
 
-每段至少检查起势、动作峰值、落定和下一段接缝，并连续播放观察；散卡、巨字、图片入画布及人物切换加密取帧。完成内部修复后，按 [独立评测要求](../../references/review.md) 评测当前版本。默认交付可预览工程；用户要求时打开预览，明确要求导出后才生成 MP4。
+每段至少检查起势、动作峰值、落定和下一段接缝，并连续播放观察；散卡、巨字、图片入画布及人物切换加密取帧。完成内部修复后，按 [独立评测要求](../../references/tech.md#质量保证) 评测当前版本。默认交付可预览工程；用户要求时打开预览，明确要求导出后才生成 MP4。
 ## 六、共用实现与检查重点
 
 | 入口 | 作用 |
@@ -195,7 +195,7 @@ npm run preview -- --open
 npm run render -- exports/film.mp4
 ```
 
-更改源码或资源后重新 prepare 并启动预览，避免用旧 content version 观看。安装与预览细节遵循 [运行契约](../../references/runtime-contract.md)。`.lvm/`、`node_modules/`、`exports/` 是本地生成内容。
+更改源码或资源后重新 prepare 并启动预览，避免用旧 content version 观看。安装与预览细节遵循 [运行契约](../../references/tech.md)。`.lvm/`、`node_modules/`、`exports/` 是本地生成内容。
 
 本模板是Google Vids镜头组织的改写版本，TapVid仅作为可运行示例。素材与参考声音来源见[SOURCES.md](SOURCES.md)，来源历史保留具体产品名以便溯源，不构成适用范围限制。
 

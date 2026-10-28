@@ -1,6 +1,6 @@
 # Launch Video Maker
 
-自主制作产品宣传视频的 Agent skill。先分析产品用途、受众、卖点与必须展示功能，同步采集真实页面和代表案例，再选择独立的 style 和可改造的参考模板，编排分镜、实现 React 影片、处理声音，再进行独立审查。
+自主制作产品宣传视频的 Agent skill。先理解产品，让故事、镜头与声音围绕产品价值展开。SKILL.md 给出发布影片的审美目标、微交互和动态叙事技巧；自主创作与模板制作两条路线都从真实产品出发。
 
 运行层采用 **React + TypeScript、统一帧控制、Playwright 与 FFmpeg**，无需 Remotion。预览和导出共用场景源码、资源和预混音频；Player 只负责观看和检查。
 
@@ -32,7 +32,7 @@ npm run prepare
 
 生成工程的 `prepare` 同时是 npm 生命周期脚本，普通 `npm ci` / `npm install` 会自动准备媒体。只安装依赖时用 `npm ci --ignore-scripts`，随后显式执行 `npm run prepare`；有媒体的工程需先备好 FFmpeg。
 
-Agent 从 [SKILL.md](SKILL.md) 开始执行。[运行指南](references/runtime-usage.md) 介绍代码接口与命令；[制作流程](references/pipeline.md) 介绍每阶段产物。
+Agent 从 [SKILL.md](SKILL.md) 开始执行。[制作流程](references/pipeline.md) 用于自主创作，[模板流程](references/template-conventions.md) 用于模板制作；[技术指南](references/tech.md) 提供实现、声音、渲染与质量保证。
 
 ## 命令与交付行为
 
@@ -55,20 +55,16 @@ Agent 从 [SKILL.md](SKILL.md) 开始执行。[运行指南](references/runtime-
 
 默认交付经过审查的可预览工程。只有用户要求时展示预览；用户满意并要求导出后才运行 `render`。技术测试可以生成测试 fixture MP4，不能据此自动导出用户影片。
 
-评测默认visual范围。完整CLI参数与报告填写见 [运行指南](references/runtime-usage.md) 和 [独立审阅指引](references/reviewer-prompt.md)。`review-check`退出0仅代表当前范围通过；visual范围的完整商用结论始终为未完成。工具不会自动评分或声称已观看／试听。
+评测默认visual范围。完整CLI参数与报告填写见 [技术指南](references/tech.md#使用现有评测工具)。`review-check`退出0仅代表当前范围通过；visual范围的完整商用结论始终为未完成。工具不会自动评分或声称已观看／试听。
 
 ## 设计原则
 
-- **自主决策。** 不设置阶段确认，只询问不可合理推断的必要信息。
-- **产品理解与采集前置。** 第一步明确用途、受众、卖点、必须展示功能与执行约束，同时保存真实截图、关键状态和官网案例；分镜之后只按需补采。
-- **品牌资源保持轻量。** 默认只收集 Logo 与主题色；Logo 作为资源，主题色融入 style 作点缀，真实素材保持原貌。
-- **产品和品牌依据优先。** 用户要求与明确品牌规范优先；参考影片/模板提供动作、镜头、空间调度、布局与节奏；style 提供颜色、字体及兼容的表面视觉表达。
-- **模板可自由改造。** React 源码可增删场景、重排结构或只借用局部实现。
-- **Style 以文档为核心。** 一般只需自由格式 `style.md`；复杂风格可附实现参考。Demo 是风格应用示例，不是模板，无须独立运行，不要求修复其原工程依赖。
-- **素材留在影片工程。** Logo、字体、页面素材、BGM 和来源记录不依赖作者机器上的外部绝对路径。
-- **质量靠证据。** 未参与制作的 subagent 实际观察动态并试听；七项各 ≥7.5/10 且无阻断或必要证据缺失才可通过。
+- **从产品自身生长。** 两条制作路线都先理解受众、任务、输入与结果，让画面证明价值。
+- **导演自主判断。** 以现代、精致、有发布能量的影片为目标，具体设计节奏、微交互、衔接与声音。
+- **用好参考。** 模板提供动作与叙事方法，style 提供视觉启发；按产品与用户要求确定采用范围，明确复刻任务保留约定的编排。
+- **观看结果再打磨。** 尽早形成动态草稿，检查可读性、产品表达与视听品质；技术通过不等于影片优秀。
 
-不提供镜头库、硬模板、逐阶段共同创作、可视化编辑器、剪映工程导出、发布或跨项目品牌平台。
+影片工程保存自己的素材与依赖。默认交付工程，按用户请求预览或导出；不附加编辑器或发布流程。
 
 ## 开发与验证
 
@@ -85,8 +81,8 @@ LVM_LONG_TEST=1 npx tsx --test runtime/test/long-sync.test.ts
 ## 目录
 
 ```text
-SKILL.md                 Agent 长期执行规则
-references/              制作、品牌、风格、运行与审查约定
+SKILL.md                 审美目标与创作技巧
+references/              pipeline.md、template-conventions.md、tech.md
 templates/               可运行参考模板及各自的适配指南
 styles/                  独立的正式 style 包
 films/                   用户影片与本地实验（Git 忽略）
