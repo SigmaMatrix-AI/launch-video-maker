@@ -1,0 +1,31 @@
+{
+  "source_root": "/Users/mac/Documents/repo/launch-video-maker",
+  "source_head": "b7b61fc11fad63adc7fcceca82611b05b3df1b71",
+  "note": "Planning-only snapshot of working-directory documents, including uncommitted changes. Not the installed skill or target implementation.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "6438f3d89da0c3eda1570ca87d6e249a5fb16c8a1fc783a02247ccc633f68ded"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f5d8eda68a974cca421ece0b2d47875282dd5fb27c731ebc0ddb10100e987a3a"
+    },
+    {
+      "path": "references/pipeline.md",
+      "sha256": "3bd94e93ce331293ad14f6f9d983cebe673b9b009ac3cb603f95ab0e226e9ee1"
+    },
+    {
+      "path": "references/eval.md",
+      "sha256": "f3931a4cda4619eaf46cc64dc16ae880adeacfc7764d3939c3cdcd3d20e91761"
+    },
+    {
+      "path": "references/tech.md",
+      "sha256": "7504a8540e3a3afddc0e8e79e28453eb671d014f6314abbafbde92125e08b3cb"
+    },
+    {
+      "path": "references/template-conventions.md",
+      "sha256": "396b42ab52e683ab1637a46a54ed19ab7da54699a48023209630d780abc33f8b"
+    }
+  ]
+}
