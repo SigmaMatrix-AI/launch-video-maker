@@ -1,6 +1,6 @@
 # Three-Stage Launch Video Skill Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** 将自主设计改为“3 种效果图选调性 → 故事脚本与简易分镜确认内容 → UI、镜头、节奏与动效持续打磨”，以 Good / Bad 案例指导创作和评审，减少整片完成后方向错误造成的返工。
 
@@ -20,7 +20,7 @@
 - 不重建 runtime、播放器或评分引擎，不增加工作流数据库或强制 JSON 状态机。
 - 默认提供本地预览，明确请求导出后再生成用户 MP4。
 - 保留七维评分与每项 7.5 门槛、真实性/可读性/资源等底线，以及证据不足记未验证的约定。
-- 本轮只写规划；以下所有复选框为后续实施工作，未执行。
+- 用户已授权实施。完成情况与证据范围见 [验证记录](../../validation/three-stage-skill-results.md)；安装切换与发布仍不在本次范围。
 
 ## Review Focus
 
@@ -70,7 +70,7 @@
 - Consumes: 设计约定和快照，不读取尚未完成的新规则。
 - Produces: 固定场景 S1–S8；每项记录输入、实际输出/动作、预期、判定、证据路径和观察限制，供 Tasks 2–5 复测。
 
-- [ ] **Step 1：写 S1–S8 场景与预期。**
+- [x] **Step 1：写 S1–S8 场景与预期。**
 
 | ID | 输入场景 | 可检查预期 |
 | --- | --- | --- |
@@ -83,9 +83,9 @@
 | S7 | 只有静态抽帧和技术通过日志，没有试听 | 不声称完整动态/视听通过，不自动打高分，不把 7.5 当成“很贵” |
 | S8 | 两条参考在另一台机器不可读 | 报告证据缺口；可使用已记录的文字观察，不虚构看片、音效或时间点 |
 
-- [ ] **Step 2：用当前快照版本跑短行为基线。** 使用新上下文代理；只做计划/选择/评审响应，不生成三条影片。提供明确的测试材料和模拟用户对话，模拟确认只存在于测试，不写入真实用户制作记录。保存实际回答，记录发生的违例；未观察到的失败不可写成已复现。
-- [ ] **Step 3：把发现映射到需要修改的规则。** 核心已知冲突是“不在 storyboard 等阶段等待确认”；对其他场景按实际表现判断。此阶段不修改 skill。
-- [ ] **Step 4：提交验证材料。** `git add docs/validation/three-stage-skill-*.md`，提交信息 `test(skill): define three-stage workflow scenarios`。原始大日志和生成媒体放 ignored 的实验目录，仅提交精炼证据记录。
+- [x] **Step 2：用当前快照版本跑短行为基线。** 使用新上下文代理；只做计划/选择/评审响应，不生成三条影片。提供明确的测试材料和模拟用户对话，模拟确认只存在于测试，不写入真实用户制作记录。保存实际回答，记录发生的违例；未观察到的失败不可写成已复现。
+- [x] **Step 3：把发现映射到需要修改的规则。** 核心已知冲突是“不在 storyboard 等阶段等待确认”；对其他场景按实际表现判断。此阶段不修改 skill。
+- [x] **Step 4：提交验证材料。** `git add docs/validation/three-stage-skill-*.md`，提交信息 `test(skill): define three-stage workflow scenarios`。原始大日志和生成媒体放 ignored 的实验目录，仅提交精炼证据记录。
 
 **Acceptance:** S1–S8 都有明确预期；基线结论有真实输出，不用搜索关键字代替行为判断。
 
@@ -101,15 +101,15 @@
 - Consumes: S1/S2/S3/S5/S6、spec 的阶段契约。
 - Produces: `records/brief.md`、`records/direction.md`、`records/script.md`、`records/storyboard.md` 的最小写法；在 `direction`/`script` 中记录选择版本和确认依据，沿用现有 Markdown 文件格式。
 
-- [ ] **Step 1：改入口。** 保留触发条件与两种模式；自主路线明确“3 种效果图→故事确认→精修”。删除与新边界冲突的连续推进、不等确认措辞；把自主权定义为阶段内的执行判断。入口仅链接深入规则，不重复完整 eval。
-- [ ] **Step 2：改 pipeline。** 产品研究作为阶段一的准备，不另加用户关卡。写清三个阶段的输入、产物、确认点、允许修改范围和续作路由。第三步负责 UI、镜头衔接、节奏、动作和声音；第二步不要求播放验证。
-- [ ] **Step 3：写最小产物示例。**
+- [x] **Step 1：改入口。** 保留触发条件与两种模式；自主路线明确“3 种效果图→故事确认→精修”。删除与新边界冲突的连续推进、不等确认措辞；把自主权定义为阶段内的执行判断。入口仅链接深入规则，不重复完整 eval。
+- [x] **Step 2：改 pipeline。** 产品研究作为阶段一的准备，不另加用户关卡。写清三个阶段的输入、产物、确认点、允许修改范围和续作路由。第三步负责 UI、镜头衔接、节奏、动作和声音；第二步不要求播放验证。
+- [x] **Step 3：写最小产物示例。**
   - 第一阶段：`assets/directions/a.png`、`b.png`、`c.png` 与 direction 记录；选择图像/截图方法按现有能力，不引入固定生成器。候选内容一致、设计明显不同。
   - 第二阶段：script 示例至少包含“开头—问题—产品介入—结果—结尾”；storyboard 的列为段落 ID、内容目的、简图/画面说明、大致时长。时长仅用于故事规模判断。
   - 第三阶段：在 storyboard 中给相同段落 ID 补充焦点、主体变化、衔接、实际帧区间/时间和音频。script 继续保存已确认的内容主线。
   - 给出续作时“选择 B 已确认 / 脚本 v2 待确认 / 用户授权代选”等短记录示例；不假设任何真实批准。
-- [ ] **Step 4：用同一输入复测 S1/S2/S3/S5/S6。** 如阶段边界措辞有歧义，使用短回答微测比较旧/新版本各至少 5 次，逐条人工读输出；微测只在存在歧义的输入上进行，不重复渲染。确认声明与实际下一步一致。
-- [ ] **Step 5：提交。** `git add SKILL.md references/pipeline.md references/stage-deliverables.md docs/validation/three-stage-skill-results.md`；`feat(skill): introduce three-stage autonomous design`。
+- [x] **Step 4：用同一输入复测 S1/S2/S3/S5/S6。** 如阶段边界措辞有歧义，使用短回答微测比较旧/新版本各至少 5 次，逐条人工读输出；微测只在存在歧义的输入上进行，不重复渲染。确认声明与实际下一步一致。
+- [x] **Step 5：提交。** `git add SKILL.md references/pipeline.md references/stage-deliverables.md docs/validation/three-stage-skill-results.md`；`feat(skill): introduce three-stage autonomous design`。
 
 **Acceptance:** 三个方向没有变成三条完整影片；第二步能独立确认“讲什么”；明确委托能绕过重复确认；续作沿用有效决定。
 
@@ -124,12 +124,12 @@
 - Consumes: spec 中 E01–E10、四段参考的可验证观察、S4/S7/S8。
 - Produces: 稳定案例 ID `E01`…`E10`；局部反馈格式“时间区间 + 现象 + 案例 ID + 修改动作 + 复看条件”。ID 保持稳定，便于续作引用。
 
-- [ ] **Step 1：逐项保留当前 eval 的底线。** 从快照提取真实性、关键操作、可读性、资源/播放故障、版本证据、试听与独立审阅要求。不要用短案例表覆盖掉这些规则。
-- [ ] **Step 2：把 E01–E10 表格放在 eval 开头。** 每项必须写具体 Good、Bad 和判断关键，不用“更高级/更自然”替代可观察现象。E10 原样保留用户的文字独立镜头准则；区分宣传标题与真实 UI 标签，明确模板复刻由约定范围控制。
-- [ ] **Step 3：补 4 张文字案例卡。** 卡片对应 LangEase 10–14 / 15–19 秒、Google Vids 10–16 / 55–62 秒；每张说明表达目标、对象怎样变化、为什么有帮助，以及“坏改法”的文字反例。Bad 为推演示例，不冒充原片缺陷；时间点须重新核验。链接到有权限的参考来源，原片未提供可分发地址时记录本地开发来源和可用性限制，不杜撰网页链接、不复制大 MP4。
-- [ ] **Step 4：加入分层与迭代示例。** 解释基础合格 / 有视频感 / 参考质感的差别，不改变数值门槛。第三步优先修主体和信息问题，再修局部工艺；保持静止、硬切等手段的合理用途。
-- [ ] **Step 5：复测 S4/S7/S8，并检查四张卡的证据范围。** 代理应能用案例定位问题并提出可验证修改，不能把所有镜头强行变形或要求全片持续运动。细微缓动和声音未观察就标未验证。
-- [ ] **Step 6：提交。** `git add references/eval.md references/pipeline.md docs/validation/three-stage-skill-results.md`；`feat(skill): lead quality review with good bad examples`。
+- [x] **Step 1：逐项保留当前 eval 的底线。** 从快照提取真实性、关键操作、可读性、资源/播放故障、版本证据、试听与独立审阅要求。不要用短案例表覆盖掉这些规则。
+- [x] **Step 2：把 E01–E10 表格放在 eval 开头。** 每项必须写具体 Good、Bad 和判断关键，不用“更高级/更自然”替代可观察现象。E10 原样保留用户的文字独立镜头准则；区分宣传标题与真实 UI 标签，明确模板复刻由约定范围控制。
+- [x] **Step 3：补 4 张文字案例卡。** 卡片对应 LangEase 10–14 / 15–19 秒、Google Vids 10–16 / 55–62 秒；每张说明表达目标、对象怎样变化、为什么有帮助，以及“坏改法”的文字反例。Bad 为推演示例，不冒充原片缺陷；时间点须重新核验。链接到有权限的参考来源，原片未提供可分发地址时记录本地开发来源和可用性限制，不杜撰网页链接、不复制大 MP4。
+- [x] **Step 4：加入分层与迭代示例。** 解释基础合格 / 有视频感 / 参考质感的差别，不改变数值门槛。第三步优先修主体和信息问题，再修局部工艺；保持静止、硬切等手段的合理用途。
+- [x] **Step 5：复测 S4/S7/S8，并检查四张卡的证据范围。** 代理应能用案例定位问题并提出可验证修改，不能把所有镜头强行变形或要求全片持续运动。细微缓动和声音未观察就标未验证。
+- [x] **Step 6：提交。** `git add references/eval.md references/pipeline.md docs/validation/three-stage-skill-results.md`；`feat(skill): lead quality review with good bad examples`。
 
 **Acceptance:** 只读表格就能理解十种具体差距；深层规则仍可查；没有依靠抽帧虚报声音或完整观看结论。
 
@@ -147,16 +147,18 @@
 - Consumes: 三阶段产物、E01–E10；现有 `readReviewContext(project)` 与 `ReviewContext`。
 - Produces: 不改接口的上下文接法：script 通过现有 `reference` role 进入 review pack，方向/分镜仍由默认路径收集。
 
-- [ ] **Step 1：写 review-context 示例。** 示例为 `{"documents":[{"role":"reference","path":"records/script.md"}],"actionRanges":[]}`。说明合并已有 documents/actionRanges，不覆盖用户设置；加入该条前 script 必须存在。老项目无 script 时继续用现有 brief/storyboard，不强行制造“已确认脚本”。
-- [ ] **Step 2：同步 README、tech 与模板说明。** 移除“自主路线直接全片推进”的冲突；只在自主路线增加两个确认点。统一预览与 MP4 导出约定。不要把强节拍、每拍切镜变成所有风格的硬性质量判断。
-- [ ] **Step 3：更新 handoff 文案。** 在 `runtime/src/review/pack.ts` 的 handoff 模板中指向 `references/eval.md` 的案例诊断和 `references/tech.md` 的七维/证据协议。先检查原一行 patch 是否已被其他分支合入，避免重复；保持当前 evidence / scoring API。
-- [ ] **Step 4：检查链接与记录接入。** 逐个检查新文档的相对路径、标题锚点和示例路径；在独立测试影片中通过 `readReviewContext(project)` 检查 reference script 与三个默认记录共存，已有 actionRanges 保持原值。不得仅用字符串存在性测试声称流程通过。
-- [ ] **Step 5：运行现有相关回归。** 若环境尚未安装，使用 Node.js 24+，`npm ci` 后 `npm run build`。执行 `npx tsx --test --test-concurrency=1 runtime/test/review-pack.test.ts runtime/test/review-schema.test.ts runtime/test/review-check.test.ts`；预期所有测试通过。依赖或 Chromium/FFmpeg 缺失时先报告真实环境问题，不能记为产品通过。文案修改无需新增镜像字符串测试。
-- [ ] **Step 6：提交。** 显式暂存本 Task 列出的文件；`docs(skill): align stage records and review guidance`。
+- [x] **Step 1：写 review-context 示例。** 示例为 `{"documents":[{"role":"reference","path":"records/script.md"}],"actionRanges":[]}`。说明合并已有 documents/actionRanges，不覆盖用户设置；加入该条前 script 必须存在。老项目无 script 时继续用现有 brief/storyboard，不强行制造“已确认脚本”。
+- [x] **Step 2：同步 README、tech 与模板说明。** 移除“自主路线直接全片推进”的冲突；只在自主路线增加两个确认点。统一预览与 MP4 导出约定。不要把强节拍、每拍切镜变成所有风格的硬性质量判断。
+- [x] **Step 3：更新 handoff 文案。** 在 `runtime/src/review/pack.ts` 的 handoff 模板中指向 `references/eval.md` 的案例诊断和 `references/tech.md` 的七维/证据协议。先检查原一行 patch 是否已被其他分支合入，避免重复；保持当前 evidence / scoring API。
+- [x] **Step 4：检查链接与记录接入。** 逐个检查新文档的相对路径、标题锚点和示例路径；在独立测试影片中通过 `readReviewContext(project)` 检查 reference script 与三个默认记录共存，已有 actionRanges 保持原值。不得仅用字符串存在性测试声称流程通过。
+- [x] **Step 5：运行现有相关回归。** 若环境尚未安装，使用 Node.js 24+，`npm ci` 后 `npm run build`。执行 `npx tsx --test --test-concurrency=1 runtime/test/review-pack.test.ts runtime/test/review-schema.test.ts runtime/test/review-check.test.ts`；预期所有测试通过。依赖或 Chromium/FFmpeg 缺失时先报告真实环境问题，不能记为产品通过。文案修改无需新增镜像字符串测试。
+- [x] **Step 6：提交。** 显式暂存本 Task 列出的文件；`docs(skill): align stage records and review guidance`。
 
 **Acceptance:** 新旧项目能沿用现有审阅接口，stage 2 的脚本不会在 stage 3 审阅时丢失；模板没有被强制重新创作。
 
 ## Task 5：验证案例是否真的改变制作与评审行为
+
+已执行；正常速度感知观看与声音认证保留未验证，详见验证记录。步骤完成标记不代表商业影片品质通过。
 
 **Files:**
 - Update: `docs/validation/three-stage-skill-results.md`
@@ -166,12 +168,12 @@
 - Consumes: 新版 skill、固定测试 brief、明确标注为模拟的方向/故事确认、E02/E10 和现有预览工具。
 - Produces: 行为复测报告、可播放片段的实际观察记录、未验证项；不自动部署或发布。
 
-- [ ] **Step 1：完整复测 S1–S8。** 使用同一组材料，显式引用 worktree 版 skill；保留与旧版的差异。不把模拟用户确认写入真实工作记录。
-- [ ] **Step 2：制作一个短视觉对照。** 用同一测试故事“把零散客户反馈整理成优先级清单”，建议约 6–10 秒，包含独立文字镜头（关键词高亮/动效）和一个主体从输入到成果的连续变化。使用同内容的“标题配图+整页切换”作为低成本 Bad 对照。两者保持文字、素材和规格可比，Bad 不另做完整影片。测试为独立 preview 工程，不默认导出用户 MP4。
-- [ ] **Step 3：实际观察并记录。** 正常速度查看文字可读性与对象跟踪，逐帧检查必要接缝；有声音且评价声音时必须试听。用 E02/E10 描述变化，不预填期望分数。让未参与制作的审阅者检查当前版本；若缺观察/独立审阅能力，保留未验证结论。
-- [ ] **Step 4：记录成本与限制。** 有真实用量才填写 token；否则只记录生成、返工次数和实际耗时。不以这个小样宣称全片稳定达到参考质量。只对失败场景补修和复测，避免重复全部制作。
-- [ ] **Step 5：完成交付检查。** `git diff --check` 应无输出；核对三阶段、E01–E10、模板边界、视听证据和导出规则都能定位到对应文件。相关 runtime 回归已通过且代码未再改时不重复跑全套。交付 plan 完成情况、行为结果和实际预览位置；安装路径仍未切换。
-- [ ] **Step 6：提交验证记录。** `git add docs/validation/three-stage-skill-results.md`；`test(skill): record three-stage workflow and visual validation`。生成样片、依赖、原参考 MP4 不加入 Git。
+- [x] **Step 1：完整复测 S1–S8。** 使用同一组材料，显式引用 worktree 版 skill；保留与旧版的差异。不把模拟用户确认写入真实工作记录。
+- [x] **Step 2：制作一个短视觉对照。** 用同一测试故事“把零散客户反馈整理成优先级清单”，建议约 6–10 秒，包含独立文字镜头（关键词高亮/动效）和一个主体从输入到成果的连续变化。使用同内容的“标题配图+整页切换”作为低成本 Bad 对照。两者保持文字、素材和规格可比，Bad 不另做完整影片。测试为独立 preview 工程，不默认导出用户 MP4。
+- [x] **Step 3：实际观察并记录。** 正常速度查看文字可读性与对象跟踪，逐帧检查必要接缝；有声音且评价声音时必须试听。用 E02/E10 描述变化，不预填期望分数。让未参与制作的审阅者检查当前版本；若缺观察/独立审阅能力，保留未验证结论。
+- [x] **Step 4：记录成本与限制。** 有真实用量才填写 token；否则只记录生成、返工次数和实际耗时。不以这个小样宣称全片稳定达到参考质量。只对失败场景补修和复测，避免重复全部制作。
+- [x] **Step 5：完成交付检查。** `git diff --check` 应无输出；核对三阶段、E01–E10、模板边界、视听证据和导出规则都能定位到对应文件。相关 runtime 回归已通过且代码未再改时不重复跑全套。交付 plan 完成情况、行为结果和实际预览位置；安装路径仍未切换。
+- [x] **Step 6：提交验证记录。** `git add docs/validation/three-stage-skill-results.md`；`test(skill): record three-stage workflow and visual validation`。生成样片、依赖、原参考 MP4 不加入 Git。
 
 **Acceptance:** 验证记录能说明新流程是否避免了越阶段、是否产出独立文字镜头、是否改善了对象承接；无法证明的部分明确保留，不把“文档写完”报告成“品质问题解决”。
 
@@ -188,4 +190,4 @@ Task 1 → Task 2 → Task 3 → Task 4 → Task 5。流程与案例紧密相连
 - [x] 两种模式与已安装 skill 的路径差异写明；不会在 worktree 规划时改变原安装。
 - [x] 当前未提交 eval 和其他相关文档已保存输入快照；没有带入无关 styles 变动。
 - [x] 任务给出了具体文件、操作与验证；没有把 skill 文本镜像测试当成行为测试。
-- [x] 本轮未执行 Task 1–5，没有生成实现代码、测试样片或正式影片。
+- [x] 规划阶段仅创建计划与输入快照；后续实施状态以各 Task 复选框和验证记录为准。
