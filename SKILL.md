@@ -28,6 +28,10 @@ description: Use when the user asks for an autonomous product launch video or pr
 
 ## 制作与评审入口
 
+设计画面前，按需打开 [视觉与动画参考](references/eval.md#视觉与动画参考) 中的图片与序列拼图，观察构图、主体变化与视觉一致性。
+
+安排主体动作与镜头承接时，查看 [动效案例卡 C01–C04](references/eval.md#动效案例卡)，结合抽帧序列理解变化过程与对象关系。
+
 开始安排画面时读 [Good / Bad 质量标尺](references/eval.md)。第三步用 [动态表达](references/motion-language.md) 选择节奏与文字方法：安排动作轻重、可读停留和语义重点，按需查看可运行对照。每个镜头给观众一个明确焦点，让主体发生有意义的变化。功能巡礼、单功能发布与贯穿案例都是可选故事结构。
 
 自主设计的默认文字准则：**Good：标题和文字单独镜头出现，并有高亮词或动效；Bad：标题和配图左右构图、上下构图，像 PPT。** 真实 UI 的必要标题、导航和状态标签保留；模板按约定构图执行。详见 E10。

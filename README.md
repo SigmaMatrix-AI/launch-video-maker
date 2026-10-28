@@ -32,7 +32,7 @@ npm run prepare
 
 生成工程的 `prepare` 同时是 npm 生命周期脚本，普通 `npm ci` / `npm install` 会自动准备媒体。只安装依赖时用 `npm ci --ignore-scripts`，随后显式执行 `npm run prepare`；有媒体的工程需先备好 FFmpeg。
 
-Agent 从 [SKILL.md](SKILL.md) 开始执行。[三阶段流程](references/pipeline.md) 与 [阶段产物](references/stage-deliverables.md) 定义自主创作的边界、确认记录和续作；[模板流程](references/template-conventions.md) 保留参考适配方式；[Good / Bad 标尺](references/eval.md) 提供十条对照和四张参考案例卡；[技术指南](references/tech.md) 提供实现与七维评测协议。
+Agent 从 [SKILL.md](SKILL.md) 开始执行。[三阶段流程](references/pipeline.md) 与 [阶段产物](references/stage-deliverables.md) 定义自主创作的边界、确认记录和续作；[模板流程](references/template-conventions.md) 保留参考适配方式；[Good / Bad 标尺](references/eval.md) 提供十条对照、视觉参考及附抽帧序列的四张动效案例卡；[技术指南](references/tech.md) 提供实现与七维评测协议。
 
 第一步前按 [产品研究](references/product-research.md) 查看官网全貌、相关演示和可拍素材。第三步按 [动态表达](references/motion-language.md) 安排动作轻重、阅读与语义文字；[5 组可运行方法对照](examples/motion-language/README.md) 提供按需复制的局部实现，不作为成片模板或“很贵”的认证。功能巡礼、单功能发布和贯穿案例均可使用；具体验证范围见 [本轮记录](docs/validation/research-motion-language-results.md)。
 
