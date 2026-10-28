@@ -34,6 +34,8 @@ npm run prepare
 
 Agent 从 [SKILL.md](SKILL.md) 开始执行。[三阶段流程](references/pipeline.md) 与 [阶段产物](references/stage-deliverables.md) 定义自主创作的边界、确认记录和续作；[模板流程](references/template-conventions.md) 保留参考适配方式；[Good / Bad 标尺](references/eval.md) 提供十条对照和四张参考案例卡；[技术指南](references/tech.md) 提供实现与七维评测协议。
 
+第一步前按 [产品研究](references/product-research.md) 查看官网全貌、相关演示和可拍素材。第三步按 [动态表达](references/motion-language.md) 安排动作轻重、阅读与语义文字；[5 组可运行方法对照](examples/motion-language/README.md) 提供按需复制的局部实现，不作为成片模板或“很贵”的认证。功能巡礼、单功能发布和贯穿案例均可使用；具体验证范围见 [本轮记录](docs/validation/research-motion-language-results.md)。
+
 ## 命令与交付行为
 
 在影片工程内通过 `npx lvm` 调用以下命令：
@@ -82,7 +84,8 @@ LVM_LONG_TEST=1 npx tsx --test runtime/test/long-sync.test.ts
 
 ```text
 SKILL.md                 两条路线、三阶段边界与按需阅读入口
-references/              pipeline、stage-deliverables、eval、tech、template-conventions
+references/              流程、研究、动态表达、阶段产物、质量与技术参考
+examples/motion-language/ 可生成独立工程的节奏与语义文字对照
 templates/               可运行参考模板及各自的适配指南
 styles/                  独立的正式 style 包
 films/                   用户影片与本地实验（Git 忽略）

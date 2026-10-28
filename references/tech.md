@@ -72,7 +72,7 @@ CSS 3D 可用父层 perspective、相机包装层与 preserve-3d；真正的相�
 
 图片使用 `AssetImage` 或等待解码的 img。Canvas/异步绘图用 `useFrameTask(async signal => …)`，取消后不提交旧结果。视频用 `VideoFrame` 显式传源时间（秒），裁切与变速由工程时间映射；VFR 按源时间戳取帧，越界选择 error/hold/loop。当前视频预解码有 2 GiB 上限，长素材先裁短；动态 GIF 等先转为确定性视频素材。
 
-`capture` 可采页面与元素；当前默认 1440×900 CSS 视口、2×像素，元素 bounds 为视口坐标。全页运镜需结合滚动偏移、截图倍率与裁切原点换算。复杂状态可通过 `capturePage` 的准备回调操作，不能假定截图自动证明完整交互。
+`capture` 可采页面与元素；当前默认 1440×900 CSS 视口、2×像素，元素 bounds 为视口坐标。全页运镜需结合滚动偏移、截图倍率与裁切原点换算。复杂状态可通过 `capturePage` 的准备回调操作，不能假定截图自动证明完整交互、延迟内容或子页研究。浏览与素材选择见 [产品研究](product-research.md)。
 
 ## 配乐与音效
 
@@ -108,6 +108,8 @@ npx lvm inspect /absolute/film.mp4
 
 画面与动作先用 [eval.md](eval.md) 的 E01–E10 Good / Bad 案例诊断；本页保留实现、七维评分与证据协议。自主设计在第三步执行完整动态/视听验收，第二步只确认故事，不以本节作为故事确认的前置条件。
 
+第三步选择节奏和语义文字方法时读 [动态表达](motion-language.md)。方法案例仍遵循本页帧确定性与字体就绪约定；文字替换检查最长词的容器尺寸、清晰落定和重复文字残影，文字进入 UI 时尽量维持同一对象。匀速、快速或某种 easing 单独不能决定质量，实际播放中的用途与阅读才是依据。
+
 交付前由未参与制作的独立审阅者检查当前版本，提供用户要求、产品依据、方向、已确认故事、制作分镜与可观看产物，不提供期望得分。使用以下七项，具体举出画面或声音证据：
 
 | 维度 | 判断依据 |
@@ -131,6 +133,8 @@ npx lvm inspect /absolute/film.mp4
 默认收集 `records/{brief,direction,storyboard}.md` 和 brand-kit 来源。自主路线新建的故事脚本不会自动收集：在文件实际存在后，将 `{"role":"reference","path":"records/script.md"}` 合并到 `records/review-context.json` 的 `documents`，保留其他条目和原 `actionRanges`。完整示例与老工程兼容方式见 [阶段产物](stage-deliverables.md#接入现有审阅)。
 
 自定义文件或动作区间也使用该配置，例如 `{"documents":[{"role":"direction","path":"records/concept.md"}],"actionRanges":[{"start":30,"end":45}]}`。路径须在工程内；每包最多 1200 帧、2 GiB。没有 script 的老工程继续用现有 brief/storyboard，不能补造历史确认。
+
+研究摘要和动态决定优先保存在默认 brief/storyboard 内。另有实际存在的 `records/research.md` 时使用已有 reference role 合并，保留 script、其他 documents 和 actionRanges。只采需要密集观察的替换/交接区间，不为每个文字动作新增 marker 或采满整片。
 
 审阅者读取 handoff、manifest 和空白 review.json，声明真实观察能力；按 sampling 检查概览及连续窗口，填写 sequence 观察（覆盖所读窗口的每帧 evidenceId）、覆盖全片的 continuous-playback，视听范围另填 listening。给每项分数和问题引用本轮 evidenceIds、全局半开帧区间、可观察现象及修复目标。只填写 review.json，不改 manifest 或证据。修复后重新出包，保留旧问题 ID 与严重程度，凭新证据填写解决状态和 resolution，不继承旧评分。
 

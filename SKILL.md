@@ -9,7 +9,7 @@ description: Use when the user asks for an autonomous product launch video or pr
 
 ## 选择路线
 
-已有模式或继续现有影片时直接沿用。未选模式时，先做最小只读产品检查，说明两条路线及推荐依据：
+已有模式或继续现有影片时直接沿用。未选模式时，先做快速只读产品检查，说明两条路线及推荐依据；这是路线判断，正式设计前按 [产品研究](references/product-research.md) 了解全貌、查看相关演示并保存可拍素材。
 
 - **模板 reference：** 有合适模板时，默认尽量保留参考的镜头编排、构图、动作、空间关系和节奏，适配真实产品内容与 style；明确的局部借用/改编要求优先。读 [模板流程](references/template-conventions.md)。
 - **Agent 自规划：** 按下表三步走。读 [制作流程](references/pipeline.md)，每阶段的记录与交付示例见 [阶段产物](references/stage-deliverables.md)。
@@ -28,7 +28,7 @@ description: Use when the user asks for an autonomous product launch video or pr
 
 ## 制作与评审入口
 
-开始安排画面时读 [Good / Bad 质量标尺](references/eval.md)。先看具体差距，再查实现规则；每个镜头给观众一个明确焦点，让主体发生有意义的变化，允许结果稳定停留。
+开始安排画面时读 [Good / Bad 质量标尺](references/eval.md)。第三步用 [动态表达](references/motion-language.md) 选择节奏与文字方法：安排动作轻重、可读停留和语义重点，按需查看可运行对照。每个镜头给观众一个明确焦点，让主体发生有意义的变化。功能巡礼、单功能发布与贯穿案例都是可选故事结构。
 
 自主设计的默认文字准则：**Good：标题和文字单独镜头出现，并有高亮词或动效；Bad：标题和配图左右构图、上下构图，像 PPT。** 真实 UI 的必要标题、导航和状态标签保留；模板按约定构图执行。详见 E10。
 
