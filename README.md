@@ -113,6 +113,5 @@ Git 不追踪空目录；clone 后空目录可能不存在，Agent 将其视为�
 
 本仓库尚未指定许可证，未提供 `LICENSE`。第三方依赖及引用素材各自的许可仍须遵守；不要据此假设本项目采用 MIT 或 Apache 许可。
 
-- [SaaS Breathing Showcase](templates/saas-breathing-showcase/template.md)：31 秒页面透视、错位漂移、星形收拢与长停顿参考；支持本地页面和原生文案替换。
 
 - [Product Launch Lavender](templates/product-launch-lavender/template.md)：已定稿 v1.0.0；31 秒淡紫产品发布模板，连续页面、边缘环绕阵列、等轴页面墙与圆形交织花标。

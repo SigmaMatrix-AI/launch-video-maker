@@ -53,6 +53,5 @@
 
 空目录记录“暂无内置参考模板”；有模板但不适用时记录选择依据。两种情况均可依据简报与视觉方向自主设计，不要求用户提供模板，不从其他工程隐式借资源。运行工具缺失是独立的能力缺口，不通过“无模板自主设计”绕过。
 
-- [SaaS Breathing Showcase](../templates/saas-breathing-showcase/template.md)：31 秒页面透视、错位漂移、星形收拢与长停顿参考；支持本地页面和原生文案替换。
 
 - [Product Launch Lavender](../templates/product-launch-lavender/template.md)：已定稿 v1.0.0；31 秒淡紫产品发布模板，连续页面、边缘环绕阵列、等轴页面墙与圆形交织花标。
