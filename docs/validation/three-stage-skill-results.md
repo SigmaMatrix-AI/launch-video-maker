@@ -26,7 +26,21 @@
 
 阶段复测代理 `/root/stage_behavior` 使用同一输入、只读新版入口/流程/产物和模板文档，未读预期答案。S1/S2/S3/S5a/S5b/S6 均 pass：S1 明确“三张效果图……本轮停在第一阶段”；S2 明确“脚本待确认”，交付低保真故事分镜；S3 在代定授权内连续制作并标明 Agent 决定；S5a 只修按钮；S5b “此次局部修订不以补齐批准为前置条件，也不据此继续扩展整片”；S6 保留指定模板布局与时长。
 
-单次复测没有出现阶段边界的多义行为，因此未触发旧/新各五次措辞微测；这不证明跨运行稳定性。原始回答保存在 ignored `stage-responses.md`。完整 S1–S8 的最终版本复测待完成。
+单次复测没有出现阶段边界的多义行为，因此未触发旧/新各五次措辞微测；这不证明跨运行稳定性。原始回答保存在 ignored `stage-responses.md`。最终行为代理 `/root/final_behavior` 读取完整新版相关文档、同一组场景，不读预期答案。S1/S2/S3/S4/S5a/S5b/S6/S7/S8 均 pass（人工逐条读实际响应）：
+
+| 场景 | 新版可观察行为 |
+| --- | --- |
+| S1 | 三方向、同内容、停在选择点；明确不展开三条影片。 |
+| S2 | 交付脚本和粗分镜，待内容确认，不做动态样片或帧级时序。 |
+| S3 | 代选/代定并记录授权，继续制作，不擅自导出 MP4。 |
+| S4 | 独立文字强调“一份/多种”，再进 UI，保留必要标签与结果停留。 |
+| S5a | E06 定位按钮，局部修改并检查接缝/声音，不重开故事。 |
+| S5b | “已有初稿，方向和脚本确认依据缺失；本次仅授权按钮修改”，局部工作照做。 |
+| S6 | 保留模板的标题配图布局、动作和时长，不强加三阶段。 |
+| S7 | “整体通过”和“很贵”均无足够证据；列出实际缺口。 |
+| S8 | 使用有来源的文字笔记，未看片部分标未验证，继续当前阶段产物。 |
+
+原始回答位于 ignored `final-responses.md`。本次是每场景一次、同一次调用内独立输入的响应验证，并非九次独立端到端生产；不能用通过数估计真实制作成功率。
 
 ## 参考案例核对
 
@@ -36,7 +50,13 @@
 
 ## 技术与视觉验证
 
-环境：Node 24.17.0、Playwright 1.64.1、Chromium 156.0.8078.4、FFmpeg/ffprobe 8.1.2，darwin/arm64。`npm ci` 和初始 `npm run build` 通过。记录接入、相关回归及短视觉对照待完成。
+环境：Node 24.17.0、Playwright 1.64.1、Chromium 156.0.8078.4、FFmpeg/ffprobe 8.1.2，darwin/arm64。`npm ci` 和初始 `npm run build` 通过。记录接入 smoke 实际调用 `readReviewContext(project)`：无 script 的老工程保留默认记录；新配置合并 script 和既有 notes 后，与 brief/direction/storyboard/brand 共存；`actionRanges: [{start:30,end:45}]` 与磁盘配置保持原值。通过。
+
+修改 handoff 后重新 `npm run build` 通过；运行 `npx tsx --test --test-concurrency=1 runtime/test/review-pack.test.ts runtime/test/review-schema.test.ts runtime/test/review-check.test.ts`：20/20 通过，0 跳过。范围仅为相关审阅回归，没有宣称全 runtime 重新验收。
+
+7 份活动文档的 35 个相对链接/锚点可达，代码围栏平衡。`quick_validate.py` 初次因系统 Python 缺 PyYAML 未运行；在 ignored 独立 venv 安装后返回 `Skill is valid!`。没有修改系统 Python 或新增工程依赖。
+
+短视觉对照待完成。
 
 ## 成本与限制
 
