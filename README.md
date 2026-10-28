@@ -1,6 +1,6 @@
 # Launch Video Maker
 
-自主制作产品宣传视频的 Agent skill。先理解产品，让故事、镜头与声音围绕产品价值展开。SKILL.md 给出发布影片的审美目标、微交互和动态叙事技巧；自主创作与模板制作两条路线都从真实产品出发。
+制作产品宣传视频的 Agent skill。自主设计按三步走：**3 种效果图选调性 → 故事脚本与简易分镜确认内容 → UI、镜头、节奏、动效与声音打磨**。先分开确定方向与故事，再投入整片制作。模板 reference 保留约定编排，不强制套用三方向流程。
 
 运行层采用 **React + TypeScript、统一帧控制、Playwright 与 FFmpeg**，无需 Remotion。预览和导出共用场景源码、资源和预混音频；Player 只负责观看和检查。
 
@@ -32,7 +32,7 @@ npm run prepare
 
 生成工程的 `prepare` 同时是 npm 生命周期脚本，普通 `npm ci` / `npm install` 会自动准备媒体。只安装依赖时用 `npm ci --ignore-scripts`，随后显式执行 `npm run prepare`；有媒体的工程需先备好 FFmpeg。
 
-Agent 从 [SKILL.md](SKILL.md) 开始执行。[制作流程](references/pipeline.md) 用于自主创作，[模板流程](references/template-conventions.md) 用于模板制作；[技术指南](references/tech.md) 提供实现、声音、渲染与质量保证。
+Agent 从 [SKILL.md](SKILL.md) 开始执行。[三阶段流程](references/pipeline.md) 与 [阶段产物](references/stage-deliverables.md) 定义自主创作的边界、确认记录和续作；[模板流程](references/template-conventions.md) 保留参考适配方式；[Good / Bad 标尺](references/eval.md) 提供十条对照和四张参考案例卡；[技术指南](references/tech.md) 提供实现与七维评测协议。
 
 ## 命令与交付行为
 
@@ -43,7 +43,7 @@ Agent 从 [SKILL.md](SKILL.md) 开始执行。[制作流程](references/pipeline
 | `doctor` / `setup` | 检查环境 / 安装工程依赖和固定版本 Chromium |
 | `prepare` | 校验配置、准备媒体、编译共享 48 kHz 立体声混音 |
 | `preview` | 后台启动预览，不打开浏览器、不展示地址 |
-| `preview --open` | 用户请求预览时打开浏览器 |
+| `preview --open` | 第三步或模板制作完成后，默认打开本地预览 |
 | `still 42 /path/frame.png` | 资源就绪后采集指定帧，不生成 MP4 |
 | `render /path/film.mp4` | 显式导出 H264/AAC MP4，拒绝覆盖已有文件 |
 | `inspect /path/film.mp4` | 检查实际编码规格和帧数 |
@@ -53,18 +53,18 @@ Agent 从 [SKILL.md](SKILL.md) 开始执行。[制作流程](references/pipeline
 | `review-check /absolute/bundle/review.json` | 核验版本、文件证据、范围门槛及逐项复测 |
 | `clean` | 清理已知解码／Vite缓存；保留评测记录，先停止预览 |
 
-默认交付经过审查的可预览工程。只有用户要求时展示预览；用户满意并要求导出后才运行 `render`。技术测试可以生成测试 fixture MP4，不能据此自动导出用户影片。
+按当前阶段交付：第一步三种效果图，第二步脚本与粗分镜，第三步默认打开已检查的本地预览，附工程和检查状态。用户明确要求导出后才运行 `render`；已有导出授权不重复询问。技术测试可以生成 fixture MP4，不能据此自动导出用户影片。
 
 评测默认visual范围。完整CLI参数与报告填写见 [技术指南](references/tech.md#使用现有评测工具)。`review-check`退出0仅代表当前范围通过；visual范围的完整商用结论始终为未完成。工具不会自动评分或声称已观看／试听。
 
 ## 设计原则
 
 - **从产品自身生长。** 两条制作路线都先理解受众、任务、输入与结果，让画面证明价值。
-- **导演自主判断。** 以现代、精致、有发布能量的影片为目标，具体设计节奏、微交互、衔接与声音。
+- **阶段内自主判断。** 默认先选方向、再确认故事；用户明确委托代选/代定时记录后继续，不重复请批。局部反馈只改受影响镜头。
 - **用好参考。** 模板提供动作与叙事方法，style 提供视觉启发；按产品与用户要求确定采用范围，明确复刻任务保留约定的编排。
-- **观看结果再打磨。** 尽早形成动态草稿，检查可读性、产品表达与视听品质；技术通过不等于影片优秀。
+- **用案例指导打磨。** 宣传文字默认独立成镜并突出关键词；主体动作、对象承接与可读停留共同消除换页感。第二步不验收动态，第三步用实际播放结果修订；技术通过不等于影片优秀。
 
-影片工程保存自己的素材与依赖。默认交付工程，按用户请求预览或导出；不附加编辑器或发布流程。
+影片工程保存自己的素材与依赖。默认交付本地预览与工程，按明确请求导出；不附加编辑器或发布流程。初始化仍生成 brief/direction/storyboard；新建 script 通过现有 reference role 接入审阅，见阶段产物。
 
 ## 开发与验证
 
@@ -81,8 +81,8 @@ LVM_LONG_TEST=1 npx tsx --test runtime/test/long-sync.test.ts
 ## 目录
 
 ```text
-SKILL.md                 审美目标与创作技巧
-references/              pipeline.md、template-conventions.md、tech.md
+SKILL.md                 两条路线、三阶段边界与按需阅读入口
+references/              pipeline、stage-deliverables、eval、tech、template-conventions
 templates/               可运行参考模板及各自的适配指南
 styles/                  独立的正式 style 包
 films/                   用户影片与本地实验（Git 忽略）

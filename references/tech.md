@@ -93,7 +93,7 @@ npx lvm doctor
 npx lvm prepare
 npx lvm preview                  # 内部检查，输出实际 URL
 npx lvm still 42 /absolute/frame.png
-npx lvm preview --open           # 用户要求预览时
+npx lvm preview --open           # 第三步默认交付本地预览；模板同样适用
 npx lvm render /absolute/film.mp4 # 用户明确要求导出后
 npx lvm inspect /absolute/film.mp4
 ```
@@ -106,9 +106,9 @@ npx lvm inspect /absolute/film.mp4
 
 ## 质量保证
 
-先看影片是否值得看，再检查是否做得可靠。正常速度完整观看，试听实际混音；静帧检查排版与材质，连续动作检查节奏与衔接。优先修复影响产品理解、阅读、注意力和高潮的问题，再细抠边缘、微动作与音色。局部修改后重看相邻转场与全片。
+画面与动作先用 [eval.md](eval.md) 的 E01–E10 Good / Bad 案例诊断；本页保留实现、七维评分与证据协议。自主设计在第三步执行完整动态/视听验收，第二步只确认故事，不以本节作为故事确认的前置条件。
 
-交付前由未参与制作的独立审阅者检查当前版本，提供用户要求、产品依据、方向、分镜与可观看产物，不提供期望得分。使用以下七项，具体举出画面或声音证据：
+交付前由未参与制作的独立审阅者检查当前版本，提供用户要求、产品依据、方向、已确认故事、制作分镜与可观看产物，不提供期望得分。使用以下七项，具体举出画面或声音证据：
 
 | 维度 | 判断依据 |
 | --- | --- |
@@ -120,7 +120,7 @@ npx lvm inspect /absolute/film.mp4
 | 声音与同步 | 音乐有推进与收束，SFX 增强动作，混音层次清晰且同步 |
 | 技术规格 | 资源完整，任意帧可复现，播放、尺寸、帧率和实际输出符合要求 |
 
-模板任务按实际采用范围检查，明确复刻才逐段对齐原片。事实错误、必展示项缺失、敏感信息曝光、关键文字不可读、资源缺失、播放故障和明显音画错位优先修复。不能用漂亮画面或分数抵消这些问题。
+模板任务按 SKILL.md 和用户要求确定的采用范围检查，需保留编排的段落逐段对齐原片。自主路线的三方向确认与 E10 默认构图不强加给模板。事实错误、必展示项缺失、敏感信息曝光、关键文字不可读、资源缺失、播放故障和明显音画错位优先修复，不能用画面或分数抵消。
 
 当前工具保留七项各 ≥7.5/10 的门槛；分数是审阅记录，不能自行证明品质。无法观看或听音时标记未验证，不能由源码、播放日志或波形推断已观看/试听。实际 MP4 还需完整播放，核对首末帧、压缩画质、音轨以及起中尾同步；预览检查不能替代它。
 
@@ -128,7 +128,9 @@ npx lvm inspect /absolute/film.mp4
 
 `npx lvm review-pack .lvm/review` 创建唯一版本证据包，默认 visual；完整视听用 `--scope audiovisual`，已有成片用 `--mp4 /absolute/film.mp4`，复测用 `--previous /absolute/old/review.json`。不会自动导出或评分。
 
-默认收集 `records/{brief,direction,storyboard}.md` 和 brand-kit 来源。自定义文件或动作采样区间放 `records/review-context.json`，例如 `{"documents":[{"role":"direction","path":"records/concept.md"}],"actionRanges":[{"start":30,"end":45}]}`。路径须在工程内；每包最多 1200 帧、2 GiB。
+默认收集 `records/{brief,direction,storyboard}.md` 和 brand-kit 来源。自主路线新建的故事脚本不会自动收集：在文件实际存在后，将 `{"role":"reference","path":"records/script.md"}` 合并到 `records/review-context.json` 的 `documents`，保留其他条目和原 `actionRanges`。完整示例与老工程兼容方式见 [阶段产物](stage-deliverables.md#接入现有审阅)。
+
+自定义文件或动作区间也使用该配置，例如 `{"documents":[{"role":"direction","path":"records/concept.md"}],"actionRanges":[{"start":30,"end":45}]}`。路径须在工程内；每包最多 1200 帧、2 GiB。没有 script 的老工程继续用现有 brief/storyboard，不能补造历史确认。
 
 审阅者读取 handoff、manifest 和空白 review.json，声明真实观察能力；按 sampling 检查概览及连续窗口，填写 sequence 观察（覆盖所读窗口的每帧 evidenceId）、覆盖全片的 continuous-playback，视听范围另填 listening。给每项分数和问题引用本轮 evidenceIds、全局半开帧区间、可观察现象及修复目标。只填写 review.json，不改 manifest 或证据。修复后重新出包，保留旧问题 ID 与严重程度，凭新证据填写解决状态和 resolution，不继承旧评分。
 

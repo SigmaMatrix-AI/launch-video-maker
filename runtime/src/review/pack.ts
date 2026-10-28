@@ -454,7 +454,7 @@ Target: ${manifest.target.kind}; content version: ${manifest.target.version}; sc
 4. Fill justified scores, findings and current-version resolutions in review.json. Deferred listening stays null for visual scope. Do not inherit historical scores or use historical evidence to close current issues.
 5. From the film project run: npx lvm review-check <absolute-path-to-this-bundle>/review.json
 
-Use references/tech.md (质量保证 / 使用现有评测工具) for the seven-dimension criteria and independent review protocol. No scores or perceptual claims have been supplied by this tool.
+Use references/eval.md for Good / Bad examples (E01–E10), production criteria and concrete corrections; use references/tech.md (质量保证 / 使用现有评测工具) for seven-dimension scoring and the independent review protocol. No scores or perceptual claims have been supplied by this tool.
 `,
     );
     options.signal?.throwIfAborted();
