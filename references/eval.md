@@ -41,7 +41,7 @@ The following images and sequence collages are stored in the repository's `asset
 
 Borrow layout, hierarchy, and object relationships from references, replacing content with evidenced assets from the current product. Surrounding cards might show features, work, or users; local emphasis might highlight selected entries, key actions, or result reveals.
 
-Collages follow the order of user-supplied screenshots and show sampled states, not complete storyboards or exact durations. Motion speed, easing, transition continuity, and audiovisual rhythm require separate observation of an accessible original video and cannot be inferred from collages.
+Collages show selected screenshots in sequence, not complete storyboards or exact durations. Motion speed, easing, transition continuity, and audiovisual rhythm require separate observation of an accessible original video and cannot be inferred from collages.
 
 ## Motion case cards
 

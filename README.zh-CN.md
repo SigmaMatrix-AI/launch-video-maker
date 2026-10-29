@@ -88,7 +88,7 @@ launch-video-maker/
 │   ├── src/                       # 渲染、媒体、音频与命令行工具
 │   ├── web/                       # 浏览器预览播放器
 │   └── test/                      # 运行时测试
-└── docs/                          # 验证指南
+└── docs/                          # 验证指南与字体许可证元数据
 ```
 
 现有模板：[Product Launch Lavender](templates/product-launch-lavender/template.md)、[Motion Design Promo](templates/motion-design-promo/template.md) 和 [Capsule Flow](templates/capsule-flow/template.md)。视觉风格参考位于 [`styles/`](styles/)。
@@ -99,6 +99,6 @@ launch-video-maker/
 
 ## 许可证
 
-[Apache-2.0](LICENSE)。
+本项目原创代码和文档采用 [Apache-2.0](LICENSE) 协议。
 
-第三方依赖、字体和品牌素材，仍适用各自的许可证与使用限制。
+第三方软件、字体、演示素材、音乐及品牌素材仍适用各自的授权条款。来源、随附字体许可证和待确认授权详见 [第三方素材声明](THIRD_PARTY_NOTICES.md)。收录在本仓库中不代表这些素材采用 Apache 协议，也不代表可以自由再分发。
