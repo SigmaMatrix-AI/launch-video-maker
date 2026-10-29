@@ -1,0 +1,70 @@
+{
+  "name": "Intro01",
+  "node": "opening",
+  "schema": {
+    "fields": [
+      {
+        "key": "title",
+        "type": "string",
+        "required": true,
+        "maxChars": 24,
+        "desc": "Translation only: the creative seed named at the opening. Preserve the meaning of the source; translate naturally into the target language; use a short noun.",
+        "mode": "translate_only",
+        "source": "Ideas",
+        "sourceLanguage": "en"
+      },
+      {
+        "key": "phrase",
+        "type": "string",
+        "required": true,
+        "maxChars": 64,
+        "desc": "Translation only: preserve the link from the creative seed to its result. Translate the entire phrase naturally; do not substitute a different claim; at most 64 characters.",
+        "mode": "translate_only",
+        "source": "take form and become",
+        "sourceLanguage": "en"
+      },
+      {
+        "key": "result",
+        "type": "string",
+        "required": true,
+        "maxChars": 24,
+        "desc": "The short outcome noun that completes the opening transformation. Name the new topic’s output; confident and concrete, e.g. motion or video; at most 24 characters.",
+        "mode": "content"
+      },
+      {
+        "key": "connector",
+        "type": "string",
+        "required": true,
+        "maxChars": 24,
+        "desc": "Translation only: a short connector introducing how the result is delivered. Keep the source meaning and translate idiomatically; at most 24 characters.",
+        "mode": "translate_only",
+        "source": "Through",
+        "sourceLanguage": "en"
+      }
+    ]
+  },
+  "meta": {
+    "displays": "Introduce the creative seed, its transformation and the tangible result, then bridge to the proof.",
+    "useWhen": [
+      "Introduce the creative seed, its transformation and the tangible result, then bridge to the proof."
+    ],
+    "dontUseWhen": [
+      "Use Brand06 for the closing identity."
+    ],
+    "minDuration": 2,
+    "maxDuration": 18,
+    "durationModel": "scene"
+  },
+  "example_data": {
+    "title": "Ideas",
+    "phrase": "take form and become",
+    "result": "motion",
+    "connector": "Through"
+  },
+  "example_narration": "",
+  "example_duration_ms": 3733,
+  "preview_t": 0.67,
+  "example_audio": "boards/Intro01.mp3",
+  "preview_html": "boards/Intro01.html",
+  "preview_png": "boards/Intro01.png"
+}

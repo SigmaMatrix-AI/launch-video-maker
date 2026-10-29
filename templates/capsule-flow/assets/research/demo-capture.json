@@ -1,0 +1,54 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "scale": 2,
+  "capturedAt": "2026-10-27T05:43:48.465Z",
+  "states": [
+    {
+      "name": "input",
+      "bounds": {
+        "x": 220,
+        "y": 422.515625,
+        "width": 1000,
+        "height": 577
+      },
+      "text": "Interactive Preview\n01\nPrompt & Assets\n02\nOutline\n03\nConfirm Script\n04\nRender\n05\nEdit\nTapVid\nCreate Your Motion Video\nMy talking head video\n73.4MB\n\nI'd like to add motion graphics and short explanations next to my presenter video about how we spend our 80 years, to help viewers grasp the key numbers.\n\n9:16\n60s\nEnglish\nMia\nStart with this prompt\nArticle to Video\nTalking Head Editing\nAudio to Video\nAssets to Video\nClone Video",
+      "url": "https://tapvid.ai/"
+    },
+    {
+      "name": "outline",
+      "bounds": {
+        "x": 220,
+        "y": 391.515625,
+        "width": 1000,
+        "height": 608.5
+      },
+      "text": "Interactive Preview\n01\nPrompt & Assets\n02\nOutline\n03\nConfirm Script\n04\nRender\n05\nEdit\n\nChat\n\nI'd like to add motion graphics and short explanations next to my presenter video about how we spend our 80 years, to help viewers grasp the key numbers.\n\nParsing files\nMy talking head video\nDone\n\nI'll create a video about how we really spend our 80 years for you. It will run about 45 seconds across 3 scenes. Let me start by reviewing your prompt and pulling together the most relevant source material, then planning the content.\n\nBuilding the video outline\nDone\nVideo outline is ready to review.\nApprove the outline\nConfirm and Generate\nor continue refining\nReview and refine your video outline…\n\nVideo Outline\n\nConcept\n\n“Time Perspective” turns a simple talking-head monologue into a striking visual essay. We keep the original footage and audio, then layer clean, synchronized graphics that show how an 80-year life is really spent. With a minimalist style plus split-screens and fullscreen overlays, it builds a rhythmic flow that drives home how much time goes to the mundane, then pivots to a liberating message. Live intentionally, today.\n\nPacing Framework\n00:00–00:17\nDuration: 17.0s\n\nTHE STATS\n\nIntroduce the 80-year lifespan statistic and break down the time spent on sleeping, trying to sleep, screens, and eating.\n\n00:17–00:31\nDuration: 14.0s\n\nTHE PIVOT\n\nTransition from a depressing realization to a liberating perspective on how life is measured.\n\n00:31–00:45\nDuration: 14.0s\n\nTHE PIVOT\n\nDeliver the final philosophical conclusion—focusing on making today's 24 hours count.\n\nStart over",
+      "url": "https://tapvid.ai/"
+    },
+    {
+      "name": "script",
+      "bounds": {
+        "x": 220,
+        "y": 391.515625,
+        "width": 1000,
+        "height": 608.5
+      },
+      "text": "Interactive Preview\n01\nPrompt & Assets\n02\nOutline\n03\nConfirm Script\n04\nRender\n05\nEdit\n\nChat\n\nI'd like to add motion graphics and short explanations next to my presenter video about how we spend our 80 years, to help viewers grasp the key numbers.\n\nParsing files\nMy talking head video\nDone\n\nI'll create a video about how we really spend our 80 years for you. It will run about 45 seconds across 3 scenes. Let me start by reviewing your prompt and pulling together the most relevant source material, then planning the content.\n\nBuilding the video outline\nDone\nVideo outline is ready to review.\nWrite the video Storyboard\nDone\nStoryboard ready for video production\nApprove and render\nConfirm and Generate\nor continue refining\nReview and refine your video script…\n\nStoryboard\n\n00:00–00:17\nVOICEOVER\n\n“Here’s a statistic that puts life into perspective if you live to be eighty years old you’ll spend about twenty six years asleep another seven years trying to fall asleep around eleven years watching screens and roughly four to five years eating”\n\nSCREEN DESCRIPTION\n\nLifespan Perspective\n\nThe speaker introduces the lifespan perspective statistic as the right graphic panel displays an elegant '80-YEAR LIFESPAN' headline. The speaker details sleeping habits while the right panel animates circular progress rings for sleep (26 years) and trying to sleep (7 years). The speaker details screen time and eating habits while the rings for screens (11 years) and eating (4.5 years) fill up on the right panel.\n\nMATERIAL\n\nPresenter Narration Bridge\n\n80-Year Routine Breakdown\n\n00:17–00:31\nVOICEOVER\n\n“That leaves surprisingly little time for everything else it sounds depressing but it’s actually liberating because life isn’t measured only by you because life isn’t measured only by years.”\n\nSCREEN DESCRIPTION\n\nThe Emotional Pivot\n\nThe speaker begins talking about how little time is left for everything else as a cool, slate-blue transparent wash fades in over the full canvas and “DEPRESSING?” appears in large, elegant typography on the left. The transparent full-canvas wash transitions smoothly to a warm, glowing golden-amber tint as the speaker says “liberating” and “LIBERATING.” fades in on the right. The warm golden-amber wash and text fade out gracefully as the scene concludes, leaving the source video clean for the next shot.\n\nMATERIAL\n\nDepressing Reaction Card\n\nLiberating Lifespan Reframe\n\n00:31–00:45\nVOICEOVER\n\n“It’s measured by how intentionally you spend the hours you’re awake you don’t need thousands of perfect days you just need today’s twenty-four hours to count a little more than yesterday’s.”\n\nSCREEN DESCRIPTION\n\nToday's 24 Hours\n\nThe layout transitions via scale-pop to bottom-right PIP, and a minimalist 24-hour clock ring begins to draw in on the left graphic canvas. The clock ring shows a glowing gold arc representing “Awake & Intentional” hours, with large elegant text “AWAKE & INTENTIONAL” above it. The clock ring morphs into side-by-side comparison arcs for “YESTERDAY” (grey) and “TODAY” (glowing gold, slightly larger) with the final bold callout “MAKE TODAY COUNT” and the speaker smiling warmly in the PIP.\n\nMATERIAL\n\n16 Active-Hours Infographic\n\nStart over",
+      "url": "https://tapvid.ai/"
+    },
+    {
+      "name": "edit",
+      "bounds": {
+        "x": 220,
+        "y": 391.515625,
+        "width": 1000,
+        "height": 608.5
+      },
+      "text": "Interactive Preview\n01\nPrompt & Assets\n02\nOutline\n03\nConfirm Script\n04\nRender\n05\nEdit\n\nChat\n\nI'd like to add motion graphics and short explanations next to my presenter video about how we spend our 80 years, to help viewers grasp the key numbers.\n\nParsing files\nMy talking head video\nDone\n\nI'll create a video about how we really spend our 80 years for you. It will run about 45 seconds across 3 scenes. Let me start by reviewing your prompt and pulling together the most relevant source material, then planning the content.\n\nBuilding the video outline\nDone\nVideo outline is ready to review.\nWrite the video Storyboard\nDone\nStoryboard ready for video production\n\nPerfect. I've sent the plan over to the production engine, and your enhanced video is now being generated. Go do your thing, I'm on it in the background — I'll ping you as soon as the final cut is ready to review!\n\nGenerate the video\nDone\nYour video is ready to watch and edit.\nPlease add a title at the beginning of the video and position it in the top-left corner of the frame.\nSend this change\n\nVideo\n\n0:05 / 0:44\n1x\nChapter 01\nIntroduction\n1\n2\n3\n4\nStart over",
+      "url": "https://tapvid.ai/"
+    }
+  ]
+}

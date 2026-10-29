@@ -1,0 +1,2 @@
+# Finale button material revision
+User image1 is the explicit surface/layout reference. Finale source75.8–77.75s now uses1040×630 large rounded rectangle, radius190, soft pale sage/slate surface, white rim and low-contrast broad shadow. Official local logo.svg supplies finger/green dot and black TapVid wordmark. The subtle neutral material overrides previous green-gradient button for this surface only per user reference. Existing click and exit timings retained; press slightly compresses button. Audio and duration unchanged. Existing exports are not current.

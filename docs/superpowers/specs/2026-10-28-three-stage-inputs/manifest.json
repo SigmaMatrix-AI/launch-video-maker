@@ -1,0 +1,37 @@
+{
+  "source_root": "/Users/mac/Documents/repo/launch-video-maker",
+  "source_head": "b7b61fc11fad63adc7fcceca82611b05b3df1b71",
+  "note": "Planning-only snapshot of working-directory documents, including uncommitted changes. Not the installed skill or target implementation. The snapshot has been translated into English: sha256 identifies the translated snapshot files; source_sha256 preserves the original source snapshot hashes.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "c75e6cd42d27edf0571bc189db7fe96d3197d4ff6a3bd20392c61f60e7ad93f4",
+      "source_sha256": "6438f3d89da0c3eda1570ca87d6e249a5fb16c8a1fc783a02247ccc633f68ded"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d60fad0007952811f5c43fd09c2c5081849fd9968c693749bf2c6d6b3f31cd51",
+      "source_sha256": "f5d8eda68a974cca421ece0b2d47875282dd5fb27c731ebc0ddb10100e987a3a"
+    },
+    {
+      "path": "references/pipeline.md",
+      "sha256": "07d72b1ab409062a518b3a3aac2b316dddb3bedbde078b45b7826395f7dbeefc",
+      "source_sha256": "3bd94e93ce331293ad14f6f9d983cebe673b9b009ac3cb603f95ab0e226e9ee1"
+    },
+    {
+      "path": "references/eval.md",
+      "sha256": "2dbd87715e652f5dbbc66445cf72d2248d96297ae47c7ab0899eb530f2b1faac",
+      "source_sha256": "f3931a4cda4619eaf46cc64dc16ae880adeacfc7764d3939c3cdcd3d20e91761"
+    },
+    {
+      "path": "references/tech.md",
+      "sha256": "10bbc6af7fccdc3acf3d2f3bac963ebb98581b633adc1c94fe55ed15db598a0d",
+      "source_sha256": "7504a8540e3a3afddc0e8e79e28453eb671d014f6314abbafbde92125e08b3cb"
+    },
+    {
+      "path": "references/template-conventions.md",
+      "sha256": "88354b1077af0fdd760ee39275461f483d537eb88286a341c0342fbd6749cab6",
+      "source_sha256": "396b42ab52e683ab1637a46a54ed19ab7da54699a48023209630d780abc33f8b"
+    }
+  ]
+}

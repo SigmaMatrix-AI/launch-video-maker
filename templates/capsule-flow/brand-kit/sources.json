@@ -1,0 +1,17 @@
+{
+  "product": "TapVid",
+  "logo": {
+    "file": "brand-kit/logo.svg",
+    "source": "https://tapvid.ai/logo/logo-landscape.svg",
+    "observedDate": "2026-10-26"
+  },
+  "themeColor": {
+    "value": "#78d701",
+    "basis": "Observed public homepage CSS; no formal brand guide provided"
+  },
+  "font": {
+    "file": "brand-kit/GoogleSans-Regular.ttf",
+    "source": "templates/google-vids/brand-kit/GoogleSans-Regular.ttf",
+    "reason": "Explicit reference typography"
+  }
+}

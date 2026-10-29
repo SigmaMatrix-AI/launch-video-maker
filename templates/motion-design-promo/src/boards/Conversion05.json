@@ -1,0 +1,68 @@
+{
+  "name": "Conversion05",
+  "node": "conversion",
+  "schema": {
+    "fields": [
+      {
+        "key": "invitation",
+        "type": "string",
+        "required": true,
+        "maxChars": 24,
+        "desc": "Translation only: the inclusive invitation that precedes an action verb. Preserve its meaning; use natural localized phrasing; at most 24 characters.",
+        "mode": "translate_only",
+        "source": "Let’s",
+        "sourceLanguage": "en"
+      },
+      {
+        "key": "action",
+        "type": "string",
+        "required": true,
+        "maxChars": 24,
+        "desc": "Translation only: the action verb following the inclusive invitation. Preserve the action of creating; translate idiomatically, at most 24 characters.",
+        "mode": "translate_only",
+        "source": "Create",
+        "sourceLanguage": "en"
+      },
+      {
+        "key": "query",
+        "type": "string",
+        "required": true,
+        "maxChars": 64,
+        "desc": "The service or output the viewer would search for. Use a natural short query naming the new topic or need, e.g. Motion design for SaaS or AI video creation with TapVid; at most 64 characters.",
+        "mode": "content"
+      },
+      {
+        "key": "cta",
+        "type": "string",
+        "required": true,
+        "maxChars": 48,
+        "desc": "One direct next action appropriate to the new topic. Use an imperative phrase, e.g. Book a project or Try TapVid today; no invented URL or offer; at most 48 characters.",
+        "mode": "content"
+      }
+    ]
+  },
+  "meta": {
+    "displays": "Lead the viewer from an invitation and action through a search intent to one clear next step.",
+    "useWhen": [
+      "Lead the viewer from an invitation and action through a search intent to one clear next step."
+    ],
+    "dontUseWhen": [
+      "Use Brand06 for the closing identity."
+    ],
+    "minDuration": 2,
+    "maxDuration": 18,
+    "durationModel": "scene"
+  },
+  "example_data": {
+    "invitation": "Let’s",
+    "action": "Create",
+    "query": "Motion design for SaaS",
+    "cta": "Book a project"
+  },
+  "example_narration": "",
+  "example_duration_ms": 4533,
+  "preview_t": 0.92,
+  "example_audio": "boards/Conversion05.mp3",
+  "preview_html": "boards/Conversion05.html",
+  "preview_png": "boards/Conversion05.png"
+}
