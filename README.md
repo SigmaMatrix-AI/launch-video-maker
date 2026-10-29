@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="README.zh-CN.md">Simplified Chinese</a> | <strong>English</strong>
+  <strong>English</strong> | <a href="README.zh-CN.md">中文</a>
 </p>
 
 <h1 align="center">Launch Video Maker</h1>
@@ -20,7 +20,8 @@ Made with launch-video-maker · Unofficial concept demos.
 
 <!-- Looping GIF previews: Photoroom 00:00–00:10; Canva 00:06–00:24;
      TapVid 00:18–00:23; Product Launch Lavender 00:16–00:31.
-     Click each preview to open the GIF at full size. -->
+     Lightweight previews: 400×225 at 15 fps.
+     Click each preview to open the GIF on its own. -->
 
 <p align="center">
   <a href="assets/gallery/photoroom-promo.gif"><img src="assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10-second product launch video"></a>

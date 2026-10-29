@@ -1,10 +1,10 @@
-# Design — TapVid · Bold Pulse（Shopify）
+# Bold Pulse
 
 ---
 
 ## Visual Style
 
-A loud, high-energy beat-sync system in the Spotify hype idiom (Wrapped, drops, new-release ads) — built for maximum impact, where oversized ultra-bold type and saturated colour-blocks hit hard and fast on the music. The core is maximum contrast: bright Spotify Green (#1DB954) and white on a near-black ground (#121212), with bold saturated colour-blocks that hard-cut between scenes — flat, graphic, and punchy, with no gradients, no shadows, and no subtlety. Type is the hero: ultra-bold UPPERCASE in the heaviest weights, oversized and often filling or cropping past the frame, with kinetic motion as the signature — words bounce, scale-punch, and pulse in time with the beat. Compositions are flat full-frame colour fields — a single bold block per cut with giant type and high-contrast duotone or cutout imagery (album art, artist, product) — no depth, the energy coming entirely from contrast, scale, and rhythm. The edit is the design: everything is locked to the beat — explosive type slam-ins, hard colour-block cuts, the occasional strobe — fast, relentless, and energetic, with Spotify Green recurring as the through-line so it always reads as one hyped, unified piece.
+A high-energy system for music releases and product announcements, where oversized ultra-bold type and saturated colour blocks move to the beat. The core is maximum contrast: vivid green (#1DB954) and white on a near-black ground (#121212), with hard cuts between flat, full-frame colour fields. Use no gradients or shadows. Type is the main subject: heavy uppercase words fill or crop past the frame, then bounce, scale, and pulse with the music. Duotone or cutout imagery supports the headline without adding perspective or depth. Connect scenes through a recurring accent colour, percussive type entrances, and fast cuts. Adapt the accent and imagery to the product's own identity.
 
 ## Core Palette
 
@@ -12,13 +12,13 @@ A loud, high-energy beat-sync system in the Spotify hype idiom (Wrapped, drops, 
 
 | Role | Name | Hex | Usage Rule |
 |------|------|-----|------------|
-| Primary | Spotify Green | #1DB954 | Signature accent — energy, key type, green colour-blocks; the brand's core hit |
+| Primary | Pulse Green | #1DB954 | Default recurring accent for key type and green colour blocks; adapt to the product palette |
 | Secondary | Off-Black | #121212 | Near-black ground and dark colour-blocks |
 | Accent | Bright Pop | rotating | Saturated brights used as fast-cutting colour-blocks and accents (see Bold Block Set) |
 | Background | Near-Black | #121212 | Default ground — maximum contrast against green and white; cuts to colour-blocks |
 | Surface | Colour Block | full-frame | The "surface" is whatever full-bleed colour field is on screen (green / black / white / one bright) |
 | Text Primary | White | #FFFFFF | Ultra-bold uppercase type on dark or on a colour-block |
-| Text Secondary | Light Gray | #B3B3B3 | Supporting text *(default — Spotify's muted gray)* |
+| Text Secondary | Light Gray | #B3B3B3 | Supporting text on dark backgrounds |
 | Emphasis | Green / Invert | #1DB954 | Focal hit — green type, or a hard invert (black-on-green, green-on-black, white-on-bright) |
 
 ### Bold Block Set
@@ -27,7 +27,7 @@ The full-frame colours that hard-cut on the beat (one per block, never blended):
 
 | Name | Hex |
 |------|------|
-| Spotify Green | #1DB954 |
+| Pulse Green | #1DB954 |
 | Off-Black | #121212 |
 | White | #FFFFFF |
 | Hot Magenta | #FF4691 *(default)* |
@@ -35,13 +35,13 @@ The full-frame colours that hard-cut on the beat (one per block, never blended):
 | Bright Yellow | #FFD23F *(default)* |
 | Vivid Orange | #FF6437 *(default)* |
 
-*Green + near-black + white are the high-contrast core (your brief). The saturated brights are on-brand defaults for the "colour-block fast cuts" — adjust or trim the set freely; use one bright per block, never muddy combinations.*
+*Green, near-black, and white form the default high-contrast core. Adjust the accent and saturated brights to the product palette; use one bright per block and keep the colours distinct.*
 
 ### Palette Rules
 
 - Maximum contrast always — green or white on near-black, or hard inverts; never low-contrast or muted combinations.
 - One bright per colour-block; blocks fast-cut on the beat (green / black / white / a single bright) — never blend, never gradient.
-- Spotify Green (#1DB954) is the through-line — the one colour that recurs across every cut.
+- Repeat Pulse Green (#1DB954), or the chosen product accent, across cuts to connect the sequence.
 - No soft shadows, no gradients, no subtlety — the energy is flat, saturated, and high-contrast.
 
 ## Typography System
@@ -51,10 +51,10 @@ The full-frame colours that hard-cut on the beat (one per block, never blended):
 | Headline | Bold Grotesque, UPPERCASE *(choose a face)* | 80–200px | 800–900 Black | Oversized ultra-bold uppercase — fills the frame; the main visual |
 | Body | Bold Grotesque | 24–36px | 600–700 | Short punchy copy (minimal — hype is headline-led) |
 | Caption | Grotesque | 16–20px | 500–600 | Labels, tags |
-| Data / Number | Bold Grotesque | 120–300px | 800–900 Black | Giant stats — stream counts, dates, "#1"; Wrapped-style hero numbers |
+| Data / Number | Bold Grotesque | 120–300px | 800–900 Black | Oversized numbers for verified metrics, dates, or release details |
 | Emphasis | Bold Grotesque | inherits line | 900 / green | Hit words — green fill or invert, even heavier |
 
-*All UPPERCASE, heaviest weights, tight tracking and leading. Spotify's Circular is proprietary — choose a heavy geometric grotesque (a Circular-like face, or a free bold grotesque) and supply its `.woff2` files in `fonts/`. Sizes are @1080p defaults — scale to canvas, and let type crop past the frame edges for impact.*
+*Use uppercase, heavy weights, tight tracking, and tight leading. Choose a geometric grotesque with a license appropriate for the project, and supply its `.woff2` files and required license notices in `fonts/`. Sizes are defaults for a 1080p canvas; scale them to the output and allow deliberate cropping for emphasis.*
 
 ### Typography Rules
 
@@ -73,7 +73,7 @@ The full-frame colours that hard-cut on the beat (one per block, never blended):
 
 - **Space Construction:** Flat, full-frame colour fields — each scene is a single bold colour-block (green, near-black, white, or one bright) with oversized type and/or imagery cropped hard against it. No perspective; the look is graphic and flat.
 - **Depth Logic:** None — deliberately flat. Punch comes from contrast, scale, and the beat, not from layering or shadow. Imagery (album art, artist, product) sits flat on the block, often as a high-contrast duotone or a hard cutout.
-- **Environment Variants:** Every cut can change the block colour and the type, but the system stays flat and high-contrast — Spotify Green recurs, type stays ultra-bold uppercase, and everything cuts on the beat with no easing into new looks.
+- **Environment Variants:** Every cut can change the block colour and the type, but the system stays flat and high-contrast. Repeat the chosen accent, keep type ultra-bold and uppercase, and cut on the beat.
 
 ## Motion Language
 
@@ -130,4 +130,4 @@ Everything hits on the beat — colour-block cuts, type slams, and kinetic pulse
 ### Transition Rules
 - Everything cuts on the beat — transitions are locked to the music.
 - Hard cuts and fast wipes only; no slow fades or dissolves (they kill the energy).
-- Spotify Green recurs through the cuts as the through-line; one bright per block, never blended.
+- Repeat the chosen accent across cuts; use one bright colour per block, never blended.

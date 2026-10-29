@@ -22,7 +22,8 @@
 
 <!-- 循环 GIF：Photoroom 00:00–00:10；Canva 00:06–00:24；
      TapVid 00:18–00:23；Product Launch Lavender 00:16–00:31。
-     点击预览可查看原尺寸 GIF。 -->
+     轻量预览：400×225，15 fps。
+     点击预览可单独查看 GIF。 -->
 
 <p align="center">
   <a href="assets/gallery/photoroom-promo.gif"><img src="assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10 秒产品发布视频"></a>
