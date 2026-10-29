@@ -91,6 +91,10 @@ launch-video-maker/
 
 现有模板：[Product Launch Lavender](templates/product-launch-lavender/template.md)、[Motion Design Promo](templates/motion-design-promo/template.md) 和 [Capsule Flow](templates/capsule-flow/template.md)。视觉风格参考位于 [`styles/`](styles/)。
 
+<p align="center">
+  <a href="https://tapvid.ai"><img src="docs/assets/tapvid-cta.zh-CN.svg" width="720" alt="前往 TapVid，探索更多视频创作功能。"></a>
+</p>
+
 ## 许可证
 
 [Apache-2.0](LICENSE)。

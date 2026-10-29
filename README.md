@@ -4,8 +4,6 @@
 
 <h1 align="center">Launch Video Maker</h1>
 
-<hr>
-
 <p align="center"><strong>One prompt. A launch video for your product.</strong></p>
 
 <p align="center">
@@ -91,6 +89,10 @@ launch-video-maker/
 ```
 
 Available templates: [Product Launch Lavender](templates/product-launch-lavender/template.md), [Motion Design Promo](templates/motion-design-promo/template.md), and [Capsule Flow](templates/capsule-flow/template.md). Visual style references live in [`styles/`](styles/).
+
+<p align="center">
+  <a href="https://tapvid.ai"><img src="docs/assets/tapvid-cta.svg" width="720" alt="Explore more video creation features at TapVid."></a>
+</p>
 
 ## License
 
