@@ -4,9 +4,9 @@
 
 ## 基准与运行边界
 
-- 本次迁移基准是用户提供工程中当前 **SHIQU 六图版**（`shiqu-shopping-six-images.mp4`），不是 21.033 秒的原参考片，也不是仍有九张商品填充图的旧 merged 版。六场景与十四段内部动作沿用已认可的 20 秒节奏。
+- 六场景与十四段内部动作，整体时长为 20 秒。
 - 1280×720，60 fps，1200 帧，20 秒；内部 CSS 舞台保持 1920×1080，再缩放到输出尺寸。原构图以 960×540 逻辑坐标及 cqw/cqh 表达，默认只支持 16:9。
-- Runtime 0.1.0 快照随包附带。无需 TapVid、Remotion、video-shotcraft 或源工程路径。Node 24+、FFmpeg/ffprobe、锁定版本 Chromium 是外部运行环境。
+- Runtime 0.1.0 快照随包附带，可独立运行。Node 24+、FFmpeg/ffprobe、锁定版本 Chromium 是外部运行环境。
 - 全局帧时间为 `frame/60`，场景半开区间 `[start,end)`。为了保留原导出取样，传给 board 的视觉时间为 `(localFrame+0.5)/60`；音乐保持从 0 开始。这是显式视觉采样偏移，不是额外播放时钟。
 - 保留原五次缓动、字体度量、卡片路径、透视、分段权重和场景硬切。JSX 中仅文字字体选择增加按字重区分的字体族；TSX 入口负责 runtime 接线。没有重写动画或新增 SFX。
 
@@ -40,7 +40,7 @@
 
 1. 将整个模板复制到 `films/<project-id>/`（不要复制 node_modules、.lvm），在副本修改。
 2. `src/content.json` 是当前实际内容接口：`data` 改文字，`media` 把槽位映射至 image id，`images` 把 id 映射到工程内路径。复制素材到 assets，不引用其他工程或远程 URL。
-3. 各 board JSON 保存来源字段语义和长度提示。`translate_only` 是原平台的限制记录，在此 skill 中不是强制策略；Agent 可根据产品证据改写全部文案。它们不驱动 runtime；运行内容以 content.json 为准。
+3. 各 board JSON 保存字段语义和长度提示。`translate_only` 在此 skill 中不是强制策略；Agent 可根据产品证据改写全部文案。它们不驱动 runtime；运行内容以 content.json 为准。
 4. 必须替换 SHIQU、示例商品/人物、网页与品牌图。可以删减、重排或只取连续段落，但要同时更新 start/end、总帧数、markers 与音频事件。不要把时间线改成 JSON 里原参考的 example_duration_ms。
 5. 场景布局在各 board 的局部函数，卡片空间参数在 `src/design.js`。保留已选段落动作关系，不要仅借配色后另造一套模板。长中文、宽 Logo、不同截图比例要逐帧看揭示、缩放、裁切、最终停留。
 6. 图片通过 AssetImage 接入，可沿用原 cloneElement 样式覆盖。换视频时用 runtime VideoFrame 显式映射源时间并声明越界策略，源声音另列音频事件，不能插入自动播放 video。
@@ -58,8 +58,6 @@
 
 安装和命令见 [README](README.md)，本次证据见 [runtime 验证记录](records/runtime-validation.md)。`npm run validate -- --full` 逐帧覆盖全部 1200 帧，检查十四动作切换以及倒退/重复取帧。默认短检查覆盖每段起止及中间帧。测试缓存仅在 `.lvm/validation`。
 
-原片观察与迁移结论分开：我们保留的是用户已有复刻版，不声称重新忠实复刻最初 21.033 秒参考片。源工程报告也记录过原片保真度不足。画面包含有意的超大字与边缘裁切，迁移不能擅自把它们改成静态全字居中。
+画面包含有意的超大字与边缘裁切，改编时不能擅自把它们改成静态全字居中。
 
 资源加载、完整逐帧、声音技术同步与运行可移植性验证不等于新产品商用审美验收；换产品仍需真实动态、听感及独立评测。未要求导出时不生成 MP4。
-
-来源与许可边界见 [sources.md](assets/sources.md)。
