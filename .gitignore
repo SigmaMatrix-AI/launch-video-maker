@@ -12,3 +12,7 @@ runtime/dist/
 
 # Reference templates ship pinned runtime snapshots
 !/templates/*/vendor/launch-video-maker-runtime-0.1.0.tgz
+
+# Rebuildable template inspection captures belong under .lvm/validation/.
+/templates/*/records/continuity-*.png
+/templates/*/records/preview-*.png

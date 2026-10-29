@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="README.zh-CN.md">Simplified Chinese</a> | <strong>English</strong>
+  <strong>English</strong> | <a href="README.zh-CN.md">中文</a>
 </p>
 
 <h1 align="center">Launch Video Maker</h1>
@@ -20,16 +20,17 @@ Made with launch-video-maker · Unofficial concept demos.
 
 <!-- Looping GIF previews: Photoroom 00:00–00:10; Canva 00:06–00:24;
      TapVid 00:18–00:23; Product Launch Lavender 00:16–00:31.
-     Click each preview to open the GIF at full size. -->
+     Lightweight previews: 400×225 at 15 fps.
+     Click each preview to open the GIF on its own. -->
 
 <p align="center">
-  <a href="docs/assets/gallery/photoroom-promo.gif"><img src="docs/assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10-second product launch video"></a>
-  <a href="docs/assets/gallery/canva-launch.gif"><img src="docs/assets/gallery/canva-launch.gif" width="49%" alt="Canva — product launch video excerpt, 00:06–00:24"></a>
+  <a href="assets/gallery/photoroom-promo.gif"><img src="assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10-second product launch video"></a>
+  <a href="assets/gallery/canva-launch.gif"><img src="assets/gallery/canva-launch.gif" width="49%" alt="Canva — product launch video excerpt, 00:06–00:24"></a>
 </p>
 
 <p align="center">
-  <a href="docs/assets/gallery/tapvid-launch.gif"><img src="docs/assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — product launch video excerpt, 00:18–00:23"></a>
-  <a href="docs/assets/gallery/product-launch-lavender.gif"><img src="docs/assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — video excerpt, 00:16–00:31"></a>
+  <a href="assets/gallery/tapvid-launch.gif"><img src="assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — product launch video excerpt, 00:18–00:23"></a>
+  <a href="assets/gallery/product-launch-lavender.gif"><img src="assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — video excerpt, 00:16–00:31"></a>
 </p>
 
 ## Install
@@ -78,6 +79,7 @@ launch-video-maker/
 │   ├── tech.md                    # Rendering, media, audio, and review tools
 │   ├── runtime-setup.md           # Setup instructions for agents and developers
 │   └── template-conventions.md    # Template adaptation
+├── assets/                        # Visual references and README gallery
 ├── examples/motion-language/      # Five runnable Good / Bad comparisons
 ├── templates/                     # Reusable film projects
 ├── styles/                        # Visual style references
@@ -85,13 +87,13 @@ launch-video-maker/
 │   ├── src/                       # Rendering, media, audio, and CLI
 │   ├── web/                       # Browser preview player
 │   └── test/                      # Runtime tests
-└── docs/                          # Design notes, plans, and validation records
+└── docs/                          # Validation guide
 ```
 
 Available templates: [Product Launch Lavender](templates/product-launch-lavender/template.md), [Motion Design Promo](templates/motion-design-promo/template.md), and [Capsule Flow](templates/capsule-flow/template.md). Visual style references live in [`styles/`](styles/).
 
 <p align="center">
-  <a href="https://tapvid.ai"><img src="docs/assets/tapvid-cta.svg" width="720" alt="Explore more video creation features at TapVid."></a>
+  <a href="https://tapvid.ai?utm_source=launch-video-skill"><img src="assets/tapvid-cta.svg" width="720" alt="Explore more video creation features at TapVid."></a>
 </p>
 
 ## License

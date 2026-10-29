@@ -97,8 +97,10 @@
   "normalizationGain": 0.9417475989743834,
   "duration": 82.048625,
   "listeningVerified": false,
-  "notes": "Existing arrangement retained; no new melody, voice, or synthesized click/whoosh. Gentle EQ and gain rides. Original retained. License status unchanged.",
+  "notes": "Existing arrangement retained; no new melody, voice, or synthesized click/whoosh. Gentle EQ and gain rides. Only the final output WAV is distributed; the source WAV remains in Git history. License status unchanged.",
   "ffmpegFilter": "atempo=1.056950659,highpass=f=28,equalizer=f=250:t=q:w=0.7:g=-0.7,equalizer=f=3500:t=q:w=0.6:g=0.4,apad,atrim=duration=82.048633333",
   "gainInterpolation": "smoothstep q*q*(3-2*q), stereo-linked",
-  "outputEncoding": "48000 Hz stereo pcm_s24le"
+  "outputEncoding": "48000 Hz stereo pcm_s24le",
+  "sourceIncluded": false,
+  "sourceSha256": "2fda75edd4022fa97a9fe2a2a8d487e3a929048155c33067292a95e87ddfa692"
 }

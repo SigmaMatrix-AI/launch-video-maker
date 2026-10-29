@@ -1,6 +1,6 @@
 # Source
 
-[User-supplied style specification](/Users/mac/.codex/attachments/3509924d-47c2-4972-9b7a-c91869e5232f/%E5%B7%B2%E7%B2%98%E8%B4%B4%E7%9A%84%E6%96%87%E6%9C%AC.txt)
+Source: User-provided style specification. The original attachment is not included in this repository; the reusable specification is in [style.md](style.md).
 
 The canonical style is preserved verbatim. All properties are requested text rules, not observations from a source video. Motion metadata is inferred because no original video was supplied. This task reuses the supplied style rather than re-extracting it.
 

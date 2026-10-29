@@ -22,16 +22,17 @@
 
 <!-- 循环 GIF：Photoroom 00:00–00:10；Canva 00:06–00:24；
      TapVid 00:18–00:23；Product Launch Lavender 00:16–00:31。
-     点击预览可查看原尺寸 GIF。 -->
+     轻量预览：400×225，15 fps。
+     点击预览可单独查看 GIF。 -->
 
 <p align="center">
-  <a href="docs/assets/gallery/photoroom-promo.gif"><img src="docs/assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10 秒产品发布视频"></a>
-  <a href="docs/assets/gallery/canva-launch.gif"><img src="docs/assets/gallery/canva-launch.gif" width="49%" alt="Canva — 产品发布视频节选，00:06–00:24"></a>
+  <a href="assets/gallery/photoroom-promo.gif"><img src="assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10 秒产品发布视频"></a>
+  <a href="assets/gallery/canva-launch.gif"><img src="assets/gallery/canva-launch.gif" width="49%" alt="Canva — 产品发布视频节选，00:06–00:24"></a>
 </p>
 
 <p align="center">
-  <a href="docs/assets/gallery/tapvid-launch.gif"><img src="docs/assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — 产品发布视频节选，00:18–00:23"></a>
-  <a href="docs/assets/gallery/product-launch-lavender.gif"><img src="docs/assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — 视频节选，00:16–00:31"></a>
+  <a href="assets/gallery/tapvid-launch.gif"><img src="assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — 产品发布视频节选，00:18–00:23"></a>
+  <a href="assets/gallery/product-launch-lavender.gif"><img src="assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — 视频节选，00:16–00:31"></a>
 </p>
 
 ## 安装
@@ -79,6 +80,7 @@ launch-video-maker/
 │   ├── tech.md                    # 渲染、媒体、音频与评审工具
 │   ├── runtime-setup.md           # 供 Agent 和开发者查阅的安装说明
 │   └── template-conventions.md    # 模板适配约定
+├── assets/                        # 视觉参考与 README 展示素材
 ├── examples/motion-language/      # 五组可运行的 Good / Bad 对照
 ├── templates/                     # 可复用的影片模板
 ├── styles/                        # 视觉风格参考
@@ -86,13 +88,13 @@ launch-video-maker/
 │   ├── src/                       # 渲染、媒体、音频与命令行工具
 │   ├── web/                       # 浏览器预览播放器
 │   └── test/                      # 运行时测试
-└── docs/                          # 设计文档、计划与验证记录
+└── docs/                          # 验证指南
 ```
 
 现有模板：[Product Launch Lavender](templates/product-launch-lavender/template.md)、[Motion Design Promo](templates/motion-design-promo/template.md) 和 [Capsule Flow](templates/capsule-flow/template.md)。视觉风格参考位于 [`styles/`](styles/)。
 
 <p align="center">
-  <a href="https://tapvid.ai"><img src="docs/assets/tapvid-cta.zh-CN.svg" width="720" alt="前往 TapVid，探索更多视频创作功能。"></a>
+  <a href="https://tapvid.ai?utm_source=launch-video-skill"><img src="assets/tapvid-cta.svg" width="720" alt="Explore more video creation features at TapVid."></a>
 </p>
 
 ## 许可证

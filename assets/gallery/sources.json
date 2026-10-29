@@ -1,0 +1,96 @@
+{
+  "demos": [
+    {
+      "id": "photoroom",
+      "source": "photoroom-promo-v3.mp4",
+      "source_note": "Video provided by the repository maintainer for the README gallery.",
+      "source_sha256": "72023d52953519a3b0024c8e527af603057de210c3790eac4f4ac6e7a794fe01",
+      "preview": "photoroom-promo.gif",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "preview_width": 400,
+      "preview_height": 225,
+      "preview_fps": 15,
+      "loop": "infinite",
+      "conversion": "FFmpeg from previous GIF preview: fps=15,scale=400:225:flags=lanczos,split[a][b];[a]palettegen=max_colors=256:stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle; -loop 0",
+      "optimization_input": {
+        "type": "previous-gif-preview",
+        "sha256": "389a5392e50bb5b85287b169cf4ef1d290ae38372f8ff3feb3bcee16666daba1",
+        "width": 640,
+        "height": 360,
+        "fps": 20,
+        "conversion": "FFmpeg: fps=20, scale=640:-1:flags=lanczos; palettegen=max_colors=256:stats_mode=full; paletteuse=dither=bayer:bayer_scale=2:diff_mode=rectangle; -loop 0"
+      },
+      "preview_sha256": "c5a70b0822ad80d08a79c0c1be59343fb0a78363c4287389c6e7972aff3d70d9"
+    },
+    {
+      "id": "canva",
+      "source": "canva-launch-final.mp4",
+      "source_note": "Video provided by the repository maintainer for the README gallery.",
+      "source_sha256": "2aba3fcda094b3242f0444b020828e32543168edf0d146d5a1e84f896b736561",
+      "preview": "canva-launch.gif",
+      "start_seconds": 6,
+      "end_seconds": 24,
+      "preview_width": 400,
+      "preview_height": 225,
+      "preview_fps": 15,
+      "loop": "infinite",
+      "conversion": "FFmpeg from previous GIF preview: fps=15,scale=400:225:flags=lanczos,split[a][b];[a]palettegen=max_colors=256:stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle; -loop 0",
+      "optimization_input": {
+        "type": "previous-gif-preview",
+        "sha256": "5ce3ffb3ba63fe33a383a7e49c685c59ca0002dbe54289727caa3b5d1159cef5",
+        "width": 640,
+        "height": 360,
+        "fps": 20,
+        "conversion": "FFmpeg: -ss 6 -t 18; fps=20, scale=640:-1:flags=lanczos; palettegen=max_colors=256:stats_mode=full; paletteuse=dither=bayer:bayer_scale=2:diff_mode=rectangle; -loop 0"
+      },
+      "preview_sha256": "addb2bb3f9ebf801e03a42fbeee70432215ce2e30238b0bb777cbcfc6d01da29"
+    },
+    {
+      "id": "tapvid",
+      "source": "tapvid-pipeline-test-01-1080p.mp4",
+      "source_note": "Video provided by the repository maintainer for the README gallery.",
+      "source_sha256": "62fb86099fa7c2d42178ecc17dfa411c8443cba197e0bb33be3c6175478cc452",
+      "preview": "tapvid-launch.gif",
+      "start_seconds": 18,
+      "end_seconds": 23,
+      "preview_width": 400,
+      "preview_height": 225,
+      "preview_fps": 15,
+      "loop": "infinite",
+      "conversion": "FFmpeg from previous GIF preview: fps=15,scale=400:225:flags=lanczos,split[a][b];[a]palettegen=max_colors=256:stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle; -loop 0",
+      "optimization_input": {
+        "type": "previous-gif-preview",
+        "sha256": "37b6528eeab7a3819f1e8b690a4512e60fa3765d99d3a0cf969a7e7789af7107",
+        "width": 640,
+        "height": 360,
+        "fps": 20,
+        "conversion": "FFmpeg: -ss 18 -t 5; fps=20, scale=640:-1:flags=lanczos; palettegen=max_colors=256:stats_mode=full; paletteuse=dither=bayer:bayer_scale=2:diff_mode=rectangle; -loop 0"
+      },
+      "preview_sha256": "6ca4a2130e8bffd061ac536d78523b9284f79d199a18f8c5af0390ab3b98f83b"
+    },
+    {
+      "id": "product-launch-lavender",
+      "source": "product-launch-lavender-v1.0.0.mp4",
+      "source_note": "Video provided by the repository maintainer for the README gallery.",
+      "source_sha256": "6f238c162e97419388d59cde7efc91869cb004449bedda3d8036b0a6cb5c21a8",
+      "preview": "product-launch-lavender.gif",
+      "start_seconds": 16,
+      "end_seconds": 31,
+      "preview_width": 400,
+      "preview_height": 225,
+      "preview_fps": 15,
+      "loop": "infinite",
+      "conversion": "FFmpeg from previous GIF preview: fps=15,scale=400:225:flags=lanczos,split[a][b];[a]palettegen=max_colors=128:stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle; -loop 0",
+      "optimization_input": {
+        "type": "previous-gif-preview",
+        "sha256": "f2289ab28568f7a5acd3d13d659b0c838c5e9fa82a457fea81c48989453999af",
+        "width": 640,
+        "height": 360,
+        "fps": 20,
+        "conversion": "FFmpeg: -ss 16 (through end of source); fps=20, scale=640:-1:flags=lanczos; palettegen=max_colors=128:stats_mode=full; paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle; -loop 0"
+      },
+      "preview_sha256": "71d6c285cf4342305e909d78f784c7b4a8a0169c58d398b7d4e63855e4f8dc86"
+    }
+  ]
+}

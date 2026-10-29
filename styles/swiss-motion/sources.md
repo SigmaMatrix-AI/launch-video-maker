@@ -1,6 +1,6 @@
 # Sources and extraction scope
 
-The user requested extracting swiss-motion from lemo-opuscar. Source directory: /Users/mac/Documents/repo/lemo-opuscar/styles/swiss-motion/.
+Extracted at the user's request from the `swiss-motion` style in the `lemo-opuscar` source library. The original library is not included in this repository; the reusable specification is in [style.md](style.md).
 
 - STYLE.md: primary source; retains reusable rules for the grid, single font, single signal color, precise beat placement, and exceptional elements.
 - poster.jpg: inspected in full to verify solid paper colors, type weight/scale, whitespace, shapes, and explanatory lines. Original dimensions: 1920×1080.

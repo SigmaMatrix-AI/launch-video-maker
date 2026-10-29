@@ -20,11 +20,11 @@
   },
   "sourceHashes": "tested-source-hashes.json",
   "validation": {
-    "latest": "runtime-orbit-spacing.json",
     "latestFrames": 88,
-    "priorFull": "runtime-continuity-fix.json",
     "ctaBaseline": "runtime-full.json",
-    "independentReview": "Final orbit adjustment: source continuity and frames 525/540/555/570 reviewed; no blocking issues. Continuous audiovisual review not claimed."
+    "independentReview": "Final orbit adjustment: source continuity and frames 525/540/555/570 reviewed; no blocking issues. Continuous audiovisual review not claimed.",
+    "summary": "runtime-validation.md",
+    "historicalReports": "Superseded full and orbit reports are retained in Git history; runtime-validation.md summarizes their scope."
   },
   "entry": "../template.md"
 }

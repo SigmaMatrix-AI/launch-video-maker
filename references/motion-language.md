@@ -43,7 +43,7 @@ npm run preview -- --open
 
 For the other version, use a new directory and `--variant bad`. See the [Example guide](../examples/motion-language/README.md) for the full entry point and asset notes. Generated projects include editable source and local assets; do not rebuild the user's whole film to apply a technique. Check font glyph coverage when changing text.
 
-Each pair shares copy, order, fonts, assets, aspect ratio, total duration, and silence; the variable is the technique's timing or expression. These are fictional method demonstrations, and `good` is a design-intent label, not certification that it "looks expensive." Bad is not a judgment of the original reference film. See the [Validation record](../docs/validation/research-motion-language-results.md) for the actual scope checked so far.
+Each pair shares copy, order, fonts, assets, aspect ratio, total duration, and silence; the variable is the technique's timing or expression. These are fictional method demonstrations, and `good` is a design-intent label, not certification that it "looks expensive." Bad is not a judgment of the original reference film. See the [Validation guide](../docs/validation.md#motion-language-studies) for the automated checks and their limits.
 
 ## Watch, fix, and rewatch
 
