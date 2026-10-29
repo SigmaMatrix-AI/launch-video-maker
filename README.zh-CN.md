@@ -80,7 +80,11 @@ launch-video-maker/
 │   ├── tech.md                    # 渲染、媒体、音频与评审工具
 │   ├── runtime-setup.md           # 供 Agent 和开发者查阅的安装说明
 │   └── template-conventions.md    # 模板适配约定
-├── assets/                        # 视觉参考与 README 展示素材
+├── assets/                        # 文档图片
+│   ├── gallery/                   # 演示 GIF 预览与来源记录
+│   ├── motion/                    # 动效序列与抽帧记录
+│   ├── references/                # 构图参考与分镜图
+│   └── tapvid-cta.svg              # README CTA 横幅
 ├── examples/motion-language/      # 五组可运行的 Good / Bad 对照
 ├── templates/                     # 可复用的影片模板
 ├── styles/                        # 视觉风格参考

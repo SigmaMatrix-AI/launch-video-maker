@@ -79,7 +79,11 @@ launch-video-maker/
 │   ├── tech.md                    # Rendering, media, audio, and review tools
 │   ├── runtime-setup.md           # Setup instructions for agents and developers
 │   └── template-conventions.md    # Template adaptation
-├── assets/                        # Visual references and README gallery
+├── assets/                        # Documentation images
+│   ├── gallery/                   # Demo GIF previews and source records
+│   ├── motion/                    # Motion sequences and extraction records
+│   ├── references/                # Composition references and storyboards
+│   └── tapvid-cta.svg              # README CTA banner
 ├── examples/motion-language/      # Five runnable Good / Bad comparisons
 ├── templates/                     # Reusable film projects
 ├── styles/                        # Visual style references
