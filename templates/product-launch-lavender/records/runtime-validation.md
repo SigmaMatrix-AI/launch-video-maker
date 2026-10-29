@@ -10,6 +10,10 @@ New report files affect whole-directory cache identifiers; tested-source-hashes.
 
 ## Continuous motion revision
 
-Latest version: 56fc383fd4ed709231215433e792622cb5c3b38eb88acb387c71e37501e36c49. All930 frames passed, mock layout ratio16:9 checked, and every frame777–929 byte-identical to the accepted CTA baseline (153 frames). Also passed pose/velocity join checks, monotonic dashboard shrink, orbit/hero handoffs, TypeScript, reverse/repeat capture, audio alignment and Player operations. Full evidence: runtime-continuity-fix.json.
+Historical full-check version: 56fc383fd4ed709231215433e792622cb5c3b38eb88acb387c71e37501e36c49. All930 frames passed, mock layout ratio16:9 checked, and every frame777–929 byte-identical to the accepted CTA baseline (153 frames). Also passed pose/velocity join checks, monotonic dashboard shrink, orbit/hero handoffs, TypeScript, reverse/repeat capture, audio alignment and Player operations. The superseded full report is retained in Git history; runtime-full.json remains the executable CTA regression baseline.
 
 ContinuousShowcase replaces distorted legacy quadrilaterals with fixed-aspect CSS perspective cards and persistent identities. Slogan follows generated homepage. Orbit headline reduced to two centered lines to avoid card overlap. Scope remains code, numeric motion and static review; no claim of full continuous audiovisual review.
+
+## Final orbit adjustment
+
+The final orbit-spacing check covered 88 frames plus 10 reverse/repeat captures, with zero sample error against the source audio at gain 0.75 and passing Player play/pause/seek/resume. Its historical version was 04555bbe642ffca23961338abae9cea089dc95cee3c5646457d813c5f99784a9. The superseded report and inspection PNGs remain in Git history; this summary records the original scope and does not claim a new independent audiovisual review.

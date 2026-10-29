@@ -7,10 +7,6 @@
       "sha256": "ad0b1de4b1d48bd0a31b4a0331c39bf4675ed94f7e42e742654138f016d977d9"
     },
     {
-      "path": "assets/audio/reference-music-no-voice.wav",
-      "sha256": "2fda75edd4022fa97a9fe2a2a8d487e3a929048155c33067292a95e87ddfa692"
-    },
-    {
       "path": "assets/media/brand.png",
       "sha256": "14acd50840add0f8a710fa2edbcb3b0de32a2976823ef3583049280e4a0069e3"
     },
@@ -64,7 +60,7 @@
     },
     {
       "path": "assets/media/demo-edit.png",
-      "sha256": "56ae1c1a2c4c7489987a2ffce8f63e27a37258db2fc8b64946e4855ad6f9f7bd"
+      "sha256": "563640dbaa9785e8146d30eb0d76f12e293835be82cfcf7ac6cbb19f0d54eaa4"
     },
     {
       "path": "assets/media/demo-outline.png",
@@ -76,11 +72,11 @@
     },
     {
       "path": "assets/media/fix.png",
-      "sha256": "36332f57b2b5c0bc5a208618c269133f103d209d837f140ae0570fd95b4f18a5"
+      "sha256": "b95c82dea828ff699e5f61b6c7108d1ec4c115e294a9d445813306fa59809b73"
     },
     {
       "path": "assets/media/input-source.png",
-      "sha256": "5d76b914d754c67c6cf91266a5ca6e3dc8a0e21a2d69a330499825217146f426"
+      "sha256": "ba299b9ffc6bba50b13f6dc65ab28e171b720903460c1e204a4c8b04fa2b440e"
     },
     {
       "path": "assets/media/showcase.mp4",
@@ -96,11 +92,11 @@
     },
     {
       "path": "assets/research/inventory.json",
-      "sha256": "9b9019f686413f1ea3acba6b2a78dceba805342431c5cd547cd625c104763a6e"
+      "sha256": "55e706c28377cb86921af5eb8084a1ec208acc2edd3009701e0c00f171f649cd"
     },
     {
       "path": "assets/sources.md",
-      "sha256": "8e3ace9d1c2c6d2df55d3424a23665c3b5181a6633c68c8ccbdc7cc0900b9483"
+      "sha256": "cf5e65e8792dbf3690b5c8cb3ab71e02ef54e8548d9939c842bb9b17b595efc1"
     },
     {
       "path": "brand-kit/GoogleSans-Regular.ttf",
@@ -128,7 +124,7 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "7ed7c08f397b19d8f942c83d6ef06343aebe2f854fa91aa4353ebbdf5991a19e"
+      "sha256": "f394eaa34fb94c12434b3020b04cd5ff06715285985cf363887f7c9c1d1072f5"
     },
     {
       "path": "package.json",
@@ -137,22 +133,6 @@
     {
       "path": "records/audio-edit.json",
       "sha256": "8856b196fb59d0aadf6d3f1511f97601ad8958fa67d542ab9ec96e055b994b57"
-    },
-    {
-      "path": "records/button-handoff-fix.md",
-      "sha256": "8dccea8d05ef4e7fe789f8197ee7e87af34e91c883abb6b763e9b22b6c557a05"
-    },
-    {
-      "path": "records/composer-handoff.md",
-      "sha256": "0040507662be2207da17ed5d7e213852c5bc784daf0b1be508e75a89ae522b9f"
-    },
-    {
-      "path": "records/finale-glass-button.md",
-      "sha256": "5a48d9b381da969d24c66cd2641893017c243da91cf61ab166655b82d855ac85"
-    },
-    {
-      "path": "records/next-scenes-revision.md",
-      "sha256": "00ea422ba20d98c5da80eb0150194a6239dedbfbedb39c981780610334b33623"
     },
     {
       "path": "src/CreatePlane.tsx",
@@ -208,23 +188,19 @@
     },
     {
       "path": "vendor/launch-video-maker-runtime-0.1.0.tgz",
-      "sha256": "6ccb674202cf8e76f0371fc7442c02f33cf1e5c890709b8b98a3c672753257e9"
+      "sha256": "625c3c89658b864df041435c58211c989c42d4fe47628060caa6037b7bc27a73"
     },
     {
       "path": "assets/audio/capsule-flow-bgm-edit.wav",
       "sha256": "59cc28592fd46b1ae2f5488c00573f7c7e834bc9d366ba932f805e03bada08a8"
     },
     {
-      "path": "records/bgm-analysis.json",
-      "sha256": "d07cc47226bd4292f8e8bd0791178e28873628ef6471814c0871f83e7fdb0adb"
-    },
-    {
       "path": "records/bgm-rework.json",
-      "sha256": "bc8e51e07e268a72d63423889d496af61466d729b700dd91485921a662c83e1f"
-    },
-    {
-      "path": "records/bgm-rework.md",
-      "sha256": "3f3fbc4b3dba5c1ddbe10bf73b72e2c187c7bd142a6d74587e5250b66ab9ea80"
+      "sha256": "700506f16dce9b08d16636336f1d80a357b5efb60f40337c4402261d5a8f24a9"
     }
-  ]
+  ],
+  "packaging": {
+    "date": "2026-10-29",
+    "scope": "Current hashes of retained entries from the original snapshot. Unused source audio and iteration logs were removed; original files and hashes remain in Git history. This packaging change does not add audiovisual acceptance."
+  }
 }

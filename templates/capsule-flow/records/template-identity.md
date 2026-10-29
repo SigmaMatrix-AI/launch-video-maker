@@ -1,1 +1,0 @@
-Capsule Flow is the generic template identity. TapVid is only the bundled example. Renamed from tapvid-launch; template.md follows the seven-section Google Vids guide structure, with current scene/timing differences accurately documented. Source film and example visuals unchanged. Historical provenance retains original product and project names.
