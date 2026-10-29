@@ -169,7 +169,7 @@ Static references help judge hierarchy, negative space, and materials, but canno
 - Match effects to material and speed: short clicks for presses, passing sounds for movement, and light impacts for landings. Vary tone or intensity in consecutive actions rather than applying the same whoosh to every element.
 - Listen to the actual mix of music, voiceover, and effects: voiceover is intelligible, feedback audible, and loudness free of sudden jumps, pops, and clipping. Check loudness and peaks against delivery requirements; if silence is requested, ensure all audio tracks are empty or muted.
 - Music edits and loops have no audible breaks; end at a phrase resolution or with a complete fade, preserving tails. Prepare the mix again after visual timing changes and recheck synchronization at the start, middle, and end.
-- Music intensity follows the selected direction and story. High energy and clear accents are options for launch films; restrained or silent treatments also work. Fast rhythm and cutting on every beat are not prerequisites for a premium feel.
+- Check the music's style, tempo, and arrangement against the [default BGM guidance](tech.md#music-and-sound-effects), or the user's explicit music requirements. Listen for tight pacing, forward momentum, and musical progression that support the selected direction and story while preserving readable holds. Cutting on every beat is unnecessary.
 
 ## 6. Technical: check the version being delivered
 

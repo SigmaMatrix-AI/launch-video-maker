@@ -76,7 +76,9 @@ Use `AssetImage` or an img that waits for decoding. For Canvas/asynchronous draw
 
 ## Music and sound effects
 
-Listen for mood and structure before selecting music: how the setup builds, where the climax lands, and whether the ending resolves fully. Listen with the visuals. BPM and waveform peaks are only clues; transient candidates from `analyze-audio` are not necessarily musical beats. When the user requests silence, keep audio empty and ensure embedded media does not produce unexpected sound.
+By default, choose electronic BGM with an upbeat, technological feel and a pronounced rhythm, at **120 BPM or above**, with a **drum-driven arrangement**. Favor clear drum accents, tight pacing, sustained forward momentum, and progression between musical sections to support key actions and product reveals. Time visuals to musical accents and phrases while preserving readable holds. Follow explicit user requests for a different musical direction, reference soundtrack, or silence.
+
+Listen for mood and structure before selecting music: how the setup builds, where the climax lands, and whether the ending resolves fully. Listen with the visuals. Meeting the tempo requirement does not establish musical fit; waveform peaks and transient candidates from `analyze-audio` are not necessarily musical beats. When the user requests silence, keep audio empty and ensure embedded media does not produce unexpected sound.
 
 Major actions should respond to musical accents and sections. SFX should suit the action's material qualities, with different emphasis for pressing, dragging, revealing, and settling. For repeated sounds, vary tone, spacing, or loudness to avoid mechanical repetition. A sound file's attack peak may occur after its start; align the audible accent with visual contact or the landing point. Leave room for voiceover and key feedback, retaining sound tails and a resolved ending.
 
