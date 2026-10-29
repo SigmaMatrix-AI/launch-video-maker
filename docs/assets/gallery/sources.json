@@ -1,0 +1,60 @@
+{
+  "demos": [
+    {
+      "id": "photoroom",
+      "source": "photoroom-promo-v3.mp4",
+      "source_note": "Video provided by the repository maintainer for the README gallery.",
+      "source_sha256": "72023d52953519a3b0024c8e527af603057de210c3790eac4f4ac6e7a794fe01",
+      "preview": "photoroom-promo.gif",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "preview_width": 640,
+      "preview_height": 360,
+      "preview_fps": 20,
+      "loop": "infinite",
+      "conversion": "FFmpeg: fps=20, scale=640:-1:flags=lanczos; palettegen=max_colors=256:stats_mode=full; paletteuse=dither=bayer:bayer_scale=2:diff_mode=rectangle; -loop 0"
+    },
+    {
+      "id": "canva",
+      "source": "canva-launch-final.mp4",
+      "source_note": "Video provided by the repository maintainer for the README gallery.",
+      "source_sha256": "2aba3fcda094b3242f0444b020828e32543168edf0d146d5a1e84f896b736561",
+      "preview": "canva-launch.gif",
+      "start_seconds": 6,
+      "end_seconds": 24,
+      "preview_width": 640,
+      "preview_height": 360,
+      "preview_fps": 20,
+      "loop": "infinite",
+      "conversion": "FFmpeg: -ss 6 -t 18; fps=20, scale=640:-1:flags=lanczos; palettegen=max_colors=256:stats_mode=full; paletteuse=dither=bayer:bayer_scale=2:diff_mode=rectangle; -loop 0"
+    },
+    {
+      "id": "tapvid",
+      "source": "tapvid-pipeline-test-01-1080p.mp4",
+      "source_note": "Video provided by the repository maintainer for the README gallery.",
+      "source_sha256": "62fb86099fa7c2d42178ecc17dfa411c8443cba197e0bb33be3c6175478cc452",
+      "preview": "tapvid-launch.gif",
+      "start_seconds": 18,
+      "end_seconds": 23,
+      "preview_width": 640,
+      "preview_height": 360,
+      "preview_fps": 20,
+      "loop": "infinite",
+      "conversion": "FFmpeg: -ss 18 -t 5; fps=20, scale=640:-1:flags=lanczos; palettegen=max_colors=256:stats_mode=full; paletteuse=dither=bayer:bayer_scale=2:diff_mode=rectangle; -loop 0"
+    },
+    {
+      "id": "product-launch-lavender",
+      "source": "product-launch-lavender-v1.0.0.mp4",
+      "source_note": "Video provided by the repository maintainer for the README gallery.",
+      "source_sha256": "6f238c162e97419388d59cde7efc91869cb004449bedda3d8036b0a6cb5c21a8",
+      "preview": "product-launch-lavender.gif",
+      "start_seconds": 16,
+      "end_seconds": 31,
+      "preview_width": 640,
+      "preview_height": 360,
+      "preview_fps": 20,
+      "loop": "infinite",
+      "conversion": "FFmpeg: -ss 16 (through end of source); fps=20, scale=640:-1:flags=lanczos; palettegen=max_colors=128:stats_mode=full; paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle; -loop 0"
+    }
+  ]
+}

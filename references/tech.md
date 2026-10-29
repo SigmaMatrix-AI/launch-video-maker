@@ -1,6 +1,6 @@
 # 实现与质量保证
 
-按当前任务查阅对应部分。使用现有 React + TypeScript、统一帧控制、Playwright 与 FFmpeg；安装方式见 [README](../README.md)，精确接口见 [core.ts](../runtime/src/core.ts)、[react.tsx](../runtime/src/react.tsx) 与 [CLI](../runtime/src/cli.ts)。
+按当前任务查阅对应部分。使用现有 React + TypeScript、统一帧控制、Playwright 与 FFmpeg；安装与初始化见 [Runtime setup](runtime-setup.md)，精确接口见 [core.ts](../runtime/src/core.ts)、[react.tsx](../runtime/src/react.tsx) 与 [CLI](../runtime/src/cli.ts)。
 
 ## seek(t)：任意时间得到同一画面
 
@@ -86,7 +86,7 @@ CSS 3D 可用父层 perspective、相机包装层与 preserve-3d；真正的相�
 
 ## 预览与 render
 
-运行前核实 Node.js 24+、FFmpeg/ffprobe、Chromium 与 runtime；安装和初始化见 README。以下命令在影片工程运行，缺失工具如实说明，不把制作任务扩展为新建渲染引擎。
+运行前核实 Node.js 24+、FFmpeg/ffprobe、Chromium 与 runtime；安装和初始化见 [Runtime setup](runtime-setup.md)。以下命令在影片工程运行，缺失工具如实说明，不把制作任务扩展为新建渲染引擎。
 
 ```bash
 npx lvm doctor
