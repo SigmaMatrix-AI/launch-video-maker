@@ -1,0 +1,45 @@
+{
+  "name": "@launch-video-maker/runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "bin": {
+    "lvm": "runtime/dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./runtime/dist/core.d.ts",
+      "default": "./runtime/dist/core.js"
+    },
+    "./react": {
+      "types": "./runtime/dist/react.d.ts",
+      "default": "./runtime/dist/react.js"
+    }
+  },
+  "files": [
+    "runtime/dist",
+    "runtime/web"
+  ],
+  "scripts": {
+    "build": "tsc -p runtime/tsconfig.json",
+    "test": "tsx --test --test-concurrency=1 runtime/test/*.test.ts",
+    "prepack": "npm run build",
+    "test:long": "LVM_LONG_TEST=1 tsx --test runtime/test/long-sync.test.ts"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "vite": "8.3.5",
+    "playwright": "1.64.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "7.0.2"
+  }
+}

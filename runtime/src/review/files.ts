@@ -1,0 +1,86 @@
+import { createHash } from "node:crypto";
+import { createReadStream } from "node:fs";
+import { realpath, lstat, readdir, stat } from "node:fs/promises";
+import { resolve, relative, join, isAbsolute, sep } from "node:path";
+import { packageRoot } from "../project.js";
+import type { Evidence } from "./types.js";
+export async function sha256File(file: string): Promise<string> {
+  const h = createHash("sha256");
+  for await (const b of createReadStream(file)) h.update(b);
+  return h.digest("hex");
+}
+export async function resolveEvidencePath(
+  directory: string,
+  path: string,
+): Promise<string> {
+  if (
+    !path ||
+    isAbsolute(path) ||
+    path.split(/[\\/]/).some((p) => p === ".." || p === "")
+  )
+    throw Error(`Unsafe evidence path: ${path}`);
+  const root = await realpath(directory);
+  let file = root;
+  for (const part of path.split("/")) {
+    file = join(file, part);
+    if ((await lstat(file)).isSymbolicLink())
+      throw Error(`Evidence symlink unsupported: ${path}`);
+  }
+  const actual = await realpath(file);
+  if (!actual.startsWith(root + sep) || !(await stat(actual)).isFile())
+    throw Error(`Evidence must be a file inside bundle: ${path}`);
+  return actual;
+}
+export async function runtimeFingerprint(): Promise<string> {
+  const h = createHash("sha256");
+  async function visit(dir: string) {
+    for (const e of (await readdir(dir, { withFileTypes: true })).sort((a, b) =>
+      a.name.localeCompare(b.name),
+    )) {
+      const f = join(dir, e.name);
+      if (e.isSymbolicLink()) throw Error("Runtime symlink unsupported");
+      if (e.isDirectory()) await visit(f);
+      else {
+        h.update(relative(packageRoot, f));
+        h.update(await sha256File(f));
+      }
+    }
+  }
+  await visit(join(packageRoot, "runtime/dist"));
+  await visit(join(packageRoot, "runtime/web"));
+  return h.digest("hex");
+}
+export async function verifyEvidence(
+  directory: string,
+  files: Evidence[],
+): Promise<string[]> {
+  const errors: string[] = [];
+  for (const e of files)
+    try {
+      const f = await resolveEvidencePath(directory, e.path);
+      if (
+        (await stat(f)).size !== e.bytes ||
+        (await sha256File(f)) !== e.sha256
+      )
+        errors.push(`Evidence changed: ${e.id}`);
+    } catch (err) {
+      errors.push(`${e.id}: ${String(err)}`);
+    }
+  return errors;
+}
+/** Resolve a not-yet-created path without trusting a symlinked ancestor. */
+export async function canonicalDestination(path: string): Promise<string> {
+  let p = resolve(path);
+  const suffix: string[] = [];
+  for (;;) {
+    try {
+      return resolve(await realpath(p), ...suffix);
+    } catch (e) {
+      if ((e as NodeJS.ErrnoException).code !== "ENOENT") throw e;
+      const parent = resolve(p, "..");
+      if (parent === p) throw e;
+      suffix.unshift(relative(parent, p));
+      p = parent;
+    }
+  }
+}

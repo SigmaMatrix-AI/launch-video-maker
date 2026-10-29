@@ -1,0 +1,86 @@
+{
+  "copy": {
+    "promoTitle": "Product Launch Video",
+    "valueTitle": "Make Space for What Is Next",
+    "valueSubtitle": "Bring your ideas, projects and people together.\nOne calm workspace. Endless possibilities.",
+    "breadthTitle": "Create. Connect.\nLaunch.",
+    "workflowTitle": "Make room for\nyour next\nbig idea.",
+    "rightsLabel": "",
+    "creatorCredit": "",
+    "brandName": "Forma"
+  },
+  "palette": {
+    "ink": "#302044",
+    "paper": "#eee6f8",
+    "pill": "#dac8ef",
+    "white": "#fffaff",
+    "accent": "#bb83e8"
+  },
+  "screens": {
+    "heroScreen": {
+      "src": "assets/mock/hero.png",
+      "kind": "image"
+    },
+    "overviewScreen": {
+      "src": "assets/mock/dashboard.png",
+      "kind": "image"
+    },
+    "potentialScreen": {
+      "src": "assets/mock/hero.png",
+      "kind": "image"
+    },
+    "integrationScreen": {
+      "src": "assets/mock/workflow.png",
+      "kind": "image"
+    },
+    "dashboardScreen": {
+      "src": "assets/mock/dashboard.png",
+      "kind": "image"
+    },
+    "assistantScreen": {
+      "src": "assets/mock/workflow.png",
+      "kind": "image"
+    },
+    "capabilityScreen": {
+      "src": "assets/mock/analytics.png",
+      "kind": "image"
+    },
+    "featureBack": {
+      "src": "assets/mock/dashboard.png",
+      "kind": "image"
+    },
+    "featureMiddle": {
+      "src": "assets/mock/hero.png",
+      "kind": "image"
+    },
+    "featureFront": {
+      "src": "assets/mock/analytics.png",
+      "kind": "image"
+    },
+    "proofScreen": {
+      "src": "assets/mock/analytics.png",
+      "kind": "image"
+    },
+    "pricingScreen": {
+      "src": "assets/mock/dashboard.png",
+      "kind": "image"
+    },
+    "detailScreen": {
+      "src": "assets/mock/workflow.png",
+      "kind": "image"
+    },
+    "useCaseFive": {
+      "src": "assets/mock/analytics.png",
+      "kind": "image"
+    },
+    "galleryScreen": {
+      "src": "assets/mock/hero.png",
+      "kind": "image"
+    },
+    "workflowSide": {
+      "src": "assets/mock/workflow.png",
+      "kind": "image"
+    }
+  },
+  "brandMark": null
+}

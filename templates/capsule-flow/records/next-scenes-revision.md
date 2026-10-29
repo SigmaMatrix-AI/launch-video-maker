@@ -1,0 +1,7 @@
+# URL / gallery / brand / result / finale revisions
+
+User requested five changes based on supplied screenshots. Input composer is a deliberate code reconstruction based on the freshly collected official homepage demo and user image2: white rounded card, attachment chip above text, bottom format/duration/language controls and dark circular create-plane button. URL chip https://tapvid.ai enters from above-right. Text is Create a product launch video from this URL. This is a staged illustrative request, not a logged-in generation or verified output from this URL. Replaces floating PDF/file ingestion. No new factual claim.
+
+Style gallery: removed lower playback/CC/document controls. Removed the three standalone case close-ups, cutting source [24.25,26.95). Gallery assets retained in grid. Brand message: removed waveform bars, leaving clean brand gradient and gentle title scale. Result: both play symbols replaced by shared CreatePlane; deleted 3/2/1 and use the same PlayRibbon plane geometry and motion as opening, duration about1s. Cut former countdown tail [66.9,68.85). Finale button is [CreatePlane icon] Tapvid.
+
+Frame-accurate cuts mapped by src/timeline.ts; scene boundaries and markers remapped. Same BGM source/gain, continuous music trimmed to the new film length with existing end fade; no narration added. All later source choreography remains internally unchanged. Old export predates this revision. No new MP4 requested.

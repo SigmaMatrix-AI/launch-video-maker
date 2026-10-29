@@ -1,0 +1,17 @@
+{
+  "source": "assets/audio/reference-full.wav",
+  "detectedSpeech": [
+    69.48,
+    73.64
+  ],
+  "replacementTarget": [
+    68.9,
+    74.1
+  ],
+  "replacementSource": [
+    61.0,
+    66.19999999999999
+  ],
+  "crossfadeSeconds": 0.3,
+  "note": "Same reference music, not separated stems. Local ASR is supporting evidence; listening remains unverified."
+}

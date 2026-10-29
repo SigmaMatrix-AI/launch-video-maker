@@ -1,0 +1,5 @@
+# Cube-to-button rendering defect
+
+User screenshot showed upside-down Motion and a double outline during Tapvid morph. Reproduced in current project at frame106, saved .lvm/button-handoff/before/f106.png. Root cause: opacity below1 on preserve-3d cube flattened the 3D rendering during fade, exposing the rear Motion face; the fading cube and separate morph button simultaneously painted backgrounds and perimeter outlines.
+
+Fix: cube geometry renders only before90; after its second rotation settles at85, swap its front Launch face to one flat button surface at90. Same size/radius/color at handoff. No opacity on preserve-3d container; also explicitly cull faces with nonpositive facing cosine. The flat button owns one background and one perimeter light. Launch fades94–101, Tapvid enters102–113 without overlapping labels. Width/scale motion, palette, clicks125/165, menu row, planes and BGM unchanged. Continuous captured frame sequence80–125 verifies the handoff in addition to earlier flip samples. Review limitations remain static/sequential inspection rather than full video listening.

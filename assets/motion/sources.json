@@ -1,0 +1,310 @@
+{
+  "layout": "vertical; original frame size; 48 px dark timestamp band above each frame",
+  "encoding": "8-bit RGB PNG; compression level 0; no scaling or cropping",
+  "cases": [
+    {
+      "id": "C01",
+      "title": "LangEase: turning progress into completion",
+      "source": {
+        "fileName": "Best SaaS Product Launch Ad Video.mp4",
+        "sha256": "a69671687289ca34fe264042f5acf808ae29ae0977e7683cd67bf346d8cee660",
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1"
+      },
+      "image": "c01-langease-progress-to-completion.png",
+      "width": 1920,
+      "height": 6768,
+      "frames": [
+        {
+          "index": 1,
+          "sourceFrame": 315,
+          "timestamp": "00:10.500",
+          "timeSeconds": 10.5,
+          "imageRegion": {
+            "x": 0,
+            "y": 48,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 2,
+          "sourceFrame": 345,
+          "timestamp": "00:11.500",
+          "timeSeconds": 11.5,
+          "imageRegion": {
+            "x": 0,
+            "y": 1176,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 3,
+          "sourceFrame": 360,
+          "timestamp": "00:12.000",
+          "timeSeconds": 12,
+          "imageRegion": {
+            "x": 0,
+            "y": 2304,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 4,
+          "sourceFrame": 382,
+          "timestamp": "00:12.733",
+          "timeSeconds": 12.733333,
+          "imageRegion": {
+            "x": 0,
+            "y": 3432,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 5,
+          "sourceFrame": 390,
+          "timestamp": "00:13.000",
+          "timeSeconds": 13,
+          "imageRegion": {
+            "x": 0,
+            "y": 4560,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 6,
+          "sourceFrame": 405,
+          "timestamp": "00:13.500",
+          "timeSeconds": 13.5,
+          "imageRegion": {
+            "x": 0,
+            "y": 5688,
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "LangEase: selecting the focal item from a list",
+      "source": {
+        "fileName": "Best SaaS Product Launch Ad Video.mp4",
+        "sha256": "a69671687289ca34fe264042f5acf808ae29ae0977e7683cd67bf346d8cee660",
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1"
+      },
+      "image": "c02-langease-list-to-multilingual-cards.png",
+      "width": 1920,
+      "height": 6768,
+      "frames": [
+        {
+          "index": 1,
+          "sourceFrame": 457,
+          "timestamp": "00:15.233",
+          "timeSeconds": 15.233333,
+          "imageRegion": {
+            "x": 0,
+            "y": 48,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 2,
+          "sourceFrame": 480,
+          "timestamp": "00:16.000",
+          "timeSeconds": 16,
+          "imageRegion": {
+            "x": 0,
+            "y": 1176,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 3,
+          "sourceFrame": 514,
+          "timestamp": "00:17.133",
+          "timeSeconds": 17.133333,
+          "imageRegion": {
+            "x": 0,
+            "y": 2304,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 4,
+          "sourceFrame": 525,
+          "timestamp": "00:17.500",
+          "timeSeconds": 17.5,
+          "imageRegion": {
+            "x": 0,
+            "y": 3432,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 5,
+          "sourceFrame": 540,
+          "timestamp": "00:18.000",
+          "timeSeconds": 18,
+          "imageRegion": {
+            "x": 0,
+            "y": 4560,
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "index": 6,
+          "sourceFrame": 570,
+          "timestamp": "00:19.000",
+          "timeSeconds": 19,
+          "imageRegion": {
+            "x": 0,
+            "y": 5688,
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "Google Vids: generating an outline from a request and source materials",
+      "source": {
+        "fileName": "YTDown.com_YouTube_Media_4SCjXcBeW1E_Introducing-Google-Vids_001_2160p.mp4",
+        "sha256": "4338c25340fa3f321601c26faf96ec84de6c2fbdbf6d8360aa75ba10cbf5d113",
+        "width": 3840,
+        "height": 2160,
+        "frameRate": "30000/1001"
+      },
+      "image": "c03-google-vids-attachment-to-outline.png",
+      "width": 3840,
+      "height": 8832,
+      "frames": [
+        {
+          "index": 1,
+          "sourceFrame": 333,
+          "timestamp": "00:11.111",
+          "timeSeconds": 11.1111,
+          "imageRegion": {
+            "x": 0,
+            "y": 48,
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        {
+          "index": 2,
+          "sourceFrame": 375,
+          "timestamp": "00:12.513",
+          "timeSeconds": 12.5125,
+          "imageRegion": {
+            "x": 0,
+            "y": 2256,
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        {
+          "index": 3,
+          "sourceFrame": 420,
+          "timestamp": "00:14.014",
+          "timeSeconds": 14.014,
+          "imageRegion": {
+            "x": 0,
+            "y": 4464,
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        {
+          "index": 4,
+          "sourceFrame": 474,
+          "timestamp": "00:15.816",
+          "timeSeconds": 15.8158,
+          "imageRegion": {
+            "x": 0,
+            "y": 6672,
+            "width": 3840,
+            "height": 2160
+          }
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "Google Vids: making source material part of the creation",
+      "source": {
+        "fileName": "YTDown.com_YouTube_Media_4SCjXcBeW1E_Introducing-Google-Vids_001_2160p.mp4",
+        "sha256": "4338c25340fa3f321601c26faf96ec84de6c2fbdbf6d8360aa75ba10cbf5d113",
+        "width": 3840,
+        "height": 2160,
+        "frameRate": "30000/1001"
+      },
+      "image": "c04-google-vids-search-to-canvas.png",
+      "width": 3840,
+      "height": 8832,
+      "frames": [
+        {
+          "index": 1,
+          "sourceFrame": 1695,
+          "timestamp": "00:56.557",
+          "timeSeconds": 56.5565,
+          "imageRegion": {
+            "x": 0,
+            "y": 48,
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        {
+          "index": 2,
+          "sourceFrame": 1760,
+          "timestamp": "00:58.725",
+          "timeSeconds": 58.725333,
+          "imageRegion": {
+            "x": 0,
+            "y": 2256,
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        {
+          "index": 3,
+          "sourceFrame": 1785,
+          "timestamp": "00:59.560",
+          "timeSeconds": 59.5595,
+          "imageRegion": {
+            "x": 0,
+            "y": 4464,
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        {
+          "index": 4,
+          "sourceFrame": 1835,
+          "timestamp": "01:01.228",
+          "timeSeconds": 61.227833,
+          "imageRegion": {
+            "x": 0,
+            "y": 6672,
+            "width": 3840,
+            "height": 2160
+          }
+        }
+      ]
+    }
+  ]
+}

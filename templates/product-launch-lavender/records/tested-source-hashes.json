@@ -1,0 +1,21 @@
+{
+  "film.tsx": "90f1c2622740b82e4a292da226558a89a2844ddcf182ed34cb308a15d872098c",
+  "package.json": "f9996d2b64a20d342a997dc5e8ba78987b84243a946e08392cfa7f99765c86f8",
+  "package-lock.json": "f9bd6c9b848bf5309de03d6d9aaf737640080a8dc71a45ae63d95aead7efa93f",
+  "src/Background.tsx": "f2831e2ecfae7928d93ad3196ef54fc1c1dff8154fefadf02e2f412b2c878bae",
+  "src/Brand.tsx": "54a6036d589f77cb021f1534fcab432971b255fba759f5aa254dfd37fbd62ce2",
+  "src/ContinuousShowcase.tsx": "f8a8aeeeb15ec6f5715bb382b60cd240498f6120ba402725ef802599c5b6b6a5",
+  "src/Headlines.tsx": "4df3b56fc72954c635056d8cf6320e7bf077942334dfcdbe98c1dd2c55a53700",
+  "src/IsometricWall.tsx": "ef802545e6d78e82851b100fec4627e0bb6722ddc300670521537254153bd492",
+  "src/ShowcaseMotion.ts": "28340fe34595148bd7e14ab9a9009e811438f1acd99315044116df102c7a3d27",
+  "src/content.json": "f61bc74dd70ce0a8af5f709ea929ec4011b0eaa89860a041215eebcaa6805a8b",
+  "src/motion.ts": "72ba87ad1cd4b056fdd02973cf31266c7442762f621d3bc215c31bde461af6a6",
+  "src/star-trajectory.ts": "4a2cc8cd40cfff635fe8e0e8b0d0706ab8b19ef55f7e9f38bf3e99b8ae655cb3",
+  "src/tracks.json": "d5c742c267c4fed6f4759eb22ffbfc39f9f4c8f9772ae7ff3cf31e445037dc86",
+  "assets/mock/analytics.png": "352a5063bca5f104ba28a516de175c7de6dba35ccad9b870d66b1763387746f7",
+  "assets/mock/dashboard.png": "0facdd59c26279b13385eb629a5773e9ba74b31f9b609b1f184b45c516907f7f",
+  "assets/mock/hero.png": "59973824a866e7d04e31b31d00001fb35d54713b2f954937fb79a8e28fe773e9",
+  "assets/mock/workflow.png": "4bf273b418b01ee3e5a2f742d014a78e07d3aee9a4efc0e8ef92e4b70e8e951f",
+  "scripts/validate.mjs": "25e0b0829ccfaca939c605d466df093d25a6dfe8c434f284682b0da19d6ce635",
+  "scripts/check-showcase.mjs": "8c12e02c71b48e3220405392012c444fac79c33c7ba7b83e736ab64fc49fb2c9"
+}

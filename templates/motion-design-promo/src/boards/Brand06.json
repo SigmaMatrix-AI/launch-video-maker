@@ -1,0 +1,39 @@
+{
+  "name": "Brand06",
+  "node": "identity",
+  "schema": {
+    "fields": [
+      {
+        "key": "logo",
+        "type": "image",
+        "required": true,
+        "desc": "The new topic’s official logo or wordmark, supplied by the user. Use a clean transparent image with no outer card or surrounding copy. Preserve its real proportions and brand colors; do not substitute a fabricated mark.",
+        "mode": "content",
+        "media": {
+          "role": "broll",
+          "aspect": "4:3",
+          "minWidthPx": 960
+        }
+      }
+    ]
+  },
+  "meta": {
+    "displays": "Close on the brand identity with a brief optical zoom and a stable hold.",
+    "useWhen": [
+      "Close on the brand identity with a brief optical zoom and a stable hold."
+    ],
+    "dontUseWhen": [
+      "Use Intro01 for the opening seed-to-result sequence."
+    ],
+    "minDuration": 0.5,
+    "maxDuration": 8.3,
+    "durationModel": "scene"
+  },
+  "example_data": {},
+  "example_narration": "",
+  "example_duration_ms": 2767,
+  "preview_t": 0.6,
+  "example_audio": "boards/Brand06.mp3",
+  "preview_html": "boards/Brand06.html",
+  "preview_png": "boards/Brand06.png"
+}
