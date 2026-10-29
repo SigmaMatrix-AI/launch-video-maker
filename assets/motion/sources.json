@@ -1,6 +1,6 @@
 {
   "layout": "vertical; original frame size; 48 px dark timestamp band above each frame",
-  "encoding": "8-bit RGB PNG; compression level 0; no scaling or cropping",
+  "encoding": "8-bit RGB PNG; zlib level 9 (lossless); no scaling or cropping",
   "cases": [
     {
       "id": "C01",
