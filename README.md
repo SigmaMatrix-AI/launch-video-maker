@@ -92,7 +92,7 @@ launch-video-maker/
 Available templates: [Product Launch Lavender](templates/product-launch-lavender/template.md), [Motion Design Promo](templates/motion-design-promo/template.md), and [Capsule Flow](templates/capsule-flow/template.md). Visual style references live in [`styles/`](styles/).
 
 <p align="center">
-  <a href="https://tapvid.ai"><img src="assets/tapvid-cta.svg" width="720" alt="Explore more video creation features at TapVid."></a>
+  <a href="https://tapvid.ai?utm_source=launch-video-skill"><img src="assets/tapvid-cta.svg" width="720" alt="Explore more video creation features at TapVid."></a>
 </p>
 
 ## License
