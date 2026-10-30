@@ -27,21 +27,21 @@ Check research sufficiency separately through [Product evidence and usable asset
 
 ## Visual and animation references
 
-The following images and sequence collages are stored in the repository's `assets/`. Open the relevant image for the current design problem: single frames show composition, negative space, and materials; sequences within a shot show subject changes; collages across scenes show compositional variety and visual consistency.
+The following images and sequence collages are stored in `assets/references/`. Open the relevant image for the current design problem: single frames show composition, negative space, and materials; sequences within a shot show subject changes; collages across scenes show compositional variety and visual consistency.
 
 | Reference asset | Techniques to learn from |
 | --- | --- |
-| [Headline reveal and surrounding card entrance (sequence reference)](../assets/headline-reveal-and-surrounding-cards-sequence-lossless.png) | Headline gradually appears → shrinks to the center → cards enter from screen edges → form a surrounding composition; observe attention handoff, scale changes, and central negative space. Cards may show products, outputs, or other assets, not only people |
-| [Blue gradient opening](../assets/intro-blue-gradient-title.png) | Short headline, background depth, and generous negative space |
-| [Output cards around copy](../assets/showcase-cards-around-headline.png) | Hierarchy between peripheral outputs and central copy, plus edge cropping |
-| [Teamble multi-scene reference collage](../assets/teamble-ai-feedback-video-reference-storyboard-lossless.png) | Consistent pink/purple gradients, rounded corners, and cursor; varied compositions using large type, input fields, UI close-ups, and complete panels |
-| [LangEase multilingual launch video reference collage](../assets/langease-multilingual-video-reference-storyboard-lossless.png) | Blue/white palette and light layering; composition of completion feedback, card lists and single-card close-ups, surrounding multilingual outputs, and language selection states |
-| [Apple software family introduction reference collage](../assets/apple-software-family-video-reference-storyboard-lossless.png) | Colored spheres representing family members; scale contrasts between full interfaces and local cards, blurred-background focus, frosted layers, and visual emphasis in app selection and permission dialogs |
-| [MSPortal.ai product introduction reference collage](../assets/msportal-ai-product-video-reference-storyboard-lossless.png) | Consistent teal gradients and thin borders; layered windows, tilted dashboards and integration marks, fanned course cards, workflow connections, and brand closing compositions |
+| [Headline reveal and surrounding card entrance (sequence reference)](../assets/references/headline-reveal-and-surrounding-cards-sequence-lossless.png) | Headline gradually appears → shrinks to the center → cards enter from screen edges → form a surrounding composition; observe attention handoff, scale changes, and central negative space. Cards may show products, outputs, or other assets, not only people |
+| [Blue gradient opening](../assets/references/intro-blue-gradient-title.png) | Short headline, background depth, and generous negative space |
+| [Output cards around copy](../assets/references/showcase-cards-around-headline.png) | Hierarchy between peripheral outputs and central copy, plus edge cropping |
+| [Teamble multi-scene reference collage](../assets/references/teamble-ai-feedback-video-reference-storyboard-lossless.png) | Consistent pink/purple gradients, rounded corners, and cursor; varied compositions using large type, input fields, UI close-ups, and complete panels |
+| [LangEase multilingual launch video reference collage](../assets/references/langease-multilingual-video-reference-storyboard-lossless.png) | Blue/white palette and light layering; composition of completion feedback, card lists and single-card close-ups, surrounding multilingual outputs, and language selection states |
+| [Apple software family introduction reference collage](../assets/references/apple-software-family-video-reference-storyboard-lossless.png) | Colored spheres representing family members; scale contrasts between full interfaces and local cards, blurred-background focus, frosted layers, and visual emphasis in app selection and permission dialogs |
+| [MSPortal.ai product introduction reference collage](../assets/references/msportal-ai-product-video-reference-storyboard-lossless.png) | Consistent teal gradients and thin borders; layered windows, tilted dashboards and integration marks, fanned course cards, workflow connections, and brand closing compositions |
 
 Borrow layout, hierarchy, and object relationships from references, replacing content with evidenced assets from the current product. Surrounding cards might show features, work, or users; local emphasis might highlight selected entries, key actions, or result reveals.
 
-Collages follow the order of user-supplied screenshots and show sampled states, not complete storyboards or exact durations. Motion speed, easing, transition continuity, and audiovisual rhythm require separate observation of an accessible original video and cannot be inferred from collages.
+Collages show selected screenshots in sequence, not complete storyboards or exact durations. Motion speed, easing, transition continuity, and audiovisual rhythm require separate observation of an accessible original video and cannot be inferred from collages.
 
 ## Motion case cards
 

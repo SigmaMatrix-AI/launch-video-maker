@@ -1,6 +1,6 @@
 # Product Launch Lavender
 
-**Final release: v1.0.0 · 2026-10-27 · The user approved the current local preview.**
+**Version 1.0.0 · 2026-10-27**
 
 A reusable React template for product launch videos: 31 seconds, 960 × 540, 30 fps, 930 frames. Suitable for SaaS, collaboration tools, analytics tools, and workflow products with multiple webpage interfaces. The example product Forma is fictional. The template runs independently.
 
@@ -24,7 +24,7 @@ Times are in seconds; actions may cross scene boundaries used for indexing in fi
 | 24.7–25.8 | Detail page holds briefly to prepare the brand finale | film.tsx, src/tracks.json |
 | 25.8–31 | Circular petal masks converge into six groups of interwoven arcs forming a floral mark; brand wordmark appears and holds | src/star-trajectory.ts, src/Brand.tsx |
 
-Final orbiting-array parameters: center (480,270), horizontal/vertical radii **380/215 px**, card width **250 px**, rotation **1.15 rad (approximately 66°)** over 17.85–18.9 seconds. Slight edge cropping is part of the approved composition. The seed-page entrance, array rotation, and selected-page exit share `orbitPose`; do not introduce separate inconsistent coordinates when editing.
+Final orbiting-array parameters: center (480,270), horizontal/vertical radii **380/215 px**, card width **250 px**, rotation **1.15 rad (approximately 66°)** over 17.85–18.9 seconds. Slight edge cropping is part of the template composition. The seed-page entrance, array rotation, and selected-page exit share `orbitPose`; do not introduce separate inconsistent coordinates when editing.
 
 ## Initial assets and replacement mappings
 
