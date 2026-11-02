@@ -69,7 +69,7 @@ You keep the film source, local assets, and production notes. The browser player
 
 ```text
 launch-video-maker/
-├── SKILL.md                       # Agent instructions and production routes
+├── SKILL.md                       # Agent instructions and production workflow
 ├── references/                    # Production guides
 │   ├── pipeline.md                # Three-stage workflow
 │   ├── stage-deliverables.md      # Deliverables, approvals, and continuation
@@ -77,14 +77,12 @@ launch-video-maker/
 │   ├── motion-language.md         # Pacing and typography
 │   ├── eval.md                    # Visual examples and Good / Bad criteria
 │   ├── tech.md                    # Rendering, media, audio, and review tools
-│   ├── runtime-setup.md           # Setup instructions for agents and developers
-│   └── template-conventions.md    # Template adaptation
+│   └── runtime-setup.md           # Setup instructions for agents and developers
 ├── assets/                        # Documentation images
 │   ├── gallery/                   # Demo WebP previews and source records
 │   ├── motion/                    # Animated reference excerpts and source records
 │   ├── references/                # Composition references and storyboards
 │   └── tapvid-cta.svg              # README CTA banner
-├── templates/                     # Reusable film projects
 ├── styles/                        # Visual style references
 └── runtime/                       # Local video runtime
     ├── src/                       # Rendering, media, audio, and CLI
@@ -92,7 +90,7 @@ launch-video-maker/
     └── test/                      # Runtime behavior tests
 ```
 
-Available templates: [Product Launch Lavender](templates/product-launch-lavender/template.md), [Motion Design Promo](templates/motion-design-promo/template.md), and [Capsule Flow](templates/capsule-flow/template.md). Visual style references live in [`styles/`](styles/).
+Visual style references live in [`styles/`](styles/); each film’s composition and sequence are designed for its product.
 
 <p align="center">
   <a href="https://tapvid.ai?utm_source=launch-video-skill"><img src="assets/tapvid-cta.svg" width="720" alt="Explore more video creation features at TapVid."></a>
@@ -102,4 +100,4 @@ Available templates: [Product Launch Lavender](templates/product-launch-lavender
 
 Project-authored code and documentation are licensed under [Apache-2.0](LICENSE).
 
-Third-party software, fonts, demo media, music, and brand assets retain their own terms. See [Third-party notices](THIRD_PARTY_NOTICES.md) for sources, bundled font licenses, and permissions still requiring confirmation. Inclusion in this repository does not make those assets Apache-licensed or freely redistributable.
+Third-party software, fonts, demo media, and brand assets retain their own terms. See [Third-party notices](THIRD_PARTY_NOTICES.md) for sources, bundled font licenses, and permissions still requiring confirmation. Inclusion in this repository does not make those assets Apache-licensed or freely redistributable.

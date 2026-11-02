@@ -9,7 +9,7 @@ const project=()=>mkdtemp(join(process.cwd(),'.lvm-test-'));
 test('declared local font is loaded before capture and remains stable across reverse seeks',async()=>{
  const dir=await project();let server:any,capture:any;
  try{
- await copyFile(new URL('../../templates/motion-design-promo/assets/fonts/Inter-400.woff2',import.meta.url),join(dir,'font.woff2'));
+ await copyFile(new URL('./fixtures/fonts/Inter-400.woff2',import.meta.url),join(dir,'font.woff2'));
  // A technical fixture: one text node, no demonstration layout or choreography.
  await writeFile(join(dir,'film.tsx'),`import React from 'react';export const film={width:320,height:180,fps:{num:30,den:1},durationInFrames:4,seed:1,scenes:[],assets:[{id:'font',kind:'font',src:'font.woff2',family:'Fixture Sans'}],audio:[],markers:{}};export default function Frame({frame}){return <div style={{fontFamily:'"Fixture Sans"',fontSize:24}}>Frame {frame}</div>}`);
  server=await startServer(dir);capture=await openCapture(server);

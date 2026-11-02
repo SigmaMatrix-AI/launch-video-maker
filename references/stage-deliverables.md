@@ -56,7 +56,7 @@ The case-based script above is only an example. A feature tour can use segments 
 | S03 | Prove the result | Sketch showing the priority list after the user sorts it | About 8 seconds |
 | S04 | Remember the product and action | Product name and one CTA | About 4 seconds |
 
-Approximate durations check story scope and may change. Drawings can be low fidelity; final layout, motion, seams, frame ranges, and musical timing are not required. Record the user's exact confirmation only after they accept script v2; for explicit delegation, record the authorization and agent decision. Filling in a template cannot create approval.
+Approximate durations check story scope and may change. Drawings can be low fidelity; final layout, motion, seams, frame ranges, and musical timing are not required. Record the user's exact confirmation only after they accept script v2; for explicit delegation, record the authorization and agent decision. Filling in a record cannot create approval.
 
 ## Stage three: add production details to the same storyboard
 
@@ -85,6 +85,6 @@ The initialization tool creates `brief.md`, `direction.md`, and `storyboard.md`;
 
 This is a minimal example for a new configuration. If a configuration exists, merge the script entry into `documents`, retaining existing entries and `actionRanges`; do not overwrite them with empty arrays. Add the script only if the file actually exists, and keep its path inside the film project. Brief/direction/storyboard records with their original names are still collected by default.
 
-If research is extensive and `records/research.md` actually exists, also merge `{"role":"reference","path":"records/research.md"}`; short research in the brief needs no additional configuration. Motion decisions already in the storyboard are collected by default. Add important text replacement or handoff windows to `actionRanges` using actual global half-open frame ranges, keeping previous ranges and limiting sampling volume. Do not fabricate an older project's history using a "confirmed" template.
+If research is extensive and `records/research.md` actually exists, also merge `{"role":"reference","path":"records/research.md"}`; short research in the brief needs no additional configuration. Motion decisions already in the storyboard are collected by default. Add important text replacement or handoff windows to `actionRanges` using actual global half-open frame ranges, keeping previous ranges and limiting sampling volume. Do not fabricate confirmation records for an older project.
 
 For older projects without a script, continue using the actual brief/storyboard instead of inventing a "confirmed script." Record a new story the next time it is actually confirmed. If records are renamed, point the appropriate role to the real path; see [tech.md](tech.md#using-the-existing-review-tools) for the full interface.

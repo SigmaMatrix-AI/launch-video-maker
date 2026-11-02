@@ -2,7 +2,7 @@
 
 Technical setup instructions for agents and developers. For the simplest installation, use the natural-language prompt in the [README](../README.md#install).
 
-Keep the repository intact: the root `SKILL.md`, references, templates, and runtime are installed together.
+Keep the repository intact: the root `SKILL.md`, references, visual assets, styles, and runtime are installed together.
 
 ## Requirements
 
@@ -33,6 +33,6 @@ npm run setup
 npm run prepare
 ```
 
-Film projects include their own source, assets directory, runtime snapshot, and dependency lockfile. They can be moved and installed independently of the skill checkout. Generated films live in `films/`, which is ignored by Git.
+Initialization creates an empty film canvas with no designed scenes. Set its dimensions, duration, and content for the current project. Film projects include their own source, assets directory, runtime snapshot, and dependency lockfile. They can be moved and installed independently of the skill checkout. Generated films live in `films/`, which is ignored by Git.
 
 `npm ci` in a film project also runs its `prepare` lifecycle script. Use `npm ci --ignore-scripts` if you need to install dependencies before preparing media, then run `npm run prepare` explicitly.

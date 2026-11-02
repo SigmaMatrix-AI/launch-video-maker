@@ -17,7 +17,7 @@ During creation, choose techniques suited to the current content; in stage three
 | E09 Purposeful holds | Results, brand, and CTA remain stable, leaving room for understanding and memory | Text and cards keep floating to maintain "energy" | Does stillness help understanding rather than stall? |
 | E10 Expressive text | Text leads a shot through emphasis or hands attention to the product | Every scene repeats a title and image arrangement with simultaneous reading tasks | Does the composition make the message and attention order clear? |
 
-The criteria diagnose what the viewer can understand; they are not a checklist of effects or fixed layouts. Necessary UI labels remain part of the product. Use [Motion language](motion-language.md) for canvas composition, reading time, and text choices; preserve agreed template arrangements and explicit user requirements.
+The criteria diagnose what the viewer can understand; they are not a checklist of effects or fixed layouts. Necessary UI labels remain part of the product. Use [Motion language](motion-language.md) for canvas composition, reading time, and text choices; honor explicit user requirements.
 
 Check research sufficiency separately through [Product evidence and usable assets](product-research.md); it adds no aesthetic score. Organizing a storyboard by feature names is valid. Problems arise when every feature repeats the same entrance, or specific visuals lack factual evidence.
 
@@ -121,7 +121,7 @@ Watch product demonstration segments consecutively and ask: Who is the subject? 
 | Every shot shares duration, entrance, and motion amplitude | Shorten repetitive operations, show key changes fully, extend result reading time, and alternate detail, overview, action, and holds |
 | Three feature cards or a whole row of customer logos demand simultaneous reading | Present items by emphasis, one at a time; customer logos can take center stage on accents, with supporting shapes adapting to their proportions. Preserve correct proportions, required colors, and recognizable holds |
 
-**Stillness does not mean slides.** Core results, key copy, brand, and CTA may hold steadily; a clear, recognizable logo group providing collective endorsement can also remain static. Hard cuts can omit repetitive processes, and fades can hand off content. The problem is repeated page changes throughout the film without product actions, state relationships, or rhythmic variety. Adding springs, rotation, or floating to everything is not a remedy. Preserve agreed template arrangements and fix content adaptation and readability first.
+**Stillness does not mean slides.** Core results, key copy, brand, and CTA may hold steadily; a clear, recognizable logo group providing collective endorsement can also remain static. Hard cuts can omit repetitive processes, and fades can hand off content. The problem is repeated page changes throughout the film without product actions, state relationships, or rhythmic variety. Adding springs, rotation, or floating to everything is not a remedy. Fix content and readability first.
 
 ## 3. UI: one subject per shot
 

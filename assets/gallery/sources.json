@@ -90,7 +90,8 @@
         "fps": 15,
         "conversion": "FFmpeg from previous GIF preview: fps=15,scale=400:225:flags=lanczos,split[a][b];[a]palettegen=max_colors=128:stats_mode=full[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle; -loop 0"
       },
-      "preview_sha256": "01600e8156abe8152231bebf0a1ee4b841e184be5a6e99c4500571a174092817"
+      "preview_sha256": "01600e8156abe8152231bebf0a1ee4b841e184be5a6e99c4500571a174092817",
+      "content_note": "The fictional Forma hero, dashboard, analytics, and workflow UI mocks were generated with OpenAI image generation. They are illustrative content, not captured SaaS pages or customer evidence. No separate third-party stock license is recorded for these mocks. The preview contains no audio."
     }
   ]
 }

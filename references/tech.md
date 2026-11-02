@@ -95,7 +95,7 @@ npx lvm doctor
 npx lvm prepare
 npx lvm preview                  # Internal checks; prints the actual URL
 npx lvm still 42 /absolute/frame.png
-npx lvm preview --open           # Default stage-three delivery is a local preview; also applies to templates
+npx lvm preview --open           # Default stage-three delivery is a local preview
 npx lvm render /absolute/film.mp4 # After an explicit user request to export
 npx lvm inspect /absolute/film.mp4
 ```
@@ -108,7 +108,7 @@ Export exactly `durationInFrames` frames, from frame 0 to N−1; record dimensio
 
 ## Quality assurance
 
-Diagnose visuals and motion first with the E01–E10 Good / Bad examples in [eval.md](eval.md); this page retains implementation, seven-dimension scoring, and evidence protocols. Autonomous design performs full motion/audiovisual acceptance in stage three. Stage two confirms only the story; this section is not a prerequisite for story confirmation.
+Diagnose visuals and motion first with the E01–E10 Good / Bad examples in [eval.md](eval.md); this page retains implementation, seven-dimension scoring, and evidence protocols. Full motion/audiovisual acceptance takes place in stage three. Stage two confirms only the story; this section is not a prerequisite for story confirmation.
 
 Use [Motion language](motion-language.md) for composition, rhythm, and semantic text choices. These follow the same frame determinism and font-readiness conventions as other scene content.
 
@@ -124,7 +124,7 @@ Before delivery, have an independent reviewer who did not participate in product
 | Sound and synchronization | Music builds and resolves, SFX reinforce actions, and the mix has clear, synchronized layers |
 | Technical specifications | Assets are complete, arbitrary frames reproduce consistently, and playback, dimensions, frame rate, and actual output meet requirements |
 
-Review template tasks within the scope established by SKILL.md and user requirements, aligning preserved segments with the original film one by one. Do not impose the autonomous route's three-direction confirmation or default E10 composition on templates. Prioritize factual errors, missing required elements, sensitive information exposure, unreadable key text, missing assets, playback failures, and obvious audiovisual misalignment; visuals or scores cannot offset them.
+Prioritize factual errors, missing required elements, sensitive information exposure, unreadable key text, missing assets, playback failures, and obvious audiovisual misalignment; visuals or scores cannot offset them.
 
 Current tools retain a threshold of ≥7.5/10 in each of the seven dimensions. Scores are review records and do not prove quality on their own. If viewing or listening is unavailable, mark it unverified; do not infer viewing/listening from source code, playback logs, or waveforms. The actual MP4 also needs full playback, checking first/last frames, compression quality, audio tracks, and synchronization at the start, middle, and end; preview checks cannot replace this.
 
@@ -132,7 +132,7 @@ Current tools retain a threshold of ≥7.5/10 in each of the seven dimensions. S
 
 `npx lvm review-pack .lvm/review` creates an evidence bundle for a unique version, defaulting to visual scope. Use `--scope audiovisual` for full audiovisual review, `--mp4 /absolute/film.mp4` for an existing export, and `--previous /absolute/old/review.json` for a follow-up review. It does not automatically export or score.
 
-By default, it collects `records/{brief,direction,storyboard}.md` and brand-kit sources. A new story script from the autonomous route is not collected automatically: once the file actually exists, merge `{"role":"reference","path":"records/script.md"}` into `documents` in `records/review-context.json`, preserving other entries and the original `actionRanges`. See [Stage deliverables](stage-deliverables.md#integration-with-existing-review) for a complete example and compatibility with older projects.
+By default, it collects `records/{brief,direction,storyboard}.md` and brand-kit sources. A new story script is not collected automatically: once the file actually exists, merge `{"role":"reference","path":"records/script.md"}` into `documents` in `records/review-context.json`, preserving other entries and the original `actionRanges`. See [Stage deliverables](stage-deliverables.md#integration-with-existing-review) for a complete example and compatibility with older projects.
 
 Use the same configuration for custom files or action ranges, for example `{"documents":[{"role":"direction","path":"records/concept.md"}],"actionRanges":[{"start":30,"end":45}]}`. Paths must be inside the project; each bundle is limited to 1200 frames and 2 GiB. Older projects without a script continue using their existing brief/storyboard; do not fabricate historical confirmation.
 

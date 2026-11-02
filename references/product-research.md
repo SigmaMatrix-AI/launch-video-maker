@@ -1,6 +1,6 @@
 # Product research: find usable content on the official website
 
-Use this before setting the direction in stage one; the template route also uses this method. A quick inspection during route selection only helps choose the route. When valid research exists, the task is explicitly limited to screenshots/recordings, or there is no website, use the existing materials without browsing again.
+Use this before setting the direction in stage one. When valid research exists, the task is explicitly limited to screenshots/recordings, or there is no website, use the existing materials without browsing again.
 
 ## Understand the whole product, then explore candidate content
 
