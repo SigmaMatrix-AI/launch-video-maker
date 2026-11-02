@@ -28,7 +28,9 @@
     "build": "tsc -p runtime/tsconfig.json",
     "test": "tsx --test --test-concurrency=1 runtime/test/*.test.ts",
     "prepack": "npm run build",
-    "test:long": "LVM_LONG_TEST=1 tsx --test runtime/test/long-sync.test.ts"
+    "test:long": "LVM_LONG_TEST=1 tsx --test runtime/test/long-sync.test.ts",
+    "package:release": "python3 scripts/package-release.py",
+    "test:release": "python3 scripts/test_release_package.py"
   },
   "dependencies": {
     "react": "19.3.1",
