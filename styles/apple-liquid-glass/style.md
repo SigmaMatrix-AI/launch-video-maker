@@ -4,7 +4,7 @@ A reusable interface language built from spacious editorial composition, continu
 
 ## Content first, controls above
 
-Use one dominant heading, one primary content focus and one obvious next action. Give the heading a short supporting sentence and let the content carry the visual interest. Keep a generous quiet margin around each group, with consistent alignment and more space between groups than within them. Large artwork or a purposeful visualization may occupy roughly half the composition; this is a default, not a required split-screen template.
+Use one dominant heading, one primary content focus and one obvious next action. Give the heading a short supporting sentence and let the content carry the visual interest. Keep a generous quiet margin around each group, with consistent alignment and more space between groups than within them. Large artwork or a purposeful visualization may occupy roughly half the composition; this is a default, not a required split-screen layout.
 
 Keep content on a stable, mostly opaque plane; reserve glass for floating navigation, toolbars and contextual controls. Cards are optional organizational containers, never a requirement to tile the whole screen. Group related metadata into compact rows with clear labels. Preserve hierarchy when content density increases by moving secondary details into progressive disclosure.
 

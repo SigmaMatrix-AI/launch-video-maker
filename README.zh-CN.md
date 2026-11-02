@@ -20,19 +20,19 @@
 
 由 launch-video-maker 制作 · 非官方概念演示
 
-<!-- 循环 GIF：Photoroom 00:00–00:10；Canva 00:06–00:24；
+<!-- 无损 WebP 循环动画：Photoroom 00:00–00:10；Canva 00:06–00:24；
      TapVid 00:18–00:23；Product Launch Lavender 00:16–00:31。
      轻量预览：400×225，15 fps。
-     点击预览可单独查看 GIF。 -->
+     点击预览可单独查看动画。 -->
 
 <p align="center">
-  <a href="assets/gallery/photoroom-promo.gif"><img src="assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10 秒产品发布视频"></a>
-  <a href="assets/gallery/canva-launch.gif"><img src="assets/gallery/canva-launch.gif" width="49%" alt="Canva — 产品发布视频节选，00:06–00:24"></a>
+  <a href="assets/gallery/photoroom-promo.webp"><img src="assets/gallery/photoroom-promo.webp" width="49%" alt="Photoroom — 10 秒产品发布视频"></a>
+  <a href="assets/gallery/canva-launch.webp"><img src="assets/gallery/canva-launch.webp" width="49%" alt="Canva — 产品发布视频节选，00:06–00:24"></a>
 </p>
 
 <p align="center">
-  <a href="assets/gallery/tapvid-launch.gif"><img src="assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — 产品发布视频节选，00:18–00:23"></a>
-  <a href="assets/gallery/product-launch-lavender.gif"><img src="assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — 视频节选，00:16–00:31"></a>
+  <a href="assets/gallery/tapvid-launch.webp"><img src="assets/gallery/tapvid-launch.webp" width="49%" alt="TapVid — 产品发布视频节选，00:18–00:23"></a>
+  <a href="assets/gallery/product-launch-lavender.webp"><img src="assets/gallery/product-launch-lavender.webp" width="49%" alt="Product Launch Lavender — 视频节选，00:16–00:31"></a>
 </p>
 
 ## 安装
@@ -70,7 +70,7 @@ Agent 会完成配置，并引导你处理需要你参与的步骤。
 
 ```text
 launch-video-maker/
-├── SKILL.md                       # Agent 指令与制作路线
+├── SKILL.md                       # Agent 指令与制作流程
 ├── references/                    # 制作指南
 │   ├── pipeline.md                # 三阶段制作流程
 │   ├── stage-deliverables.md      # 阶段产物、确认与续作
@@ -78,24 +78,20 @@ launch-video-maker/
 │   ├── motion-language.md         # 节奏与文字动效
 │   ├── eval.md                    # 视觉案例与 Good / Bad 标尺
 │   ├── tech.md                    # 渲染、媒体、音频与评审工具
-│   ├── runtime-setup.md           # 供 Agent 和开发者查阅的安装说明
-│   └── template-conventions.md    # 模板适配约定
+│   └── runtime-setup.md           # 供 Agent 和开发者查阅的安装说明
 ├── assets/                        # 文档图片
-│   ├── gallery/                   # 演示 GIF 预览与来源记录
-│   ├── motion/                    # 动效序列与抽帧记录
+│   ├── gallery/                   # 演示 WebP 预览与来源记录
+│   ├── motion/                    # 动态参考片段与来源记录
 │   ├── references/                # 构图参考与分镜图
 │   └── tapvid-cta.svg              # README CTA 横幅
-├── examples/motion-language/      # 五组可运行的 Good / Bad 对照
-├── templates/                     # 可复用的影片模板
 ├── styles/                        # 视觉风格参考
-├── runtime/                       # 本地视频运行时
-│   ├── src/                       # 渲染、媒体、音频与命令行工具
-│   ├── web/                       # 浏览器预览播放器
-│   └── test/                      # 运行时测试
-└── docs/                          # 验证指南与字体许可证元数据
+└── runtime/                       # 本地视频运行时
+    ├── src/                       # 渲染、媒体、音频与命令行工具
+    ├── web/                       # 浏览器预览播放器
+    └── test/                      # 运行时行为测试
 ```
 
-现有模板：[Product Launch Lavender](templates/product-launch-lavender/template.md)、[Motion Design Promo](templates/motion-design-promo/template.md) 和 [Capsule Flow](templates/capsule-flow/template.md)。视觉风格参考位于 [`styles/`](styles/)。
+视觉风格参考位于 [`styles/`](styles/)；每部影片的构图与叙事顺序根据产品单独设计。
 
 <p align="center">
   <a href="https://tapvid.ai?utm_source=launch-video-skill"><img src="assets/tapvid-cta.svg" width="720" alt="Explore more video creation features at TapVid."></a>
@@ -105,4 +101,4 @@ launch-video-maker/
 
 本项目原创代码和文档采用 [Apache-2.0](LICENSE) 协议。
 
-第三方软件、字体、演示素材、音乐及品牌素材仍适用各自的授权条款。来源、随附字体许可证和待确认授权详见 [第三方素材声明](THIRD_PARTY_NOTICES.md)。收录在本仓库中不代表这些素材采用 Apache 协议，也不代表可以自由再分发。
+第三方软件、字体、演示素材及品牌素材仍适用各自的授权条款。来源、随附字体许可证和待确认授权详见 [第三方素材声明](THIRD_PARTY_NOTICES.md)。收录在本仓库中不代表这些素材采用 Apache 协议，也不代表可以自由再分发。

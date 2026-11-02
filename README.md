@@ -18,19 +18,19 @@
 
 Made with launch-video-maker · Unofficial concept demos.
 
-<!-- Looping GIF previews: Photoroom 00:00–00:10; Canva 00:06–00:24;
+<!-- Looping lossless WebP previews: Photoroom 00:00–00:10; Canva 00:06–00:24;
      TapVid 00:18–00:23; Product Launch Lavender 00:16–00:31.
      Lightweight previews: 400×225 at 15 fps.
-     Click each preview to open the GIF on its own. -->
+     Click each preview to open the animation on its own. -->
 
 <p align="center">
-  <a href="assets/gallery/photoroom-promo.gif"><img src="assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10-second product launch video"></a>
-  <a href="assets/gallery/canva-launch.gif"><img src="assets/gallery/canva-launch.gif" width="49%" alt="Canva — product launch video excerpt, 00:06–00:24"></a>
+  <a href="assets/gallery/photoroom-promo.webp"><img src="assets/gallery/photoroom-promo.webp" width="49%" alt="Photoroom — 10-second product launch video"></a>
+  <a href="assets/gallery/canva-launch.webp"><img src="assets/gallery/canva-launch.webp" width="49%" alt="Canva — product launch video excerpt, 00:06–00:24"></a>
 </p>
 
 <p align="center">
-  <a href="assets/gallery/tapvid-launch.gif"><img src="assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — product launch video excerpt, 00:18–00:23"></a>
-  <a href="assets/gallery/product-launch-lavender.gif"><img src="assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — video excerpt, 00:16–00:31"></a>
+  <a href="assets/gallery/tapvid-launch.webp"><img src="assets/gallery/tapvid-launch.webp" width="49%" alt="TapVid — product launch video excerpt, 00:18–00:23"></a>
+  <a href="assets/gallery/product-launch-lavender.webp"><img src="assets/gallery/product-launch-lavender.webp" width="49%" alt="Product Launch Lavender — video excerpt, 00:16–00:31"></a>
 </p>
 
 ## Install
@@ -69,7 +69,7 @@ You keep the film source, local assets, and production notes. The browser player
 
 ```text
 launch-video-maker/
-├── SKILL.md                       # Agent instructions and production routes
+├── SKILL.md                       # Agent instructions and production workflow
 ├── references/                    # Production guides
 │   ├── pipeline.md                # Three-stage workflow
 │   ├── stage-deliverables.md      # Deliverables, approvals, and continuation
@@ -77,24 +77,20 @@ launch-video-maker/
 │   ├── motion-language.md         # Pacing and typography
 │   ├── eval.md                    # Visual examples and Good / Bad criteria
 │   ├── tech.md                    # Rendering, media, audio, and review tools
-│   ├── runtime-setup.md           # Setup instructions for agents and developers
-│   └── template-conventions.md    # Template adaptation
+│   └── runtime-setup.md           # Setup instructions for agents and developers
 ├── assets/                        # Documentation images
-│   ├── gallery/                   # Demo GIF previews and source records
-│   ├── motion/                    # Motion sequences and extraction records
+│   ├── gallery/                   # Demo WebP previews and source records
+│   ├── motion/                    # Animated reference excerpts and source records
 │   ├── references/                # Composition references and storyboards
 │   └── tapvid-cta.svg              # README CTA banner
-├── examples/motion-language/      # Five runnable Good / Bad comparisons
-├── templates/                     # Reusable film projects
 ├── styles/                        # Visual style references
-├── runtime/                       # Local video runtime
-│   ├── src/                       # Rendering, media, audio, and CLI
-│   ├── web/                       # Browser preview player
-│   └── test/                      # Runtime tests
-└── docs/                          # Validation guide and font license metadata
+└── runtime/                       # Local video runtime
+    ├── src/                       # Rendering, media, audio, and CLI
+    ├── web/                       # Browser preview player
+    └── test/                      # Runtime behavior tests
 ```
 
-Available templates: [Product Launch Lavender](templates/product-launch-lavender/template.md), [Motion Design Promo](templates/motion-design-promo/template.md), and [Capsule Flow](templates/capsule-flow/template.md). Visual style references live in [`styles/`](styles/).
+Visual style references live in [`styles/`](styles/); each film’s composition and sequence are designed for its product.
 
 <p align="center">
   <a href="https://tapvid.ai?utm_source=launch-video-skill"><img src="assets/tapvid-cta.svg" width="720" alt="Explore more video creation features at TapVid."></a>
@@ -104,4 +100,4 @@ Available templates: [Product Launch Lavender](templates/product-launch-lavender
 
 Project-authored code and documentation are licensed under [Apache-2.0](LICENSE).
 
-Third-party software, fonts, demo media, music, and brand assets retain their own terms. See [Third-party notices](THIRD_PARTY_NOTICES.md) for sources, bundled font licenses, and permissions still requiring confirmation. Inclusion in this repository does not make those assets Apache-licensed or freely redistributable.
+Third-party software, fonts, demo media, and brand assets retain their own terms. See [Third-party notices](THIRD_PARTY_NOTICES.md) for sources, bundled font licenses, and permissions still requiring confirmation. Inclusion in this repository does not make those assets Apache-licensed or freely redistributable.
