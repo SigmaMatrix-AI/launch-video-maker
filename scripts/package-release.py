@@ -8,7 +8,7 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-ROOT_FILES = {'SKILL.md', 'README.md', 'README.zh-CN.md', 'LICENSE',
+ROOT_FILES = {'SKILL.md', 'README.md', 'README.zh-CN.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md',
               'package.json', 'package-lock.json', '.gitignore', '.gitattributes'}
 ROOT_DIRS = {'assets', 'styles', 'templates', 'references', 'examples', 'runtime', 'docs', 'scripts'}
 LOCAL_DIRS = {'node_modules', '.git', '.lvm', '.superpowers', '__pycache__', 'exports'}

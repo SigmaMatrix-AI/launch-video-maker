@@ -17,7 +17,7 @@ check the exit code before uploading. `dist/` is ignored by Git.
 
 The package reflects the current working tree, including new non-ignored files
 and excluding deleted files; it does not require a commit. Candidates come from
-`git ls-files --cached --others --exclude-standard`. Only the root metadata files
+`git ls-files --cached --others --exclude-standard`. Only the root metadata files (including `LICENSE` and `THIRD_PARTY_NOTICES.md`)
 and `assets`, `styles`, `templates`, `references`, `examples`, `runtime`, `docs`,
 and `scripts` directories are eligible. Local dependencies, render caches,
 exports, and symlinks cannot enter the package. Review new files in those

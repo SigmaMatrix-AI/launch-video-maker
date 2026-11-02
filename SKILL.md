@@ -9,10 +9,12 @@ Create a launch film that makes the product's value visible and has the finish o
 
 ## Choose a route
 
-Keep the existing mode when one has been selected or when continuing an existing film. If no mode is selected, first perform a quick, read-only product inspection and explain both routes and the basis for your recommendation. This determines the route; before formal design, follow [Product research](references/product-research.md) to understand the whole product, view relevant demos, and save usable footage and assets.
+Keep any existing route choice. Otherwise, briefly inspect the product without making changes and offer exactly two options:
 
-- **Template reference:** When a suitable template exists, preserve as much of its shot arrangement, composition, motion, spatial relationships, and rhythm as possible by default, adapting real product content and style. Explicit requests to borrow or adapt only part of it take priority. Read the [Template workflow](references/template-conventions.md).
-- **Agent-planned design:** Follow the three stages below. Read the [Production workflow](references/pipeline.md); see [Stage deliverables](references/stage-deliverables.md) for records and delivery examples at each stage.
+- **Agent-planned design (default recommendation):** Follow the three stages below, [Production workflow](references/pipeline.md), and [Stage deliverables](references/stage-deliverables.md).
+- **Template reference:** Recommend only when an identified template exceptionally matches the product's story, assets, and motion. Name it and explain the fit within this option, choosing route and template together. Preserve its design and rhythm while honoring requested adaptations; follow [Template workflow](references/template-conventions.md).
+
+Individual templates are not extra options. Before formal design, complete [Product research](references/product-research.md).
 
 ## Three stages of autonomous design
 

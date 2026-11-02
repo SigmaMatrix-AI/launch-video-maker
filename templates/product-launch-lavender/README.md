@@ -7,3 +7,5 @@ A lavender stage, continuous webpage showcase, rotating cards extending toward t
 Read the [template guide](template.md) before reuse for asset mappings, copy interfaces, motion constraints, installation commands, and validation boundaries. Copy this directory to `films/<project-id>/` and edit the content there, preserving this template as the finalized baseline.
 
 See [final-release.json](records/final-release.json) for the release index.
+
+See [SOURCES.md](SOURCES.md) for generated mock provenance, the bundled font license, and the unresolved reference-music permission.

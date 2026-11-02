@@ -12,6 +12,11 @@
   "font": {
     "file": "brand-kit/GoogleSans-Regular.ttf",
     "source": "templates/google-vids/brand-kit/GoogleSans-Regular.ttf",
-    "reason": "Explicit reference typography"
+    "reason": "Explicit reference typography",
+    "upstream": "https://github.com/googlefonts/googlesans",
+    "version": "13.002",
+    "license": "OFL-1.1",
+    "licenseFile": "brand-kit/GoogleSans-OFL.txt",
+    "licenseSource": "https://github.com/google/fonts/blob/main/ofl/googlesans/OFL.txt"
   }
 }

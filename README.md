@@ -79,7 +79,11 @@ launch-video-maker/
 │   ├── tech.md                    # Rendering, media, audio, and review tools
 │   ├── runtime-setup.md           # Setup instructions for agents and developers
 │   └── template-conventions.md    # Template adaptation
-├── assets/                        # Visual references and README gallery
+├── assets/                        # Documentation images
+│   ├── gallery/                   # Demo GIF previews and source records
+│   ├── motion/                    # Motion sequences and extraction records
+│   ├── references/                # Composition references and storyboards
+│   └── tapvid-cta.svg              # README CTA banner
 ├── examples/motion-language/      # Five runnable Good / Bad comparisons
 ├── templates/                     # Reusable film projects
 ├── styles/                        # Visual style references
@@ -87,7 +91,7 @@ launch-video-maker/
 │   ├── src/                       # Rendering, media, audio, and CLI
 │   ├── web/                       # Browser preview player
 │   └── test/                      # Runtime tests
-└── docs/                          # Validation guide
+└── docs/                          # Validation guide and font license metadata
 ```
 
 Available templates: [Product Launch Lavender](templates/product-launch-lavender/template.md), [Motion Design Promo](templates/motion-design-promo/template.md), and [Capsule Flow](templates/capsule-flow/template.md). Visual style references live in [`styles/`](styles/).
@@ -98,6 +102,6 @@ Available templates: [Product Launch Lavender](templates/product-launch-lavender
 
 ## License
 
-[Apache-2.0](LICENSE).
+Project-authored code and documentation are licensed under [Apache-2.0](LICENSE).
 
-Third-party dependencies, fonts, and brand assets retain their own licenses and usage restrictions.
+Third-party software, fonts, demo media, music, and brand assets retain their own terms. See [Third-party notices](THIRD_PARTY_NOTICES.md) for sources, bundled font licenses, and permissions still requiring confirmation. Inclusion in this repository does not make those assets Apache-licensed or freely redistributable.

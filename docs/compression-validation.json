@@ -108,7 +108,8 @@
     "skip": "Optional 60-second long-sync test"
   },
   "releaseTests": {
-    "passed": 4,
+    "passed": 5,
     "failed": 0
-  }
+  },
+  "mergedMainCommit": "79dd5aa390a26ae4d663d3eb37d3a37f9f58f630"
 }

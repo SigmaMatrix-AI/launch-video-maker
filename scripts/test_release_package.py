@@ -52,6 +52,18 @@ class ReleasePackageTests(unittest.TestCase):
             self.assertEqual(archive.read('launch-video-maker/assets/new.webp'), b'compressed')
             self.assertEqual(report['uncompressedBytes'], sum(i.file_size for i in archive.infolist()))
 
+    def test_includes_project_and_third_party_license_notices(self):
+        self.put('LICENSE', 'Project license')
+        self.put('THIRD_PARTY_NOTICES.md', 'Third-party notices')
+        self.put('templates/demo/assets/fonts/Font-OFL.txt', 'Font license')
+        result = self.package()
+        self.assertEqual(result.returncode, 0, result.stderr)
+        with zipfile.ZipFile(json.loads(result.stdout)['archive']) as archive:
+            self.assertEqual(archive.read('launch-video-maker/LICENSE'), b'Project license')
+            self.assertIn('launch-video-maker/THIRD_PARTY_NOTICES.md', archive.namelist())
+            self.assertEqual(archive.read('launch-video-maker/THIRD_PARTY_NOTICES.md'), b'Third-party notices')
+            self.assertEqual(archive.read('launch-video-maker/templates/demo/assets/fonts/Font-OFL.txt'), b'Font license')
+
     def test_rejects_uncompressed_limit_even_when_data_compresses_well(self):
         self.put('assets/large.txt', 'x' * 1000)
         previous = self.put('dist/launch-video-maker.zip', 'previous valid package')

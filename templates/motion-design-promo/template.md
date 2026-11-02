@@ -56,7 +56,7 @@ The example uses **18 slots and 16 distinct images**: 6 products, 5 case slots (
 
 ## Validation and known boundaries
 
-For installation and commands, see [README](README.md); for this migration's evidence, see [runtime validation records](records/runtime-validation.md). `npm run validate -- --full` covers all 1200 frames, checking fourteen action transitions and backward/repeated frame acquisition. The default short check covers each section's start, end, and intermediate frames. Test caches reside only in `.lvm/validation`.
+For installation and commands, see [README](README.md); for recorded checks and results, see [runtime validation records](records/runtime-validation.md). `npm run validate -- --full` covers all 1200 frames, checking fourteen action transitions and backward/repeated frame acquisition. The default short check covers each section's start, end, and intermediate frames. Test caches reside only in `.lvm/validation`.
 
 Visuals intentionally contain oversized text and edge cropping; do not arbitrarily turn them into static, fully visible centered text when adapting.
 

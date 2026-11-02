@@ -6,7 +6,7 @@
   "files": [
     {
       "originalPath": "assets/apple-software-family-video-reference-storyboard-lossless.png",
-      "path": "assets/apple-software-family-video-reference-storyboard-lossless.webp",
+      "path": "assets/references/apple-software-family-video-reference-storyboard-lossless.webp",
       "originalBytes": 3527824,
       "bytes": 2492748,
       "originalSha256": "a15fb639a6ebfc8fe3841f65659d1f52e405d0491469636edfcac86a772dd71c",
@@ -15,7 +15,7 @@
     },
     {
       "originalPath": "assets/headline-reveal-and-surrounding-cards-sequence-lossless.png",
-      "path": "assets/headline-reveal-and-surrounding-cards-sequence-lossless.webp",
+      "path": "assets/references/headline-reveal-and-surrounding-cards-sequence-lossless.webp",
       "originalBytes": 4941650,
       "bytes": 3749072,
       "originalSha256": "bf7580277a67d215e772c3e058e38eb479065e0516ca5eb6fc12a482c7232a60",
@@ -24,7 +24,7 @@
     },
     {
       "originalPath": "assets/intro-blue-gradient-title.png",
-      "path": "assets/intro-blue-gradient-title.webp",
+      "path": "assets/references/intro-blue-gradient-title.webp",
       "originalBytes": 413666,
       "bytes": 303184,
       "originalSha256": "7dd3c89dd18dcc02a756fc50aa09964e7dfe4921454543fbc9fbdb7c72ce0cb9",
@@ -33,7 +33,7 @@
     },
     {
       "originalPath": "assets/langease-multilingual-video-reference-storyboard-lossless.png",
-      "path": "assets/langease-multilingual-video-reference-storyboard-lossless.webp",
+      "path": "assets/references/langease-multilingual-video-reference-storyboard-lossless.webp",
       "originalBytes": 6328252,
       "bytes": 4771674,
       "originalSha256": "b0e5b2be25940b167b3bc2a0121806792fc45d7ff37b60cae1d569ef5c093315",
@@ -78,7 +78,7 @@
     },
     {
       "originalPath": "assets/msportal-ai-product-video-reference-storyboard-lossless.png",
-      "path": "assets/msportal-ai-product-video-reference-storyboard-lossless.webp",
+      "path": "assets/references/msportal-ai-product-video-reference-storyboard-lossless.webp",
       "originalBytes": 7097012,
       "bytes": 5375318,
       "originalSha256": "67ec5b97cfd43202b71eae692a801fb42ad1ceadd32440366b3ff9ec31de2c4f",
@@ -87,7 +87,7 @@
     },
     {
       "originalPath": "assets/showcase-cards-around-headline.png",
-      "path": "assets/showcase-cards-around-headline.webp",
+      "path": "assets/references/showcase-cards-around-headline.webp",
       "originalBytes": 649171,
       "bytes": 413882,
       "originalSha256": "80ab81323d9e9e834d10d9aaa1f85171fabcb96d56427620cdefb9035ac05831",
@@ -96,7 +96,7 @@
     },
     {
       "originalPath": "assets/teamble-ai-feedback-video-reference-storyboard-lossless.png",
-      "path": "assets/teamble-ai-feedback-video-reference-storyboard-lossless.webp",
+      "path": "assets/references/teamble-ai-feedback-video-reference-storyboard-lossless.webp",
       "originalBytes": 3808982,
       "bytes": 2762360,
       "originalSha256": "751bbfcfdefec06aa206b6debf7c937e8982d52daad95c241a25bd2c0d278040",

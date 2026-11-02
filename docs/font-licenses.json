@@ -1,0 +1,259 @@
+{
+  "reviewed_on": "2026-10-29",
+  "scope": "All tracked font binaries in the repository; font bytes were not modified.",
+  "method": "OpenType name-table metadata compared with official upstream SIL Open Font License notices. This records license evidence, not an exact upstream download match for every subset.",
+  "fonts": [
+    {
+      "path": "examples/motion-language/assets/NotoSansSC-Study-700.ttf",
+      "sha256": "ee1f57a751e97eee091ade308906a8230ca6e51563e0915389c78aa59bf82f41",
+      "family": "Noto Sans SC",
+      "embedded_family_names": [
+        "Noto Sans SC"
+      ],
+      "version": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "copyright": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "embedded_license_urls": [
+        "http://scripts.sil.org/OFL"
+      ],
+      "license": "OFL-1.1",
+      "license_file": "examples/motion-language/assets/OFL.txt",
+      "license_file_sha256": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notosanssc"
+    },
+    {
+      "path": "templates/capsule-flow/brand-kit/GoogleSans-Regular.ttf",
+      "sha256": "03db9870a5505f83d81c828768642b816bef24ac615501856de5b2ff1038c0f0",
+      "family": "Google Sans",
+      "embedded_family_names": [
+        "Google Sans"
+      ],
+      "version": [
+        "Version 13.002;[5e3df34c1]"
+      ],
+      "copyright": [
+        "Copyright 2025 The Google Sans Project Authors (github.com/googlefonts/googlesans)"
+      ],
+      "embedded_license_urls": [
+        "https://openfontlicense.org"
+      ],
+      "license": "OFL-1.1",
+      "license_file": "templates/capsule-flow/brand-kit/GoogleSans-OFL.txt",
+      "license_file_sha256": "2b75ef20f13d83a7514aee452c4782c20cdc9ff2dee17600f44d37a06d4fb958",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/googlesans/OFL.txt",
+      "upstream_project": "https://github.com/googlefonts/googlesans"
+    },
+    {
+      "path": "templates/motion-design-promo/assets/fonts/Inter-400.woff2",
+      "sha256": "48a0c2503a9c8ec4153302693fff56b3281aba5ce5afd7cf2bd51a03b098cd22",
+      "family": "Inter",
+      "embedded_family_names": [
+        "Inter"
+      ],
+      "version": [
+        "Version 4.001;git-66647c0bb"
+      ],
+      "copyright": [
+        "Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)"
+      ],
+      "embedded_license_urls": [
+        "https://openfontlicense.org"
+      ],
+      "license": "OFL-1.1",
+      "license_file": "templates/motion-design-promo/assets/fonts/Inter-OFL.txt",
+      "license_file_sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "license_source_url": "https://raw.githubusercontent.com/rsms/inter/v4.1/LICENSE.txt",
+      "upstream_project": "https://github.com/rsms/inter"
+    },
+    {
+      "path": "templates/motion-design-promo/assets/fonts/Inter-800.woff2",
+      "sha256": "713403e7d227a0fc231322cbd70e46601ceda4a514f08d19896a3029c2eefed9",
+      "family": "Inter",
+      "embedded_family_names": [
+        "Inter ExtraBold"
+      ],
+      "version": [
+        "Version 4.001;git-66647c0bb"
+      ],
+      "copyright": [
+        "Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)"
+      ],
+      "embedded_license_urls": [
+        "https://openfontlicense.org"
+      ],
+      "license": "OFL-1.1",
+      "license_file": "templates/motion-design-promo/assets/fonts/Inter-OFL.txt",
+      "license_file_sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "license_source_url": "https://raw.githubusercontent.com/rsms/inter/v4.1/LICENSE.txt",
+      "upstream_project": "https://github.com/rsms/inter"
+    },
+    {
+      "path": "templates/motion-design-promo/assets/fonts/NotoSansSC-I18nA-400.woff2",
+      "sha256": "a056f6f7106b2370481ff333f0bcb5718fa5a5c60d0ba322b525a7687e518a0f",
+      "family": "Noto Sans SC",
+      "embedded_family_names": [
+        "Noto Sans SC Thin"
+      ],
+      "version": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "copyright": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "embedded_license_urls": [],
+      "license": "OFL-1.1",
+      "license_file": "templates/motion-design-promo/assets/fonts/NotoSansSC-OFL.txt",
+      "license_file_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notosanssc"
+    },
+    {
+      "path": "templates/motion-design-promo/assets/fonts/NotoSansSC-I18nA-800.woff2",
+      "sha256": "eb5d568e61e2c8987a94230606fbaa25a152e3d401fc14e6a45fe7234689312a",
+      "family": "Noto Sans SC",
+      "embedded_family_names": [
+        "Noto Sans SC Thin"
+      ],
+      "version": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "copyright": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "embedded_license_urls": [],
+      "license": "OFL-1.1",
+      "license_file": "templates/motion-design-promo/assets/fonts/NotoSansSC-OFL.txt",
+      "license_file_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notosanssc"
+    },
+    {
+      "path": "templates/motion-design-promo/assets/fonts/NotoSansSC-I18nB-400.woff2",
+      "sha256": "070aabecc58d214599fef2c5401cbdf533878a93372b73ca9c80bdc747ea7870",
+      "family": "Noto Sans SC",
+      "embedded_family_names": [
+        "Noto Sans SC Thin"
+      ],
+      "version": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "copyright": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "embedded_license_urls": [],
+      "license": "OFL-1.1",
+      "license_file": "templates/motion-design-promo/assets/fonts/NotoSansSC-OFL.txt",
+      "license_file_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notosanssc"
+    },
+    {
+      "path": "templates/motion-design-promo/assets/fonts/NotoSansSC-I18nB-800.woff2",
+      "sha256": "a4cba689f45355084fde348f548e6607d2709c9394e10e8b9c67730c910e5389",
+      "family": "Noto Sans SC",
+      "embedded_family_names": [
+        "Noto Sans SC Thin"
+      ],
+      "version": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "copyright": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "embedded_license_urls": [],
+      "license": "OFL-1.1",
+      "license_file": "templates/motion-design-promo/assets/fonts/NotoSansSC-OFL.txt",
+      "license_file_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notosanssc"
+    },
+    {
+      "path": "templates/motion-design-promo/assets/fonts/NotoSansSC-I18nC-400.woff2",
+      "sha256": "605775f04b3b737ee966509094d8ec997651f6253208856664e5eb0e3422440f",
+      "family": "Noto Sans SC",
+      "embedded_family_names": [
+        "Noto Sans SC Thin"
+      ],
+      "version": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "copyright": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "embedded_license_urls": [],
+      "license": "OFL-1.1",
+      "license_file": "templates/motion-design-promo/assets/fonts/NotoSansSC-OFL.txt",
+      "license_file_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notosanssc"
+    },
+    {
+      "path": "templates/motion-design-promo/assets/fonts/NotoSansSC-I18nC-800.woff2",
+      "sha256": "d2de3de67e3662e94ab718216a9e68a7bd8ec1b6ba31bd47a508db64c525b706",
+      "family": "Noto Sans SC",
+      "embedded_family_names": [
+        "Noto Sans SC Thin"
+      ],
+      "version": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "copyright": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "embedded_license_urls": [],
+      "license": "OFL-1.1",
+      "license_file": "templates/motion-design-promo/assets/fonts/NotoSansSC-OFL.txt",
+      "license_file_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "upstream_project": "https://github.com/google/fonts/tree/main/ofl/notosanssc"
+    },
+    {
+      "path": "templates/product-launch-lavender/assets/fonts/PlusJakartaSans-600.woff2",
+      "sha256": "e76419f92a0901836849d2a04572af7cff6cd25c7bd54354a51a114a92c7a415",
+      "family": "Plus Jakarta Sans",
+      "embedded_family_names": [
+        "Plus Jakarta Sans SemiBold"
+      ],
+      "version": [
+        "Version 2.071;gftools[0.9.30]"
+      ],
+      "copyright": [
+        "Copyright 2020 The Plus Jakarta Sans Project Authors (https://github.com/tokotype/PlusJakartaSans)"
+      ],
+      "embedded_license_urls": [
+        "https://scripts.sil.org/OFL"
+      ],
+      "license": "OFL-1.1",
+      "license_file": "templates/product-launch-lavender/assets/fonts/PlusJakartaSans-OFL.txt",
+      "license_file_sha256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/plusjakartasans/OFL.txt",
+      "upstream_project": "https://github.com/tokotype/PlusJakartaSans"
+    },
+    {
+      "path": "templates/product-launch-lavender/assets/fonts/PlusJakartaSans-800.woff2",
+      "sha256": "bfbc2121e1db00a856600ad088421fdf6e9c0e8b907c8c523ee8c1cfef75c76d",
+      "family": "Plus Jakarta Sans",
+      "embedded_family_names": [
+        "Plus Jakarta Sans ExtraBold"
+      ],
+      "version": [
+        "Version 2.071;gftools[0.9.30]"
+      ],
+      "copyright": [
+        "Copyright 2020 The Plus Jakarta Sans Project Authors (https://github.com/tokotype/PlusJakartaSans)"
+      ],
+      "embedded_license_urls": [
+        "https://scripts.sil.org/OFL"
+      ],
+      "license": "OFL-1.1",
+      "license_file": "templates/product-launch-lavender/assets/fonts/PlusJakartaSans-OFL.txt",
+      "license_file_sha256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/plusjakartasans/OFL.txt",
+      "upstream_project": "https://github.com/tokotype/PlusJakartaSans"
+    }
+  ]
+}
