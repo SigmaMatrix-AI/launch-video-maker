@@ -16,3 +16,7 @@ runtime/dist/
 # Rebuildable template inspection captures belong under .lvm/validation/.
 /templates/*/records/continuity-*.png
 /templates/*/records/preview-*.png
+
+# Rebuildable release archives
+/dist/
+__pycache__/

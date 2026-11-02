@@ -32,7 +32,7 @@ try {
  }
  const seeks=[1199,0,1004,420,855,224,795,120,1080,360,45,555,675,180,225,1005,825];
  for(const frame of seeks){const a=hash(await capture.frame(frame));const b=hash(await capture.frame(frame));assert.equal(a,b,`repeat ${frame}`);if(hashes.has(frame))assert.equal(a,hashes.get(frame),`reverse ${frame}`);}
- const sourcePCM=await run('ffmpeg',['-v','error','-i',join(project,'assets/audio/music-master.wav'),'-f','f32le','-ar','48000','-ac','2','pipe:1']);
+ const sourcePCM=await run('ffmpeg',['-v','error','-i',join(project,'assets/audio/music-master.flac'),'-f','f32le','-ar','48000','-ac','2','pipe:1']);
  const mixedPCM=await run('ffmpeg',['-v','error','-i',join(server.prepared.cache,'mix.wav'),'-f','f32le','-ar','48000','-ac','2','pipe:1']);
  assert.equal(sourcePCM.length,48000*20*2*4);assert.ok(sourcePCM.equals(mixedPCM),'PCM must remain sample-identical');
  await capture.page.goto(server.url);

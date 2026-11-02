@@ -109,77 +109,107 @@
     {
       "source": "props/shiqu-shopping/media/cup.png",
       "path": "assets/media/cup.png",
-      "sha256": "a1bb9d9668ca02c4b7114e60c82239c7c60c48cfae7a76700d7760e27b116b0e"
+      "sha256": "a1bb9d9668ca02c4b7114e60c82239c7c60c48cfae7a76700d7760e27b116b0e",
+      "packagedPath": "assets/media/cup.webp",
+      "packagedSha256": "1d4ef87b6a8c1bc25f7230c26e61038b77f4bfa462ca81dcc866de63e14b2ffb"
     },
     {
       "source": "props/shiqu-shopping/media/headphones.png",
       "path": "assets/media/headphones.png",
-      "sha256": "005237748f5ed2b36d2a721da3a1e75046bfc297dbd46fe45fb9d9b52a2864ef"
+      "sha256": "005237748f5ed2b36d2a721da3a1e75046bfc297dbd46fe45fb9d9b52a2864ef",
+      "packagedPath": "assets/media/headphones.webp",
+      "packagedSha256": "1a440d650827de3a37c8e6b6158a5ffd59c82e510650b0a9baaf854576263f49"
     },
     {
       "source": "props/shiqu-shopping/media/lamp.png",
       "path": "assets/media/lamp.png",
-      "sha256": "8ad4ad9af8af9892db319de9f395b27c5d8c64f39a58da46cd765835018901b4"
+      "sha256": "8ad4ad9af8af9892db319de9f395b27c5d8c64f39a58da46cd765835018901b4",
+      "packagedPath": "assets/media/lamp.webp",
+      "packagedSha256": "a436f6b35c532f5a8a8ac60e1c7f742c670ff5f7a843b698e2e030d29fcf6163"
     },
     {
       "source": "props/shiqu-shopping/media/speaker.png",
       "path": "assets/media/speaker.png",
-      "sha256": "b67ca0b00f73523ecc69ba62c6d71de4c8ded8a3027aae76528ff63d97066611"
+      "sha256": "b67ca0b00f73523ecc69ba62c6d71de4c8ded8a3027aae76528ff63d97066611",
+      "packagedPath": "assets/media/speaker.webp",
+      "packagedSha256": "a71415e60f5d6343e565a4a4d579f684d3d29c91e4f42f41bf0d006119cdb3c8"
     },
     {
       "source": "props/shiqu-shopping/media/sneakers.png",
       "path": "assets/media/sneakers.png",
-      "sha256": "a8906f84e70830ed6bb343f373874eba7f5091e0d2a04cc5aca0d1769c8d28d7"
+      "sha256": "a8906f84e70830ed6bb343f373874eba7f5091e0d2a04cc5aca0d1769c8d28d7",
+      "packagedPath": "assets/media/sneakers.webp",
+      "packagedSha256": "1da4c67564be5789c334149cbbf4b2c4664b5c38432a95c7ecf6b589b1a6d9ad"
     },
     {
       "source": "props/shiqu-shopping/media/tote.png",
       "path": "assets/media/tote.png",
-      "sha256": "a11cd3d76668ea5b37c21bf40d54d0b1c93e627755f5a6845f3d3ff969254d45"
+      "sha256": "a11cd3d76668ea5b37c21bf40d54d0b1c93e627755f5a6845f3d3ff969254d45",
+      "packagedPath": "assets/media/tote.webp",
+      "packagedSha256": "d5d8adecb7a1ccef7ddd4af995946108c99e4e8511ba3a204d2f632152531132"
     },
     {
       "source": "props/shiqu-shopping/media/scene-home.png",
       "path": "assets/media/scene-home.png",
-      "sha256": "fcdadf947c196bdba7c373f7cbfe41313f4cc346c5ab3c2561820ce4205de784"
+      "sha256": "fcdadf947c196bdba7c373f7cbfe41313f4cc346c5ab3c2561820ce4205de784",
+      "packagedPath": "assets/media/scene-home.webp",
+      "packagedSha256": "3e6cfaa00e867bff2d9d1d79cbb8d6f8b94b0b48068132e91c893a02d71320ef"
     },
     {
       "source": "props/shiqu-shopping/media/scene-collection.png",
       "path": "assets/media/scene-collection.png",
-      "sha256": "51143391a97989da2ac02a558d7ff8a77c8f43d3276844e3f48a32030a6eb1fa"
+      "sha256": "51143391a97989da2ac02a558d7ff8a77c8f43d3276844e3f48a32030a6eb1fa",
+      "packagedPath": "assets/media/scene-collection.webp",
+      "packagedSha256": "bb8ce350b54b4edf726fb55ff42c8cafdb902afa35162c4d80209b5c488a0d7d"
     },
     {
       "source": "props/shiqu-shopping/media/storefront.png",
       "path": "assets/media/storefront.png",
-      "sha256": "c578ff94da814b246d71251ee7bc7f5d2b6bbc1667a32a9ed4a2a4cafce6e3b2"
+      "sha256": "c578ff94da814b246d71251ee7bc7f5d2b6bbc1667a32a9ed4a2a4cafce6e3b2",
+      "packagedPath": "assets/media/storefront.webp",
+      "packagedSha256": "fe68b94f365f2f9f77abccf91b40172bc9d86643ba345bfcffbee9f3cdce890b"
     },
     {
       "source": "props/shiqu-shopping/media/person1.png",
       "path": "assets/media/person1.png",
-      "sha256": "1177f9e03fc0d2715f194b3dad6c32a3c7a0d10e0dcab20aec02261639c5adc7"
+      "sha256": "1177f9e03fc0d2715f194b3dad6c32a3c7a0d10e0dcab20aec02261639c5adc7",
+      "packagedPath": "assets/media/person1.webp",
+      "packagedSha256": "eb477b796af82bf5daff353ffd98817147f99887c4a483f3d088b000f6dcc651"
     },
     {
       "source": "props/shiqu-shopping/media/person2.png",
       "path": "assets/media/person2.png",
-      "sha256": "7d525355dd27e53c545a824f02085a1570f4bfb98135a5fc0570437fbeabcea1"
+      "sha256": "7d525355dd27e53c545a824f02085a1570f4bfb98135a5fc0570437fbeabcea1",
+      "packagedPath": "assets/media/person2.webp",
+      "packagedSha256": "0dd1b2b79f5c8e5f7ab328fb01a596b6b5a4ca9fd59b91d897c9b396c291bff4"
     },
     {
       "source": "props/shiqu-shopping/media/person3.png",
       "path": "assets/media/person3.png",
-      "sha256": "7e47bb1a9028d5fd52eae4a8eed5266e76c0e354e2d65a168bf951ca57409b95"
+      "sha256": "7e47bb1a9028d5fd52eae4a8eed5266e76c0e354e2d65a168bf951ca57409b95",
+      "packagedPath": "assets/media/person3.webp",
+      "packagedSha256": "7a5e8dca35dbfd8415620b96308348d29360c62068e9d62931308812be7a843f"
     },
     {
       "source": "props/shiqu-shopping/media/person4.png",
       "path": "assets/media/person4.png",
-      "sha256": "00b110722b5324ece69ca8452a99de0994084bcb2f4983e136a0e6e8c22c6b64"
+      "sha256": "00b110722b5324ece69ca8452a99de0994084bcb2f4983e136a0e6e8c22c6b64",
+      "packagedPath": "assets/media/person4.webp",
+      "packagedSha256": "c80bc1d0d83127e16d1b2caf668764a7bad578de0a9c9185fd76afa3a8bdd1bc"
     },
     {
       "source": "props/shiqu-shopping/media/person5.png",
       "path": "assets/media/person5.png",
-      "sha256": "b10040a42df5bd575c852def0154403df6aca95032ee171cd012c364baea27c5"
+      "sha256": "b10040a42df5bd575c852def0154403df6aca95032ee171cd012c364baea27c5",
+      "packagedPath": "assets/media/person5.webp",
+      "packagedSha256": "5787f5e96810e977c9e5ae31a6be3a832979c5402f5a18c027bafbc133c426a7"
     },
     {
       "source": "props/shiqu-shopping/media/person6.png",
       "path": "assets/media/person6.png",
-      "sha256": "29f2b729522a2105b8e0b8a7d3407f2c04b0017a1a6f52787c5321f7e5020bd1"
+      "sha256": "29f2b729522a2105b8e0b8a7d3407f2c04b0017a1a6f52787c5321f7e5020bd1",
+      "packagedPath": "assets/media/person6.webp",
+      "packagedSha256": "6638b2197378342ca865710f83897816631522d94748bfde5f8cec941d7fcd29"
     },
     {
       "source": "props/shiqu-shopping/media/logo.png",
@@ -189,12 +219,15 @@
     {
       "source": "props/shiqu-shopping/music-master.wav",
       "path": "assets/audio/music-master.wav",
-      "sha256": "9abfbbfa5e2bd91d84f0a806c39fa487351208b331bdbe66078f5df047961d53"
+      "sha256": "9abfbbfa5e2bd91d84f0a806c39fa487351208b331bdbe66078f5df047961d53",
+      "packagedPath": "assets/audio/music-master.flac",
+      "packagedSha256": "4d606bf37c5f6def58bb68c4eee56a665cda1ddb360c11205da692ca304ba18d"
     }
   ],
   "referenceVideo": {
     "path": "props/shiqu-shopping/shiqu-shopping-six-images.mp4",
     "sha256": "3e80496da36d4def7022c038d4fcf2e89b0087ea0fc2d79b0fc468f169f6b853"
   },
-  "boardPatch": "Only Type font family selects per-weight aliases; fontWeight 400 and fontSynthesis none select original physical font without synthetic bold. No motion parameters changed."
+  "boardPatch": "Only Type font family selects per-weight aliases; fontWeight 400 and fontSynthesis none select original physical font without synthetic bold. No motion parameters changed.",
+  "packaging": "Original source/path/sha256 entries describe imported sources. packagedPath/packagedSha256 identify losslessly compressed distributed files."
 }

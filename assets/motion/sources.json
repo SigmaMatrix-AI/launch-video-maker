@@ -1,6 +1,6 @@
 {
   "layout": "vertical; original frame size; 48 px dark timestamp band above each frame",
-  "encoding": "8-bit RGB PNG; zlib level 9 (lossless); no scaling or cropping",
+  "encoding": "8-bit RGB lossless WebP; exact pixels; no scaling or cropping (converted from lossless PNG)",
   "cases": [
     {
       "id": "C01",
@@ -12,7 +12,7 @@
         "height": 1080,
         "frameRate": "30/1"
       },
-      "image": "c01-langease-progress-to-completion.png",
+      "image": "c01-langease-progress-to-completion.webp",
       "width": 1920,
       "height": 6768,
       "frames": [
@@ -100,7 +100,7 @@
         "height": 1080,
         "frameRate": "30/1"
       },
-      "image": "c02-langease-list-to-multilingual-cards.png",
+      "image": "c02-langease-list-to-multilingual-cards.webp",
       "width": 1920,
       "height": 6768,
       "frames": [
@@ -188,7 +188,7 @@
         "height": 2160,
         "frameRate": "30000/1001"
       },
-      "image": "c03-google-vids-attachment-to-outline.png",
+      "image": "c03-google-vids-attachment-to-outline.webp",
       "width": 3840,
       "height": 8832,
       "frames": [
@@ -252,7 +252,7 @@
         "height": 2160,
         "frameRate": "30000/1001"
       },
-      "image": "c04-google-vids-search-to-canvas.png",
+      "image": "c04-google-vids-search-to-canvas.webp",
       "width": 3840,
       "height": 8832,
       "frames": [

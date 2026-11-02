@@ -42,8 +42,8 @@ Product and company names identify the demonstrated products; inclusion does not
 | `assets/gallery/canva-launch.gif` | Canva concept demo, derived from `canva-launch-final.mp4`; same source register | Permission pending for underlying UI, brand, and demo content |
 | `assets/gallery/tapvid-launch.gif` | TapVid concept demo, derived from `tapvid-pipeline-test-01-1080p.mp4`; same source register | Permission pending; the source-video record alone does not establish rights to every embedded item |
 | `templates/capsule-flow/assets/media/case-*.jpg` (12 files) | TapVid homepage featured-example thumbnails; exact URLs and titles in [downloads.json](templates/capsule-flow/assets/research/downloads.json) | Permission pending; confirm rights to the featured examples as well as the website presentation |
-| `templates/capsule-flow/assets/media/brand.png`, `templates/capsule-flow/assets/media/fix.png`, and `templates/capsule-flow/assets/media/demo-*.png` | TapVid homepage illustrations and interactive-preview screenshots; [capture records](templates/capsule-flow/assets/research/demo-capture.json) | Permission pending |
-| `templates/capsule-flow/assets/media/input-source.png` | Frame at 4.5 s from [TapVid's landing video](https://tapvid.ai/videos/landing-tob-many-ways.mp4) | Permission pending |
+| `templates/capsule-flow/assets/media/brand.webp`, `templates/capsule-flow/assets/media/fix.webp`, and `templates/capsule-flow/assets/media/demo-*.webp` | TapVid homepage illustrations and interactive-preview screenshots; [capture records](templates/capsule-flow/assets/research/demo-capture.json) | Permission pending |
+| `templates/capsule-flow/assets/media/input-source.webp` | Frame at 4.5 s from [TapVid's landing video](https://tapvid.ai/videos/landing-tob-many-ways.mp4) | Permission pending |
 | `templates/capsule-flow/assets/media/showcase.mp4` | Silent interval 2–9.5 s from [TapVid's Lifespan example](https://tapvid.ai/images/landing-tob/demo/render/lifespan-final.mp4) | Permission pending; it is a website example, not a result generated for this template |
 | `templates/capsule-flow/brand-kit/logo.svg` | [TapVid logo](https://tapvid.ai/logo/logo-landscape.svg); [brand record](templates/capsule-flow/brand-kit/sources.json) | Brand asset; no trademark or general reuse license is granted here |
 | `assets/tapvid-cta.svg` | Repository promotional banner referring to TapVid | Project-authored SVG markup follows the project license; the product identity and any brand elements are not a trademark grant |
@@ -56,10 +56,10 @@ The reference images below support composition and motion study. That intended u
 
 | Files | Recorded origin | Status |
 | --- | --- | --- |
-| `assets/references/apple-software-family-video-reference-storyboard-lossless.png`, `assets/references/langease-multilingual-video-reference-storyboard-lossless.png`, `assets/references/msportal-ai-product-video-reference-storyboard-lossless.png`, `assets/references/teamble-ai-feedback-video-reference-storyboard-lossless.png` | Reference screenshots/collages, identified in [the reference guide](references/eval.md) as Apple, LangEase, MSPortal.ai, and Teamble material | Permission pending; original publication URLs, creators, and redistribution grants are not fully recorded |
-| `assets/references/headline-reveal-and-surrounding-cards-sequence-lossless.png`, `assets/references/intro-blue-gradient-title.png`, `assets/references/showcase-cards-around-headline.png` | Composition references described in the same guide | Source identity and permission pending |
-| `assets/motion/c01-langease-progress-to-completion.png`, `assets/motion/c02-langease-list-to-multilingual-cards.png` | Frames from `Best SaaS Product Launch Ad Video.mp4`; source hash and timestamps in [motion sources](assets/motion/sources.json) | Permission pending; the retained filename is not a license |
-| `assets/motion/c03-google-vids-attachment-to-outline.png`, `assets/motion/c04-google-vids-search-to-canvas.png` | Frames from `Introducing Google Vids`; source filename, hash, and timestamps in the same register | Permission pending for the video frames and included material |
+| `assets/references/apple-software-family-video-reference-storyboard-lossless.webp`, `assets/references/langease-multilingual-video-reference-storyboard-lossless.webp`, `assets/references/msportal-ai-product-video-reference-storyboard-lossless.webp`, `assets/references/teamble-ai-feedback-video-reference-storyboard-lossless.webp` | Reference screenshots/collages, identified in [the reference guide](references/eval.md) as Apple, LangEase, MSPortal.ai, and Teamble material | Permission pending; original publication URLs, creators, and redistribution grants are not fully recorded |
+| `assets/references/headline-reveal-and-surrounding-cards-sequence-lossless.webp`, `assets/references/intro-blue-gradient-title.webp`, `assets/references/showcase-cards-around-headline.webp` | Composition references described in the same guide | Source identity and permission pending |
+| `assets/motion/c01-langease-progress-to-completion.webp`, `assets/motion/c02-langease-list-to-multilingual-cards.webp` | Frames from `Best SaaS Product Launch Ad Video.mp4`; source hash and timestamps in [motion sources](assets/motion/sources.json) | Permission pending; the retained filename is not a license |
+| `assets/motion/c03-google-vids-attachment-to-outline.webp`, `assets/motion/c04-google-vids-search-to-canvas.webp` | Frames from `Introducing Google Vids`; source filename, hash, and timestamps in the same register | Permission pending for the video frames and included material |
 
 ## Project-owned materials
 
@@ -67,9 +67,9 @@ The maintainer owns the following materials. They are not third-party assets awa
 
 | Files | Ownership and provenance |
 | --- | --- |
-| `styles/apple-liquid-glass/poster.png`, `styles/bold-pulse/poster.png`, `styles/interface-theatre/poster.png`, `styles/soft-relief/poster.png` | Maintainer-owned style posters |
+| `styles/apple-liquid-glass/poster.webp`, `styles/bold-pulse/poster.webp`, `styles/interface-theatre/poster.webp`, `styles/soft-relief/poster.webp` | Maintainer-owned style posters |
 | `styles/swiss-motion/cover.jpg`, `styles/swiss-motion/style.md` | Maintainer-owned cover and style text |
-| `styles/tapvid-playful-pop/cover.png`, `styles/tapvid-playful-pop/style.md` | Maintainer-owned cover and style text |
+| `styles/tapvid-playful-pop/cover.webp`, `styles/tapvid-playful-pop/style.md` | Maintainer-owned cover and style text |
 | `templates/capsule-flow/brand-kit/finger.svg` | Maintainer-owned cursor artwork |
 | `templates/motion-design-promo/src/boards/*.jsx`, `templates/motion-design-promo/src/boards/*.json`, `templates/motion-design-promo/src/design.js` | Maintainer-owned template code licensed under Apache-2.0; file hashes are recorded in [the source manifest](templates/motion-design-promo/records/source-manifest.json) |
 
@@ -77,8 +77,8 @@ The maintainer owns the following materials. They are not third-party assets awa
 
 | Files | Provenance and boundary |
 | --- | --- |
-| `templates/product-launch-lavender/assets/mock/*.png` and `assets/gallery/product-launch-lavender.gif` | The four fictional Forma UI mocks were generated with OpenAI image generation; see [the source manifest](templates/product-launch-lavender/records/source-manifest.json). The GIF depicts the template built with these mocks. They are illustrative content, not captured SaaS pages or customer evidence. The record does not identify a separate third-party stock license for these mocks. |
-| `templates/motion-design-promo/assets/media/*.png` | Fictional SHIQU products, people, pages, and logo were recorded as generated image assets in [the source notes](templates/motion-design-promo/assets/sources.md); file hashes are retained in [the source manifest](templates/motion-design-promo/records/source-manifest.json). They do not represent real customers or product facts. |
+| `templates/product-launch-lavender/assets/mock/*.webp` and `assets/gallery/product-launch-lavender.gif` | The four fictional Forma UI mocks were generated with OpenAI image generation; see [the source manifest](templates/product-launch-lavender/records/source-manifest.json). The GIF depicts the template built with these mocks. They are illustrative content, not captured SaaS pages or customer evidence. The record does not identify a separate third-party stock license for these mocks. |
+| `templates/motion-design-promo/assets/media/*.webp` and `templates/motion-design-promo/assets/media/logo.png` | Fictional SHIQU products, people, pages, and logo were recorded as generated image assets in [the source notes](templates/motion-design-promo/assets/sources.md); file hashes are retained in [the source manifest](templates/motion-design-promo/records/source-manifest.json). They do not represent real customers or product facts. |
 
 ## Music
 
@@ -86,9 +86,9 @@ All three bundled WAV files are **permission pending**. Their current metadata c
 
 | File | Duration and retained provenance | Required resolution |
 | --- | --- | --- |
-| `templates/capsule-flow/assets/audio/capsule-flow-bgm-edit.wav` | 82.048625 s; reference music edited for timing, EQ, gain, and speech removal. [Audio edit](templates/capsule-flow/records/audio-edit.json) and [BGM recipe](templates/capsule-flow/records/bgm-rework.json) retain source hashes and operations. | Identify the track and rights holder; obtain terms covering use in videos, modification, and distribution of the WAV with the template, or replace it |
-| `templates/motion-design-promo/assets/audio/music-master.wav` | 20 s; derived from `original-music.wav` in the source project. [Source notes](templates/motion-design-promo/assets/sources.md) already record the missing music license. | Same; no public redistribution grant is retained |
-| `templates/product-launch-lavender/assets/audio/reference.wav` | 31 s; reference WAV, played at gain 0.75. [Source manifest](templates/product-launch-lavender/records/source-manifest.json) records its use. | Same; no author, original download URL, or license is retained |
+| `templates/capsule-flow/assets/audio/capsule-flow-bgm-edit.flac` | 82.048625 s; reference music edited for timing, EQ, gain, and speech removal. [Audio edit](templates/capsule-flow/records/audio-edit.json) and [BGM recipe](templates/capsule-flow/records/bgm-rework.json) retain source hashes and operations. | Identify the track and rights holder; obtain terms covering use in videos, modification, and distribution of the audio file with the template, or replace it |
+| `templates/motion-design-promo/assets/audio/music-master.flac` | 20 s; derived from `original-music.wav` in the source project. [Source notes](templates/motion-design-promo/assets/sources.md) already record the missing music license. | Same; no public redistribution grant is retained |
+| `templates/product-launch-lavender/assets/audio/reference.wv` | 31 s; reference WAV, played at gain 0.75. [Source manifest](templates/product-launch-lavender/records/source-manifest.json) records its use. | Same; no author, original download URL, or license is retained |
 
 For replacements, choose music whose written terms cover both the rendered video and **redistribution of the audio file in an editable open-source template**. A license allowing a finished video may not allow shipping the raw track. Original music with an explicit grant or suitable CC0 material can simplify this; retain the actual grant, source, author, and file hash. A silent template is another option. Replacement requires checking timing and audio assertions; adding this notice does not alter or validate any soundtrack.
 
