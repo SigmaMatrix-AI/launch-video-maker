@@ -20,19 +20,19 @@
 
 由 launch-video-maker 制作 · 非官方概念演示
 
-<!-- 循环 GIF：Photoroom 00:00–00:10；Canva 00:06–00:24；
+<!-- 无损 WebP 循环动画：Photoroom 00:00–00:10；Canva 00:06–00:24；
      TapVid 00:18–00:23；Product Launch Lavender 00:16–00:31。
      轻量预览：400×225，15 fps。
-     点击预览可单独查看 GIF。 -->
+     点击预览可单独查看动画。 -->
 
 <p align="center">
-  <a href="assets/gallery/photoroom-promo.gif"><img src="assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10 秒产品发布视频"></a>
-  <a href="assets/gallery/canva-launch.gif"><img src="assets/gallery/canva-launch.gif" width="49%" alt="Canva — 产品发布视频节选，00:06–00:24"></a>
+  <a href="assets/gallery/photoroom-promo.webp"><img src="assets/gallery/photoroom-promo.webp" width="49%" alt="Photoroom — 10 秒产品发布视频"></a>
+  <a href="assets/gallery/canva-launch.webp"><img src="assets/gallery/canva-launch.webp" width="49%" alt="Canva — 产品发布视频节选，00:06–00:24"></a>
 </p>
 
 <p align="center">
-  <a href="assets/gallery/tapvid-launch.gif"><img src="assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — 产品发布视频节选，00:18–00:23"></a>
-  <a href="assets/gallery/product-launch-lavender.gif"><img src="assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — 视频节选，00:16–00:31"></a>
+  <a href="assets/gallery/tapvid-launch.webp"><img src="assets/gallery/tapvid-launch.webp" width="49%" alt="TapVid — 产品发布视频节选，00:18–00:23"></a>
+  <a href="assets/gallery/product-launch-lavender.webp"><img src="assets/gallery/product-launch-lavender.webp" width="49%" alt="Product Launch Lavender — 视频节选，00:16–00:31"></a>
 </p>
 
 ## 安装
@@ -81,8 +81,8 @@ launch-video-maker/
 │   ├── runtime-setup.md           # 供 Agent 和开发者查阅的安装说明
 │   └── template-conventions.md    # 模板适配约定
 ├── assets/                        # 文档图片
-│   ├── gallery/                   # 演示 GIF 预览与来源记录
-│   ├── motion/                    # 动效序列与抽帧记录
+│   ├── gallery/                   # 演示 WebP 预览与来源记录
+│   ├── motion/                    # 动态参考片段与来源记录
 │   ├── references/                # 构图参考与分镜图
 │   └── tapvid-cta.svg              # README CTA 横幅
 ├── templates/                     # 可复用的影片模板

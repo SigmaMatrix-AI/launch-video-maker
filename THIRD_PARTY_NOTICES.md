@@ -37,9 +37,9 @@ Product and company names identify the demonstrated products; inclusion does not
 
 | Files | Recorded source and use | Status |
 | --- | --- | --- |
-| `assets/gallery/photoroom-promo.gif` | Photoroom concept demo, derived from `photoroom-promo-v3.mp4`; source hash and segment in [gallery sources](assets/gallery/sources.json) | Permission pending for underlying UI, brand, photographs, and other demo content; exact capture/license record is not retained |
-| `assets/gallery/canva-launch.gif` | Canva concept demo, derived from `canva-launch-final.mp4`; same source register | Permission pending for underlying UI, brand, and demo content |
-| `assets/gallery/tapvid-launch.gif` | TapVid concept demo, derived from `tapvid-pipeline-test-01-1080p.mp4`; same source register | Permission pending; the source-video record alone does not establish rights to every embedded item |
+| `assets/gallery/photoroom-promo.webp` | Photoroom concept demo, derived from `photoroom-promo-v3.mp4`; source hash and segment in [gallery sources](assets/gallery/sources.json) | Permission pending for underlying UI, brand, photographs, and other demo content; exact capture/license record is not retained |
+| `assets/gallery/canva-launch.webp` | Canva concept demo, derived from `canva-launch-final.mp4`; same source register | Permission pending for underlying UI, brand, and demo content |
+| `assets/gallery/tapvid-launch.webp` | TapVid concept demo, derived from `tapvid-pipeline-test-01-1080p.mp4`; same source register | Permission pending; the source-video record alone does not establish rights to every embedded item |
 | `templates/capsule-flow/assets/media/case-*.jpg` (12 files) | TapVid homepage featured-example thumbnails; exact URLs and titles in [downloads.json](templates/capsule-flow/assets/research/downloads.json) | Permission pending; confirm rights to the featured examples as well as the website presentation |
 | `templates/capsule-flow/assets/media/brand.webp`, `templates/capsule-flow/assets/media/fix.webp`, and `templates/capsule-flow/assets/media/demo-*.webp` | TapVid homepage illustrations and interactive-preview screenshots; [capture records](templates/capsule-flow/assets/research/demo-capture.json) | Permission pending |
 | `templates/capsule-flow/assets/media/input-source.webp` | Frame at 4.5 s from [TapVid's landing video](https://tapvid.ai/videos/landing-tob-many-ways.mp4) | Permission pending |
@@ -47,7 +47,7 @@ Product and company names identify the demonstrated products; inclusion does not
 | `templates/capsule-flow/brand-kit/logo.svg` | [TapVid logo](https://tapvid.ai/logo/logo-landscape.svg); [brand record](templates/capsule-flow/brand-kit/sources.json) | Brand asset; no trademark or general reuse license is granted here |
 | `assets/tapvid-cta.svg` | Repository promotional banner referring to TapVid | Project-authored SVG markup follows the project license; the product identity and any brand elements are not a trademark grant |
 
-If the maintainer controls a listed product's assets, record that authority and its scope, including whether others may redistribute the raw files and modify them. Do not assume ownership of third-party examples merely because they appear on that product's website. The GIF previews above contain no audio; licensing their visuals does not establish rights to the source videos' music.
+If the maintainer controls a listed product's assets, record that authority and its scope, including whether others may redistribute the raw files and modify them. Do not assume ownership of third-party examples merely because they appear on that product's website. The animated previews above contain no audio; licensing their visuals does not establish rights to the source videos' music.
 
 ## Third-party visual references
 
@@ -57,8 +57,8 @@ The reference images below support composition and motion study. That intended u
 | --- | --- | --- |
 | `assets/references/apple-software-family-video-reference-storyboard-lossless.webp`, `assets/references/langease-multilingual-video-reference-storyboard-lossless.webp`, `assets/references/msportal-ai-product-video-reference-storyboard-lossless.webp`, `assets/references/teamble-ai-feedback-video-reference-storyboard-lossless.webp` | Reference screenshots/collages, identified in [the reference guide](references/eval.md) as Apple, LangEase, MSPortal.ai, and Teamble material | Permission pending; original publication URLs, creators, and redistribution grants are not fully recorded |
 | `assets/references/headline-reveal-and-surrounding-cards-sequence-lossless.webp`, `assets/references/intro-blue-gradient-title.webp`, `assets/references/showcase-cards-around-headline.webp` | Composition references described in the same guide | Source identity and permission pending |
-| `assets/motion/c01-langease-progress-to-completion.webp`, `assets/motion/c02-langease-list-to-multilingual-cards.webp` | Frames from `Best SaaS Product Launch Ad Video.mp4`; source hash and timestamps in [motion sources](assets/motion/sources.json) | Permission pending; the retained filename is not a license |
-| `assets/motion/c03-google-vids-attachment-to-outline.webp`, `assets/motion/c04-google-vids-search-to-canvas.webp` | Frames from `Introducing Google Vids`; source filename, hash, and timestamps in the same register | Permission pending for the video frames and included material |
+| `assets/motion/c01-langease-progress-to-completion.webp`, `assets/motion/c02-langease-list-to-multilingual-cards.webp` | Animated excerpts from `Best SaaS Product Launch Ad Video.mp4`; source hash and timestamps in [motion sources](assets/motion/sources.json) | Permission pending; the retained filename is not a license |
+| `assets/motion/c03-google-vids-attachment-to-outline.webp`, `assets/motion/c04-google-vids-search-to-canvas.webp` | Animated excerpts from `Introducing Google Vids`; source filename, hash, and timestamps in the same register | Permission pending for the video frames and included material |
 
 ## Project-owned materials
 
@@ -76,7 +76,7 @@ The maintainer owns the following materials. They are not third-party assets awa
 
 | Files | Provenance and boundary |
 | --- | --- |
-| `templates/product-launch-lavender/assets/mock/*.webp` and `assets/gallery/product-launch-lavender.gif` | The four fictional Forma UI mocks were generated with OpenAI image generation; see [the source manifest](templates/product-launch-lavender/records/source-manifest.json). The GIF depicts the template built with these mocks. They are illustrative content, not captured SaaS pages or customer evidence. The record does not identify a separate third-party stock license for these mocks. |
+| `templates/product-launch-lavender/assets/mock/*.webp` and `assets/gallery/product-launch-lavender.webp` | The four fictional Forma UI mocks were generated with OpenAI image generation; see [the source manifest](templates/product-launch-lavender/records/source-manifest.json). The animation depicts the template built with these mocks. They are illustrative content, not captured SaaS pages or customer evidence. The record does not identify a separate third-party stock license for these mocks. |
 | `templates/motion-design-promo/assets/media/*.webp` and `templates/motion-design-promo/assets/media/logo.png` | Fictional SHIQU products, people, pages, and logo were recorded as generated image assets in [the source notes](templates/motion-design-promo/assets/sources.md); file hashes are retained in [the source manifest](templates/motion-design-promo/records/source-manifest.json). They do not represent real customers or product facts. |
 
 ## Music

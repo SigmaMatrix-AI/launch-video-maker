@@ -18,19 +18,19 @@
 
 Made with launch-video-maker · Unofficial concept demos.
 
-<!-- Looping GIF previews: Photoroom 00:00–00:10; Canva 00:06–00:24;
+<!-- Looping lossless WebP previews: Photoroom 00:00–00:10; Canva 00:06–00:24;
      TapVid 00:18–00:23; Product Launch Lavender 00:16–00:31.
      Lightweight previews: 400×225 at 15 fps.
-     Click each preview to open the GIF on its own. -->
+     Click each preview to open the animation on its own. -->
 
 <p align="center">
-  <a href="assets/gallery/photoroom-promo.gif"><img src="assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10-second product launch video"></a>
-  <a href="assets/gallery/canva-launch.gif"><img src="assets/gallery/canva-launch.gif" width="49%" alt="Canva — product launch video excerpt, 00:06–00:24"></a>
+  <a href="assets/gallery/photoroom-promo.webp"><img src="assets/gallery/photoroom-promo.webp" width="49%" alt="Photoroom — 10-second product launch video"></a>
+  <a href="assets/gallery/canva-launch.webp"><img src="assets/gallery/canva-launch.webp" width="49%" alt="Canva — product launch video excerpt, 00:06–00:24"></a>
 </p>
 
 <p align="center">
-  <a href="assets/gallery/tapvid-launch.gif"><img src="assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — product launch video excerpt, 00:18–00:23"></a>
-  <a href="assets/gallery/product-launch-lavender.gif"><img src="assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — video excerpt, 00:16–00:31"></a>
+  <a href="assets/gallery/tapvid-launch.webp"><img src="assets/gallery/tapvid-launch.webp" width="49%" alt="TapVid — product launch video excerpt, 00:18–00:23"></a>
+  <a href="assets/gallery/product-launch-lavender.webp"><img src="assets/gallery/product-launch-lavender.webp" width="49%" alt="Product Launch Lavender — video excerpt, 00:16–00:31"></a>
 </p>
 
 ## Install
@@ -80,8 +80,8 @@ launch-video-maker/
 │   ├── runtime-setup.md           # Setup instructions for agents and developers
 │   └── template-conventions.md    # Template adaptation
 ├── assets/                        # Documentation images
-│   ├── gallery/                   # Demo GIF previews and source records
-│   ├── motion/                    # Motion sequences and extraction records
+│   ├── gallery/                   # Demo WebP previews and source records
+│   ├── motion/                    # Animated reference excerpts and source records
 │   ├── references/                # Composition references and storyboards
 │   └── tapvid-cta.svg              # README CTA banner
 ├── templates/                     # Reusable film projects

@@ -1,6 +1,6 @@
 {
-  "layout": "vertical; original frame size; 48 px dark timestamp band above each frame",
-  "encoding": "8-bit RGB lossless WebP; exact pixels; no scaling or cropping (converted from lossless PNG)",
+  "layout": "Single 16:9 canvas; continuous animated excerpts; original composition; no cropping or timestamp bands",
+  "encoding": "Animated lossy WebP; 960 × 540; 24 fps; quality 75; compression level 6; infinite loop; no audio",
   "cases": [
     {
       "id": "C01",
@@ -13,80 +13,57 @@
         "frameRate": "30/1"
       },
       "image": "c01-langease-progress-to-completion.webp",
-      "width": 1920,
-      "height": 6768,
-      "frames": [
+      "width": 960,
+      "height": 540,
+      "animation": {
+        "startSeconds": 10.5,
+        "endSecondsExclusive": 13.541667,
+        "frameRate": 24,
+        "frameCount": 73,
+        "durationMs": 3041,
+        "loopCount": 0,
+        "audio": false,
+        "quality": 75,
+        "compressionLevel": 6,
+        "fileBytes": 258638,
+        "sha256": "0c71d98a5f6c7a0a4d24981e5f23c60fb7220b525ed5faf170d9b1d8f9795401"
+      },
+      "referenceFrames": [
         {
           "index": 1,
           "sourceFrame": 315,
           "timestamp": "00:10.500",
-          "timeSeconds": 10.5,
-          "imageRegion": {
-            "x": 0,
-            "y": 48,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 10.5
         },
         {
           "index": 2,
           "sourceFrame": 345,
           "timestamp": "00:11.500",
-          "timeSeconds": 11.5,
-          "imageRegion": {
-            "x": 0,
-            "y": 1176,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 11.5
         },
         {
           "index": 3,
           "sourceFrame": 360,
           "timestamp": "00:12.000",
-          "timeSeconds": 12,
-          "imageRegion": {
-            "x": 0,
-            "y": 2304,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 12
         },
         {
           "index": 4,
           "sourceFrame": 382,
           "timestamp": "00:12.733",
-          "timeSeconds": 12.733333,
-          "imageRegion": {
-            "x": 0,
-            "y": 3432,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 12.733333
         },
         {
           "index": 5,
           "sourceFrame": 390,
           "timestamp": "00:13.000",
-          "timeSeconds": 13,
-          "imageRegion": {
-            "x": 0,
-            "y": 4560,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 13
         },
         {
           "index": 6,
           "sourceFrame": 405,
           "timestamp": "00:13.500",
-          "timeSeconds": 13.5,
-          "imageRegion": {
-            "x": 0,
-            "y": 5688,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 13.5
         }
       ]
     },
@@ -101,80 +78,57 @@
         "frameRate": "30/1"
       },
       "image": "c02-langease-list-to-multilingual-cards.webp",
-      "width": 1920,
-      "height": 6768,
-      "frames": [
+      "width": 960,
+      "height": 540,
+      "animation": {
+        "startSeconds": 15.233333,
+        "endSecondsExclusive": 19.041667,
+        "frameRate": 24,
+        "frameCount": 91,
+        "durationMs": 3791,
+        "loopCount": 0,
+        "audio": false,
+        "quality": 75,
+        "compressionLevel": 6,
+        "fileBytes": 1809154,
+        "sha256": "8b52a3a446dbc62b97686b13391983efd297f7133be5533d1c2d18d04a5cddd5"
+      },
+      "referenceFrames": [
         {
           "index": 1,
           "sourceFrame": 457,
           "timestamp": "00:15.233",
-          "timeSeconds": 15.233333,
-          "imageRegion": {
-            "x": 0,
-            "y": 48,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 15.233333
         },
         {
           "index": 2,
           "sourceFrame": 480,
           "timestamp": "00:16.000",
-          "timeSeconds": 16,
-          "imageRegion": {
-            "x": 0,
-            "y": 1176,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 16
         },
         {
           "index": 3,
           "sourceFrame": 514,
           "timestamp": "00:17.133",
-          "timeSeconds": 17.133333,
-          "imageRegion": {
-            "x": 0,
-            "y": 2304,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 17.133333
         },
         {
           "index": 4,
           "sourceFrame": 525,
           "timestamp": "00:17.500",
-          "timeSeconds": 17.5,
-          "imageRegion": {
-            "x": 0,
-            "y": 3432,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 17.5
         },
         {
           "index": 5,
           "sourceFrame": 540,
           "timestamp": "00:18.000",
-          "timeSeconds": 18,
-          "imageRegion": {
-            "x": 0,
-            "y": 4560,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 18
         },
         {
           "index": 6,
           "sourceFrame": 570,
           "timestamp": "00:19.000",
-          "timeSeconds": 19,
-          "imageRegion": {
-            "x": 0,
-            "y": 5688,
-            "width": 1920,
-            "height": 1080
-          }
+          "timeSeconds": 19
         }
       ]
     },
@@ -189,56 +143,45 @@
         "frameRate": "30000/1001"
       },
       "image": "c03-google-vids-attachment-to-outline.webp",
-      "width": 3840,
-      "height": 8832,
-      "frames": [
+      "width": 960,
+      "height": 540,
+      "animation": {
+        "startSeconds": 11.1111,
+        "endSecondsExclusive": 15.857467,
+        "frameRate": 24,
+        "frameCount": 114,
+        "durationMs": 4749,
+        "loopCount": 0,
+        "audio": false,
+        "quality": 75,
+        "compressionLevel": 6,
+        "fileBytes": 893946,
+        "sha256": "6b3f6fa1ee27dbaa27e1c38f344fc9a05ad9ec6dd483158e51fa7d70afe1165a"
+      },
+      "referenceFrames": [
         {
           "index": 1,
           "sourceFrame": 333,
           "timestamp": "00:11.111",
-          "timeSeconds": 11.1111,
-          "imageRegion": {
-            "x": 0,
-            "y": 48,
-            "width": 3840,
-            "height": 2160
-          }
+          "timeSeconds": 11.1111
         },
         {
           "index": 2,
           "sourceFrame": 375,
           "timestamp": "00:12.513",
-          "timeSeconds": 12.5125,
-          "imageRegion": {
-            "x": 0,
-            "y": 2256,
-            "width": 3840,
-            "height": 2160
-          }
+          "timeSeconds": 12.5125
         },
         {
           "index": 3,
           "sourceFrame": 420,
           "timestamp": "00:14.014",
-          "timeSeconds": 14.014,
-          "imageRegion": {
-            "x": 0,
-            "y": 4464,
-            "width": 3840,
-            "height": 2160
-          }
+          "timeSeconds": 14.014
         },
         {
           "index": 4,
           "sourceFrame": 474,
           "timestamp": "00:15.816",
-          "timeSeconds": 15.8158,
-          "imageRegion": {
-            "x": 0,
-            "y": 6672,
-            "width": 3840,
-            "height": 2160
-          }
+          "timeSeconds": 15.8158
         }
       ]
     },
@@ -253,58 +196,48 @@
         "frameRate": "30000/1001"
       },
       "image": "c04-google-vids-search-to-canvas.webp",
-      "width": 3840,
-      "height": 8832,
-      "frames": [
+      "width": 960,
+      "height": 540,
+      "animation": {
+        "startSeconds": 56.5565,
+        "endSecondsExclusive": 61.2695,
+        "frameRate": 24,
+        "frameCount": 113,
+        "durationMs": 4707,
+        "loopCount": 0,
+        "audio": false,
+        "quality": 75,
+        "compressionLevel": 6,
+        "fileBytes": 3021538,
+        "sha256": "9d3ccaf79e64edb3c087063101ab32dc7880e967747aa8c4c469f7e015349349"
+      },
+      "referenceFrames": [
         {
           "index": 1,
           "sourceFrame": 1695,
           "timestamp": "00:56.557",
-          "timeSeconds": 56.5565,
-          "imageRegion": {
-            "x": 0,
-            "y": 48,
-            "width": 3840,
-            "height": 2160
-          }
+          "timeSeconds": 56.5565
         },
         {
           "index": 2,
           "sourceFrame": 1760,
           "timestamp": "00:58.725",
-          "timeSeconds": 58.725333,
-          "imageRegion": {
-            "x": 0,
-            "y": 2256,
-            "width": 3840,
-            "height": 2160
-          }
+          "timeSeconds": 58.725333
         },
         {
           "index": 3,
           "sourceFrame": 1785,
           "timestamp": "00:59.560",
-          "timeSeconds": 59.5595,
-          "imageRegion": {
-            "x": 0,
-            "y": 4464,
-            "width": 3840,
-            "height": 2160
-          }
+          "timeSeconds": 59.5595
         },
         {
           "index": 4,
           "sourceFrame": 1835,
           "timestamp": "01:01.228",
-          "timeSeconds": 61.227833,
-          "imageRegion": {
-            "x": 0,
-            "y": 6672,
-            "width": 3840,
-            "height": 2160
-          }
+          "timeSeconds": 61.227833
         }
       ]
     }
-  ]
+  ],
+  "sampling": "Source interval begins at the first reference timestamp and ends one output-frame interval after the last. Output frame timing is quantized to milliseconds; referenceFrames records landmarks, not the full animation frame list."
 }

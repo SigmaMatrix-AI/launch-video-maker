@@ -41,13 +41,13 @@ Collages show selected screenshots in sequence, not complete storyboards or exac
 
 ## Motion case cards
 
-Use these examples to design subject changes, attention handoffs, and shot continuity. Sequences extracted from the original videos are stored in `assets/motion/`; read from top to bottom, with dark gray strips marking original timestamps and frame numbers. Original resolution and visual content are retained; see the [Frame extraction record](../assets/motion/sources.json) for source filenames, frame rates, and sample positions.
+Use these examples to design subject changes, attention handoffs, and shot continuity. Continuous, looping excerpts from the original videos are stored in `assets/motion/` as animated WebP images (960 × 540, 24 fps, lossy quality 75, without audio). They preserve the original composition and playback speed at reduced resolution; see the [Motion excerpt record](../assets/motion/sources.json) for source filenames, hashes, segment boundaries, encoding settings, and reference timestamps.
 
-C01–C02 come from **LangEase / Best SaaS Product Launch Ad Video**; C03–C04 come from **Introducing Google Vids**. Keyframes show the start, intermediate states, and result of an action; they are not full playback or listening. Counterexamples below are hypothetical comparisons, not flaws in the originals. When borrowing expressive techniques, keep features and content grounded in the current product.
+C01–C02 come from **LangEase / Best SaaS Product Launch Ad Video**; C03–C04 come from **Introducing Google Vids**. Each excerpt plays the action continuously from its first reference timestamp through its last. Loop boundaries restart the excerpt and are not transitions from the original video. These excerpts have no audio; use the original video to assess audiovisual rhythm. Counterexamples below are hypothetical comparisons, not flaws in the originals. When borrowing expressive techniques, keep features and content grounded in the current product.
 
 ### C01 · Progress becomes completion
 
-[View the LangEase motion sequence: 10.500–13.500 seconds, 6 frames](../assets/motion/c01-langease-progress-to-completion.webp)
+[View the LangEase motion sequence: 10.500–13.500 seconds, continuous animation](../assets/motion/c01-langease-progress-to-completion.webp)
 
 - **Expressive goal:** Make "in progress → complete" a visible reveal.
 - **Visual change:** A blue ribbon form extends from the device edge, followed by a progress bar and increasing number. At 100, the visual contracts into circular feedback showing Done, a checkmark, and confetti.
@@ -56,7 +56,7 @@ C01–C02 come from **LangEase / Best SaaS Product Launch Ad Video**; C03–C04 
 
 ### C02 · Choose the subject from a list
 
-[View the LangEase motion sequence: 15.233–19.000 seconds, 6 frames](../assets/motion/c02-langease-list-to-multilingual-cards.webp)
+[View the LangEase motion sequence: 15.233–19.000 seconds, continuous animation](../assets/motion/c02-langease-list-to-multilingual-cards.webp)
 
 - **Expressive goal:** Let viewers recognize the selected content and its relationship to multiple language versions.
 - **Visual change:** Cards appear in a list; the pointer targets History Lecture, the card moves into the foreground and enlarges, then multiple cards with the same thumbnail surround Multiple Languages.
@@ -65,7 +65,7 @@ C01–C02 come from **LangEase / Best SaaS Product Launch Ad Video**; C03–C04 
 
 ### C03 · A request with source material generates an outline
 
-[View the Google Vids motion sequence: 11.111–15.816 seconds, 4 frames](../assets/motion/c03-google-vids-attachment-to-outline.webp)
+[View the Google Vids motion sequence: 11.111–15.816 seconds, continuous animation](../assets/motion/c03-google-vids-attachment-to-outline.webp)
 
 - **Expressive goal:** Show "create a video from existing materials" as concrete input and output.
 - **Visual change:** The pointer carries a Slides icon toward the request; the material becomes an attachment in the request, followed by Creating and then a multiline outline.
@@ -74,7 +74,7 @@ C01–C02 come from **LangEase / Best SaaS Product Launch Ad Video**; C03–C04 
 
 ### C04 · An asset becomes part of the work
 
-[View the Google Vids motion sequence: 56.557–61.228 seconds, 4 frames](../assets/motion/c04-google-vids-search-to-canvas.webp)
+[View the Google Vids motion sequence: 56.557–61.228 seconds, continuous animation](../assets/motion/c04-google-vids-search-to-canvas.webp)
 
 - **Expressive goal:** Make it clear that the searched, selected, and ultimately used asset is the same one.
 - **Visual change:** Landscape appears in the search field; the pointer selects a sunset rock-arch thumbnail in the result grid, which moves to the foreground and then appears on the editor canvas.

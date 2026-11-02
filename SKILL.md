@@ -32,7 +32,7 @@ When the user explicitly says, "You decide the direction and script; finish it d
 
 Before designing visuals, open the relevant images and sequence collages in [Visual and animation references](references/eval.md#visual-and-animation-references) as needed to observe composition, subject changes, and visual consistency.
 
-When arranging subject motion and shot continuity, consult [Motion case cards C01–C04](references/eval.md#motion-case-cards) and use extracted frame sequences to understand the progression and object relationships.
+When arranging subject motion and shot continuity, consult [Motion case cards C01–C04](references/eval.md#motion-case-cards) and watch the animated excerpts to understand the progression and object relationships.
 
 Read the [Good / Bad quality criteria](references/eval.md) when starting to arrange visuals. In stage three, use [Motion language](references/motion-language.md) to choose rhythm and text techniques: vary motion emphasis, readable holds, and semantic focus, and follow the content’s meaning. Give the viewer one clear focus in each shot and make the subject change meaningfully. Feature tours, single-feature launches, and a continuing example are all valid story structures.
 
