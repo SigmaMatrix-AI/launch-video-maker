@@ -110,7 +110,7 @@ Export exactly `durationInFrames` frames, from frame 0 to N−1; record dimensio
 
 Diagnose visuals and motion first with the E01–E10 Good / Bad examples in [eval.md](eval.md); this page retains implementation, seven-dimension scoring, and evidence protocols. Autonomous design performs full motion/audiovisual acceptance in stage three. Stage two confirms only the story; this section is not a prerequisite for story confirmation.
 
-Read [Motion language](motion-language.md) when choosing rhythm and semantic text techniques in stage three. Method examples still follow this page's frame determinism and font-readiness conventions. For text replacement, check container dimensions for the longest word, clear settling, and duplicate text remnants; preserve the same object where possible when text enters the UI. Constant speed, fast motion, or any particular easing cannot alone determine quality; purpose and readability in actual playback are the evidence.
+Use [Motion language](motion-language.md) for composition, rhythm, and semantic text choices. These follow the same frame determinism and font-readiness conventions as other scene content.
 
 Before delivery, have an independent reviewer who did not participate in production inspect the current version. Supply user requirements, product evidence, direction, confirmed story, production storyboard, and viewable output, without expected scores. Use the following seven dimensions and cite specific visual or audio evidence:
 

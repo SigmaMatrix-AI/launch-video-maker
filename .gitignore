@@ -17,6 +17,15 @@ runtime/dist/
 /templates/*/records/continuity-*.png
 /templates/*/records/preview-*.png
 
-# Rebuildable release archives
+# Local build outputs
 /dist/
 __pycache__/
+
+# Generated validation and export artifacts
+exports/
+output/
+outputs/
+test-results/
+playwright-report/
+coverage/
+*.log

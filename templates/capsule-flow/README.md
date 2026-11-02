@@ -8,4 +8,4 @@ npm run prepare
 npm run preview -- --open
 ```
 
-Requires Node 24+, FFmpeg/ffprobe and runtime Chromium. Lockfile and runtime archive are included. Copy into a new film directory before editing. No original films directory, old MP4 or build cache is required. Current media and BGM are reference/example assets, not a general licensed stock library. See SOURCES.md and records/validation.md.
+Requires Node 24+, FFmpeg/ffprobe and runtime Chromium. Lockfile and runtime archive are included. Copy into a new film directory before editing. No original films directory, old MP4 or build cache is required. Current media and BGM are reference/example assets, not a general licensed stock library. See [SOURCES.md](SOURCES.md) for provenance and permissions.

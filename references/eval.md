@@ -15,13 +15,9 @@ During creation, choose techniques suited to the current content; in stage three
 | E07 Varied rhythm | Compress secondary actions, show key changes fully, and hold results until readable | Equal-length page changes or constant fast cuts without landing points | Does the key content receive more attention and time? |
 | E08 Core reveal | Reserve the largest scale and strongest change for the key result | Every small icon and title acts like a climax | Which change will the viewer remember? |
 | E09 Purposeful holds | Results, brand, and CTA remain stable, leaving room for understanding and memory | Text and cards keep floating to maintain "energy" | Does stillness help understanding rather than stall? |
-| E10 Text in its own shot | **Titles and text appear in their own shots, with highlighted words or motion** | **Titles and accompanying images sit side by side or above and below each other, like a slide deck** | Does text have its own visual expression rather than continually narrating an accompanying image? |
+| E10 Expressive text | Text leads a shot through emphasis or hands attention to the product | Every scene repeats a title and image arrangement with simultaneous reading tasks | Does the composition make the message and attention order clear? |
 
-E10 is the default promotional expression rule for autonomous design. For example, first show "One piece of content, many languages" on its own, emphasize "one / many" semantically, and enter the product demo after the text settles and can be read. Keep necessary headers, navigation, buttons, and language labels within real UI; do not accidentally remove product information or require every character to bounce. Follow the agreement for templates whose compositions must be preserved; specific user requirements take priority.
-
-These Good / Bad examples are production guidance and counterexamples, not requirements every reference asset must satisfy individually. Stillness, hard cuts, and fades can all work; the problem is repeated page changes throughout the film without subject changes. Adding springs to every element is not a remedy.
-
-Choose techniques using [Motion language](motion-language.md): compare E06/E07/E09 with R01, E03/E10 with T01–T03, and E02/E10 with T04. The examples' good/bad variants are design comparisons to observe, not automatic scores. Breathing room depends on speed changes, attention, and reading allocation; neither fast nor constant-speed motion is inherently a failure.
+The criteria diagnose what the viewer can understand; they are not a checklist of effects or fixed layouts. Necessary UI labels remain part of the product. Use [Motion language](motion-language.md) for canvas composition, reading time, and text choices; preserve agreed template arrangements and explicit user requirements.
 
 Check research sufficiency separately through [Product evidence and usable assets](product-research.md); it adds no aesthetic score. Organizing a storyboard by feature names is valid. Problems arise when every feature repeats the same entrance, or specific visuals lack factual evidence.
 
@@ -39,7 +35,7 @@ The following images and sequence collages are stored in `assets/references/`. O
 | [Apple software family introduction reference collage](../assets/references/apple-software-family-video-reference-storyboard-lossless.webp) | Colored spheres representing family members; scale contrasts between full interfaces and local cards, blurred-background focus, frosted layers, and visual emphasis in app selection and permission dialogs |
 | [MSPortal.ai product introduction reference collage](../assets/references/msportal-ai-product-video-reference-storyboard-lossless.webp) | Consistent teal gradients and thin borders; layered windows, tilted dashboards and integration marks, fanned course cards, workflow connections, and brand closing compositions |
 
-Borrow layout, hierarchy, and object relationships from references, replacing content with evidenced assets from the current product. Surrounding cards might show features, work, or users; local emphasis might highlight selected entries, key actions, or result reveals.
+Study why a reference directs attention, then choose composition and object relationships for the current product. A reference’s centered title, card arrangement, or margins are not a reusable layout requirement.
 
 Collages show selected screenshots in sequence, not complete storyboards or exact durations. Motion speed, easing, transition continuity, and audiovisual rhythm require separate observation of an accessible original video and cannot be inferred from collages.
 
@@ -135,58 +131,17 @@ One subject means one visual focus: a sentence, an operation area, or a group of
 | --- | --- |
 | Information density | Remove navigation, settings, and paragraphs unrelated to the current task; retain context needed for orientation and understanding the operation, and enlarge the key area |
 | Fonts and size | View key copy and UI labels at actual delivery size; also inspect a reduced preview for mobile delivery. Enlarge, shorten, or split unreadable content into shots rather than relying on pause-and-zoom |
-| Composition | Establish the subject through size, position, contrast, and negative space. Titles, screenshots, and cards need not occupy the same position in every shot; supporting elements must not obstruct operation targets |
+| Composition | Use size, position, contrast, and negative space to establish focus across the whole canvas. Crop or enlarge relevant details and use edges deliberately; text safe areas do not require every visual to share centered margins |
 | Color and materials | Use neutrals for information and brand colors for actions and states, or equivalent hierarchy in the chosen style. Gradients, glass, and glows must not obscure text or product |
 | Consistency | Check fonts, type scale, corner radii, shadows, spacing, icons, and motion character; keep the same component consistent across shots |
 | Clarity | Inspect enlarged glyphs, fine lines, images, rounded corners, and mask edges; obtain high-resolution assets or fix rendering rather than concealing low resolution with blur |
 
 Static references help judge hierarchy, negative space, and materials, but cannot prove motion quality. If the original video is unavailable, do not pretend timing has been evaluated.
 
-## 4. Motion: trigger, response, settle
+## 4. Check motion and finish in playback
 
-- **Attention order:** Input appears → input completes → operation triggers → result is generated. Emphasize one main action at a time, with a subdued background; do not introduce a new reading task before the previous one can be read.
-- **Accurate causality:** The cursor targets the actual control before pressing, and feedback follows the trigger. Objects track the cursor during dragging and snap only after release. Check cursor position, hit areas, and state changes; do not show the result first and add a click afterward.
-- **Continuous states:** A card expands into details, selected text enters an editor, or input extends into a result. Container outlines remain continuous during morphing; old content exits first, and new content enters in a readable form, avoiding overlapping or stretched text.
-- **Resolved motion:** Buttons compress slightly and rebound, dragged labels lag a little, slider edges move at offset times, and numbers decelerate to settle. Choose details relevant to the operation and check for persistent wobble or value jumps after landing.
+- Verify causality: the cursor reaches the control before pressing; dragged objects track it and snap after release. State changes must match real product behavior.
+- Inspect intermediate states and seams: object identity, position, scale, perspective, masks, and text remain coherent. Correct overlap, one-frame flashes, unexpected clipping, and truncated sound tails.
+- Apply [Motion language](motion-language.md) to attention, readable holds, and rhythm. Use [Music and sound effects](tech.md#music-and-sound-effects) for the actual mix and [Quality assurance](tech.md#quality-assurance) for current-version playback, technical checks, and independent review.
 
-| Element | Motion character |
-| --- | --- |
-| Buttons, selection states, feedback | Brief, clear, promptly responsive |
-| Panels, pages | Steady and directional, with trackable start and end points |
-| Dragging, cards | Track the pointer, retain moderate inertia on release, and land accurately |
-| Core outputs | More spacious movement, followed by a stable reveal |
-| Background decoration | Slow and low contrast, avoiding competition with foreground actions |
-
-- **Purposeful camera:** Push in for detail, pan to connect related areas, and pull back to reveal the whole. Prefer a stable camera during core operations; avoid moving camera, UI, and text simultaneously.
-- **Credible space:** 3D perspective, cursor, screenshot slices, and masks share coordinate relationships. Check floating misalignment, intersections, clipping, and edge seams. Return text to a clear angle for reading.
-- **Connected transitions:** Check position, scale, speed, and layers frame by frame around boundaries, then play at normal speed. Fix one-frame black flashes, subject jumps, cuts before settling, and truncated SFX; do not inspect only the two endpoint stills.
-
-## 5. Editing and sound: leave time for emphasis
-
-- Move quickly through repetitive input and secondary actions. Preserve the full causality of core changes, then hold results until key content can be read at normal speed. If repeated pauses are needed, simplify content or extend the hold.
-- Place major reveals on musical sections or accents. Align audible press, snap, and landing accents with visual contact points; motion may need to start earlier to settle on the accent.
-- A musical phrase can contain action followed by a hold; a cut on every beat is unnecessary. Reserve larger visual scale, greater motion amplitude, and richer sound layers for key reveals, reducing intensity elsewhere.
-- Match effects to material and speed: short clicks for presses, passing sounds for movement, and light impacts for landings. Vary tone or intensity in consecutive actions rather than applying the same whoosh to every element.
-- Listen to the actual mix of music, voiceover, and effects: voiceover is intelligible, feedback audible, and loudness free of sudden jumps, pops, and clipping. Check loudness and peaks against delivery requirements; if silence is requested, ensure all audio tracks are empty or muted.
-- Music edits and loops have no audible breaks; end at a phrase resolution or with a complete fade, preserving tails. Prepare the mix again after visual timing changes and recheck synchronization at the start, middle, and end.
-- Check the music's style, tempo, and arrangement against the [default BGM guidance](tech.md#music-and-sound-effects), or the user's explicit music requirements. Listen for tight pacing, forward momentum, and musical progression that support the selected direction and story while preserving readable holds. Cutting on every beat is unnecessary.
-
-## 6. Technical: check the version being delivered
-
-- **Assets:** Capture only after fonts, images, and target video frames load; no missing glyphs, placeholders, loading flashes, stale images, or dependencies on external absolute paths.
-- **Time determinism:** Play sequentially, reverse, and seek in random order to start/end frames, motion peaks, and transition boundaries, then capture and compare. Object positions, text, images, and source video frames must match at the same frame.
-- **Playback:** Check start, pause, resume, and seek without hangs, duplicate frames, or unexpected blanks; distinguish preview performance issues from actual rendering errors.
-- **Export:** After the user requests MP4, inspect the actual file's dimensions, aspect ratio, frame rate, frame count, duration, codec, and audio tracks. The first frame is 0 and the last is N−1. Play the full export to inspect compressed text, gradients, opening/ending, and audiovisual synchronization at the start, middle, and end. A passing preview does not replace checking the export.
-
-See [tech.md](tech.md) for specific capture, asset readiness, audio, and render conventions.
-
-## 7. Record issues, fix, and rewatch
-
-1. First watch and listen to the entire film at normal speed, then rewatch the core demonstration muted. Pause to inspect layout and step through frames to inspect motion and transitions. Mark each check separately as checked or unverified; screenshots, source code, and waveforms do not replace viewing and listening.
-2. Record each issue as **time/frame range + observable phenomenon + case ID + change + rewatch condition**. For example: "08.2–09.1s, result text is still shrinking while the next title has entered; settle the result first and delay the title; at normal speed, the result can be read before attention shifts."
-3. Fix product errors, missing key operations, slide-like subject presentation, attention conflicts, and reading problems before motion, material, and sound details. Rewatch the current segment, adjacent seams, and full film after changes; recheck the mix when audiovisual rhythm changes.
-4. Before delivery, have an independent reviewer who did not participate in production inspect the current version. Use the [Existing review tools](tech.md#using-the-existing-review-tools) to record seven-dimension scores, evidence, and issues. Do not hide individual issues behind an average score or prefill expected scores.
-
-The seven dimensions follow tech.md: Style fidelity; Creativity and impact; Motion craft; Design and typography; Polish and detail; Sound and synchronization; Technical specifications. A score below 7.5 means that dimension still has issues affecting viewing or understanding. Reaching 7.5 requires actual evidence from the current version and resolution of relevant mandatory fixes. Higher scores require specific evidence of performance beyond basic acceptance. Scores cannot prove that viewers will like the film or convert.
-
-For product demos, separately verify that real examples and visible changes demonstrate the core value. A complete set of feature names and screenshots fails if the connection between key operations and results lacks evidence; tasks explicitly limited to brand teasers or static promotion are assessed within their agreed scope. False product information, sensitive information exposure, unreadable key text, asset/playback failures, obvious audiovisual misalignment, or missing required content cause failure. If viewing, listening, or independent-review evidence is missing, the conclusion is incomplete and must list the gaps. For silent films, identify visual scope and the silence requirement; films with sound cannot claim a full pass without listening. Passing technical tests proves only the corresponding technical checks.
+For each issue record **time/frame range + observation + E number + change + rewatch condition**. Fix product facts, missing content, subject changes, attention, and readability before decorative detail. Rewatch changed segments and adjacent seams, then the full film; recheck sound after timing changes. Missing viewing, listening, or independent review remains unverified. Technical tests cannot establish visual quality or viewer preference.

@@ -34,9 +34,9 @@ Before designing visuals, open the relevant images and sequence collages in [Vis
 
 When arranging subject motion and shot continuity, consult [Motion case cards C01–C04](references/eval.md#motion-case-cards) and use extracted frame sequences to understand the progression and object relationships.
 
-Read the [Good / Bad quality criteria](references/eval.md) when starting to arrange visuals. In stage three, use [Motion language](references/motion-language.md) to choose rhythm and text techniques: vary motion emphasis, readable holds, and semantic focus, and consult runnable comparisons as needed. Give the viewer one clear focus in each shot and make the subject change meaningfully. Feature tours, single-feature launches, and a continuing example are all valid story structures.
+Read the [Good / Bad quality criteria](references/eval.md) when starting to arrange visuals. In stage three, use [Motion language](references/motion-language.md) to choose rhythm and text techniques: vary motion emphasis, readable holds, and semantic focus, and follow the content’s meaning. Give the viewer one clear focus in each shot and make the subject change meaningfully. Feature tours, single-feature launches, and a continuing example are all valid story structures.
 
-Default text guidance for autonomous design: **Good: Titles and text appear in their own shots, with highlighted words or motion. Bad: Titles and accompanying images sit side by side or above and below each other, like a slide deck.** Keep necessary titles, navigation, and status labels in real UI; follow the agreed composition for templates. See E10 for details.
+Use the whole canvas to direct attention: full-frame imagery, cropping, close-ups, edge movement, and off-center compositions are available. Choose negative space for the idea; text safe areas do not impose uniform padding on every visual. Give text a clear expressive role and keep necessary product labels. Follow agreed template compositions. See [Motion language](references/motion-language.md) for the composition and timing principles.
 
 Read [Technical implementation and seven-dimension evaluation](references/tech.md) as needed. Use the existing React + TypeScript stack, unified frame control, Playwright, and FFmpeg; do not build another renderer or state machine for this workflow.
 

@@ -6,14 +6,13 @@ This inventory covers files tracked in this repository as reviewed on **2026-10-
 
 ## Fonts
 
-All **12 bundled font files, across four families**, have SIL Open Font License 1.1 evidence from embedded metadata and official upstream notices. No bundled paid-only or proprietary font was identified. The font binaries have not been changed. Exact paths, SHA-256 hashes, embedded copyright/version strings, and license sources are recorded in [the font inventory](docs/font-licenses.json).
+All **11 bundled font files, across four families**, have SIL Open Font License 1.1 evidence from embedded metadata and official upstream notices. No bundled paid-only or proprietary font was identified. The font binaries have not been changed.
 
 | Font and bundled files | Copyright and version evidence | License supplied with the files |
 | --- | --- | --- |
 | Google Sans: `templates/capsule-flow/brand-kit/GoogleSans-Regular.ttf` | Copyright 2025 The Google Sans Project Authors; version 13.002 | [GoogleSans-OFL.txt](templates/capsule-flow/brand-kit/GoogleSans-OFL.txt); [official Google Fonts notice](https://github.com/google/fonts/blob/main/ofl/googlesans/OFL.txt) |
 | Inter: `templates/motion-design-promo/assets/fonts/Inter-*.woff2` (400 and 800; 2 files) | Copyright 2016 The Inter Project Authors; version 4.001 | [Inter-OFL.txt](templates/motion-design-promo/assets/fonts/Inter-OFL.txt), from [Inter v4.1](https://github.com/rsms/inter/blob/v4.1/LICENSE.txt) |
 | Noto Sans SC: `templates/motion-design-promo/assets/fonts/NotoSansSC-*.woff2` (I18nA/B/C at 400 and 800; 6 files) | Copyright 2014–2021 Adobe, Reserved Font Name "Source"; version 2.004-H2 | [NotoSansSC-OFL.txt](templates/motion-design-promo/assets/fonts/NotoSansSC-OFL.txt); [official Google Fonts notice](https://github.com/google/fonts/blob/main/ofl/notosanssc/OFL.txt) |
-| Noto Sans SC: `examples/motion-language/assets/NotoSansSC-Study-700.ttf` | Same copyright and version; Google Fonts text subset with its download request retained in [font-source.json](examples/motion-language/assets/font-source.json) | Existing [OFL.txt](examples/motion-language/assets/OFL.txt) |
 | Plus Jakarta Sans: `templates/product-launch-lavender/assets/fonts/PlusJakartaSans-*.woff2` (600 and 800; 2 files) | Copyright 2020 The Plus Jakarta Sans Project Authors; version 2.071 | [PlusJakartaSans-OFL.txt](templates/product-launch-lavender/assets/fonts/PlusJakartaSans-OFL.txt); [official Google Fonts notice](https://github.com/google/fonts/blob/main/ofl/plusjakartasans/OFL.txt) |
 
 Google Sans is assessed here by the **actual bundled 2025 font**, not by older restrictions associated with Google branding fonts. Its embedded OFL URL and project identity agree with the current official OFL distribution. This does not grant rights to unrelated Google logos, Product Sans files, or other font versions.

@@ -1,11 +1,28 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {mkdtemp,writeFile,rm,readFile} from 'node:fs/promises';
+import {mkdtemp,writeFile,rm,readFile,copyFile} from 'node:fs/promises';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {startServer} from '../src/server.js';
 import {openCapture,render,inspect} from '../src/renderer.js';
 const project=()=>mkdtemp(join(process.cwd(),'.lvm-test-'));
+test('declared local font is loaded before capture and remains stable across reverse seeks',async()=>{
+ const dir=await project();let server:any,capture:any;
+ try{
+ await copyFile(new URL('../../templates/motion-design-promo/assets/fonts/Inter-400.woff2',import.meta.url),join(dir,'font.woff2'));
+ // A technical fixture: one text node, no demonstration layout or choreography.
+ await writeFile(join(dir,'film.tsx'),`import React from 'react';export const film={width:320,height:180,fps:{num:30,den:1},durationInFrames:4,seed:1,scenes:[],assets:[{id:'font',kind:'font',src:'font.woff2',family:'Fixture Sans'}],audio:[],markers:{}};export default function Frame({frame}){return <div style={{fontFamily:'"Fixture Sans"',fontSize:24}}>Frame {frame}</div>}`);
+ server=await startServer(dir);capture=await openCapture(server);
+ const samples=new Map<number,Buffer>();
+ for(const frame of [0,1,3])samples.set(frame,await capture.frame(frame));
+ const fonts=await capture.page.evaluate(()=>[...document.fonts].map(font=>({family:font.family,status:font.status})));
+ // CSSOM may serialize a multiword family with quotes.
+ assert.ok(fonts.some(font=>font.family.replace(/^"|"$/g,'')==='Fixture Sans'&&font.status==='loaded'),JSON.stringify(fonts));
+ assert.equal(await capture.page.locator('#stage').innerText(),'Frame 3');
+ assert.notDeepEqual(samples.get(0),samples.get(3),'The fixture must respond to frame changes');
+ for(const frame of [3,1,0,1])assert.deepEqual(await capture.frame(frame),samples.get(frame));
+ }finally{await capture?.close();await server?.close();await rm(dir,{recursive:true,force:true});}
+});
 test('real browser deterministic random seek, capture lock and version rejection',async()=>{
  const dir=await project();let server:any,capture:any;
  try{

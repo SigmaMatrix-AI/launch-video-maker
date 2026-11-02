@@ -196,4 +196,4 @@ npm run render -- exports/film.mp4
 
 After changing source or assets, run prepare again and restart preview to avoid viewing an old content version. Follow the [runtime contract](../../references/tech.md) for installation and preview details. `.lvm/`, `node_modules/`, and `exports/` are locally generated content.
 
-Verify source execution and film quality separately. See [validation.md](records/validation.md) for independent installation, preparation, and frame-sampling records, and [package-review.md](records/package-review.md) for package review. Full continuous motion and subjective listening review remain incomplete; new films inherit no old scores.
+Verify source execution and film quality separately using the commands above. Full continuous motion and subjective listening review remain incomplete; new films inherit no old scores.

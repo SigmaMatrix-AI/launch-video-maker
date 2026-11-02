@@ -85,14 +85,12 @@ launch-video-maker/
 │   ├── motion/                    # 动效序列与抽帧记录
 │   ├── references/                # 构图参考与分镜图
 │   └── tapvid-cta.svg              # README CTA 横幅
-├── examples/motion-language/      # 五组可运行的 Good / Bad 对照
 ├── templates/                     # 可复用的影片模板
 ├── styles/                        # 视觉风格参考
-├── runtime/                       # 本地视频运行时
-│   ├── src/                       # 渲染、媒体、音频与命令行工具
-│   ├── web/                       # 浏览器预览播放器
-│   └── test/                      # 运行时测试
-└── docs/                          # 验证指南与字体许可证元数据
+└── runtime/                       # 本地视频运行时
+    ├── src/                       # 渲染、媒体、音频与命令行工具
+    ├── web/                       # 浏览器预览播放器
+    └── test/                      # 运行时行为测试
 ```
 
 现有模板：[Product Launch Lavender](templates/product-launch-lavender/template.md)、[Motion Design Promo](templates/motion-design-promo/template.md) 和 [Capsule Flow](templates/capsule-flow/template.md)。视觉风格参考位于 [`styles/`](styles/)。

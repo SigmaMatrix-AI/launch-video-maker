@@ -8,4 +8,4 @@ The included capsule-flow-bgm-edit.flac is an edited reference track with timing
 
 The bundled Google Sans version 13.002 has OFL metadata and an official upstream OFL notice; retain [GoogleSans-OFL.txt](brand-kit/GoogleSans-OFL.txt) with the font. This font license does not cover the TapVid media, logo, or music; their source records do not supply a general redistribution grant. The cursor artwork is maintainer-owned and requires no third-party permission.
 
-The [package snapshot](records/snapshot.json) records the original retained files; the [compression map](../../docs/asset-compression.json) records current lossless replacements. Old exports, inspection PNGs, and production iteration logs are not required to run the template. Historical technical reviews are not acceptance evidence for a newly adapted film.
+The [package snapshot](records/snapshot.json) records the original retained files. Old exports, inspection PNGs, and production iteration logs are not required to run the template. Historical technical reviews are not acceptance evidence for a newly adapted film.

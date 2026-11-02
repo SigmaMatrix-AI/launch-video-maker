@@ -2,7 +2,7 @@
 
 A template provides designed motion, spatial relationships, and rhythm. The whole film still serves the current product: understand its users, uses, and value first, then decide which template techniques help viewers understand and remember it.
 
-This route does not require three competing directions or story approval. Reuse [Product research](product-research.md) and the applicable production standards in [eval.md](eval.md); the autonomous route's E10 default text composition and motion examples do not override the agreed template layout, motion, or timing.
+This route does not require three competing directions or story approval. Reuse [Product research](product-research.md) and the applicable production standards in [eval.md](eval.md); the autonomous composition and motion guidance does not override the agreed template layout, motion, or timing.
 
 ## 1. Understand the product first
 

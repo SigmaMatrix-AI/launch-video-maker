@@ -68,7 +68,7 @@ Keep segment IDs and content purposes, adding production columns without overwri
 
 Example revision record: `8.2–9.1s / Cut immediately after merging makes the source impossible to track / E02 / Keep the same entry text and color coding, and move it into the list / Rewatch this segment and adjacent seams; the object can be tracked at normal speed`.
 
-For segments needing more detailed rhythm, one extra production note is enough: `S02 / Rhythm: brief selection, more spacious result reveal; landing point: merge complete; reading: allow comprehension time after the new entry becomes clear; continuity: the same entry moves into sorting.` A text segment can say `S01 / Group "Scattered feedback / Focus on what matters," emphasize "what matters," and enter the list after text settles and is readable; refer to T01, calibrating actual duration through playback.` See [Motion language](motion-language.md) for method selection; the same duration or action is not required in every shot.
+For important rhythm choices, a short storyboard note can name the key landing point, reading window, and continuity into the next shot. Use [Motion language](motion-language.md) to choose the expression and calibrate timing through playback; each shot can use a different composition and duration.
 
 `Selection B confirmed / script v2 awaiting confirmation` means stop in stage two; `direction v1 and script v2 confirmed / only fixing a button` means remain in stage three; `draft exists / confirmation evidence missing / this request authorizes only a button fix` means local revision does not expand into whole-film approval.
 

@@ -84,14 +84,12 @@ launch-video-maker/
 │   ├── motion/                    # Motion sequences and extraction records
 │   ├── references/                # Composition references and storyboards
 │   └── tapvid-cta.svg              # README CTA banner
-├── examples/motion-language/      # Five runnable Good / Bad comparisons
 ├── templates/                     # Reusable film projects
 ├── styles/                        # Visual style references
-├── runtime/                       # Local video runtime
-│   ├── src/                       # Rendering, media, audio, and CLI
-│   ├── web/                       # Browser preview player
-│   └── test/                      # Runtime tests
-└── docs/                          # Validation guide and font license metadata
+└── runtime/                       # Local video runtime
+    ├── src/                       # Rendering, media, audio, and CLI
+    ├── web/                       # Browser preview player
+    └── test/                      # Runtime behavior tests
 ```
 
 Available templates: [Product Launch Lavender](templates/product-launch-lavender/template.md), [Motion Design Promo](templates/motion-design-promo/template.md), and [Capsule Flow](templates/capsule-flow/template.md). Visual style references live in [`styles/`](styles/).
