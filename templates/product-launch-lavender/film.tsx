@@ -16,7 +16,7 @@ const media=tracks.map(tr=>({id:tr.id,key:tr.key,asset:overrides[tr.key]?`replac
 const screenAssets=[...new Map(media.map(m=>[m.asset,{id:m.asset,kind:m.kind,src:m.src,outOfRange:'hold'} as Asset])).values()];
 export const film=defineFilm({width:960,height:540,fps:{num:30,den:1},durationInFrames:930,seed:1,
  scenes:[{id:'hero-fan',start:0,end:168},{id:'capability',start:168,end:225},{id:'perspective-drift',start:225,end:345},{id:'value-proof',start:345,end:435},{id:'pricing',start:435,end:516},{id:'orbit',start:516,end:579},{id:'gallery',start:579,end:627},{id:'workflow',start:627,end:741},{id:'detail',start:741,end:777},{id:'brand-resolve',start:777,end:930}],
- assets:[...screenAssets,{id:'font-600',kind:'font',family:'Jakarta 600',src:'assets/fonts/PlusJakartaSans-600.woff2'},{id:'font-800',kind:'font',family:'Jakarta 800',src:'assets/fonts/PlusJakartaSans-800.woff2'},{id:'music',kind:'audio',src:'assets/audio/reference.wav'},...(content.brandMark?[{id:'brand-mark',kind:'image',src:content.brandMark} as Asset]:[])],
+ assets:[...screenAssets,{id:'font-600',kind:'font',family:'Jakarta 600',src:'assets/fonts/PlusJakartaSans-600.woff2'},{id:'font-800',kind:'font',family:'Jakarta 800',src:'assets/fonts/PlusJakartaSans-800.woff2'},{id:'music',kind:'audio',src:'assets/audio/reference.wv'},...(content.brandMark?[{id:'brand-mark',kind:'image',src:content.brandMark} as Asset]:[])],
  audio:[{id:'source-score',asset:'music',start:0,end:930,sourceStart:0,sourceEnd:31,gain:.75}],
  markers:{heroArrives:45,fanHold:105,perspectiveArrives:240,perspectiveRest:285,valueArrives:405,orbitRest:555,galleryRest:600,workflowRest:690,detailRest:765,starStarts:777,brandHold:870}
 });

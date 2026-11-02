@@ -1,0 +1,2 @@
+# README gallery remains in Git but is omitted from git archive releases.
+/assets/gallery export-ignore

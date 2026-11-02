@@ -31,13 +31,13 @@ The following images and sequence collages are stored in the repository's `asset
 
 | Reference asset | Techniques to learn from |
 | --- | --- |
-| [Headline reveal and surrounding card entrance (sequence reference)](../assets/headline-reveal-and-surrounding-cards-sequence-lossless.png) | Headline gradually appears → shrinks to the center → cards enter from screen edges → form a surrounding composition; observe attention handoff, scale changes, and central negative space. Cards may show products, outputs, or other assets, not only people |
-| [Blue gradient opening](../assets/intro-blue-gradient-title.png) | Short headline, background depth, and generous negative space |
-| [Output cards around copy](../assets/showcase-cards-around-headline.png) | Hierarchy between peripheral outputs and central copy, plus edge cropping |
-| [Teamble multi-scene reference collage](../assets/teamble-ai-feedback-video-reference-storyboard-lossless.png) | Consistent pink/purple gradients, rounded corners, and cursor; varied compositions using large type, input fields, UI close-ups, and complete panels |
-| [LangEase multilingual launch video reference collage](../assets/langease-multilingual-video-reference-storyboard-lossless.png) | Blue/white palette and light layering; composition of completion feedback, card lists and single-card close-ups, surrounding multilingual outputs, and language selection states |
-| [Apple software family introduction reference collage](../assets/apple-software-family-video-reference-storyboard-lossless.png) | Colored spheres representing family members; scale contrasts between full interfaces and local cards, blurred-background focus, frosted layers, and visual emphasis in app selection and permission dialogs |
-| [MSPortal.ai product introduction reference collage](../assets/msportal-ai-product-video-reference-storyboard-lossless.png) | Consistent teal gradients and thin borders; layered windows, tilted dashboards and integration marks, fanned course cards, workflow connections, and brand closing compositions |
+| [Headline reveal and surrounding card entrance (sequence reference)](../assets/headline-reveal-and-surrounding-cards-sequence-lossless.webp) | Headline gradually appears → shrinks to the center → cards enter from screen edges → form a surrounding composition; observe attention handoff, scale changes, and central negative space. Cards may show products, outputs, or other assets, not only people |
+| [Blue gradient opening](../assets/intro-blue-gradient-title.webp) | Short headline, background depth, and generous negative space |
+| [Output cards around copy](../assets/showcase-cards-around-headline.webp) | Hierarchy between peripheral outputs and central copy, plus edge cropping |
+| [Teamble multi-scene reference collage](../assets/teamble-ai-feedback-video-reference-storyboard-lossless.webp) | Consistent pink/purple gradients, rounded corners, and cursor; varied compositions using large type, input fields, UI close-ups, and complete panels |
+| [LangEase multilingual launch video reference collage](../assets/langease-multilingual-video-reference-storyboard-lossless.webp) | Blue/white palette and light layering; composition of completion feedback, card lists and single-card close-ups, surrounding multilingual outputs, and language selection states |
+| [Apple software family introduction reference collage](../assets/apple-software-family-video-reference-storyboard-lossless.webp) | Colored spheres representing family members; scale contrasts between full interfaces and local cards, blurred-background focus, frosted layers, and visual emphasis in app selection and permission dialogs |
+| [MSPortal.ai product introduction reference collage](../assets/msportal-ai-product-video-reference-storyboard-lossless.webp) | Consistent teal gradients and thin borders; layered windows, tilted dashboards and integration marks, fanned course cards, workflow connections, and brand closing compositions |
 
 Borrow layout, hierarchy, and object relationships from references, replacing content with evidenced assets from the current product. Surrounding cards might show features, work, or users; local emphasis might highlight selected entries, key actions, or result reveals.
 
@@ -51,7 +51,7 @@ C01–C02 come from **LangEase / Best SaaS Product Launch Ad Video**; C03–C04 
 
 ### C01 · Progress becomes completion
 
-[View the LangEase motion sequence: 10.500–13.500 seconds, 6 frames](../assets/motion/c01-langease-progress-to-completion.png)
+[View the LangEase motion sequence: 10.500–13.500 seconds, 6 frames](../assets/motion/c01-langease-progress-to-completion.webp)
 
 - **Expressive goal:** Make "in progress → complete" a visible reveal.
 - **Visual change:** A blue ribbon form extends from the device edge, followed by a progress bar and increasing number. At 100, the visual contracts into circular feedback showing Done, a checkmark, and confetti.
@@ -60,7 +60,7 @@ C01–C02 come from **LangEase / Best SaaS Product Launch Ad Video**; C03–C04 
 
 ### C02 · Choose the subject from a list
 
-[View the LangEase motion sequence: 15.233–19.000 seconds, 6 frames](../assets/motion/c02-langease-list-to-multilingual-cards.png)
+[View the LangEase motion sequence: 15.233–19.000 seconds, 6 frames](../assets/motion/c02-langease-list-to-multilingual-cards.webp)
 
 - **Expressive goal:** Let viewers recognize the selected content and its relationship to multiple language versions.
 - **Visual change:** Cards appear in a list; the pointer targets History Lecture, the card moves into the foreground and enlarges, then multiple cards with the same thumbnail surround Multiple Languages.
@@ -69,7 +69,7 @@ C01–C02 come from **LangEase / Best SaaS Product Launch Ad Video**; C03–C04 
 
 ### C03 · A request with source material generates an outline
 
-[View the Google Vids motion sequence: 11.111–15.816 seconds, 4 frames](../assets/motion/c03-google-vids-attachment-to-outline.png)
+[View the Google Vids motion sequence: 11.111–15.816 seconds, 4 frames](../assets/motion/c03-google-vids-attachment-to-outline.webp)
 
 - **Expressive goal:** Show "create a video from existing materials" as concrete input and output.
 - **Visual change:** The pointer carries a Slides icon toward the request; the material becomes an attachment in the request, followed by Creating and then a multiline outline.
@@ -78,7 +78,7 @@ C01–C02 come from **LangEase / Best SaaS Product Launch Ad Video**; C03–C04 
 
 ### C04 · An asset becomes part of the work
 
-[View the Google Vids motion sequence: 56.557–61.228 seconds, 4 frames](../assets/motion/c04-google-vids-search-to-canvas.png)
+[View the Google Vids motion sequence: 56.557–61.228 seconds, 4 frames](../assets/motion/c04-google-vids-search-to-canvas.webp)
 
 - **Expressive goal:** Make it clear that the searched, selected, and ultimately used asset is the same one.
 - **Visual change:** Landscape appears in the search field; the pointer selects a sunset rock-arch thumbnail in the result grid, which moves to the foreground and then appears on the editor canvas.

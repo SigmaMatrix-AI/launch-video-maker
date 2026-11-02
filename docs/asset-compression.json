@@ -1,0 +1,413 @@
+{
+  "baselineCommit": "67a46eb24bdb8d748558490bbf85188cfe93a3c7",
+  "images": "cwebp -lossless -z 6 -exact -metadata all",
+  "integerAudio": "ffmpeg -c:a flac -compression_level 8",
+  "floatAudio": "ffmpeg -c:a wavpack",
+  "files": [
+    {
+      "originalPath": "assets/apple-software-family-video-reference-storyboard-lossless.png",
+      "path": "assets/apple-software-family-video-reference-storyboard-lossless.webp",
+      "originalBytes": 3527824,
+      "bytes": 2492748,
+      "originalSha256": "a15fb639a6ebfc8fe3841f65659d1f52e405d0491469636edfcac86a772dd71c",
+      "sha256": "062b730036d6eea868ef90bd258bc9a72ffaf5912ccc5ebd9117bd7512dd99c5",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/headline-reveal-and-surrounding-cards-sequence-lossless.png",
+      "path": "assets/headline-reveal-and-surrounding-cards-sequence-lossless.webp",
+      "originalBytes": 4941650,
+      "bytes": 3749072,
+      "originalSha256": "bf7580277a67d215e772c3e058e38eb479065e0516ca5eb6fc12a482c7232a60",
+      "sha256": "3dcd88fb19baa5385956c50b676da9cd88ad55be82d9f3d57ad102ef7617c755",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/intro-blue-gradient-title.png",
+      "path": "assets/intro-blue-gradient-title.webp",
+      "originalBytes": 413666,
+      "bytes": 303184,
+      "originalSha256": "7dd3c89dd18dcc02a756fc50aa09964e7dfe4921454543fbc9fbdb7c72ce0cb9",
+      "sha256": "e277b85e06b84c6fdc5f3fe48646228c96488d5c1d2f93dd17ed127df1d4218d",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/langease-multilingual-video-reference-storyboard-lossless.png",
+      "path": "assets/langease-multilingual-video-reference-storyboard-lossless.webp",
+      "originalBytes": 6328252,
+      "bytes": 4771674,
+      "originalSha256": "b0e5b2be25940b167b3bc2a0121806792fc45d7ff37b60cae1d569ef5c093315",
+      "sha256": "fd10eed10b0a58a6319f4ef8245adf179513284c1202b3765ee7c2000e6d4ab6",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/motion/c01-langease-progress-to-completion.png",
+      "path": "assets/motion/c01-langease-progress-to-completion.webp",
+      "originalBytes": 885194,
+      "bytes": 586734,
+      "originalSha256": "56daa2f0c43b91a825e25558004e4de3d7141959105f16682e634c54ae128cac",
+      "sha256": "2176b27f3b9af3d72336ad484d614978b82fce518aa08a9b08194cf8a41614b4",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/motion/c02-langease-list-to-multilingual-cards.png",
+      "path": "assets/motion/c02-langease-list-to-multilingual-cards.webp",
+      "originalBytes": 4347104,
+      "bytes": 2954068,
+      "originalSha256": "022be81d0f3508d14185c16f6325868d28caa0306bf31588512fa2a7389c986b",
+      "sha256": "0a035a69c8d305a775306d436ad369bb86cf9d4d5293c21f83d645f16e450543",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/motion/c03-google-vids-attachment-to-outline.png",
+      "path": "assets/motion/c03-google-vids-attachment-to-outline.webp",
+      "originalBytes": 2357555,
+      "bytes": 1499082,
+      "originalSha256": "222a9c787cd942ef77aa6cf083d76d651b528d5a21f6bb5498aecd1363b1bfcc",
+      "sha256": "924e3ece0096a8ef319a339057d7a14535f19f500b6cacdb6be906d22c1bf3bf",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/motion/c04-google-vids-search-to-canvas.png",
+      "path": "assets/motion/c04-google-vids-search-to-canvas.webp",
+      "originalBytes": 9794584,
+      "bytes": 6694336,
+      "originalSha256": "2aa770b875ba4ae44d39622d4f73d35831f6abc802e8c7d8c00f4e8be0a89f9c",
+      "sha256": "fb1528adef6b6f7988250a17c63417177f6b794f51a0864acecdb20d738ae348",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/msportal-ai-product-video-reference-storyboard-lossless.png",
+      "path": "assets/msportal-ai-product-video-reference-storyboard-lossless.webp",
+      "originalBytes": 7097012,
+      "bytes": 5375318,
+      "originalSha256": "67ec5b97cfd43202b71eae692a801fb42ad1ceadd32440366b3ff9ec31de2c4f",
+      "sha256": "1a88264425e39bad2606b76dc0e5bcad5195e75771f4274336940aa3af8a61c5",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/showcase-cards-around-headline.png",
+      "path": "assets/showcase-cards-around-headline.webp",
+      "originalBytes": 649171,
+      "bytes": 413882,
+      "originalSha256": "80ab81323d9e9e834d10d9aaa1f85171fabcb96d56427620cdefb9035ac05831",
+      "sha256": "94e5c3881de78383cc0ff1efca98afe7a7e9093f0c7f21baee6fa1b4b63186e8",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "assets/teamble-ai-feedback-video-reference-storyboard-lossless.png",
+      "path": "assets/teamble-ai-feedback-video-reference-storyboard-lossless.webp",
+      "originalBytes": 3808982,
+      "bytes": 2762360,
+      "originalSha256": "751bbfcfdefec06aa206b6debf7c937e8982d52daad95c241a25bd2c0d278040",
+      "sha256": "683f632c119c0715111c146723257539be1538d1834f6c53f4880bfa83a5e5c7",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "styles/apple-liquid-glass/poster.png",
+      "path": "styles/apple-liquid-glass/poster.webp",
+      "originalBytes": 420168,
+      "bytes": 230596,
+      "originalSha256": "025b7858428a1417b7cd7d32fb99a896481fe209e725979a8579ec51e3613567",
+      "sha256": "dee203962b7c5cdb2eda5d4e2c7384453f9dc07821d0e1c1869c562e6df1ee5e",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "styles/bold-pulse/poster.png",
+      "path": "styles/bold-pulse/poster.webp",
+      "originalBytes": 122414,
+      "bytes": 64610,
+      "originalSha256": "d158f856de111eacccb8c2c6a85f8de01ee6dac2770726beff9f02c4e08491bf",
+      "sha256": "ce63a200e0e642cc9069e3843f4a2714a45ddac3018b0ff0a5c5dffd1ffcfb96",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "styles/interface-theatre/poster.png",
+      "path": "styles/interface-theatre/poster.webp",
+      "originalBytes": 750979,
+      "bytes": 480968,
+      "originalSha256": "2e5a7a227ed1614f1c5beb940f6f8b9e1faaf3eb366f119cb98d1fcd2ff90d31",
+      "sha256": "7e90b765c481d29ea730c79ff55845e4626da09e893e532c5183a537fb28242e",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "styles/soft-relief/poster.png",
+      "path": "styles/soft-relief/poster.webp",
+      "originalBytes": 856725,
+      "bytes": 581658,
+      "originalSha256": "bee145c5b858bd65b53110a54693af7ae9d1a8e053bceed061b1f9e941710e57",
+      "sha256": "1ea8ee7d4f8be3858e1576895ef7cd4c78c9d7d0e5125d2e316af67d835f7a50",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "styles/tapvid-playful-pop/cover.png",
+      "path": "styles/tapvid-playful-pop/cover.webp",
+      "originalBytes": 77761,
+      "bytes": 30410,
+      "originalSha256": "30c0358c929b121973d766962cc7115d477f92708538a5ed128b3fd5ea0953c1",
+      "sha256": "3d64dfa4ddc36335221a5760999c49673a336a63e92e23e1a786340aacaa3547",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/capsule-flow/assets/audio/capsule-flow-bgm-edit.wav",
+      "path": "templates/capsule-flow/assets/audio/capsule-flow-bgm-edit.flac",
+      "originalBytes": 23630106,
+      "bytes": 15677245,
+      "originalSha256": "59cc28592fd46b1ae2f5488c00573f7c7e834bc9d366ba932f805e03bada08a8",
+      "sha256": "89ee1fafac30fe28404ce5ed5eacb09c49dc5fb7866421048dbcc91df293ce39",
+      "verification": "48 kHz stereo float PCM identical"
+    },
+    {
+      "originalPath": "templates/capsule-flow/assets/media/brand.png",
+      "path": "templates/capsule-flow/assets/media/brand.webp",
+      "originalBytes": 48140,
+      "bytes": 19850,
+      "originalSha256": "14acd50840add0f8a710fa2edbcb3b0de32a2976823ef3583049280e4a0069e3",
+      "sha256": "e3bf4ef70db42480729f6f38b50fddc27f1241da4d6eae422c65cf04f383d34b",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/capsule-flow/assets/media/demo-edit.png",
+      "path": "templates/capsule-flow/assets/media/demo-edit.webp",
+      "originalBytes": 585430,
+      "bytes": 372630,
+      "originalSha256": "563640dbaa9785e8146d30eb0d76f12e293835be82cfcf7ac6cbb19f0d54eaa4",
+      "sha256": "28dac5b9130d32327671feceef3d5e6c91027190bf55efb48b155ee0b3ab18fb",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/capsule-flow/assets/media/demo-outline.png",
+      "path": "templates/capsule-flow/assets/media/demo-outline.webp",
+      "originalBytes": 315457,
+      "bytes": 122844,
+      "originalSha256": "9662205c1684387c08b267f7c3504661692fdebbb55d5aa28c0a4c14c09bd76a",
+      "sha256": "c2727dfe1e9b10f0324d65e97ab8ecd0013519d112d4646ef95aa7ca64ceacc1",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/capsule-flow/assets/media/demo-script.png",
+      "path": "templates/capsule-flow/assets/media/demo-script.webp",
+      "originalBytes": 366023,
+      "bytes": 203482,
+      "originalSha256": "a0f938cc7a2444fa510105dbe1c6280eeb29e1f640baab4a5f2c64f4877965fa",
+      "sha256": "c3cde75017684896bd884aa868c89f496c01c6191441a44c0c8eb35a4794b8ae",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/capsule-flow/assets/media/fix.png",
+      "path": "templates/capsule-flow/assets/media/fix.webp",
+      "originalBytes": 333731,
+      "bytes": 208026,
+      "originalSha256": "b95c82dea828ff699e5f61b6c7108d1ec4c115e294a9d445813306fa59809b73",
+      "sha256": "40640ddecd66fdd8402a7d3be0581181f695b3e6ee94656ad585a3d7537dc7db",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/capsule-flow/assets/media/input-source.png",
+      "path": "templates/capsule-flow/assets/media/input-source.webp",
+      "originalBytes": 204448,
+      "bytes": 138532,
+      "originalSha256": "ba299b9ffc6bba50b13f6dc65ab28e171b720903460c1e204a4c8b04fa2b440e",
+      "sha256": "553b5a4568462b6b318aa5001b6cfa0c6fa088c42ec0cac505bf803d91be844a",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/audio/music-master.wav",
+      "path": "templates/motion-design-promo/assets/audio/music-master.flac",
+      "originalBytes": 3840078,
+      "bytes": 812873,
+      "originalSha256": "9abfbbfa5e2bd91d84f0a806c39fa487351208b331bdbe66078f5df047961d53",
+      "sha256": "4d606bf37c5f6def58bb68c4eee56a665cda1ddb360c11205da692ca304ba18d",
+      "verification": "48 kHz stereo float PCM identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/cup.png",
+      "path": "templates/motion-design-promo/assets/media/cup.webp",
+      "originalBytes": 1621653,
+      "bytes": 1286026,
+      "originalSha256": "4bb81ea3e63783c3ffe0be5af0270d3c7f52fcb2aa81bcc5f7284bf94caefbfa",
+      "sha256": "1d4ef87b6a8c1bc25f7230c26e61038b77f4bfa462ca81dcc866de63e14b2ffb",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/headphones.png",
+      "path": "templates/motion-design-promo/assets/media/headphones.webp",
+      "originalBytes": 1598430,
+      "bytes": 1196464,
+      "originalSha256": "dd92b415bc73d4452b03e73d8b9b7d0966ef67d007761bc0ac1aff1137f11834",
+      "sha256": "1a440d650827de3a37c8e6b6158a5ffd59c82e510650b0a9baaf854576263f49",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/lamp.png",
+      "path": "templates/motion-design-promo/assets/media/lamp.webp",
+      "originalBytes": 1176527,
+      "bytes": 940640,
+      "originalSha256": "c7eadee98430a16b410b8d5bd8d00d2a038c6e9b02657424a4e0495edb57c4b6",
+      "sha256": "a436f6b35c532f5a8a8ac60e1c7f742c670ff5f7a843b698e2e030d29fcf6163",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/logo.png",
+      "path": "templates/motion-design-promo/assets/media/logo.png",
+      "originalBytes": 521736,
+      "bytes": 521736,
+      "originalSha256": "e46aaf8c86b5ddfbbf590ef6f1f20be9835e63d1941c132a17308b6e33de9d78",
+      "sha256": "e46aaf8c86b5ddfbbf590ef6f1f20be9835e63d1941c132a17308b6e33de9d78",
+      "verification": "Original PNG retained: Chromium canvas decoding of WebP alpha differs despite FFmpeg RGBA equality; PNG restores baseline frame hash."
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/person1.png",
+      "path": "templates/motion-design-promo/assets/media/person1.webp",
+      "originalBytes": 1863477,
+      "bytes": 1353636,
+      "originalSha256": "9a9dbb68b8addee661399c55b04fe679736e6c272725272baea0f54eb277838b",
+      "sha256": "eb477b796af82bf5daff353ffd98817147f99887c4a483f3d088b000f6dcc651",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/person2.png",
+      "path": "templates/motion-design-promo/assets/media/person2.webp",
+      "originalBytes": 1992512,
+      "bytes": 1447598,
+      "originalSha256": "0a65739ea90894f80a75e4653d3dfbc0578c163f877236afbc72a7c9b76641fa",
+      "sha256": "0dd1b2b79f5c8e5f7ab328fb01a596b6b5a4ca9fd59b91d897c9b396c291bff4",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/person3.png",
+      "path": "templates/motion-design-promo/assets/media/person3.webp",
+      "originalBytes": 2149583,
+      "bytes": 1570056,
+      "originalSha256": "0099fb66b7d3f575f9ab81f2eebe247854acdd4a6727f777c2f90673d843a99b",
+      "sha256": "7a5e8dca35dbfd8415620b96308348d29360c62068e9d62931308812be7a843f",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/person4.png",
+      "path": "templates/motion-design-promo/assets/media/person4.webp",
+      "originalBytes": 1892527,
+      "bytes": 1381600,
+      "originalSha256": "c6944dfb14cdae53fc6b3e8b766c563ba714a6362e3fd5232df290eefabe68de",
+      "sha256": "c80bc1d0d83127e16d1b2caf668764a7bad578de0a9c9185fd76afa3a8bdd1bc",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/person5.png",
+      "path": "templates/motion-design-promo/assets/media/person5.webp",
+      "originalBytes": 2271892,
+      "bytes": 1563448,
+      "originalSha256": "a61a3b2bbb0616bceea14f8f55362fe5754e09d183ab7702f090f3ffbbe9953e",
+      "sha256": "5787f5e96810e977c9e5ae31a6be3a832979c5402f5a18c027bafbc133c426a7",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/person6.png",
+      "path": "templates/motion-design-promo/assets/media/person6.webp",
+      "originalBytes": 2029178,
+      "bytes": 1463050,
+      "originalSha256": "7fb75d565d4b980a352678ef60022f98de5cbe6e40b1a06919359845b056e98d",
+      "sha256": "6638b2197378342ca865710f83897816631522d94748bfde5f8cec941d7fcd29",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/scene-collection.png",
+      "path": "templates/motion-design-promo/assets/media/scene-collection.webp",
+      "originalBytes": 1746233,
+      "bytes": 1277362,
+      "originalSha256": "0a37b36cbf4ebf2fe7131468b6a2dc750996b7c10e5b7d130cf542a8f226e655",
+      "sha256": "bb8ce350b54b4edf726fb55ff42c8cafdb902afa35162c4d80209b5c488a0d7d",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/scene-home.png",
+      "path": "templates/motion-design-promo/assets/media/scene-home.webp",
+      "originalBytes": 1980012,
+      "bytes": 1453134,
+      "originalSha256": "c54c6d0e8ba4d4f137271ae97a26e651606df6503b39998a26df5e782f75a582",
+      "sha256": "3e6cfaa00e867bff2d9d1d79cbb8d6f8b94b0b48068132e91c893a02d71320ef",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/sneakers.png",
+      "path": "templates/motion-design-promo/assets/media/sneakers.webp",
+      "originalBytes": 1846458,
+      "bytes": 1362372,
+      "originalSha256": "29d41a27f046e493c458eabc95c1e94a845b7a419905619d4b62b21a0e44928b",
+      "sha256": "1da4c67564be5789c334149cbbf4b2c4664b5c38432a95c7ecf6b589b1a6d9ad",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/speaker.png",
+      "path": "templates/motion-design-promo/assets/media/speaker.webp",
+      "originalBytes": 2029650,
+      "bytes": 1450184,
+      "originalSha256": "885fd4d82da045f9caed254b199c02b49eb81504529e6e4418a11f2f24832680",
+      "sha256": "a71415e60f5d6343e565a4a4d579f684d3d29c91e4f42f41bf0d006119cdb3c8",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/storefront.png",
+      "path": "templates/motion-design-promo/assets/media/storefront.webp",
+      "originalBytes": 1522895,
+      "bytes": 1183796,
+      "originalSha256": "69a8ffc7a26dd2330d44757f2d0280d2a39ba7260e6748ff3df0f12aa5afd746",
+      "sha256": "fe68b94f365f2f9f77abccf91b40172bc9d86643ba345bfcffbee9f3cdce890b",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/motion-design-promo/assets/media/tote.png",
+      "path": "templates/motion-design-promo/assets/media/tote.webp",
+      "originalBytes": 2535281,
+      "bytes": 1882952,
+      "originalSha256": "ca848fd0aa2e78d4ff120f2c6cf462f3480c451713f08175f6b952786218719b",
+      "sha256": "d5d8adecb7a1ccef7ddd4af995946108c99e4e8511ba3a204d2f632152531132",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/product-launch-lavender/assets/audio/reference.wav",
+      "path": "templates/product-launch-lavender/assets/audio/reference.wv",
+      "originalBytes": 11904092,
+      "bytes": 4741423,
+      "originalSha256": "51be61832d75dda2508ce474117b05ce39a0797e3e87b7b2c2df549c11a58ae4",
+      "sha256": "329b769f8a34a4ba9bdfcd5aa3878ad99f7cc93fa1b4a5e245c8579f00c96085",
+      "verification": "48 kHz stereo float PCM identical"
+    },
+    {
+      "originalPath": "templates/product-launch-lavender/assets/mock/analytics.png",
+      "path": "templates/product-launch-lavender/assets/mock/analytics.webp",
+      "originalBytes": 1147966,
+      "bytes": 917250,
+      "originalSha256": "c612cf45bfe50567a1872eb619557f9d49a6eab18d0723468339e0b925c9cc66",
+      "sha256": "eb7410b742c3e20ad88612bdbc3f69a4c48c34c55b1798209bcf9a78b451131a",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/product-launch-lavender/assets/mock/dashboard.png",
+      "path": "templates/product-launch-lavender/assets/mock/dashboard.webp",
+      "originalBytes": 1309539,
+      "bytes": 1029574,
+      "originalSha256": "256c7974e30ebbb3da8a9743bb4f646c58a1100e810ffcee7fcdf66a49fb59f9",
+      "sha256": "41cb315b304864cef8c3e86cddcff707c176972b54240941df5c9963242b2e9b",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/product-launch-lavender/assets/mock/hero.png",
+      "path": "templates/product-launch-lavender/assets/mock/hero.webp",
+      "originalBytes": 1316049,
+      "bytes": 1011424,
+      "originalSha256": "839c5cd80e2f0e36f5a7fc81ed6fe4ca87958313ed14c7d72f18a1f102fcdfd2",
+      "sha256": "bb64a46de10c8c9383e8fc404f5befccdd197e8fbbfbcf9f52d136ab31e43ef1",
+      "verification": "RGBA identical"
+    },
+    {
+      "originalPath": "templates/product-launch-lavender/assets/mock/workflow.png",
+      "path": "templates/product-launch-lavender/assets/mock/workflow.webp",
+      "originalBytes": 1194330,
+      "bytes": 951638,
+      "originalSha256": "2a33ec92b9ca70ebb25f5faf8e57289568a9c27e3266dff7450bf126c5333378",
+      "sha256": "d79985baa8e80b6be2127fc07773c7a0064efe76d112c029f1d09afba67c34f4",
+      "verification": "RGBA identical"
+    }
+  ]
+}

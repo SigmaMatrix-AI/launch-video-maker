@@ -32,10 +32,10 @@ Prepare four clear local 16:9 webpage screenshots, preferably at least 1600 × 9
 
 | Local example | Product evidence purpose | screens keys in src/content.json |
 | --- | --- | --- |
-| assets/mock/hero.png | Homepage or core value overview | heroScreen, potentialScreen, featureMiddle, galleryScreen |
-| assets/mock/dashboard.png | Main workspace and full operation view | overviewScreen, dashboardScreen, featureBack, pricingScreen |
-| assets/mock/analytics.png | Results, outcomes, or analytics | capabilityScreen, featureFront, proofScreen, useCaseFive |
-| assets/mock/workflow.png | Workflow or key feature details | integrationScreen, assistantScreen, detailScreen, workflowSide |
+| assets/mock/hero.webp | Homepage or core value overview | heroScreen, potentialScreen, featureMiddle, galleryScreen |
+| assets/mock/dashboard.webp | Main workspace and full operation view | overviewScreen, dashboardScreen, featureBack, pricingScreen |
+| assets/mock/analytics.webp | Results, outcomes, or analytics | capabilityScreen, featureFront, proofScreen, useCaseFive |
+| assets/mock/workflow.webp | Workflow or key feature details | integrationScreen, assistantScreen, detailScreen, workflowSide |
 
 Retain all 16 mapping keys. Reuse four images or split them into more screenshots as appropriate for the product. Key names are legacy interfaces; pricingScreen, for example, need not show pricing. Some continuous shots directly use proofScreen, dashboardScreen, heroScreen, detailScreen, and overviewScreen; changing only legacy slots such as featureFront will not change these shots.
 

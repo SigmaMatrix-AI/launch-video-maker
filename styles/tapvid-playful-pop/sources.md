@@ -6,4 +6,4 @@ The canonical style is preserved verbatim. All properties are requested text rul
 
 ## Repository import record
 
-Imported from the local style library on 2026-10-27, without rewriting the style.md body. The cover [cover.png](cover.png) was copied from `tapvid-playful-pop/proof/round-2/inspection/design-4.4.png`, an existing demo still; the source directory had no separate cover file. Only style Markdown, source notes, and the cover were included; the demo engine and fonts were not migrated. The source library remains intact.
+Imported from the local style library on 2026-10-27, without rewriting the style.md body. The cover [cover.webp](cover.webp) was losslessly converted from the PNG copied from `tapvid-playful-pop/proof/round-2/inspection/design-4.4.png`, an existing demo still; the source directory had no separate cover file. Only style Markdown, source notes, and the cover were included; the demo engine and fonts were not migrated. The source library remains intact.

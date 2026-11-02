@@ -26,13 +26,13 @@
      点击预览可单独查看 GIF。 -->
 
 <p align="center">
-  <a href="assets/gallery/photoroom-promo.gif"><img src="assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10 秒产品发布视频"></a>
-  <a href="assets/gallery/canva-launch.gif"><img src="assets/gallery/canva-launch.gif" width="49%" alt="Canva — 产品发布视频节选，00:06–00:24"></a>
+  <a href="https://github.com/SigmaMatrix-AI/launch-video-maker/blob/main/assets/gallery/photoroom-promo.gif"><img src="https://raw.githubusercontent.com/SigmaMatrix-AI/launch-video-maker/main/assets/gallery/photoroom-promo.gif" width="49%" alt="Photoroom — 10 秒产品发布视频"></a>
+  <a href="https://github.com/SigmaMatrix-AI/launch-video-maker/blob/main/assets/gallery/canva-launch.gif"><img src="https://raw.githubusercontent.com/SigmaMatrix-AI/launch-video-maker/main/assets/gallery/canva-launch.gif" width="49%" alt="Canva — 产品发布视频节选，00:06–00:24"></a>
 </p>
 
 <p align="center">
-  <a href="assets/gallery/tapvid-launch.gif"><img src="assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — 产品发布视频节选，00:18–00:23"></a>
-  <a href="assets/gallery/product-launch-lavender.gif"><img src="assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — 视频节选，00:16–00:31"></a>
+  <a href="https://github.com/SigmaMatrix-AI/launch-video-maker/blob/main/assets/gallery/tapvid-launch.gif"><img src="https://raw.githubusercontent.com/SigmaMatrix-AI/launch-video-maker/main/assets/gallery/tapvid-launch.gif" width="49%" alt="TapVid — 产品发布视频节选，00:18–00:23"></a>
+  <a href="https://github.com/SigmaMatrix-AI/launch-video-maker/blob/main/assets/gallery/product-launch-lavender.gif"><img src="https://raw.githubusercontent.com/SigmaMatrix-AI/launch-video-maker/main/assets/gallery/product-launch-lavender.gif" width="49%" alt="Product Launch Lavender — 视频节选，00:16–00:31"></a>
 </p>
 
 ## 安装

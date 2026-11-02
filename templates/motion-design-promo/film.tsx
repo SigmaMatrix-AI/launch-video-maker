@@ -22,7 +22,7 @@ export const film=defineFilm({
  scenes:content.scenes.map(({id,start,end})=>({id,start,end})),
  assets:[...fonts.map(f=>({...f,kind:'font' as const})),
   ...Object.entries(content.images).map(([id,src])=>({id,src,kind:'image' as const})),
-  {id:'music',kind:'audio',src:'assets/audio/music-master.wav'}],
+  {id:'music',kind:'audio',src:'assets/audio/music-master.flac'}],
  audio:[{id:'approved-master',asset:'music',start:0,end:1200,sourceStart:0,sourceEnd:20,gain:1}],
  markers:{Idea01:0,Transform02:45,Outcome03:120,Bridge04:180,Portfolio05:225,Value06:360,Showcase07:420,Explain08:555,Audience09:675,Invite10:795,Action11:825,Search12:855,Book13:1005,Brand14:1080}
 });
